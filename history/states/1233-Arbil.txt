@@ -1,0 +1,20 @@
+state={
+	id=1233
+	name="Arbil"
+	provinces={
+		3916 5014 10811 17484 17492 17494 17495 17499 17501 17502 17505 17507 17508 17510 17511 17512 17514 17515 17516 17517 
+	}
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			17501 10
+		}
+	}
+	manpower=1241652
+	state_category = town
+}

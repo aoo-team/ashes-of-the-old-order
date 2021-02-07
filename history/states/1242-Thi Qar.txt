@@ -1,0 +1,16 @@
+state={
+	id=1242
+	name="Dhi Qar"
+	provinces={
+		2004 7994 17381 17384 17385 17387 17390 17392 17396 17401 
+	}
+	manpower=2051421
+	state_category = large_town
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 4
+		}
+	}
+}

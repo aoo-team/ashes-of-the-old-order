@@ -1,0 +1,24 @@
+state={
+	id=1239
+	name="Babylon"
+	provinces={
+		12046 17412 17421 17428 17431 
+	}
+	manpower=2065042
+	state_category = city
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 5
+		}
+
+		victory_points = {
+			12046 5
+		}
+
+		victory_points = {
+			17428 1
+		}
+	}
+}

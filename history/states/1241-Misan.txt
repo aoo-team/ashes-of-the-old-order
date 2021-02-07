@@ -1,0 +1,20 @@
+state={
+	id=1241
+	name="Maysan"
+	provinces={
+		78 7977 17388 17397 17398 17404 17405 17408 17411 17413 17415 17418 17419 17425 
+	}
+	manpower=1412234
+	state_category = town
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			17397 3
+		}
+	}
+}

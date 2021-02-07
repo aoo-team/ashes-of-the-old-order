@@ -8,26 +8,30 @@ state={
 
 	history={
 		owner = IRQ
-		victory_points = {
-			2097 5 
-		}
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 4
-			2089 = {
-				naval_base = 1
-
-			}
-
 		}
 		add_core_of = IRQ
+
+		victory_points = {
+			17446 20
+		}
+
+		victory_points = {
+			17453 5
+		}
+
+		victory_points = {
+			17449 3
+		}
 
 	}
 
 	provinces={
-		2097 3795 7994 12046 12855 17394 17400 17401 17407 17412 17417 17418 17421 17424 17425 17428 17429 17430 17431 17434 17435 17437 17438 17439 17441 17442 17443 17446 17447 17448 17449 17451 17453 17454 17459 17460 
+		3795 17438 17441 17446 17447 17449 17451 17453 17454 17459 
 	}
 	manpower=11465420
 	buildings_max_level_factor=1.000

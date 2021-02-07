@@ -2,8 +2,6 @@
 Ashes of the Old Order is a modification for Hearts of Iron IV that views the world where America has collapsed
 
 ## Getting Started
-
-## Getting Started
 **We recommend using [GitHub Desktop](https://desktop.github.com) to download**;
 it provides an easy way to synchronize with the latest changes. If it is
 inconvenient to download, or you do not want to sign up, you can use another
@@ -20,7 +18,7 @@ just download a ZIP archive.
    folder. Start the cloning process by clicking "Clone".
 4. Open the new folder using a file explorer. Drag `AOTTO.mod`
    into the `mods` folder.
-5. Open up `thelastbastion.mod` (the one that you just dragged into your mods folder) with your favorite text editor and go to line 12. Where you see `USERNAME` in `path="C:/Users/USERNAME/Documents/Paradox Interactive/Hearts of Iron IV/mod/ashes-of-the-old-order"`, make sure to change it to your actual Windows username. If you are not using the default location, make sure to specify the exact file location of the `Ashes-Of-The-Old-Order` folder. IMPORTANT: Make sure to follow step 4 exactly for this to work, if the `AOTTO.mod` file is not read by the game, this will not work.
+5. Open up `AOTTO.mod` (the one that you just dragged into your mods folder) with your favorite text editor and go to line 12. Where you see `USERNAME` in `path="C:/Users/USERNAME/Documents/Paradox Interactive/Hearts of Iron IV/mod/ashes-of-the-old-order"`, make sure to change it to your actual Windows username. If you are not using the default location, make sure to specify the exact file location of the `Ashes-Of-The-Old-Order` folder. IMPORTANT: Make sure to follow step 4 exactly for this to work, if the `AOTTO.mod` file is not read by the game, this will not work.
 6. Start up HOI4, and select "Ashes of The Old Order".
 
 #### ...with another Git client

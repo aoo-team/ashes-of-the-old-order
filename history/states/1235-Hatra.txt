@@ -1,0 +1,16 @@
+state={
+	id=1235
+	name="Hatra"
+	provinces={
+		12372 17460 17463 17464 17465 17466 17471 17472 17473 17474 17478 
+	}
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=865792
+	state_category = rural
+}

@@ -1,0 +1,20 @@
+state={
+	id=1236
+	name="Al-Anbar"
+	provinces={
+		1631 12413 17399 17409 17416 17420 17423 17426 17427 17432 17433 17436 17440 17444 17445 17450 17455 17456 17458 
+	}
+	manpower=738101
+	state_category = rural
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			17458 1
+		}
+	}
+}

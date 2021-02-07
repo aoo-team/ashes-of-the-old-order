@@ -1,0 +1,16 @@
+state={
+	id=1244
+	name="Salman"
+	provinces={
+		4951 17371 17379 17380 17389 17391 17395 17402 17406 17410 
+	}
+	manpower=742404
+	state_category = pastoral
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

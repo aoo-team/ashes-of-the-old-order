@@ -1,0 +1,20 @@
+state={
+	id=1240
+	name="Wasit"
+	provinces={
+		2097 12855 17424 17429 17435 17439 17442 17443 17448 
+	}
+	manpower=1149059
+	state_category = town
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			17439 3
+		}
+	}
+}

@@ -1,0 +1,24 @@
+state={
+	id=1243
+	name="Samawah"
+	provinces={
+		8001 17372 17375 17377 17383 17386 
+	}
+	manpower=941456
+	state_category = town
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 3
+		}
+		
+		victory_points = {
+			17383 3
+		}
+
+		victory_points = {
+			8001 1
+		}
+	}
+}

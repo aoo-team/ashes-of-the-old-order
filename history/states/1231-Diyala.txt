@@ -1,0 +1,20 @@
+state={
+	id=1231
+	name="Diyala"
+	provinces={
+		8123 10793 17452 17457 17461 17462 17467 17468 17469 17470 17475 17476 17482 
+	}
+	manpower=3841091
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			17476 5
+		}
+	}
+	state_category = town
+}
