@@ -4,5 +4,19 @@ spriteTypes = {
 		name = "GFX_SEA_Nationalization_open_button"
 		textureFile = "gfx/interface/Seattle_Nationalization_GUI/sea_nationalization_open_button.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_SEA_Nationalization_Starbucks"
+		textureFile = "gfx/interface/Seattle_Nationalization_GUI/sea_nationalization_starbucks_logo.dds"
+	}
 
+	spriteType = {
+		name = "GFX_SEA_Nationalization_Weyhauser"
+		textureFile = "gfx/interface/Seattle_Nationalization_GUI/sea_nationalization_weyhauser_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SEA_Nationalization_Nordstrom"
+		textureFile = "gfx/interface/Seattle_Nationalization_GUI/sea_nationalization_nordstrom_logo.dds"
+	}
 }

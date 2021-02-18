@@ -16,7 +16,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "AOO_SEA_NationalizationScreen_Main"
 		size = { width = 750 height = 466 }
-		position = { x = 155 y = 155 }
+		position = { x = 300 y = 500 }
 		moveable = yes
 		
 		background = {
@@ -43,5 +43,104 @@ guiTypes = {
 			maxHeight = 50
 			fixedsize = yes
 		}	
+		
+		# Starbucks
+		# Coffee Lovers Start Here
+		instantTextboxType = {
+			name = "AOO_SEA_Nationalization_Starbucks_Name"
+			position = { x = 80 y = 390 }
+			textureFile = ""
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "Starbucks"
+			maxWidth = 800
+			maxHeight = 50
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "AOO_SEA_Nationalization_Starbucks_Blurb"
+			position = { x = 35 y = 415 }
+			textureFile = ""
+			font = "hoi_18"
+			borderSize = {x = 0 y = 0}
+			text = "Full nationalisation of Starbucks will grant ?? at the cost of ??"
+			maxWidth = 200
+			maxHeight = 100
+			fixedsize = yes
+		}
+		
+		iconType = {
+			name = "AOO_SEA_Nationalization_Starbucks"
+			spriteType = "GFX_SEA_Nationalization_Starbucks"
+			position = { x=90 y=320 }
+			scale = .40
+		}
+		
+		# Weyhauser
+		# Add factor of x=80 for new companies
+		instantTextboxType = {
+			name = "AOO_SEA_Nationalization_Weyhauser_Name"
+			position = { x = 330 y = 390 }
+			textureFile = ""
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "Weyhauser"
+			maxWidth = 800
+			maxHeight = 50
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "AOO_SEA_Nationalization_Weyhauser_Blurb"
+			position = { x = 285 y = 415 }
+			textureFile = ""
+			font = "hoi_18"
+			borderSize = {x = 0 y = 0}
+			text = "Full nationalisation of Weyhauser will grant ?? at the cost of ??"
+			maxWidth = 200
+			maxHeight = 100
+			fixedsize = yes
+		}
+		
+		iconType = {
+			name = "AOO_SEA_Nationalization_Weyhauser"
+			spriteType = "GFX_SEA_Nationalization_Weyhauser"
+			position = { x=340 y=320 }
+			scale = .40
+		}
+		
+		# Nordstrom
+		# Add factor of x=80 for new companies
+		instantTextboxType = {
+			name = "AOO_SEA_Nationalization_Nordstrom_Name"
+			position = { x = 540 y = 390 }
+			textureFile = ""
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "Nordstrom"
+			maxWidth = 800
+			maxHeight = 50
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "AOO_SEA_Nationalization_Nordstrom_Blurb"
+			position = { x = 495 y = 415 }
+			textureFile = ""
+			font = "hoi_18"
+			borderSize = {x = 0 y = 0}
+			text = "Full nationalisation of Nordstrom will grant ?? at the cost of ??"
+			maxWidth = 200
+			maxHeight = 100
+			fixedsize = yes
+		}
+		
+		iconType = {
+			name = "AOO_SEA_Nationalization_Nordstrom"
+			spriteType = "GFX_SEA_Nationalization_Nordstrom"
+			position = { x=550 y=320 }
+			scale = .40
+		}
 	}
 }

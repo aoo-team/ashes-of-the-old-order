@@ -9,7 +9,7 @@ scripted_gui = {
 		}
 
 		effects = {
-			sea_nationalization_button_click = {
+			sea_nationalization_menu_open_click = {
 				if = {
 				limit = { has_variable = SEA_Nat_Screen }
 				clear_variable = SEA_Nat_Screen
