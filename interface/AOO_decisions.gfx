@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	### categories
+
+	spriteType = {
+		name = "GFX_SEA_decision_people_council"
+		texturefile = "gfx/interface/decisions/SEA_decision_people_council.dds"
+	}
+}

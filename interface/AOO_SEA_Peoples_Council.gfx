@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_peoplesCouncil_party_icon"
+		texturefile = "/gfx/interface/Seattle_Peoples_Council/AOO_SEA_Peoples_Council_parties.dds"
+		noOfFrames = 4 # number of parties you have in the gfx file
+	}
+	spriteType = {
+		name = "GFX_peoplesCouncil_empty_button"
+		texturefile = "/gfx/interface/Seattle_Peoples_Council/AOO_SEA_Peoples_Council_empty_button.dds"
+	}
+}

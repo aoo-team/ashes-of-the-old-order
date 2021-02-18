@@ -1,0 +1,47 @@
+guiTypes = {
+	containerWindowType = {
+		name = "AOO_SEA_Nationalization_GUI_open"
+		size = { width = 220 height = 128 }
+		position = { x = 0 y = 289 }
+
+		buttonType = {
+			name = "sea_nationalization_menu_open"
+			spriteType = "GFX_SEA_Nationalization_open_button"
+			position = { x = 425 y = -50 }
+			pdx_tooltip = "scripted_gui_open_tt_sea_nat"
+			scale = .40
+		}
+	}
+	
+	containerWindowType = {
+		name = "AOO_SEA_NationalizationScreen_Main"
+		size = { width = 750 height = 466 }
+		position = { x = 155 y = 155 }
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_bg"
+		}
+		
+		buttonType = {
+			name = "AOO_SEA_NationalizationScreen_CloseButton"
+			position = { x = 700 y = 12 }
+			spriteType = "GFX_nf_close_button"
+			scale = 0.9
+			clicksound = click_default
+		}
+		
+		instantTextboxType = {
+			name = "AOO_SEA_NationalizationScreen_Title"
+			position = { x = 65 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "Progress of Nationalization"
+			maxWidth = 800
+			maxHeight = 50
+			fixedsize = yes
+		}	
+	}
+}

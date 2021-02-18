@@ -1,0 +1,50 @@
+scripted_gui = {
+	AOO_SEA_Nationalization_button = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "AOO_SEA_Nationalization_GUI_open"
+
+		visible = {
+			tag = SEA
+		}
+
+		effects = {
+			sea_nationalization_button_click = {
+				if = {
+				limit = { has_variable = SEA_Nat_Screen }
+				clear_variable = SEA_Nat_Screen
+
+				}
+				else = {
+					set_variable = { SEA_Nat_Screen = 1 }
+				}
+			}
+		}
+	}
+	
+
+	
+	AOO_SEA_Nationalization_screen_main = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "AOO_SEA_NationalizationScreen_Main"
+
+		visible = {
+			has_variable = SEA_Nat_Screen
+		}
+
+		effects = {
+			AOO_SEA_NationalizationScreen_CloseButton_click = {
+				clear_variable = SEA_Nat_Screen
+			}
+		}
+		
+		triggers = {
+
+		}
+		
+		properties = {
+
+		}
+	}
+}

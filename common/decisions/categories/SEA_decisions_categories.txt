@@ -1,0 +1,7 @@
+SEA_Peoples_Council = {
+	icon = decision_generic_independence
+	picture = GFX_SEA_decision_people_council
+	allowed = {
+		tag = SEA
+	}
+}

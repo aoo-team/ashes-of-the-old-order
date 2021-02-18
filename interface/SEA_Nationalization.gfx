@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_SEA_Nationalization_open_button"
+		textureFile = "gfx/interface/Seattle_Nationalization_GUI/sea_nationalization_open_button.dds"
+	}
+
+}

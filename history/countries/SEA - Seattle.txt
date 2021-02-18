@@ -51,11 +51,31 @@ set_stability = 0.61
 set_war_support = 0.35
 set_convoys = 261
 
+set_variable = { var = reformist_contentment value = 0 }
+set_variable = { var = moderate_contentment value = 30 }
+set_variable = { var = hardliner_contentment value = -20 }
+
+set_variable = { var = reformist_seats value = 21 }
+set_variable = { var = moderate_seats value = 24 }
+set_variable = { var = hardliner_seats value = 15 }
+
+add_ideas = {
+	SEA_Socialist_Outlook
+}
+
 set_politics = {
 	ruling_party = demsoc
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Kshama Sawant"
+	desc = "POLITICS_KSHAMA_SAWANT_DESC"
+	picture = "SEA_portrait_Kshama_Sawant.dds"
+	expire = "2040.1.1"
+	ideology = democraticsocialism
 }
 
 set_popularities = {

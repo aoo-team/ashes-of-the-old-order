@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+		SEA_Socialist_Outlook = {
+			picture = SEA_Socialist_Outlook
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+
+			}
+		}
+	}
+}
