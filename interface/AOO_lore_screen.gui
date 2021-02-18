@@ -24,12 +24,11 @@ guiTypes = {
 			name = "Background"
 			spriteType = "GFX_tiled_bg"
 		}
-
-		containerWindowType = {
-			name = "TNO_OpeningScreen_Buttons"
-			size = { width = 100% height = 100% }
-			position = { x = 0 y = 0 }
-
+		
+		iconType = {
+				name = "AOO_LoreScreen_PlayerFlag"
+				quadTextureSprite = "GFX_flag_small2"
+				position = { x = 17 y = 15 }
 		}
 		
 		buttonType = {
@@ -42,7 +41,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "AOO_Title"
-			position = { x = 45 y = 8 }
+			position = { x = 65 y = 8 }
 			textureFile = ""
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
@@ -54,7 +53,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "AOO_LoreScreen_Text"
-			position = { x = 25 y = 45 }
+			position = { x = 25 y = 50 }
 			font = "hoi_22typewriter"
 			text = "[GET_CURRENT_LORE_TEXT]"
 			maxWidth = 700
