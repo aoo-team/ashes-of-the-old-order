@@ -1,0 +1,47 @@
+scripted_gui = {
+	TNO_opening_button = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "AOO_LoreScreen_OpenButton"
+
+		visible = {
+		}
+
+		effects = {
+			topbar_loreScreen_button_click = {
+				if = {
+				limit = { has_variable = AOO_Lore_Screen }
+				clear_variable = AOO_Lore_Screen
+
+				}
+				else = {
+					set_variable = { AOO_Lore_Screen = 1 }
+				}
+			}
+		}
+	}
+	
+	AOO_lore_screen_main = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "AOO_LoreScreen_Main"
+
+		visible = {
+			has_variable = AOO_Lore_Screen
+		}
+
+		effects = {
+			AOO_LoreScreen_CloseButton_click = {
+				clear_variable = AOO_Lore_Screen
+			}
+		}
+		
+		triggers = {
+
+		}
+		
+		properties = {
+
+		}
+	}
+}

@@ -1,0 +1,66 @@
+guiTypes = {
+	containerWindowType = {
+		name = "AOO_LoreScreen_OpenButton"
+		position = { x = 0 y = 0 }
+		size = { width = 100%% height = 100%% }
+
+		buttonType = {
+			name = "topbar_loreScreen_button"
+			position = { x = -143 y = 90 }
+			#position = { x = 150 y = 150 }
+			quadTextureSprite = "GFX_help_button"
+			Orientation = "UPPER_RIGHT"
+			scale = 0.85
+		}
+	}
+	
+	containerWindowType = {
+		name = "AOO_LoreScreen_Main"
+		size = { width = 750 height = 466 }
+		position = { x = 155 y = 155 }
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_bg"
+		}
+
+		containerWindowType = {
+			name = "TNO_OpeningScreen_Buttons"
+			size = { width = 100% height = 100% }
+			position = { x = 0 y = 0 }
+
+		}
+		
+		buttonType = {
+			name = "AOO_LoreScreen_CloseButton"
+			position = { x = 700 y = 12 }
+			spriteType = "GFX_nf_close_button"
+			scale = 0.9
+			clicksound = click_default
+		}
+		
+		instantTextboxType = {
+			name = "AOO_Title"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "Welcome to Ashes of the Old Order!"
+			maxWidth = 800
+			maxHeight = 50
+			fixedsize = yes
+		}	
+		
+		instantTextBoxType = {
+			name = "AOO_LoreScreen_Text"
+			position = { x = 25 y = 45 }
+			font = "hoi_22typewriter"
+			text = "[GET_CURRENT_LORE_TEXT]"
+			maxWidth = 700
+			maxHeight = 410
+			alwaystransparent = yes
+			scrollbarType = standardtext_slider
+		}
+	}
+}
