@@ -12,4 +12,9 @@ spriteTypes = {
 		name = "GFX_SEA_decision_Sawant_One_Year_Plan"
 		texturefile = "gfx/interface/decisions/SEA_decision_sawant_plan.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_SEQ_decision_ghost_wind"
+		texturefile = "gfx/interface/decisions/SEQ_decision_ghost_wind.dds"
+	}
 }
