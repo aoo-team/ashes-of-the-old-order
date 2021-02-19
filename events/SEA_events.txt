@@ -1,0 +1,22 @@
+######################
+##  SEATTLE EVENTS  ##
+##  MADE BY NateDog ##
+######################
+
+add_namespace = SEA
+
+# Seattle Introduction
+country_event = {
+	id = SEA.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SEA.1"}
+	title = SEA.1.t
+	desc = SEA.1.d
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+
+	option = {
+		name = SEA.1.a
+		add_political_power = 50
+	}
+}

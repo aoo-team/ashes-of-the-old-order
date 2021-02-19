@@ -52,8 +52,8 @@
  SEA_prodem:0 "Seattle"
  SEA_prodem_DEF:0 "Seattle"
  SEA_prodem_ADJ:0 "Seattle"
- SEA_demsoc:0 "Seattle"
- SEA_demsoc_DEF:0 "Seattle"
+ SEA_demsoc:0 "Seattle People's Democratic Assembly"
+ SEA_demsoc_DEF:0 "the Seattle People's Democratic Assembly"
  SEA_demsoc_ADJ:0 "Seattle"
  SEA_libsoc:0 "Seattle"
  SEA_libsoc_DEF:0 "Seattle"
@@ -122,3 +122,8 @@
  
  # Nationalization GUI
  scripted_gui_open_tt_sea_nat:0 "This opens the §CNationalization GUI§!, where we can determine which Seattle based companies we will nationalize. Each has corresponding §Gbenefits§! and §Rmaluses§!, so choose carefully."
+ 
+ # Events
+ SEA.1.t:0 "A Seattle Commute"
+ SEA.1.d:0 "The rain had never poured harder that it did that morning as Kshama Sawant got into her car and began to drive to the People's City Hall. The former software engineer thought over the long road that had lead from Pune, India to the halls of power in Seattle People's Council. She remembered foundly running about the streets of Pune, with the equestrian statue of Peshwa Baji Rao I, hero of the Marathas, with his fierce moustache and countenance, poised to strike the invader. She recalled the tragic day news of her father's death at the hands of a drunk driver reached her family, the tears of her and her mother as they contemplated a difficult future. She remembered the pride she had upon completing her bachelors in computer science at the University of Mumbai, and the fellowship the student union she had joined gave her. Though she aspired to be a programmer, politics began to attract her interest when a student approached her with the writings of a man she had only heard of in her history books...Karl Marx. She remembered reading of Marx, of Lenin, with his firey oratory, and of Trotsky, the man who the revolution betrayed. And now here she was, a woman who had immigrated to America only a year before the fateful day the world came to and end.\n\nAnd yet, in spite of all that, she was a survivor. She had joined a revolutionary group that promised to finally bring the true socialist utopia, here in Free Seattle. She parked her car. The rain had stopped."
+ SEA.1.a:0 "There are two days in the year that we can not do anything, yesterday and tomorrow"
