@@ -21,7 +21,7 @@ state={
 		}
 		add_core_of = NYC
 		victory_points = {
-			3878 30 
+			3878 40 
 		}
 		victory_points = {
 			13887 10 

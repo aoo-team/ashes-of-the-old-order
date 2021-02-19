@@ -22,7 +22,7 @@ state={
 		}
 		add_core_of = CRA
 		victory_points = {
-			13961 25
+			13961 30
 		}
 		victory_points = {
 			6732 15

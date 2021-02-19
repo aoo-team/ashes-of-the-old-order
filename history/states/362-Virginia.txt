@@ -16,7 +16,7 @@ state={
 		}
 		add_core_of = VAV
 		victory_points = {
-			13746 15
+			13746 25
 		}
 		victory_points = {
 			13752 1
