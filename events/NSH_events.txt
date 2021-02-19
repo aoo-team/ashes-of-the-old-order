@@ -1,0 +1,23 @@
+######################
+##  PURIFIED STATES ##
+##  MADE BY NateDog ##
+######################
+
+
+add_namespace = NSH
+
+# A Thought in the Dark
+country_event = {
+	id = NSH.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event NSH.1"}
+	title = NSH.1.t
+	desc = NSH.1.d
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+
+	option = {
+		name = NSH.1.a
+		custom_effect_tooltip = NSH_Build_Nukes_tt
+	}
+}
