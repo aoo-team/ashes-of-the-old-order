@@ -2260,4 +2260,9 @@ spriteTypes = {
 		name = "GFX_NYN_honourable"
 		texturefile = "gfx/event_pictures/NYN_honourable_pic.dds"
 	}
+	
+	spritetype = {
+		name = "GFX_NSH_main"
+		texturefile = "gfx/event_pictures/event_bluegrass.dds"
+	}
 }

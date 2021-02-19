@@ -3326,10 +3326,6 @@
    OKC_democratic_ADJ:0 "Oklahoman"
    OKC_ultranationalism_ADJ:0 "Oklahoman"
 
-   SEQ:0 "Wasteland Regiment"
-   SEQ_DEF:0 "Wasteland Regiment"
-   ###############################
-   SEQ_ADJ:0 "Wastelander"
 
    NEB_fascism:0 "Nebraska"
    NEB_fascism_DEF:0 "Nebraska"

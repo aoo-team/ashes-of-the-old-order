@@ -1,0 +1,54 @@
+defined_text = { 
+	name = SEQ_GetBrokenArrowStock
+	# Checks Remaining WMD Stock of Broken Arrow
+	text = {
+		trigger = {
+			original_tag = SEQ
+			check_variable = {
+				seq_broken_arrow_wmd_stock > 45
+				
+			}
+		}
+		localization_key = SEQ_WMD_Reserve_Untapped
+	}
+	text = {
+		trigger = {
+			original_tag = SEQ
+			check_variable = {
+				seq_broken_arrow_wmd_stock > 35
+				
+			}
+		}
+		localization_key = SEQ_WMD_Reserve_High
+	}
+	text = {
+		trigger = {
+			original_tag = SEQ
+			check_variable = {
+				seq_broken_arrow_wmd_stock > 25
+				
+			}
+		}
+		localization_key = SEQ_WMD_Reserve_Dwindling
+	}
+	text = {
+		trigger = {
+			original_tag = SEQ
+			check_variable = {
+				seq_broken_arrow_wmd_stock > 10
+				
+			}
+		}
+		localization_key = SEQ_WMD_Reserve_Almost_Gone
+	}
+	text = {
+		trigger = {
+			original_tag = SEQ
+			check_variable = {
+				seq_broken_arrow_wmd_stock = 0
+				
+			}
+		}
+		localization_key = SEQ_WMD_Reserve_Empty
+	}
+}
