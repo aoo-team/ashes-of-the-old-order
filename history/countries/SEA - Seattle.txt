@@ -62,6 +62,7 @@ set_variable = { var = hardliner_seats value = 15 }
 add_ideas = {
 	SEA_Socialist_Outlook
 	SEA_Problem_Autonomous_Zones
+	SEA_Port_Seattle
 }
 
 set_politics = {
@@ -80,8 +81,7 @@ create_country_leader = {
 }
 
 set_popularities = {
-	democratic = 21
-	liberal = 26
-	demsoc = 37
-	libsoc = 16
+	demsoc = 70
+	libsoc = 12
+	communism = 18
 }

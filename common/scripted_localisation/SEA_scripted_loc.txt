@@ -1,0 +1,104 @@
+defined_text = { 
+	name = SEA_GetPartyOrg_Reformist
+	# Checks contenment of the party faction
+	text = {
+		trigger = {
+			original_tag = SEA
+			check_variable = {
+				reformist_contentment > 10
+				
+			}
+		}
+		localization_key = SEA_reformists_very_content
+	}
+	text = {
+		trigger = {
+			original_tag = SEA
+			check_variable = {
+				reformist_contentment = 0
+				
+			}
+		}
+		localization_key = SEA_reformists_somewhat_content
+	}
+	text = {
+		trigger = {
+			original_tag = SEA
+			check_variable = {
+				reformist_contentment < -10
+				
+			}
+		}
+		localization_key = SEA_reformists_not_content
+	}
+}
+
+defined_text = { 
+	name = SEA_GetPartyOrg_Moderates
+	# Checks contenment of the party faction
+	text = {
+		trigger = {
+			original_tag = SEA
+			check_variable = {
+				moderate_contentment > 10
+				
+			}
+		}
+		localization_key = SEA_moderates_very_content
+	}
+	text = {
+		trigger = {
+			original_tag = SEA
+			check_variable = {
+				moderate_contentment = 0
+				
+			}
+		}
+		localization_key = SEA_moderates_somewhat_content
+	}
+	text = {
+		trigger = {
+			original_tag = SEA
+			check_variable = {
+				moderate_contentment < 10
+				
+			}
+		}
+		localization_key = SEA_moderates_not_content
+	}
+}
+
+defined_text = { 
+	name = SEA_GetPartyOrg_Hardliners
+	# Checks contenment of the party faction
+	text = {
+		trigger = {
+			original_tag = SEA
+			check_variable = {
+				hardliner_contentment > 10
+				
+			}
+		}
+		localization_key = SEA_hardliners_very_content
+	}
+	text = {
+		trigger = {
+			original_tag = SEA
+			check_variable = {
+				hardliner_contentment = 0
+				
+			}
+		}
+		localization_key = SEA_hardliners_somewhat_content
+	}
+	text = {
+		trigger = {
+			original_tag = SEA
+			check_variable = {
+				hardliner_contentment < -10
+				
+			}
+		}
+		localization_key = SEA_hardliners_not_content
+	}
+}

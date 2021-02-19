@@ -71,3 +71,11 @@ set_popularities = {
 	fascism = 0
 	ultranationalism = 0
 }
+
+create_country_leader = {
+	name = "Boris Johnson"
+	desc = "POLITICS_BORIS_JOHNSON_DESC"
+	picture = "ENG_portrait_Boris_Johnson.dds"
+	expire = "2060.1.1"
+	ideology = conservative
+}
