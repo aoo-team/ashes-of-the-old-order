@@ -20,3 +20,17 @@ country_event = {
 		add_political_power = 50
 	}
 }
+
+country_event = {
+	id = SEA.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SEA.2"}
+	title = SEA.2.t
+	desc = SEA.2.d
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+
+	option = {
+		name = SEA.2.a
+	}
+}

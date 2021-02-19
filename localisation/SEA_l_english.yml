@@ -86,10 +86,13 @@
  # National Focus
  SEA_sawants_chairmanship:0 "Sawant's Chairmanship"
  SEA_sawants_chairmanship_desc:0 "PLACEHOLDER"
+ SEA_sawants_chairmanship_tooltip:0 "§CSawant will begin her position as chairwoman of the People's Assembly.§!"
  SEA_power_to_the_people:0 "Power to the People!"
  SEA_power_to_the_people_desc:0 "PLACEHOLDER"
+ SEA_power_to_the_people_tt:0 "§COur administration will embody the People's will. Nothing more, nothing less.§!"
  SEA_sawants_1_year_plan:0 "Sawant's 1 Year Plan"
  SEA_sawants_1_year_plan_desc:0 "PLACEHOLDER"
+ SEA_sawants_1_year_plan_tt:0 "Sawant's One Year Plan Decisions will be unlocked."
  SEA_nationalising_the_corporations:0 "Nationalising the Corporations"
  SEA_nationalising_the_corporations_desc:0 "PLACEHOLDER"
  SEA_silence_the_fatcats:0 "Silence the Fat-Cats"
@@ -127,3 +130,7 @@
  SEA.1.t:0 "A Seattle Commute"
  SEA.1.d:0 "The rain had never poured harder that it did that morning as Kshama Sawant got into her car and began to drive to the People's City Hall. The former software engineer thought over the long road that had lead from Pune, India to the halls of power in Seattle People's Council. She remembered foundly running about the streets of Pune, with the equestrian statue of Peshwa Baji Rao I, hero of the Marathas, with his fierce moustache and countenance, poised to strike the invader. She recalled the tragic day news of her father's death at the hands of a drunk driver reached her family, the tears of her and her mother as they contemplated a difficult future. She remembered the pride she had upon completing her bachelors in computer science at the University of Mumbai, and the fellowship the student union she had joined gave her. Though she aspired to be a programmer, politics began to attract her interest when a student approached her with the writings of a man she had only heard of in her history books...Karl Marx. She remembered reading of Marx, of Lenin, with his firey oratory, and of Trotsky, the man who the revolution betrayed. And now here she was, a woman who had immigrated to America only a year before the fateful day the world came to and end.\n\nAnd yet, in spite of all that, she was a survivor. She had joined a revolutionary group that promised to finally bring the true socialist utopia, here in Free Seattle. She parked her car. The rain had stopped."
  SEA.1.a:0 "There are two days in the year that we can not do anything, yesterday and tomorrow"
+ 
+ SEA.2.t:0 "Power to the People!"
+ SEA.2.d:0 "The establishment of the Seattle People's Assembly was not without precident in the Emerald City. In 1990, a popular revolt against the Seattle Police broke out when a unarmed young man was beaten by a beat cop. As the protestors started out with sit-ins and marches, things appeared to be under control. However, things began to turn violent when members of the Pacific Liberation Front began to distribute molotovs to some of the more radical protestors. In what would later be called Black Feburary, fires raged as protestors clashed with police throughout the city. Barricades began to be erected, and rumors even circulated that Red Flags had been seen flying from the City Hall. \n\nThe Governor called in the national guard, and the uprising was put down. But the legacy of the revolt and of the PLF live on. Today, a new flag flies over City Hall, and the oppressive police and governor of that time are but a distant memory."
+ SEA.2.a:0 "The PLF Marched to Fight Another Day"

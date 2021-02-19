@@ -2,8 +2,14 @@ spriteTypes = {
 
 	### categories
 
+	### SEA
 	spriteType = {
 		name = "GFX_SEA_decision_people_council"
 		texturefile = "gfx/interface/decisions/SEA_decision_people_council.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SEA_decision_Sawant_One_Year_Plan"
+		texturefile = "gfx/interface/decisions/SEA_decision_sawant_plan.dds"
 	}
 }
