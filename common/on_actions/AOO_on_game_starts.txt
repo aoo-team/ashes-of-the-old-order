@@ -17,6 +17,13 @@ on_actions = {
 
 			#array for all of the states needed to reform america
 			add_to_array = { global.usa_states = 1087 }
+			
+			# Shows lore description at game start.
+			every_country = {
+				limit = { is_ai = no }
+				set_variable = { AOO_Lore_Screen = 1 }
+			}
 		}
+		
 	}
 }

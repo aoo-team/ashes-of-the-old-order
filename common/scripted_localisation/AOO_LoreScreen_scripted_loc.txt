@@ -5,4 +5,8 @@ defined_text = {
 		trigger = { tag = WDC }
 		localization_key = "COUNTRY_LORE_WDC"
 	}
+	text = {
+		trigger = { tag = SEA }
+		localization_key = "COUNTRY_LORE_SEA"
+	}
 }

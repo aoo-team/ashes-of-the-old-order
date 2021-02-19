@@ -61,6 +61,7 @@ set_variable = { var = hardliner_seats value = 15 }
 
 add_ideas = {
 	SEA_Socialist_Outlook
+	SEA_Problem_Autonomous_Zones
 }
 
 set_politics = {

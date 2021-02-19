@@ -80,6 +80,8 @@
  # Ideas
  SEA_Socialist_Outlook:0 "Socialist Outlook"
  SEA_Socialist_Outlook_desc:0 "Seattle's people are united behind the banner of democratic socialism, having thrown off the shackles of capitalist coporations and successfully nationalising most of the industries of our great city. But many §Wfactions§! divide our party. There are the §GReformists§!, who want a more libertarian model of government, the §OModerates§! who seek to continue the policies of Sawant, and the §RHardliners§!, who seek a more Leninist interpratation of socialism.\n\nThe contentment of the §GReformists§! is: ([?SEA.reformist_contentment|-0])\n\nThe contentment of the §OModerates§! is: ([?SEA.moderate_contentment|-0])\n\nThe contentment of the §RHardliners§! is: ([?SEA.hardliner_contentment|-0])"
+ SEA_Problem_Autonomous_Zones:0 "The Problem of the Autonomous Zones"
+ SEA_Problem_Autonomous_Zones:0 "While we pride ourselves on the freedom of the working man, there are many, particularly amongst the more §Greform-mindeded§!, believe that the true socialism is not to be found in our People's Council, or in the rule of our Chairman. They believe that the masses must create their own governments and collectives based on communal living. They reject any authority, including our own. We must address this issue, as many of these so-called 'Autonomous Zones' are springing up and are beginning to challenge our capacity to govern (in the interests of the people of course)."
 
  # National Focus
  SEA_sawants_chairmanship:0 "Sawant's Chairmanship"
@@ -104,6 +106,19 @@
  SEA_sawantcare_desc:0 "PLACEHOLDER"
  SEA_the_problem_of_the_autonomous_zones:0 "The Problem of the Autonomous Zones"
  SEA_the_problem_of_the_autonomous_zones_desc:0 "PLACEHOLDER"
+ SEA_leave_them_be:0 "Leave Them Be"
+ SEA_leave_them_be_desc:0 "PLACEHOLDER"
+ SEA_workers_united:0 "Workers United!"
+ SEA_workers_united_desc:0 "PLACEHOLDER"
+ SEA_shall_never_be_divided:0 "Shall Never Be Divided!"
+ SEA_shall_never_be_divided_desc:0 "PLACEHOLDER"
+ SEA_mobilize_the_antifascist_police:0 "Mobilize the Anti-Fascist Police"
+ SEA_mobilize_the_antifascist_police_desc:0 "PLACEHOLDER"
+ SEA_clean_up_the_mess:0 "Clean up the Mess"
+ SEA_clean_up_the_mess_desc:0 "PLACEHOLDER"
+ SEA_bad_pr_at_seattle_peoples_hall:0 "Bad PR at Seattle People's Hall"
+ SEA_bad_pr_at_seattle_peoples_hall_desc:0 "PLACEHOLDER"
+
  
  # Nationalization GUI
  scripted_gui_open_tt_sea_nat:0 "This opens the §CNationalization GUI§!, where we can determine which Seattle based companies we will nationalize. Each has corresponding §Gbenefits§! and §Rmaluses§!, so choose carefully."

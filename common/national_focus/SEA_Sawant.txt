@@ -1,5 +1,5 @@
 focus_tree = {
-	id = SEA_Sawant
+	id = sawant
 	continuous_focus_position = { x = 0 y = 1000 } 
 	country = {
 		factor = 0
@@ -15,12 +15,6 @@ focus_tree = {
 		x = 3
 		y = 0
 		cost = 4
-		allow_branch = {
-		    has_country_leader = {
-                name = "Kshama Sawant"
-                ruling_only = yes
-            }
-	    }
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -139,12 +133,85 @@ focus_tree = {
 	focus = {
 		id = SEA_the_problem_of_the_autonomous_zones
 		icon = GFX_SEA_the_problem_of_the_autonomous_zones-445
-		x = 5
+		x = 7
 		y = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = SEA_power_to_the_people  }
+	}
+
+	#Leave Them Be
+	focus = {
+		id = SEA_leave_them_be
+		icon = GFX_SEA_leave_them_be-445
+		x = 6
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SEA_the_problem_of_the_autonomous_zones  }
+	}
+
+	#Workers United!
+	focus = {
+		id = SEA_workers_united
+		icon = GFX_SEA_workers_united-445
+		x = 6
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SEA_leave_them_be  }
+	}
+
+	#Shall Never Be Divided!
+	focus = {
+		id = SEA_shall_never_be_divided
+		icon = GFX_SEA_shall_never_be_divided-445
+		x = 6
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SEA_workers_united  }
+	}
+
+	#Mobilize the Anti-Fascist Police
+	focus = {
+		id = SEA_mobilize_the_antifascist_police
+		icon = GFX_SEA_mobilize_the_antifascist_police-445
+		x = 8
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SEA_the_problem_of_the_autonomous_zones  }
+		mutually_exclusive = { focus = SEA_leave_them_be  }
+	}
+
+	#Clean up the Mess
+	focus = {
+		id = SEA_clean_up_the_mess
+		icon = GFX_SEA_clean_up_the_mess-445
+		x = 8
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SEA_mobilize_the_antifascist_police  }
+	}
+
+	#Bad PR at Seattle People's Hall
+	focus = {
+		id = SEA_bad_pr_at_seattle_peoples_hall
+		icon = GFX_SEA_bad_pr_at_seattle_peoples_hall-445
+		x = 8
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SEA_clean_up_the_mess  }
 	}
 
 }
