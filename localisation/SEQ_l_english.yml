@@ -1,0 +1,54 @@
+﻿l_english:
+
+
+ # Parties
+
+
+ SEQ_neutrality_party:0 "Party of the Father"
+ SEQ_neutrality_party_long:0 "Party of the Father"
+
+
+ # Country
+ SEQ:0 "Wasteland Regiment"
+ SEQ_DEF:0 "Wasteland Regiment"
+ SEQ_ADJ:0 "Wastelander"
+
+ # Categories
+ SEQ_Legacy_Project_Ghost_Wind:0 "The Legacy of Project Ghost Wind"
+ SEQ_Legacy_Project_Ghost_Wind_desc:0 "Many years ago, before the fall of the United States, a secret group of generals and scientists worked together in the dying days of the republic to create a secret store of confiscated WMDs they planned to use should the world come to a end. While their fate is unknown, we happened to come across the store of chemical weapons deep within the Broken Arrow compound. The compound is vast, and we can send out §Yscavenging missions§! to find more WMDs. These can be used against our enemies, and provide large §Gbonuses§! against the survivialists we §Yfight§! or §Yraid§!. However the stock of WMDs is not endless so we should use them wisely. \n\n Our stock of §CSarin Gas§! is: [?SEQ.seq_sarin_gas|-0] units\n\n Our stock of §OVX Gas§! is: [?SEQ.seq_vx_gas|-0] units.\n\nWe suspect that the remaining stock of WMDs in Broken Arrow is: [ROOT.SEQ_GetBrokenArrowStock]"
+ SEQ_Personality_Cult:0 "The Cult of Personality"
+ SEQ_Personality_Cult_desc:0 "Our wise Father brought us together into a band of brothers with one goal: serving him. As we seek to"
+ 
+ # Decisions
+ SEQ_Scavenge_Broken_Arrow:0 "Send Scavenger Team to Broken Arrow"
+ SEQ_Scavenge_Broken_Arrow_desc:0 ""
+ SEQ_Send_Enforcers:0 ""
+ SEQ_Send_Enforcers_desc:0 ""
+ SEQ_Use_Sarin_Gas:0 "Use Sarin Gas"
+ SEQ_Using_Sarin_Gas_tt:0 "This will use up 5 units of Sarin Gas which will give us a attack bonus for 30 days."
+ SEQ_Use_VX_Gas:0 "Use VX Gas"
+ SEQ_Using_VX_Gas_tt:0 "This will use up 5 units of VX Gas which will give us a defense bonus for 30 days."
+ 
+ 
+ # Ideas
+
+ # National Focus
+
+
+ # Broken Arrow WMD Stuff
+ SEQ_WMD_Reserve_Untapped:0 "§gcurrently untapped§!"
+ SEQ_WMD_Reserve_High:0 "§gvery high§!"
+ SEQ_WMD_Reserve_Dwindling:0 "§gdwindling§!"
+ SEQ_WMD_Reserve_Almost_Gone:0 "§galmost gone§!"
+ SEQ_WMD_Reserve_Empty:0 "§gempty§!"
+
+
+ # Events
+ SEQ.1.t:0 "Successful Scavenging Mission"
+ SEQ.1.d:0 "Our teams report that we have succesfully uncovered new stores of WMDs! This will be welcome news for the Father."
+ SEQ.1.a:0 "New Arms with Which to Scourge our Enemies"
+ SEQ_Successful_Scavenging_tt:0 "Our stocks of §CSarin Gas§! and §OVX Gas§! will increase."
+ SEQ.2.t:0 "Unsuccessful Scavenging Mission"
+ SEQ.2.d:0 "Our teams report that we have were unsucessful in finding WMDs. The team has comitted suicide rather than report back to the Father."
+ SEQ.2.a:0 "Better Dead than Reporting Failure"
+ 

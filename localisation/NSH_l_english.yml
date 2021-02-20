@@ -175,4 +175,9 @@ NSH_communism_party_short:0 "Bluegrass Liberation Front (V)"
 NSH_anarchy_party_long:0 "Bluegrass Liberation Front (Anarchist Faction)"
 NSH_anarchy_party_short:0 "Bluegrass Liberation Front (A)"
  
- #Events
+ # Events
+ NSH.1.t:0 "A Thought in the Dark"
+ NSH.1.d:0 "It was a quiet night in Nashville, with cars moving throughout the streets. Shaun Walker was sitting in his office, watching the city from his office. It was all silent, except for that damn clock. That annoying thing was going to have to be dealt with. 'Collins! Get the hell in here!' barked Walker. A somewhat nervous looking officer ran into the room wearing a leather jacket that looked like a shoddy knockoff SS uniform. Tic...tic...tic.... Walker looked up at the officer 'Collins, have that clock destroyed immediately' he barked. The officer nodded curtly and quickly walked to the wall and tore the clock off, quickly leaving the room before he could feel the rest of Walker’s wrath. Finally, he could think once more. Walker leaned back in his chair and rested for a moment until it hit him"
+ NSH.1.a:0 "It's time to build some nukes."
+ NSH_Build_Nukes_tt:0 "The only path forward for the Aryan Race is through the cleansing fire of nuclear weapons."
+ 

@@ -1,0 +1,15 @@
+SEQ_Legacy_Project_Ghost_Wind = {
+	icon = decision_generic_independence
+	picture = GFX_SEQ_decision_ghost_wind
+	allowed = {
+		tag = SEQ
+	}
+}
+
+SEQ_Personality_Cult = {
+	icon = decision_generic_independence
+	picture = GFX_SEQ_decision_ghost_wind
+	allowed = {
+		tag = SEQ
+	}
+}

@@ -1,0 +1,114 @@
+SEQ_Legacy_Project_Ghost_Wind = {
+
+	SEQ_Scavenge_Broken_Arrow = {
+		allowed = { tag = SEQ }
+		fire_only_once = no
+		cost = 25
+		visible = {
+		
+			NOT = { check_variable = { seq_broken_arrow_wmd_stock = 0 } }
+		
+		}
+		
+		highlight_provinces = {
+		
+			14340
+		
+		}
+		
+		fixed_random_seed = no
+		
+		available = {
+			has_manpower > 50
+		}
+		days_re_enable = 40
+		days_remove = 30
+		remove_effect = {
+			
+		}
+		complete_effect = {
+			random_list = {
+				60 = {
+					country_event = SEQ.1
+				}
+				40 = {
+					country_event = SEQ.2
+				}
+			}
+		}
+	}
+	
+	SEQ_Use_Sarin_Gas = {
+		allowed = { tag = SEQ }
+		fire_only_once = no
+		cost = 0
+		visible = {
+			NOT = { has_country_flag = SEQ_Using_VX_Gas }
+			NOT = { check_variable = { seq_sarin_gas < 5 } }
+		}
+		available = {
+			
+		}
+		days_re_enable = 40
+		days_remove = 30
+		remove_effect = {
+			clr_country_flag = SEQ_UsingSarin_Gas
+		}
+		complete_effect = {
+			set_country_flag = SEQ_UsingSarin_Gas
+			custom_effect_tooltip = SEQ_Using_Sarin_Gas_tt
+			subtract_from_variable = {
+				var = seq_broken_arrow_wmd_stock
+				value = 5
+			}
+		}
+	}
+	
+	SEQ_Use_VX_Gas = {
+		allowed = { tag = SEQ }
+		fire_only_once = no
+		cost = 0
+		visible = {
+			NOT = { has_country_flag = SEQ_UsingSarin_Gas }
+			NOT = { check_variable = { seq_vx_gas < 5 } }
+		}
+		available = {
+			
+		}
+		days_re_enable = 40
+		days_remove = 30
+		remove_effect = {
+			clr_country_flag = SEQ_Using_VX_Gas
+		}
+		complete_effect = {
+			set_country_flag = SEQ_Using_VX_Gas
+			custom_effect_tooltip = SEQ_Using_VX_Gas_tt
+			subtract_from_variable = {
+				var = seq_vx_gas
+				value = 5
+			}
+		}
+	}
+
+}
+
+#SEQ_Personality_Cult = {
+#
+#	SEQ_Send_Enforcers = {
+#		allowed = { tag = SEQ }
+#		fire_only_once = yes
+#		cost = 50
+#		visible = {
+#		
+#		}
+#		available = {
+#			
+#		}
+#		days_remove = 30
+#		remove_effect = {
+#		complete_effect = {
+#			set_country_flag = SEQ_Sent_Out_Enforcers
+#			}
+#	}
+#
+#}

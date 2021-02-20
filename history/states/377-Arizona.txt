@@ -17,13 +17,13 @@ state={
 		}
 		add_core_of = NVJ
 		victory_points = {
-			12765 8 
+			12765 10 
 		}
 		victory_points = {
 			13611 1 
 		}
 		victory_points = {
-			13609 10 
+			13609 12
 		}
 
 	}

@@ -49,6 +49,15 @@ set_technology = {
 
 set_stability = 0.50
 
+set_variable = { var = seq_sarin_gas value = 15 }
+set_variable = { var = seq_vx_gas value = 10 }
+set_variable = { var = seq_broken_arrow_wmd_stock value = 50 }
+# This determines luck of WMD gatherers. Not used in first patch.
+set_variable = { var = seq_scavenge_base_luck = 1 }
+
+set_variable = { var = seq_father_cult value = 60 }
+
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1932.11.8"
