@@ -1264,27 +1264,6 @@
    ##New York
    #New York City
    ##North Carolina
-     VICTORY_POINTS_4168:0 "Greenville"
-     VICTORY_POINTS_1132:0 "Wilmington"
-     VICTORY_POINTS_7643:0 "Asheville"
-     VICTORY_POINTS_7045:0 "Greensboro"
-     VICTORY_POINTS_12054:0 "Fayetteville"
-     VICTORY_POINTS_10081:0 "Winston-Salem"
-   #Raleigh
-     VICTORY_POINTS_13660:0 "Raleigh"
-     VICTORY_POINTS_13655:0 "Zebulon"
-     VICTORY_POINTS_13653:0 "Burlington"
-     VICTORY_POINTS_13659:0 "Durham"
-     VICTORY_POINTS_13660:0 "Leesville"
-     VICTORY_POINTS_13661:0 "Wake Forest"
-     VICTORY_POINTS_13667:0 "Creedmoor"
-     VICTORY_POINTS_7083:0 "Greensboro"
-   #Charlotte
-     VICTORY_POINTS_13632:0 "Charlotte"
-     VICTORY_POINTS_13645:0 "North Charlotte"
-     VICTORY_POINTS_13627:0 "Plaza Midwood"
-     VICTORY_POINTS_13620:0 "Cotswold"
-     VICTORY_POINTS_13637:0 "Washington Heights"
    ##Northwest Territories
      VICTORY_POINTS_15806:0 "Yellowknife"
    ##North Dakota
@@ -1351,18 +1330,11 @@
    ##Sasketchewan
      VICTORY_POINTS_12663:0 "Regina"
    ##South Carolina
-     VICTORY_POINTS_7134:0 "Florence"
-     VICTORY_POINTS_4491:0 "Rock Hill"
-     VICTORY_POINTS_7012:0 "Sumter"
      VICTORY_POINTS_4653:0 "Greenville"
      VICTORY_POINTS_3994:0 "Aiken"
-     VICTORY_POINTS_11927:0 "Myrtle Beach"
    #Columbia
-     VICTORY_POINTS_13591:0 "Columbia"
      VICTORY_POINTS_13587:0 "West Columbia"
      VICTORY_POINTS_13579:0 "Arthurtown"
-     VICTORY_POINTS_13588:0 "Hazelwood Acres"
-     VICTORY_POINTS_13602:0 "Denny Terrace"
    #Charleston
      VICTORY_POINTS_13548:0 "Charleston"
      VICTORY_POINTS_13556:0 "North Charleston"
@@ -1412,19 +1384,6 @@
      VICTORY_POINTS_13800:0 "Price"
      VICTORY_POINTS_13743:0 "Beaver"
    ##Virginia
-    #Richmond
-     VICTORY_POINTS_13746:0 "Richmond"
-     VICTORY_POINTS_13752:0 "Glen Allen"
-     VICTORY_POINTS_13737:0 "Mechanicsville"
-     VICTORY_POINTS_13732:0 "Bensley"
-     VICTORY_POINTS_13736:0 "Wilkson Terrace"
-     #Not Thick Cities
-     VICTORY_POINTS_9931:0 "Danville"
-     VICTORY_POINTS_1506:0 "Roanoke"
-     VICTORY_POINTS_10412:0 "Lynchburg"
-     VICTORY_POINTS_873:0 "Arlington"
-     VICTORY_POINTS_11873:0 "Charlottesville"
-     VICTORY_POINTS_865:0 "Newport"
    ##Vermont
    ##Washington
      #VICTORY_POINTS_14234:0 "Olympia"
@@ -1439,18 +1398,6 @@
      VICTORY_POINTS_14222:0 "Richland"
      VICTORY_POINTS_10687:0 "Walla Walla"
    ##West Virginia
-     VICTORY_POINTS_9923:0 "Morgantown"
-     VICTORY_POINTS_3975:0 "Parkersburg"
-     VICTORY_POINTS_7588:0 "Beckley"
-     VICTORY_POINTS_10441:0 "Huntington"
-     VICTORY_POINTS_7466:0 "Bluefield"
-     VICTORY_POINTS_11888:0 "Martinsburg"
-     VICTORY_POINTS_801:0 "Clarksburg"
-   #Charleston
-     VICTORY_POINTS_13770:0 "Charleston"
-     VICTORY_POINTS_13784:0 "Hillsdale"
-     VICTORY_POINTS_13781:0 "South Charleston"
-     VICTORY_POINTS_13770:0 "Blackhawk"
 
    ##Wisconsin
    #Milwaukee
@@ -2078,3 +2025,79 @@
  VICTORY_POINTS_13811:0 "Frederick"
  VICTORY_POINTS_13805:0 "Baltimore"
  VICTORY_POINTS_3957:0 "Mount Airy"
+
+ # Appalachian States #
+
+ # Virginia
+
+ VICTORY_POINTS_13746:0 "Richmond"
+ VICTORY_POINTS_13752:0 "Glen Allen"
+ VICTORY_POINTS_13737:0 "Mechanicsville"
+ VICTORY_POINTS_13732:0 "Bensley"
+ VICTORY_POINTS_13736:0 "Wilkson Terrace"
+ VICTORY_POINTS_9931:0 "Danville"
+ VICTORY_POINTS_10412:0 "Lynchburg"
+ VICTORY_POINTS_873:0 "Arlington"
+ VICTORY_POINTS_11873:0 "Charlottesville"
+ VICTORY_POINTS_865:0 "Newport"
+ VICTORY_POINTS_15038:0 "Petersburg"
+ VICTORY_POINTS_14908:0 "Emporia"
+ VICTORY_POINTS_15098:0 "Franklin"
+
+ # Carolina
+
+ VICTORY_POINTS_4168:0 "Greenville"
+ VICTORY_POINTS_12054:0 "Fayetteville"
+ VICTORY_POINTS_10081:0 "Winston-Salem"
+ VICTORY_POINTS_13660:0 "Raleigh"
+ VICTORY_POINTS_13655:0 "Zebulon"
+ VICTORY_POINTS_13653:0 "Burlington"
+ VICTORY_POINTS_13659:0 "Durham"
+ VICTORY_POINTS_13660:0 "Leesville"
+ VICTORY_POINTS_13661:0 "Wake Forest"
+ VICTORY_POINTS_13667:0 "Creedmoor"
+ VICTORY_POINTS_7083:0 "Greensboro"
+ VICTORY_POINTS_13632:0 "Charlotte"
+ VICTORY_POINTS_13645:0 "North Charlotte"
+ VICTORY_POINTS_13627:0 "Plaza Midwood"
+ VICTORY_POINTS_13620:0 "Cotswold"
+ VICTORY_POINTS_13637:0 "Washington Heights"
+ VICTORY_POINTS_4491:0 "Rock Hill"
+ VICTORY_POINTS_13602:0 "Denny Terrace"
+ VICTORY_POINTS_7134:0 "Florence"
+ VICTORY_POINTS_13591:0 "Columbia"
+ VICTORY_POINTS_13588:0 "Hazelwood Acres"
+ VICTORY_POINTS_7012:0 "Sumter"
+ VICTORY_POINTS_11927:0 "Myrtle Beach"
+
+ # Appalachia
+
+ VICTORY_POINTS_1506:0 "Roanoke"
+ VICTORY_POINTS_7466:0 "Beckley"
+ VICTORY_POINTS_14918:0 "Clarksburg"
+ VICTORY_POINTS_9923:0 "Morgantown"
+ VICTORY_POINTS_13770:0 "Charleston"
+ VICTORY_POINTS_13784:0 "Hillsdale"
+ VICTORY_POINTS_13781:0 "South Charleston"
+ VICTORY_POINTS_13770:0 "Blackhawk"
+ VICTORY_POINTS_6971:0 "Huntington"
+ VICTORY_POINTS_14843:0 "Mt. Sterling"
+ VICTORY_POINTS_14594:0 "Johnson City"
+ VICTORY_POINTS_9779:0 "Kingsport"
+
+ # Southern States #
+
+ # Bluegrass
+ 
+ VICTORY_POINTS_913:0 "Knoxville"
+ 
+ # New Afrika
+
+ VICTORY_POINTS_7643:0 "Asheville"
+ VICTORY_POINTS_7045:0 "Greensboro"
+
+ # ACR
+
+ # Florida
+
+ # Mississippi
