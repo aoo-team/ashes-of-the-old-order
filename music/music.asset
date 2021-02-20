@@ -19,7 +19,7 @@ music = {
 }
 music = {
 	name = "general_peace_3"
-	file = "asongforthechildrenofww2.ogg"
+	file = "evw3.ogg"
 	volume = 0.65
 }
 
