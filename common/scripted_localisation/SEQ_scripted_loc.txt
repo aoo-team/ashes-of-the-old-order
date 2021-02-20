@@ -1,3 +1,4 @@
+# WMD System
 defined_text = { 
 	name = SEQ_GetBrokenArrowStock
 	# Checks Remaining WMD Stock of Broken Arrow
