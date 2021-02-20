@@ -417,6 +417,9 @@ KAB = "countries/Kabardino-Balkaria.txt"
 KAC = "countries/Karachay-Cherkessia.txt"
 KUM = "countries/Kumyk.txt"
 
+# Releasable in Seattle People's Revolt
+PRM = "countries/Pacific Northwest.txt" # Seattle Red Militia
+
 
 
 # Garbage tags

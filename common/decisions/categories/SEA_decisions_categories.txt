@@ -6,14 +6,10 @@ SEA_Peoples_Council = {
 	}
 }
 
-SEA_Sawant_One_Year_Plan = {
-	icon = decision_generic_independence
-	picture = GFX_SEA_decision_Sawant_One_Year_Plan
+
+SEA_debug = {
+	icon = generic_research
 	allowed = {
-		has_country_flag = SEA_Begin_One_Year_Plan
-	}
-	
-	visible = {
-		has_country_flag = SEA_Begin_One_Year_Plan
+		original_tag = SEA
 	}
 }

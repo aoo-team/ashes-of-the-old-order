@@ -1,0 +1,23 @@
+######################
+##   WORLD EVENTS   ##
+##  MADE BY NateDog ##
+######################
+
+add_namespace = WORLDEVENT
+
+news_event = { #Seattle Crisis
+	id = c.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLDEVENT.1"}
+	title = WORLDEVENT.1.t
+	desc = WORLDEVENT.1.d
+	picture = GFX_news_world_seattle_crisis
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = WORLDEVENT.1.a
+		hidden_effect = {
+		}
+	}
+}
