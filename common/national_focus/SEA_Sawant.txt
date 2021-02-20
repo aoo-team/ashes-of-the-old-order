@@ -1,5 +1,7 @@
+
+
 focus_tree = {
-	id = sawant
+	id = Sawant_Intial
 	continuous_focus_position = { x = 0 y = 1000 } 
 	country = {
 		factor = 0
@@ -7,12 +9,14 @@ focus_tree = {
 			add = 10
 			tag = SEA
 		}
+	default = no
 	}
+	
 	#Sawant's Chairmanship
 	focus = {
 		id = SEA_sawants_chairmanship
 		icon = GFX_SEA_sawants_chairmanship-445
-		x = 3
+		x = 4
 		y = 0
 		cost = 4
 		search_filters = {
@@ -24,7 +28,7 @@ focus_tree = {
 	focus = {
 		id = SEA_power_to_the_people
 		icon = GFX_SEA_power_to_the_people-445
-		x = 3
+		x = 4
 		y = 1
 		cost = 4
 		search_filters = {
@@ -212,6 +216,80 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = SEA_clean_up_the_mess  }
+	}
+
+	#Wheeling and Dealing with the SPC
+	focus = {
+		id = SEA_wheeling_and_dealing_with_the_spc
+		icon = GFX_SEA_wheeling_and_dealing_with_the_spc-445
+		x = 10
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SEA_power_to_the_people  }
+	}
+
+	#Meeting with 'Little Stalin'
+	focus = {
+		id = SEA_meeting_with_little_stalin
+		icon = GFX_SEA_meeting_with_little_stalin-445
+		x = 10
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SEA_wheeling_and_dealing_with_the_spc  }
+		mutually_exclusive = { focus = SEA_meet_with_the_anarchist_reactionaries  }
+	}
+
+	#Meet with the Anarchist Reactionaries
+	focus = {
+		id = SEA_meet_with_the_anarchist_reactionaries
+		icon = GFX_SEA_meet_with_the_anarchist_reactionaries-445
+		x = 12
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SEA_wheeling_and_dealing_with_the_spc  }
+		mutually_exclusive = { focus = SEA_meeting_with_little_stalin  }
+	}
+
+	#The Question of the Chairperson
+	focus = {
+		id = SEA_the_question_of_the_chairperson
+		icon = GFX_SEA_the_question_of_the_chairperson-445
+		x = 12
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SEA_meet_with_the_anarchist_reactionaries  }
+	}
+
+	#Powers of the AFP
+	focus = {
+		id = SEA_powers_of_the_afp
+		icon = GFX_SEA_powers_of_the_afp-445
+		x = 12
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SEA_the_question_of_the_chairperson  }
+	}
+
+	#Tacoma Market Zone
+	focus = {
+		id = SEA_tacoma_market_zone
+		icon = GFX_SEA_tacoma_market_zone-445
+		x = 12
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SEA_powers_of_the_afp  }
 	}
 
 }

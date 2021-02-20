@@ -2,21 +2,6 @@
 
 
  # Parties
-
- SEA_ultranationalism_party:0 "--"
- SEA_ultranationalism_party_long:0 "--"
- SEA_fascism_party:0 "--"
- SEA_fascism_party_long:0 "--"
- SEA_neutrality_party:0 "--"
- SEA_neutrality_party_long:0 "--"
- SEA_authdem_party:0 "--"
- SEA_authdem_party_long:0 "--"
- SEA_democratic_party:0 "--"
- SEA_democratic_party_long:0 "--"
- SEA_liberal_party:0 "--"
- SEA_liberal_party_long:0 "--"
- SEA_prodem_party:0 "--"
- SEA_prodem_party_long:0 "--"
  SEA_demsoc_party:0 "Socialist Alternative"
  SEA_demsoc_party_long:0 "Socialist Alternative - Moderate"
  SEA_libsoc_party:0 "Socialist Alternative"
@@ -25,8 +10,7 @@
  SEA_communism_party_long:0 "Socialist Alternative - Hardliners"
  SEA_anarchy_party:0 "Seattle Autonomous Zone"
  SEA_anarchy_party_long:0 "Seattle Autonomous Zone"
- SEA_totalsoc_party:0 "--"
- SEA_totalsoc_party_long:0 "--"
+
 
 
  # Country
@@ -71,6 +55,8 @@
  # Categories
  SEA_Peoples_Council:0 "Seattle People's Council"
  SEA_Peoples_Council_desc:0 "The Seattle People's Council is a ruling body, presided over by the Chairman, which ultimately decides the laws and direction of the People of Seattle. It is composed of 50 members, each representing different factions of the Socialist Alternative Party. If we are unable to control or maintain a favorable majority in the Council, a new Chairman will be elected.\n\nThe current makeup of the SPC is:\n\n§GReformists§! seats: [?SEA.reformist_seats|-0]\nThe contentment of the §GReformists§! is: ([?SEA.reformist_contentment|-0])\n\n§OModerates§! seats: [?SEA.moderate_seats|-0]\nThe contentment of the §OModerates§! is: ([?SEA.moderate_contentment|-0])\n\n§RHardliners§! seats: [?SEA.hardliner_seats|-0]\nThe contentment of the §RHardliners§! is: ([?SEA.hardliner_contentment|-0])"
+ SEA_Port_Trade:0 "Port of Seattle"
+ SEA_Port_Trade_desc:0 ""
  
  # Decisions
  SEA_State_Peoples_Council:0 "State of the People's Council"

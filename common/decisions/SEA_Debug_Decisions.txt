@@ -23,4 +23,23 @@ SEA_debug = {
 			}
 		}
 	}
+	
+	SEA_debug_load_starting_tree = {
+		icon = generic_research
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = Sawant_Intial
+		}
+	}
 }
