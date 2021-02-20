@@ -1,0 +1,21 @@
+SEA_debug = {
+
+	debug_trigger_hardliners_revolt = {
+		icon = generic_research
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = seattle_crisis
+		}
+	}
+}
