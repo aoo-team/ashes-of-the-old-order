@@ -18,6 +18,15 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SEA_sawants_chairmanship"
+			custom_effect_tooltip = SEA_sawants_chairmanship_tooltip
+			hidden_effect = {
+				SEA = {
+					country_event = { id = SEA.1 }
+				}
+			}
+		}
 	}
 
 	#Power to the People!
@@ -31,6 +40,11 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = SEA_sawants_chairmanship  }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SEA_power_to_the_people"
+			country_event = {id = SEA.2}
+			custom_effect_tooltip = SEA_power_to_the_people_tt
+		}
 	}
 
 	#Sawant's 1 Year Plan
@@ -43,6 +57,13 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = SEA_power_to_the_people  }
+		completion_reward = {
+			add_stability = 0.05
+			SEA = {
+				set_country_flag = SEA_Begin_One_Year_Plan
+			}
+			custom_effect_tooltip = SEA_sawants_1_year_plan_tt
+		}
 	}
 
 	#Nationalising the Corporations
@@ -151,6 +172,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = SEA_the_problem_of_the_autonomous_zones  }
+		mutually_exclusive = { focus = SEA_mobilize_the_antifascist_police  }
 	}
 
 	#Workers United!

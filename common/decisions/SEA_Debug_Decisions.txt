@@ -1,0 +1,26 @@
+SEA_debug = {
+
+	SEA_debug_trigger_hardliners_revolt = {
+		icon = generic_research
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SEA_debug_trigger_hardliners_revolt"
+			set_global_flag = seattle_crisis
+			
+			PRM = {
+				transfer_state = 819
+			}
+		}
+	}
+}

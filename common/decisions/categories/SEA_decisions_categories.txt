@@ -5,3 +5,11 @@ SEA_Peoples_Council = {
 		tag = SEA
 	}
 }
+
+
+SEA_debug = {
+	icon = generic_research
+	allowed = {
+		original_tag = SEA
+	}
+}

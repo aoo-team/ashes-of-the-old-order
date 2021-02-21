@@ -281,3 +281,15 @@ music = {
 		}		
 	}	
 }
+
+music = {
+	song = "mother_anarchy"
+
+	chance = {
+		modifier = {
+			factor = 3
+
+			has_government = anarchy
+		}
+	}
+}

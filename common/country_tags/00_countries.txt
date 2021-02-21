@@ -312,7 +312,7 @@ ACR = "countries/New Confederacy.txt"
 MIS = "countries/Jackson.txt"
 MIA = "countries/Miami.txt"
 CRN = "countries/Carolina.txt"
-NSH = "countries/Nashville.txt"
+NSH = "countries/Nashville.txt" # Purified States of America
 APP = "countries/Appalachia.txt"
 IND = "countries/India.txt"
 PEN = "countries/New Germany.txt"
@@ -416,6 +416,9 @@ OSS = "countries/Ossetia.txt"
 KAB = "countries/Kabardino-Balkaria.txt"
 KAC = "countries/Karachay-Cherkessia.txt"
 KUM = "countries/Kumyk.txt"
+
+# Releasable in Seattle People's Revolt
+PRM = "countries/Pacific Northwest.txt" # Seattle Red Militia
 
 
 

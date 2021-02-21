@@ -1,0 +1,67 @@
+######################
+##WASTELANDER EVENTS##
+##  MADE BY NateDog ##
+######################
+
+add_namespace = SEQ
+
+# Scavenging Outcomes
+# Succesful Outcome
+country_event = {
+	id = SEQ.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SEQ.1"}
+	title = SEQ.1.t
+	desc = SEQ.1.d
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+
+	option = {
+		name = SEQ.1.a
+		add_to_variable = {
+				var = seq_sarin_gas
+				value = 5
+		}
+		add_to_variable = {
+				var = seq_vx_gas
+				value = 5
+		}
+		subtract_from_variable = {
+				var = seq_broken_arrow_wmd_stock
+				value = 5
+		}
+		custom_effect_tooltip = SEQ_Successful_Scavenging_tt
+	}
+}
+
+# Unsuccesful Outcome
+country_event = {
+	id = SEQ.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SEQ.2"}
+	title = SEQ.2.t
+	desc = SEQ.2.d
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+
+	option = {
+		name = SEQ.2.a
+		add_manpower = -500
+	}
+}
+
+# Factories of Death
+country_event = {
+	id = SEQ.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SEQ.3"}
+	title = SEQ.3.t
+	desc = SEQ.3.d
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+
+	option = {
+		name = SEQ.3.a
+		add_manpower = -500
+	}
+}
