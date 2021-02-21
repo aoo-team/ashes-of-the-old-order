@@ -39,7 +39,7 @@ SEA_debug = {
 		cost = 0
 
 		complete_effect = {
-			load_focus_tree = Sawant_Intial
+			load_focus_tree = Sawant_First_Term
 		}
 	}
 }
