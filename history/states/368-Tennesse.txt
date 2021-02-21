@@ -14,12 +14,13 @@ state={
 
 		}
 		add_core_of = NSH
-		victory_points = {
-			12670 1 
-		}
 		
 		victory_points = {
-			1758 1 
+			1758 10
+		}
+
+		victory_points = {
+			5059 10
 		}
 
 	}
