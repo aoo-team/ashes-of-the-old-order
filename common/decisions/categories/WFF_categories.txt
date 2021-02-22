@@ -5,10 +5,9 @@ WFF_elections = {
 	}
 }
 
-WFF_debug = {
+WFF_reintegrating_america = {
 	icon = generic_research
 	allowed = {
 		original_tag = WDC
-		is_debug = yes
 	}
 }

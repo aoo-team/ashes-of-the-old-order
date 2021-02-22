@@ -5,7 +5,7 @@
 ### Starting Focus Tree
 
 focus_tree = {
-	id = wff_starting_focus_tree
+	id = WFF_focus_tree
 	country = {
 		factor = 0
 		modifier = {
@@ -14,1050 +14,433 @@ focus_tree = {
         }
 	}
 	default = no
-	shared_focus = WFF_Legacy_of_the_Founding_Fathers
-}
 
-shared_focus = {
-	id = WFF_Legacy_of_the_Founding_Fathers
-	icon = WFF_Legacy_of_the_Founding_Fathers
-	cost = 1
-	x = 6
-	y = 0
-	completion_reward = {
-		country_event = {id = starting_tree.1 }
+	continuous_focus_position = {
+		x = 1
+		y = 1
 	}
-}
-
-shared_focus = {
-	id = WFF_A_Bastion_of_Liberty
-	icon = WFF_A_Bastion_of_Liberty
-    prerequisite = { focus = WFF_Legacy_of_the_Founding_Fathers }
-	cost = 2
-	x = 4
-	y = 1
-	completion_reward = {
-		country_event = {id = starting_tree.2 }
-	}
-}
-
-shared_focus = {
-	id = WFF_The_Light_of_Hope
-	icon = WFF_The_Light_of_Hope
-    prerequisite = { focus = WFF_Legacy_of_the_Founding_Fathers }
-	cost = 2
-	x = 8
-	y = 1
-	completion_reward = {
-		country_event = {id = starting_tree.3 }
-	}
-}
-
-shared_focus = {
-	id = WFF_Life
-	icon = WFF_Life
-    prerequisite = { focus = WFF_A_Bastion_of_Liberty }
-    prerequisite = { focus = WFF_The_Light_of_Hope }
-	cost = 3
-	x = 2
-	y = 2
-	completion_reward = {
-		add_war_support = -0.05
-		add_stability = 0.05
-	}
-}
-
-shared_focus = {
-	id = WFF_Liberty
-	icon = WFF_Liberty
-    prerequisite = { focus = WFF_A_Bastion_of_Liberty }
-    prerequisite = { focus = WFF_The_Light_of_Hope }
-	cost = 3
-	x = 6
-	y = 2
-	completion_reward = {
-		add_ideas = WFF_A_Free_People
-		add_stability = 0.05
-	}
-}
-
-shared_focus = {
-	id = WFF_Pursuit_of_Happiness
-	icon = WFF_Pursuit_of_Happiness
-    prerequisite = { focus = WFF_A_Bastion_of_Liberty }
-    prerequisite = { focus = WFF_The_Light_of_Hope }
-	cost = 3
-	x = 10
-	y = 2
-	completion_reward = {
-		add_war_support = -0.05
-		add_stability = 0.05
-	}
-}
-
-shared_focus = {
-	id = WFF_A_Crippled_Nation
-	icon = WFF_A_Crippled_Nation
-    prerequisite = { focus = WFF_Pursuit_of_Happiness }
-    prerequisite = { focus = WFF_Liberty }
-    prerequisite = { focus = WFF_Life }
-	cost = 3
-	x = 4
-	y = 3
-	completion_reward = {
-		country_event = {id = starting_tree.4 }
-	}
-}
-
-shared_focus = {
-	id = WFF_The_American_Dream
-	icon = WFF_The_American_Dream
-    prerequisite = { focus = WFF_Pursuit_of_Happiness }
-    prerequisite = { focus = WFF_Liberty }
-    prerequisite = { focus = WFF_Life }
-	cost = 3
-	x = 8
-	y = 3
-	completion_reward = {
-		country_event = {id = starting_tree.5 }
-	}
-}
-
-shared_focus = {
-	id = WFF_A_Failed_Union
-	icon = WFF_A_Failed_Union
-    prerequisite = { focus = WFF_A_Crippled_Nation }
-	cost = 3
-	x = 2
-	y = 4
-	completion_reward = {
-		add_stability = -0.05
-		add_war_support = -0.10
-	}
-}
-
-shared_focus = {
-	id = WFF_Liberty_and_Justice_for_All
-	icon = WFF_Liberty_and_Justice_for_All
-    prerequisite = { focus = WFF_The_American_Dream }
-	cost = 3
-	x = 10
-	y = 4
-	completion_reward = {
-		add_stability = 0.05
-		add_ideas = WFF_Liberty_for_All
-	}
-}
-
-shared_focus = {
-	id = WFF_What_Little_We_Have_Left
-	icon = WFF_What_Little_We_Have_Left
-    prerequisite = { focus = WFF_Liberty_and_Justice_for_All }
-    prerequisite = { focus = WFF_A_Failed_Union }
-	cost = 5
-	x = 6
-	y = 5
-	completion_reward = {
-		load_focus_tree = born_in_fire_tree
-	}
-}
-
-### Born in the Fire Focus Tree (Beginning)
-
-focus_tree = {
-	id = born_in_fire_tree
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = WDC
-        }
-	}
-	default = no
-	shared_focus = WFF_Born_in_the_Fire
-}
-
-shared_focus = {
-	id = WFF_Born_in_the_Fire
-	icon = WFF_Born_in_the_Fire
-	cost = 1
-	x = 8
-	y = 0
-	completion_reward = {
-		country_event = {id = born_in_the_fire.1 }
-	}
-}
-
-shared_focus = {
-	id = WFF_Separatist_Movements
-	icon = WFF_Separatist_Movements
-	prerequisite = { focus = WFF_Born_in_the_Fire }
-	cost = 2
-	x = 4
-	y = 1
-	completion_reward = {
-		add_war_support = 0.1
-		add_ideas = WFF_Separatist_Attacks
-	}
-}
-
-shared_focus = {
-	id = WFF_The_Binding_Union
-	icon = WFF_The_Binding_Union
-	prerequisite = { focus = WFF_Born_in_the_Fire }
-	cost = 2
-	x = 12
-	y = 1
-	completion_reward = {
-		country_event = {id = born_in_the_fire.2 }
-	}
-}
-
-shared_focus = {
-	id = WFF_Helens_in_the_North
-	icon = WFF_Helens_in_the_North
-	prerequisite = { focus = WFF_Separatist_Movements }
-	cost = 3
-	x = 2
-	y = 2
-	completion_reward = {
-		add_stability = -0.03
-	}
-}
-
-shared_focus = {
-	id = WFF_I_Dont_Know
-	icon = WFF_I_Dont_Know
-	prerequisite = { focus = WFF_Separatist_Movements }
-	cost = 3
-	x = 6
-	y = 2
-	completion_reward = {
-		add_stability = -0.03
-	}
-}
-
-shared_focus = {
-	id = WFF_A_Dream_Built_1775
-	icon = WFF_A_Dream_Built_1775
-	prerequisite = { focus = WFF_The_Binding_Union }
-	cost = 3
-	x = 10
-	y = 2
-	completion_reward = {
-		country_event = {id = born_in_the_fire.3 }
-	}
-}
-
-shared_focus = {
-	id = WFF_Founded_in_1870
-	icon = WFF_Founded_in_1870
-	prerequisite = { focus = WFF_The_Binding_Union }
-	cost = 3
-	x = 14
-	y = 2
-	completion_reward = {
-		country_event = {id = born_in_the_fire.4 }
-	}
-}
-
-shared_focus = {
-	id = WFF_Widespread_Famine
-	icon = WFF_Widespread_Famine
-	prerequisite = { focus = WFF_Helens_in_the_North }
-	prerequisite = { focus = WFF_I_Dont_Know }
-	cost = 3
-	x = 2
-	y = 3
-	completion_reward = {
-		add_ideas = WFF_famines
-	}
-}
-
-shared_focus = {
-	id = WFF_Calm_Down_the_Populace
-	icon = WFF_Calm_Down_the_Populace
-	prerequisite = { focus = WFF_Helens_in_the_North }
-	prerequisite = { focus = WFF_I_Dont_Know }
-	cost = 3
-	x = 4
-	y = 3
-	completion_reward = {
-		add_stability = 0.05
-	}
-}
-
-shared_focus = {
-	id = WFF_Continuous_Raids
-	icon = WFF_Continuous_Raids
-	prerequisite = { focus = WFF_Helens_in_the_North }
-	prerequisite = { focus = WFF_I_Dont_Know }
-	cost = 3
-	x = 6
-	y = 3
-	completion_reward = {
-		add_ideas = WFF_Raids
-	}
-}
-
-shared_focus = {
-	id = WFF_Legacy_of_the_Fathers
-	icon = WFF_Legacy_of_the_Fathers
-	prerequisite = { focus = WFF_A_Dream_Built_1775 }
-	prerequisite = { focus = WFF_Founded_in_1870 }
-	cost = 3
-	x = 10
-	y = 3
-	completion_reward = {
-		country_event = {id = born_in_the_fire.5 }
-	}
-}
-
-shared_focus = {
-	id = WFF_Our_Duty
-	icon = WFF_Our_Duty
-	prerequisite = { focus = WFF_A_Dream_Built_1775 }
-	prerequisite = { focus = WFF_Founded_in_1870 }
-	cost = 3
-	x = 12
-	y = 3
-	completion_reward = {
-		add_ideas = WFF_Duty
-	}
-}
-
-shared_focus = {
-	id = WFF_Legacy_of_the_Dream
-	icon = WFF_Legacy_of_the_Dream
-	prerequisite = { focus = WFF_A_Dream_Built_1775 }
-	prerequisite = { focus = WFF_Founded_in_1870 }
-	cost = 3
-	x = 14
-	y = 3
-	completion_reward = {
-		country_event = {id = born_in_the_fire.6 }
-	}
-}
-
-shared_focus = {
-	id = WFF_Agricultural_Innovations
-	icon = WFF_Agricultural_Innovations
-	prerequisite = { focus = WFF_Widespread_Famine }
-	prerequisite = { focus = WFF_Calm_Down_the_Populace }
-	prerequisite = { focus = WFF_Continuous_Raids }
-	cost = 3
-	x = 2
-	y = 4
-	completion_reward = {
-		remove_ideas = WFF_famines
-		add_stability = 0.05
-	}
-}
-
-shared_focus = {
-	id = WFF_Fighting_Fire_with_Fire
-	icon = WFF_Fighting_Fire_with_Fire
-	prerequisite = { focus = WFF_Widespread_Famine }
-	prerequisite = { focus = WFF_Calm_Down_the_Populace }
-	prerequisite = { focus = WFF_Continuous_Raids }
-	cost = 3
-	x = 6
-	y = 4
-	completion_reward = {
-		add_war_support = 0.1
-	}
-}
-
-shared_focus = {
-	id = WFF_A_Divided_Union
-	icon = WFF_A_Divided_Union
-	prerequisite = { focus = WFF_Legacy_of_the_Fathers }
-	prerequisite = { focus = WFF_Our_Duty }
-	prerequisite = { focus = WFF_Legacy_of_the_Dream }
-	cost = 3
-	x = 10
-	y = 4
-	completion_reward = {
-		add_stability = -0.05
-		add_ideas = WFF_Divided
-	}
-}
-
-shared_focus = {
-	id = WFF_Republicans_vs_Democrats
-	icon = WFF_Republicans_vs_Democrats
-	prerequisite = { focus = WFF_Legacy_of_the_Fathers }
-	prerequisite = { focus = WFF_Our_Duty }
-	prerequisite = { focus = WFF_Legacy_of_the_Dream }
-	cost = 3
-	x = 14
-	y = 4
-	completion_reward = {
-		country_event = {id = born_in_the_fire.7 }
-	}
-}
-
-shared_focus = {
-	id = WFF_A_Looming_Problem
-	icon = WFF_A_Looming_Problem
-	prerequisite = { focus = WFF_Agricultural_Innovations }
-	prerequisite = { focus = WFF_Fighting_Fire_with_Fire }
-	cost = 2
-	x = 4
-	y = 5
-	completion_reward = {
-		add_stability = -0.05
-	}
-}
-
-shared_focus = {
-	id = WFF_Held_Together_with_Tape
-	icon = WFF_Held_Together_with_Tape
-	prerequisite = { focus = WFF_A_Divided_Union }
-	prerequisite = { focus = WFF_Republicans_vs_Democrats }
-	cost = 2
-	x = 12
-	y = 5
-	completion_reward = {
-		add_stability = 0.03
-	}
-}
-
-shared_focus = {
-	id = WFF_Separatist_Movements_Increasing
-	icon = WFF_Separatist_Movements_Increasing
-	prerequisite = { focus = WFF_A_Looming_Problem }
-	prerequisite = { focus = WFF_Held_Together_with_Tape }
-	cost = 5
-	x = 8
-	y = 6
-	completion_reward = {
-		custom_effect_tooltip = wff_bitf_tt_1
-	}
-}
-
-shared_focus = {
-	id = WFF_The_Uncertain_Future
-	icon = WFF_The_Uncertain_Future
-	prerequisite = { focus = WFF_Separatist_Movements_Increasing }
-	cost = 5
-	x = 8
-	y = 7
-	completion_reward = {
-		custom_effect_tooltip = wff_bitf_tt_2
-		hidden_effect = {
-			load_focus_tree = the_great_troubles_tree
+	
+	focus = {
+		id = WFF_A_New_Chapter
+		icon = GFX_goal_unknown
+		x = 10
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			country_event = wff.1
 		}
 	}
-}
 
-### The Great Troubles Focus Tree
-
-focus_tree = {
-	id = the_great_troubles_tree
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = WDC
-        }
+	focus = {
+		id = WFF_State_of_the_Union
+		icon = GFX_goal_unknown
+		x = 10
+		y = 1
+		cost = 5
+		prerequisite = { focus = WFF_A_New_Chapter }
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			country_event = wff.2
+			add_stability = 0.03
+		}
 	}
-	default = no
-	shared_focus = WFF_The_Great_Troubles
-}
 
-shared_focus = {
-	id = WFF_The_Great_Troubles
-	icon = WFF_The_Great_Troubles
-	cost = 3
-	x = 6
-	y = 0
-	completion_reward = {
-		
+	focus = {
+		id = WFF_Mounting_Pressures
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		cost = 5
+		prerequisite = { focus = WFF_State_of_the_Union }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = wff.3
+			add_war_support = 0.03
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_Separatism
-	icon = WFF_Separatism
-	prerequisite = { focus = WFF_The_Great_Troubles }
-	cost = 3
-	x = 4
-	y = 1
-	completion_reward = {
-		
+	focus = {
+		id = WFF_Respond_With_Force
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 10
+		mutually_exclusive = {
+			focus = WFF_Democracy_Shall_Prevail
+		}
+		prerequisite = { focus = WFF_Mounting_Pressures }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_Unionism
-	icon = WFF_Unionism
-	prerequisite = { focus = WFF_The_Great_Troubles }
-	cost = 3
-	x = 8
-	y = 1
-	completion_reward = {
-		
+	focus = {
+		id = WFF_Democracy_Shall_Prevail
+		icon = GFX_goal_unknown
+		x = 12
+		y = 3
+		cost = 10
+		prerequisite = { focus = WFF_Mounting_Pressures }
+		mutually_exclusive = {
+			focus = WFF_Respond_With_Force
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_Another_Failed_Union
-	icon = WFF_Another_Failed_Union
-	prerequisite = { focus = WFF_Separatism }
-	prerequisite = { focus = WFF_Unionism }
-	cost = 3
-	x = 4
-	y = 2
-	completion_reward = {
-		
+	focus = {
+		id = WFF_Milleys_Coup
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		cost = 5
+		prerequisite = { focus = WFF_Respond_With_Force }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = authdem
+				popularity = 0.15
+			}
+			set_politics = {
+				ruling_party = authdem
+			}
+			create_country_leader = {
+				name = "Mark Milley"
+				desc = "POLITICS_MARK_MILLEY_DESC"
+				picture = "WFF_General_Mark_Milley.dds"
+				expire = "1965.1.1"
+				ideology = semi_dictator
+				traits = {
+					
+				}
+			}
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_Crushing_the_Separatists
-	icon = WFF_Crushing_the_Separatists
-	prerequisite = { focus = WFF_Separatism }
-	prerequisite = { focus = WFF_Unionism }
-	cost = 3
-	x = 6
-	y = 2
-	completion_reward = {
-		
+	focus = {
+		id = WFF_Consolidating_Power
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		cost = 5
+		prerequisite = { focus = WFF_Respond_With_Force }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = authdem
+				popularity = 0.15
+			}
+			add_stability = 0.10
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_A_Union_Held_Together
-	icon = WFF_A_Union_Held_Together
-	prerequisite = { focus = WFF_Separatism }
-	prerequisite = { focus = WFF_Unionism }
-	cost = 3
-	x = 8
-	y = 2
-	completion_reward = {
-		
+	focus = {
+		id = WFF_The_Next_Step
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 10
+		available = {
+			NOT = { country_exists = HEL }
+		}
+		prerequisite = { focus = WFF_Milleys_Coup }
+		prerequisite = { focus = WFF_Consolidating_Power }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support = 0.15
+			country_event = wff.4
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_Our_Loss
-	icon = WFF_Our_Loss
-	prerequisite = { focus = WFF_Another_Failed_Union }
-	cost = 3
-	x = 2
-	y = 3
-	completion_reward = {
-		
+	focus = {
+		id = WFF_Operation_Snow_Tiger
+		icon = GFX_goal_unknown
+		x = 7
+		y = 6
+		cost = 5
+		prerequisite = { focus = WFF_The_Next_Step }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = DAK
+			}
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_Blood_and_Fire
-	icon = WFF_Blood_and_Fire
-	prerequisite = { focus = WFF_Crushing_the_Separatists }
-	cost = 3
-	x = 6
-	y = 3
-	completion_reward = {
-		
+	focus = {
+		id = WFF_Operation_Emerald_Hammer
+		icon = GFX_goal_unknown
+		x = 9
+		y = 6
+		cost = 5
+		prerequisite = { focus = WFF_The_Next_Step }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = NEB
+			}
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_Our_Pride
-	icon = WFF_Our_Pride
-	prerequisite = { focus = WFF_A_Union_Held_Together }
-	cost = 3
-	x = 10
-	y = 3
-	completion_reward = {
-		
+	focus = {
+		id = WFF_Operation_Mountain_Storm
+		icon = GFX_goal_unknown
+		x = 7
+		y = 7
+		cost = 5
+		available = {
+			NOT = { country_exists = DAK }
+			NOT = { country_exists = NEB }
+		}
+		prerequisite = { focus = WFF_Operation_Snow_Tiger }
+		prerequisite = { focus = WFF_Operation_Emerald_Hammer }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = COC
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = WYW
+			}
+		}
 	}
-}
 
-### A Dissolving Union Focus Tree
-
-focus_tree = {
-	id = dissolving_union_focus_tree
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = WDC
-        }
+	focus = {
+		id = WFF_Operation_Ice_Breaker
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 5
+		available = {
+			NOT = { country_exists = DAK }
+			NOT = { country_exists = NEB }
+		}
+		prerequisite = { focus = WFF_Operation_Snow_Tiger }
+		prerequisite = { focus = WFF_Operation_Emerald_Hammer }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = GLR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = YWS
+			}
+		}
 	}
-	default = no
-	shared_focus = WFF_A_Dissolving_Union
-}
 
-shared_focus = {
-	id = WFF_A_Dissolving_Union
-	icon = WFF_A_Dissolving_Union
-	cost = 3
-	x = 4
-	y = 0
-	completion_reward = {
-		
+	focus = {
+		id = WFF_Operation_Black_Desert
+		icon = GFX_goal_unknown
+		x = 8
+		y = 8
+		cost = 10
+		available = {
+			NOT = { country_exists = GLR }
+			NOT = { country_exists = YWS }
+			NOT = { country_exists = COC }
+			NOT = { country_exists = WYW }
+		}
+		prerequisite = { focus = WFF_Operation_Mountain_Storm }
+		prerequisite = { focus = WFF_Operation_Ice_Breaker }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			create_wargoal = {
+				type = annex_everything
+				target = SEQ
+			}
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_The_Cold_Hard_Truth
-	icon = WFF_The_Cold_Hard_Truth
-	prerequisite = { focus = WFF_A_Dissolving_Union }
-	cost = 3
-	x = 2
-	y = 1
-	completion_reward = {
-		
+	focus = {
+		id = WFF_The_Upcoming_Election
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		cost = 5
+		prerequisite = { focus = WFF_Democracy_Shall_Prevail }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_A_Forgotten_Country
-	icon = WFF_A_Forgotten_Country
-	prerequisite = { focus = WFF_A_Dissolving_Union }
-	cost = 3
-	x = 6
-	y = 1
-	completion_reward = {
-		
+	focus = {
+		id = WFF_Campaigning_for_Victory
+		icon = GFX_goal_unknown
+		x = 13
+		y = 4
+		cost = 5
+		prerequisite = { focus = WFF_Democracy_Shall_Prevail }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_Dreams_turned_to_Nightmares
-	icon = WFF_Dreams_turned_to_Nightmares
-	prerequisite = { focus = WFF_The_Cold_Hard_Truth }
-	cost = 3
-	x = 2
-	y = 2
-	completion_reward = {
-		
+	focus = {
+		id = WFF_Election_Night
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 10
+		available = {
+			NOT = { country_exists = HEL }
+		}
+		prerequisite = { focus = WFF_The_Upcoming_Election }
+		prerequisite = { focus = WFF_Campaigning_for_Victory }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_A_Backwater
-	icon = WFF_A_Backwater
-	prerequisite = { focus = WFF_A_Forgotten_Country }
-	cost = 3
-	x = 6
-	y = 2
-	completion_reward = {
-		
+	focus = {
+		id = WFF_The_Nebraskan_Diplomat
+		icon = GFX_goal_unknown
+		x = 11
+		y = 6
+		cost = 5
+		prerequisite = { focus = WFF_Election_Night }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_Cut_off_from_Allies
-	icon = WFF_Cut_off_from_Allies
-	prerequisite = { focus = WFF_Dreams_turned_to_Nightmares }
-	prerequisite = { focus = WFF_A_Backwater }
-	cost = 3
-	x = 4
-	y = 3
-	completion_reward = {
-		
+	focus = {
+		id = WFF_Talks_with_Dakota
+		icon = GFX_goal_unknown
+		x = 13
+		y = 6
+		cost = 5
+		prerequisite = { focus = WFF_Election_Night }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_Cut_off_from_Friends
-	icon = WFF_Cut_off_from_Friends
-	prerequisite = { focus = WFF_Cut_off_from_Allies }
-	cost = 3
-	x = 4
-	y = 4
-	completion_reward = {
-		
+	focus = {
+		id = WFF_The_Colarado_Conference
+		icon = GFX_goal_unknown
+		x = 11
+		y = 7
+		cost = 5
+		available = {
+			NOT = { country_exists = DAK }
+			NOT = { country_exists = NEB }
+		}
+		prerequisite = { focus = WFF_The_Nebraskan_Diplomat }
+		prerequisite = { focus = WFF_Talks_with_Dakota }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_The_Choice
-	icon = WFF_The_Choice
-	prerequisite = { focus = WFF_Cut_off_from_Friends }
-	cost = 3
-	x = 4
-	y = 5
-	completion_reward = {
-		
+	focus = {
+		id = WFF_A_War_for_Liberation
+		icon = GFX_goal_unknown
+		x = 13
+		y = 7
+		cost = 5
+		available = {
+			NOT = { country_exists = DAK }
+			NOT = { country_exists = NEB }
+		}
+		prerequisite = { focus = WFF_The_Nebraskan_Diplomat }
+		prerequisite = { focus = WFF_Talks_with_Dakota }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = GLR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = YWS
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = WYW
+			}
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_A_Call_to_Democracy
-	icon = WFF_A_Call_to_Democracy
-	prerequisite = { focus = WFF_The_Choice }
-	mutually_exclusive = { focus = WFF_A_Call_to_our_Friends }
-	cost = 3
-	x = 2
-	y = 6
-	completion_reward = {
-		
+	focus = {
+		id = WFF_The_Scourge_of_the_Americas
+		icon = GFX_goal_unknown
+		x = 12
+		y = 8
+		cost = 10
+		available = {
+			NOT = { country_exists = GLR }
+			NOT = { country_exists = YWS }
+			NOT = { country_exists = COC }
+			NOT = { country_exists = WYW }
+		}
+		prerequisite = { focus = WFF_The_Colarado_Conference }
+		prerequisite = { focus = WFF_A_War_for_Liberation }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = SEQ
+			}
+		}
 	}
-}
 
-shared_focus = {
-	id = WFF_A_Call_to_our_Friends
-	icon = WFF_A_Call_to_our_Friends
-	prerequisite = { focus = WFF_The_Choice }
-	mutually_exclusive = { focus = WFF_A_Call_to_Democracy }
-	cost = 3
-	x = 6
-	y = 6
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_Territories_Lost
-	icon = WFF_Territories_Lost
-	prerequisite = { focus = WFF_A_Call_to_Democracy OR = WFF_A_Call_to_our_Friends }
-	cost = 3
-	x = 2
-	y = 7
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_A_Rebounding_Union
-	icon = WFF_A_Rebounding_Union
-	prerequisite = { focus = WFF_A_Call_to_our_Friends OR = WFF_A_Call_to_Democracy }
-	cost = 3
-	x = 6
-	y = 7
-	completion_reward = {
-		
-	}
-}
-
-### Fight Fire with Fire Focus Tree
-
-focus_tree = {
-	id = fight_fire_with_fire_focus_tree
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = WDC
-        }
-	}
-	default = no
-	shared_focus = WFF_Fight_Fire_with_Fire
-}
-
-shared_focus = {
-	id = WFF_Fight_Fire_with_Fire
-	icon = WFF_Fight_Fire_with_Fire
-	cost = 3
-	x = 6
-	y = 0
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_Brother_vs_Brother
-	icon = WFF_Brother_vs_Brother
-	prerequisite = { focus = WFF_Fight_Fire_with_Fire }
-	cost = 3
-	x = 4
-	y = 1
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_For_God_and_Country
-	icon = WFF_For_God_and_Country
-	prerequisite = { focus = WFF_Fight_Fire_with_Fire }
-	cost = 3
-	x = 8
-	y = 1
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_A_Quest_For_Order
-	icon = WFF_A_Quest_For_Order
-	prerequisite = { focus = WFF_Brother_vs_Brother }
-	prerequisite = { focus = WFF_For_God_and_Country }
-	cost = 3
-	x = 6
-	y = 2
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_We_Must_Teach_Those_Traitors
-	icon = WFF_We_Must_Teach_Those_Traitors
-	prerequisite = { focus = WFF_A_Quest_For_Order }
-	mutually_exclusive = { focus = WFF_For_Liberty_Democracy_and_Freedom }
-	cost = 3
-	x = 4
-	y = 3
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_For_Liberty_Democracy_and_Freedom
-	icon = WFF_For_Liberty_Democracy_and_Freedom
-	prerequisite = { focus = WFF_A_Quest_For_Order }
-	mutually_exclusive = { focus = WFF_We_Must_Teach_Those_Traitors }
-	cost = 3
-	x = 8
-	y = 3
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_Taking_Back_Territory
-	icon = WFF_Taking_Back_Territory
-	prerequisite = { focus = WFF_We_Must_Teach_Those_Traitors OR = WFF_For_Liberty_Democracy_and_Freedom }
-	cost = 3
-	x = 6
-	y = 4
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_A_Country_Needs_an_Authority
-	icon = WFF_A_Country_Needs_an_Authority
-	prerequisite = { focus = WFF_We_Must_Teach_Those_Traitors }
-	cost = 3
-	x = 4
-	y = 5
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_Support_from_within_Helena
-	icon = WFF_Support_from_within_Helena
-	prerequisite = { focus = WFF_Taking_Back_Territory }
-	cost = 3
-	x = 6
-	y = 5
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_A_Country_Needs_Inalienable_Rights
-	icon = WFF_A_Country_Needs_Inalienable_Rights
-	prerequisite = { focus = WFF_For_Liberty_Democracy_and_Freedom }
-	cost = 3
-	x = 8
-	y = 5
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_We_Fought_But_to_No_Avail
-	icon = WFF_We_Fought_But_to_No_Avail
-	prerequisite = { focus = WFF_A_Country_Needs_an_Authority OR = WFF_A_Country_Needs_Inalienable_Rights }
-	prerequisite = { focus = WFF_Support_from_within_Helena }
-	cost = 3
-	x = 4
-	y = 6
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_Through_Fire_Blood_Sweat_and_Tears
-	icon = WFF_Through_Fire_Blood_Sweat_and_Tears
-	prerequisite = { focus = WFF_A_Country_Needs_an_Authority OR = WFF_A_Country_Needs_Inalienable_Rights }
-	prerequisite = { focus = WFF_Support_from_within_Helena }
-	cost = 3
-	x = 8
-	y = 6
-	completion_reward = {
-		
-	}
-}
-
-### Democracy Reigns Supreme Focus Tree
-
-focus_tree = {
-	id = democracy_reigns_supreme
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = WDC
-        }
-	}
-	default = no
-	shared_focus = WFF_Democracy_Reigns_Supreme
-}
-
-shared_focus = {
-	id = WFF_Democracy_Reigns_Supreme
-	icon = WFF_Democracy_Reigns_Supreme
-	cost = 3
-	x = 8
-	y = 0
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_They_Listened_To_Reason
-	icon = WFF_They_Listened_To_Reason
-	prerequisite = { focus = WFF_Democracy_Reigns_Supreme }
-	cost = 3
-	x = 6
-	y = 1
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_They_Saw_Our_Freedom
-	icon = WFF_They_Saw_Our_Freedom
-	prerequisite = { focus = WFF_Democracy_Reigns_Supreme }
-	cost = 3
-	x = 10
-	y = 1
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_Economic_Benefit
-	icon = WFF_Economic_Benefit
-	prerequisite = { focus = WFF_They_Listened_To_Reason }
-	prerequisite = { focus = WFF_They_Saw_Our_Freedom }
-	cost = 3
-	x = 4
-	y = 2
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_A_More_Democratic_Approach
-	icon = WFF_A_More_Democratic_Approach
-	prerequisite = { focus = WFF_They_Listened_To_Reason }
-	prerequisite = { focus = WFF_They_Saw_Our_Freedom }
-	cost = 3
-	x = 8
-	y = 2
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_Political_Benefit
-	icon = WFF_Political_Benefit
-	prerequisite = { focus = WFF_They_Listened_To_Reason }
-	prerequisite = { focus = WFF_They_Saw_Our_Freedom }
-	cost = 3
-	x = 12
-	y = 2
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_The_Economic_Miracle
-	icon = WFF_The_Economic_Miracle
-	prerequisite = { focus = WFF_Economic_Benefit }
-	cost = 3
-	x = 6
-	y = 3
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_The_Political_Miracle
-	icon = WFF_The_Political_Miracle
-	prerequisite = { focus = WFF_Political_Benefit }
-	cost = 3
-	x = 10
-	y = 3
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_Economy_of_the_Future
-	icon = WFF_Economy_of_the_Future
-	prerequisite = { focus = WFF_The_Economic_Miracle }
-	cost = 3
-	x = 4
-	y = 4
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_Our_Morals
-	icon = WFF_Our_Morals
-	prerequisite = { focus = WFF_A_More_Democratic_Approach }
-	cost = 3
-	x = 8
-	y = 4
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_The_Government_of_the_Future
-	icon = WFF_The_Government_of_the_Future
-	prerequisite = { focus = WFF_The_Political_Miracle }
-	cost = 3
-	x = 12
-	y = 4
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = WFF_A_Forgotten_Name
-	icon = WFF_A_Forgotten_Name
-	prerequisite = { focus = WFF_Economy_of_the_Future }
-	prerequisite = { focus = WFF_Our_Morals }
-	prerequisite = { focus = WFF_The_Government_of_the_Future }
-	cost = 3
-	x = 8
-	y = 5
-	completion_reward = {
-		
-	}
 }

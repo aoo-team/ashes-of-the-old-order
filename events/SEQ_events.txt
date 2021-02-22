@@ -49,3 +49,19 @@ country_event = {
 		add_manpower = -500
 	}
 }
+
+# Factories of Death
+country_event = {
+	id = SEQ.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SEQ.3"}
+	title = SEQ.3.t
+	desc = SEQ.3.d
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+
+	option = {
+		name = SEQ.3.a
+		add_manpower = -500
+	}
+}
