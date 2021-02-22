@@ -30,7 +30,7 @@ focus_tree = {
 			factor = 400
 		}
 		completion_reward = {
-			
+			country_event = wff.1
 		}
 	}
 
@@ -45,7 +45,8 @@ focus_tree = {
 			factor = 400
 		}
 		completion_reward = {
-			
+			country_event = wff.2
+			add_stability = 0.03
 		}
 	}
 
@@ -60,7 +61,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			
+			country_event = wff.3
+			add_war_support = 0.03
 		}
 	}
 
@@ -71,7 +73,7 @@ focus_tree = {
 		y = 3
 		cost = 10
 		mutually_exclusive = {
-			focus = WFF_Respond_With_Force
+			focus = WFF_Democracy_Shall_Prevail
 		}
 		prerequisite = { focus = WFF_Mounting_Pressures }
 		ai_will_do = {
@@ -111,7 +113,23 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = authdem
+				popularity = 0.15
+			}
+			set_politics = {
+				ruling_party = authdem
+			}
+			create_country_leader = {
+				name = "Mark Milley"
+				desc = "POLITICS_MARK_MILLEY_DESC"
+				picture = "WFF_General_Mark_Milley.dds"
+				expire = "1965.1.1"
+				ideology = semi_dictator
+				traits = {
+					
+				}
+			}
 		}
 	}
 
@@ -126,7 +144,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = authdem
+				popularity = 0.15
+			}
+			add_stability = 0.10
 		}
 	}
 
@@ -135,14 +157,18 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 8
 		y = 5
-		cost = 5
+		cost = 10
+		available = {
+			NOT = { country_exists = HEL }
+		}
 		prerequisite = { focus = WFF_Milleys_Coup }
 		prerequisite = { focus = WFF_Consolidating_Power }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			
+			add_war_support = 0.15
+			country_event = wff.4
 		}
 	}
 
@@ -158,7 +184,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			create_wargoal = {
-				type = annex_wargoal_focus
+				type = annex_everything
 				target = DAK
 			}
 		}
@@ -176,7 +202,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			create_wargoal = {
-				type = annex_wargoal_focus
+				type = annex_everything
 				target = NEB
 			}
 		}
@@ -199,11 +225,11 @@ focus_tree = {
 		}
 		completion_reward = {
 			create_wargoal = {
-				type = annex_wargoal_focus
+				type = annex_everything
 				target = COC
 			}
 			create_wargoal = {
-				type = annex_wargoal_focus
+				type = annex_everything
 				target = WYW
 			}
 		}
@@ -226,11 +252,11 @@ focus_tree = {
 		}
 		completion_reward = {
 			create_wargoal = {
-				type = annex_wargoal_focus
+				type = annex_everything
 				target = GLR
 			}
 			create_wargoal = {
-				type = annex_wargoal_focus
+				type = annex_everything
 				target = YWS
 			}
 		}
@@ -241,7 +267,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 8
 		y = 8
-		cost = 5
+		cost = 10
 		available = {
 			NOT = { country_exists = GLR }
 			NOT = { country_exists = YWS }
@@ -254,6 +280,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_war_support = 0.05
 			create_wargoal = {
 				type = annex_everything
 				target = SEQ
@@ -296,7 +323,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 12
 		y = 5
-		cost = 5
+		cost = 10
+		available = {
+			NOT = { country_exists = HEL }
+		}
 		prerequisite = { focus = WFF_The_Upcoming_Election }
 		prerequisite = { focus = WFF_Campaigning_for_Victory }
 		ai_will_do = {
@@ -374,15 +404,15 @@ focus_tree = {
 		}
 		completion_reward = {
 			create_wargoal = {
-				type = annex_wargoal_focus
+				type = annex_everything
 				target = GLR
 			}
 			create_wargoal = {
-				type = annex_wargoal_focus
+				type = annex_everything
 				target = YWS
 			}
 			create_wargoal = {
-				type = annex_wargoal_focus
+				type = annex_everything
 				target = WYW
 			}
 		}
@@ -393,7 +423,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 12
 		y = 8
-		cost = 5
+		cost = 10
 		available = {
 			NOT = { country_exists = GLR }
 			NOT = { country_exists = YWS }

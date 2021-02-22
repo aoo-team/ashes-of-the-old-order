@@ -54,7 +54,7 @@
  WFF_Operation_Black_Desert:0 "Operation Black Desert"
  WFF_The_Upcoming_Election:0 "The Upcoming Election"
  WFF_Campaigning_for_Victory:0 "Campaigning for Victory"
- WFF_Election_Night:0 "Election Nights"
+ WFF_Election_Night:0 "Election Night"
  WFF_The_Nebraskan_Diplomat:0 "The Nebraskan Diplomat"
  WFF_Talks_with_Dakota:0 "Talks with Dakota"
  WFF_The_Colarado_Conference:0 "The Colorado Conference"
@@ -116,3 +116,20 @@
  born_in_the_fire.7.t:0 "The Constant Struggle"
  born_in_the_fire.7.d:0 ""
  born_in_the_fire.7.a:0 ""
+ 
+ wff.1.t:0 "A New America"
+ wff.1.d:0 "PLACEHOLDER"
+ wff.1.a:0 "PLACEHOLDER"
+
+ wff.2.t:0 "The Status Quo"
+ wff.2.d:0 "PLACEHOLDER"
+ wff.2.a:0 "PLACEHOLDER"
+
+ wff.3.t:0 "The Northern Revolt"
+ wff.3.d:0 "PLACEHOLDER"
+ wff.3.a:0 "PLACEHOLDER"
+ wff.3.b:0 "PLACEHOLDER"
+
+ wff.4.t:0 "The Next Chapter"
+ wff.4.d:0 "PLACEHOLDER"
+ wff.4.a:0 "PLACEHOLDER"
