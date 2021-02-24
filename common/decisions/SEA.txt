@@ -58,4 +58,86 @@ SEA_Port_Trade = {
 
 SEA_Sawants_One_Year_Plan = {
 
+	SEA_SOYP_Living_Wages = {
+		allowed = { tag = SEA }
+		fire_only_once = yes
+		cost = 50
+		visible = {
+		
+		}
+		available = {
+			
+			}
+		days_remove = 30
+		remove_effect = {
+		complete_effect = {
+			}
+	}
+	
+	SEA_SOYP_Worker_Safe_Spaces = {
+		allowed = { tag = SEA }
+		fire_only_once = yes
+		cost = 50
+		visible = {
+		
+		}
+		available = {
+			
+			}
+		days_remove = 30
+		remove_effect = {
+		complete_effect = {
+			}
+	}
+
+	SEA_SOYP_Worker_4_Hour_Work_Weeks = {
+		allowed = { tag = SEA }
+		fire_only_once = yes
+		cost = 50
+		visible = {
+		
+		}
+		available = {
+			
+			}
+		days_remove = 30
+		remove_effect = {
+		complete_effect = {
+			}
+	}
+	
+	SEA_SOYP_Worker_Anti_Discrimination_Comittee = {
+		allowed = { tag = SEA }
+		fire_only_once = yes
+		cost = 50
+		visible = {
+		
+		}
+		available = {
+			
+			}
+		days_remove = 30
+		remove_effect = {
+		complete_effect = {
+			}
+	}
+	
+	SEA_SOYP_Worker_Gender_Quotas = {
+		allowed = { tag = SEA }
+		fire_only_once = yes
+		cost = 50
+		visible = {
+		
+		}
+		available = {
+			
+			}
+		days_remove = 30
+		remove_effect = {
+		complete_effect = {
+			}
+	}
+
+
+
 }

@@ -35,3 +35,33 @@ country_event = {
 		name = SEA.2.a
 	}
 }
+
+# Discord within Unity
+country_event = {
+	id = SEA.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SEA.3"}
+	title = SEA.3.t
+	desc = SEA.3.d
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+
+	option = {
+		name = SEA.3.a
+	}
+}
+
+# The Red Milita
+country_event = {
+	id = SEA.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SEA.4"}
+	title = SEA.4.t
+	desc = SEA.4.d
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+
+	option = {
+		name = SEA.4.a
+	}
+}
