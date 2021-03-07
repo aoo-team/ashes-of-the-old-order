@@ -1,6 +1,16 @@
+# ________  ________  ___       __   ________  ________   _________  ________           ________ ___  ________  ________  _________        _________  _______   ________  _____ ______      
+#|\   ____\|\   __  \|\  \     |\  \|\   __  \|\   ___  \|\___   ___\\   ____\         |\  _____\\  \|\   __  \|\   ____\|\___   ___\     |\___   ___\\  ___ \ |\   __  \|\   _ \  _   \    
+#\ \  \___|\ \  \|\  \ \  \    \ \  \ \  \|\  \ \  \\ \  \|___ \  \_\ \  \___|_        \ \  \__/\ \  \ \  \|\  \ \  \___|\|___ \  \_|     \|___ \  \_\ \   __/|\ \  \|\  \ \  \\\__\ \  \   
+# \ \_____  \ \   __  \ \  \  __\ \  \ \   __  \ \  \\ \  \   \ \  \ \ \_____  \        \ \   __\\ \  \ \   _  _\ \_____  \   \ \  \           \ \  \ \ \  \_|/_\ \   _  _\ \  \\|__| \  \  
+#  \|____|\  \ \  \ \  \ \  \|\__\_\  \ \  \ \  \ \  \\ \  \   \ \  \ \|____|\  \        \ \  \_| \ \  \ \  \\  \\|____|\  \   \ \  \           \ \  \ \ \  \_|\ \ \  \\  \\ \  \    \ \  \ 
+#    ____\_\  \ \__\ \__\ \____________\ \__\ \__\ \__\\ \__\   \ \__\  ____\_\  \        \ \__\   \ \__\ \__\\ _\ ____\_\  \   \ \__\           \ \__\ \ \_______\ \__\\ _\\ \__\    \ \__\
+#   |\_________\|__|\|__|\|____________|\|__|\|__|\|__| \|__|    \|__| |\_________\        \|__|    \|__|\|__|\|__|\_________\   \|__|            \|__|  \|_______|\|__|\|__|\|__|     \|__|
+#   \|_________|                                                       \|_________|                               \|_________|                                                              
+# By EnlightenedCentrist                                                                                                                                                                        
+### Starting Focus Tree
+
 focus_tree = {
-	id = sawant
-	continuous_focus_position = { x = 0 y = 1000 } 
+	id = Sawant_Initial
 	country = {
 		factor = 0
 		modifier = {
@@ -8,232 +18,245 @@ focus_tree = {
 			tag = SEA
 		}
 	}
-	#Sawant's Chairmanship
-	focus = {
-		id = SEA_sawants_chairmanship
-		icon = GFX_SEA_sawants_chairmanship-445
-		x = 3
-		y = 0
-		cost = 4
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SEA_sawants_chairmanship"
-			custom_effect_tooltip = SEA_sawants_chairmanship_tooltip
-			hidden_effect = {
-				SEA = {
-					country_event = { id = SEA.1 }
-				}
-			}
-		}
-	}
 
-	#Power to the People!
-	focus = {
-		id = SEA_power_to_the_people
-		icon = GFX_SEA_power_to_the_people-445
-		x = 3
-		y = 1
-		cost = 4
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_sawants_chairmanship  }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SEA_power_to_the_people"
-			country_event = {id = SEA.2}
-			custom_effect_tooltip = SEA_power_to_the_people_tt
-		}
+shared_focus = {
+	id = SEA_sawants_chairmanship
+	icon = SEA_sawants_chairmanship
+	cost = 1
+	x = 8
+	y = 0
+	completion_reward = {
+		country_event = {id = SEA.1 }
 	}
+}
 
-	#Sawant's 1 Year Plan
-	focus = {
-		id = SEA_sawants_1_year_plan
-		icon = GFX_SEA_sawants_1_year_plan-445
-		x = 1
-		y = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_power_to_the_people  }
-		completion_reward = {
-			add_stability = 0.05
-			SEA = {
-				set_country_flag = SEA_Begin_One_Year_Plan
-			}
-			custom_effect_tooltip = SEA_sawants_1_year_plan_tt
-		}
+shared_focus = {
+	id = SEA_power_to_the_people
+	icon = SEA_power_to_the_people
+    prerequisite = { focus = SEA_sawants_chairmanship }
+	cost = 2
+	x = 4
+	y = 1
+	completion_reward = {
+		country_event = {id = SEA.2 }
 	}
+}
 
-	#Nationalising the Corporations
-	focus = {
-		id = SEA_nationalising_the_corporations
-		icon = GFX_SEA_nationalising_the_corporations-445
-		x = 0
-		y = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_sawants_1_year_plan  }
+shared_focus = {
+	id = SEA_wheeling_dealing_peoples_council
+	icon = SEA_wheeling_dealing_peoples_council
+    prerequisite = { focus = SEA_sawants_chairmanship }
+	cost = 2
+	x = 8
+	y = 1
+	completion_reward = {
+		country_event = {id = SEA.3 }
 	}
+}
 
-	#Silence the Fat-Cats
-	focus = {
-		id = SEA_silence_the_fatcats
-		icon = GFX_SEA_silence_the_fatcats-445
-		x = 0
-		y = 4
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_nationalising_the_corporations  }
+shared_focus = {
+	id = SEA_reforming_red_militias
+	icon = SEA_reforming_red_militias
+    prerequisite = { focus = SEA_sawants_chairmanship }
+	cost = 2
+	x = 12
+	y = 1
+	completion_reward = {
+		country_event = {id = SEA.4 }
 	}
+}
 
-	#Create the Economic Justice Commission
-	focus = {
-		id = SEA_create_the_economic_justice_commission
-		icon = GFX_SEA_create_the_economic_justice_commission-445
-		x = 0
-		y = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_silence_the_fatcats  }
+shared_focus = {
+	id = SEA_sawants_one_year_plan
+	icon = SEA_sawants_one_year_plan
+    prerequisite = { focus = SEA_power_to_the_people }
+	cost = 2
+	x = 3
+	y = 2
+	completion_reward = {
+		set_country_flag = SEA_sawant_one_year_plan
+		custom_effect_tooltip = SEA_sawant_one_year_plan_tt
 	}
+}
 
-	#Enshrine Healthcare as Fundamental Right
-	focus = {
-		id = SEA_enshrine_healthcare_as_fundamental_right
-		icon = GFX_SEA_enshrine_healthcare_as_fundamental_right-445
-		x = 2
-		y = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_sawants_1_year_plan  }
+shared_focus = {
+	id = SEA_vision_populist_socialism
+	icon = SEA_vision_populist_socialism
+    prerequisite = { focus = SEA_power_to_the_people }
+	cost = 2
+	x = 5
+	y = 2
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
 	}
+}
 
-	#Running Dry
-	focus = {
-		id = SEA_running_dry
-		icon = GFX_SEA_running_dry-445
-		x = 4
-		y = 4
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_enshrine_healthcare_as_fundamental_right  }
+shared_focus = {
+	id = SEA_dealing_with_reactionaries_commies
+	icon = SEA_dealing_with_reactionaries_commies
+    prerequisite = { focus = SEA_wheeling_dealing_peoples_council }
+	cost = 2
+	x = 8
+	y = 2
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
 	}
+}
 
-	#Time to Pay Their Fair Share
-	focus = {
-		id = SEA_time_to_pay_their_fair_share
-		icon = GFX_SEA_time_to_pay_their_fair_share-445
-		x = 4
-		y = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_running_dry  }
+shared_focus = {
+	id = SEA_for_chairwomans_eyes_only
+	icon = SEA_for_chairwomans_eyes_only
+    prerequisite = { focus = SEA_reforming_red_militias }
+	cost = 2
+	x = 12
+	y = 2
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
 	}
+}
 
-	#Sawantcare
-	focus = {
-		id = SEA_sawantcare
-		icon = GFX_SEA_sawantcare-445
-		x = 2
-		y = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_enshrine_healthcare_as_fundamental_right  }{ focus = SEA_time_to_pay_their_fair_share  }
+shared_focus = {
+	id = SEA_cut_the_red_tape
+	icon = SEA_cut_the_red_tape
+    prerequisite = { focus = SEA_sawants_one_year_plan }
+	cost = 2
+	x = 3
+	y = 3
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
 	}
+}
 
-	#The Problem of the Autonomous Zones
-	focus = {
-		id = SEA_the_problem_of_the_autonomous_zones
-		icon = GFX_SEA_the_problem_of_the_autonomous_zones-445
-		x = 7
-		y = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_power_to_the_people  }
+shared_focus = {
+	id = SEA_peoples_executive_vs_bureacrats
+	icon = SEA_peoples_executive_vs_bureacrats
+    prerequisite = { focus = SEA_vision_populist_socialism }
+	cost = 2
+	x = 5
+	y = 3
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
 	}
+}
 
-	#Leave Them Be
-	focus = {
-		id = SEA_leave_them_be
-		icon = GFX_SEA_leave_them_be-445
-		x = 6
-		y = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_the_problem_of_the_autonomous_zones  }
-		mutually_exclusive = { focus = SEA_mobilize_the_antifascist_police  }
+shared_focus = {
+	id = SEA_meet_dubois
+	icon = SEA_meet_dubois
+    prerequisite = { focus = SEA_dealing_with_reactionaries_commies }
+	mutually_exclusive = { focus = SEA_meet_anarchist_libertarian_council }
+	cost = 2
+	x = 7
+	y = 3
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
 	}
+}
 
-	#Workers United!
-	focus = {
-		id = SEA_workers_united
-		icon = GFX_SEA_workers_united-445
-		x = 6
-		y = 4
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_leave_them_be  }
+shared_focus = {
+	id = SEA_meet_anarchist_libertarian_council
+	icon = SEA_meet_anarchist_libertarian_council
+    prerequisite = { focus = SEA_dealing_with_reactionaries_commies }
+	mutually_exclusive = { focus = SEA_meet_dubois }
+	cost = 2
+	x = 9
+	y = 3
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
 	}
+}
 
-	#Shall Never Be Divided!
-	focus = {
-		id = SEA_shall_never_be_divided
-		icon = GFX_SEA_shall_never_be_divided-445
-		x = 6
-		y = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_workers_united  }
+shared_focus = {
+	id = SEA_create_internal_security_burea
+	icon = SEA_create_internal_security_burea
+    prerequisite = { focus = SEA_for_chairwomans_eyes_only }
+	cost = 2
+	x = 11
+	y = 3
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
 	}
+}
 
-	#Mobilize the Anti-Fascist Police
-	focus = {
-		id = SEA_mobilize_the_antifascist_police
-		icon = GFX_SEA_mobilize_the_antifascist_police-445
-		x = 8
-		y = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_the_problem_of_the_autonomous_zones  }
-		mutually_exclusive = { focus = SEA_leave_them_be  }
+shared_focus = {
+	id = SEA_deal_red_youth_battalions
+	icon = SEA_deal_red_youth_battalions
+    prerequisite = { focus = SEA_for_chairwomans_eyes_only }
+	cost = 2
+	x = 13
+	y = 3
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
 	}
+}
 
-	#Clean up the Mess
-	focus = {
-		id = SEA_clean_up_the_mess
-		icon = GFX_SEA_clean_up_the_mess-445
-		x = 8
-		y = 4
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_mobilize_the_antifascist_police  }
+shared_focus = {
+	id = SEA_invoke_emergency_powers
+	icon = SEA_invoke_emergency_powers
+    prerequisite = { focus = SEA_cut_the_red_tape }
+	cost = 2
+	x = 3
+	y = 4
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
 	}
+}
 
-	#Bad PR at Seattle People's Hall
-	focus = {
-		id = SEA_bad_pr_at_seattle_peoples_hall
-		icon = GFX_SEA_bad_pr_at_seattle_peoples_hall-445
-		x = 8
-		y = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SEA_clean_up_the_mess  }
+shared_focus = {
+	id = SEA_tour_suburbs
+	icon = SEA_tour_suburbs
+    prerequisite = { focus = SEA_peoples_executive_vs_bureacrats }
+	cost = 2
+	x = 5
+	y = 4
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
 	}
+}
 
+shared_focus = {
+	id = SEA_appoint_dubois_cabinet
+	icon = SEA_appoint_dubois_cabinet
+    prerequisite = { focus = SEA_meet_dubois }
+	cost = 2
+	x = 7
+	y = 4
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
+	}
+}
+
+shared_focus = {
+	id = SEA_tolerate_autonomous_zones
+	icon = SEA_tolerate_autonomous_zones
+    prerequisite = { focus = SEA_meet_anarchist_libertarian_council }
+	cost = 2
+	x = 9
+	y = 4
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
+	}
+}
+
+shared_focus = {
+	id = SEA_operation_black_raven
+	icon = SEA_operation_black_raven
+    prerequisite = { focus = SEA_create_internal_security_burea }
+	cost = 2
+	x = 11
+	y = 4
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
+	}
+}
+
+shared_focus = {
+	id = SEA_fire_general_zelmer
+	icon = SEA_fire_general_zelmer
+    prerequisite = { focus = SEA_deal_red_youth_battalions }
+	cost = 2
+	x = 13
+	y = 4
+	completion_reward = {
+		#country_event = {id = starting_tree.2 }
+	}
 }

@@ -1,6 +1,6 @@
 capital = 1001
 
-set_research_slots = 2
+set_research_slots = 3
 
 set_technology = {
 	infantry_weapons = 1
@@ -62,7 +62,7 @@ add_ideas = {
 	NSH_widespread_illiteracy 
 }
 set_popularities = {
-	democratic = 0
+	democratic = 5
 	neutrality = 10
 	authdem = 5
 	liberal = 0
@@ -72,7 +72,7 @@ set_popularities = {
 	totalsoc = 0
 	libsoc = 0
 	anarchy = 0
-	fascism = 55
+	fascism = 50
 	ultranationalism = 30
 }
 create_country_leader = {
@@ -82,4 +82,59 @@ create_country_leader = {
     expire = "2040.1.1"
     ideology = nazism
     
+}
+set_party_name = {
+    ideology = ultranationalism
+    long_name = NSH_ultranationalism_party_long
+    name = NSH_ultranationalism_party_short
+}
+set_party_name = {
+    ideology = fascism
+    long_name = NSH_fascism_party_long
+    name = NSH_fascism_party_short
+}
+set_party_name = {
+    ideology = neutrality
+    long_name = NSH_neutrality_party_long
+    name = NSH_neutrality_party_short
+}
+set_party_name = {
+    ideology = authdem
+    long_name = NSH_authdem_party_long
+    name = NSH_authdem_party_short
+}
+set_party_name = {
+    ideology = democratic
+    long_name = NSH_democratic_party_long
+    name = NSH_democratic_party_short
+}
+set_party_name = {
+    ideology = liberal
+    long_name = NSH_liberal_party_long
+    name = NSH_liberal_party_short
+}
+set_party_name = {
+    ideology = prodem
+    long_name = NSH_prodem_party_long
+    name = NSH_prodem_party_short
+}
+set_party_name = {
+    ideology = demsoc
+    long_name = NSH_demsoc_party_long
+    name = NSH_demsoc_party_short
+}
+set_party_name = {
+    ideology = libsoc
+    long_name = NSH_libsoc_party_long
+    name = NSH_libsoc_party_short
+}
+set_party_name = {
+    ideology = communism
+    long_name = NSH_communism_party_long
+    name = NSH_communism_party_short
+}
+set_party_name = {
+    ideology = anarchy
+    long_name = NSH_anarchy_party_long
+    name = NSH_anarchy_party_short
 }
