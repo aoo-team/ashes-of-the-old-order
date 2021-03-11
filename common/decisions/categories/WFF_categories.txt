@@ -11,3 +11,13 @@ WFF_reintegrating_america = {
 		original_tag = WDC
 	}
 }
+
+WFF_expansion_of_the_suburbs = {
+	icon = generic_research
+	allowed = {
+		original_tag = WDC
+	}
+	visible = {
+		has_completed_focus = WFF_Expand_the_Suburbs
+	}
+}

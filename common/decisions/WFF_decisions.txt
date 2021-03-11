@@ -1,3 +1,155 @@
 WFF_reintegrating_america = {
-	
+	WFF_Integrate_All_States = {
+		allowed = { tag = WDC }
+		fire_only_once = no
+		cost = 0
+		visible = {
+		
+		}
+		available = {
+			
+		}
+		complete_effect = {
+			
+			every_owned_state = {
+				add_core_of = ROOT
+			}
+			
+		}
+	}
+}
+
+WFF_expansion_of_the_suburbs = {
+
+	WFF_Improve_Suburbian_Infrastructure = {
+		allowed = { 
+			tag = WDC 
+		}
+		fire_only_once = no
+		cost = 50
+		visible = {
+		
+		}
+		available = {
+			
+		}
+		days_remove = 60
+		days_re_enable = 30
+		complete_effect = {
+			add_manpower = -1000
+		}
+		remove_effect = {
+			add_manpower = 1000
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	WFF_Improve_Suburbian_Industry = {
+		allowed = { 
+			tag = WDC 
+		}
+		fire_only_once = no
+		cost = 50
+		visible = {
+		
+		}
+		available = {
+			
+		}
+		days_remove = 60
+		days_re_enable = 30
+		complete_effect = {
+			add_manpower = -1000
+		}
+		remove_effect = {
+			add_manpower = 1000
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	WFF_Suburbian_Small_Business_Incentives = {
+		allowed = { 
+			tag = WDC 
+		}
+		fire_only_once = no
+		cost = 75
+		visible = {
+		
+		}
+		available = {
+			
+		}
+		days_remove = 120
+		days_re_enable = 30
+		complete_effect = {
+			add_manpower = -5000
+		}
+		remove_effect = {
+			add_manpower = 5000
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	WFF_Suburbian_Military_Expansion = {
+		allowed = { 
+			tag = WDC 
+		}
+		fire_only_once = no
+		cost = 50
+		visible = {
+		
+		}
+		available = {
+			
+		}
+		days_remove = 90
+		days_re_enable = 30
+		complete_effect = {
+			add_manpower = -2500
+		}
+		remove_effect = {
+			add_manpower = 2500
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+
 }

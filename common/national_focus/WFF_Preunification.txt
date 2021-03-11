@@ -443,4 +443,344 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = WFF_Second_New_Deal
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+			add_stability = 0.03
+			capital_scope = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Industrial_Reappropriation
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		prerequisite = { focus = WFF_Second_New_Deal }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Agricultural_Industry
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		prerequisite = { focus = WFF_Industrial_Reappropriation }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			add_stability = 0.03
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 2.0
+				uses = 1
+				category = industry
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Expand_Upward
+		icon = GFX_goal_unknown
+		x = -1
+		y = 3
+		mutually_exclusive = {
+			focus = WFF_Expand_Outward
+		}
+		prerequisite = { focus = WFF_Agricultural_Industry }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			capital_scope = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = wff_tooltip_tt_1
+		}
+		modifier = {
+			capital_scope = {
+				local_factories = 1.0
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Expand_Outward
+		icon = GFX_goal_unknown
+		x = 1
+		y = 3
+		mutually_exclusive = {
+			focus = WFF_Expand_Upward
+		}
+		prerequisite = { focus = WFF_Agricultural_Industry }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			custom_effect_tooltip = wff_tooltip_tt_2
+		}
+		modifier = {
+			every_owned_state = {
+				local_factories = 0.1
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Expand_the_Suburbs
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		prerequisite = { focus = WFF_Expand_Outward }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			custom_effect_tooltip = wff_tooltip_tt_3
+		}
+	}
+
+	focus = {
+		id = WFF_Largescale_Production
+		icon = GFX_goal_unknown
+		x = 1
+		y = 5
+		prerequisite = { focus = WFF_Expand_the_Suburbs }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = WFF_Better_Roads_Better_Trade
+		icon = GFX_goal_unknown
+		x = 3
+		y = 5
+		prerequisite = { focus = WFF_Expand_the_Suburbs }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = WFF_Invite_Corporations
+		icon = GFX_goal_unknown
+		x = 1
+		y = 6
+		prerequisite = { focus = WFF_Largescale_Production }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = WFF_Trade_With_Canadians
+		icon = GFX_goal_unknown
+		x = 3
+		y = 6
+		prerequisite = { focus = WFF_Better_Roads_Better_Trade }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = WFF_A_Wide_Trade_Network
+		icon = GFX_goal_unknown
+		x = 1
+		y = 7
+		prerequisite = { focus = WFF_Invite_Corporations }
+		prerequisite = { focus = WFF_Trade_With_Canadians }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = WFF_Expand_the_Cities
+		icon = GFX_goal_unknown
+		x = -1
+		y = 4
+		prerequisite = { focus = WFF_Expand_Upward }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = WFF_Consumer_Economy
+		icon = GFX_goal_unknown
+		x = -1
+		y = 5
+		prerequisite = { focus = WFF_Expand_the_Cities }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = WFF_Urban_Powerhouses
+		icon = GFX_goal_unknown
+		x = -1
+		y = 6
+		prerequisite = { focus = WFF_Consumer_Economy }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = WFF_Intercity_Road_Expansion
+		icon = GFX_goal_unknown
+		x = -3
+		y = 5
+		prerequisite = { focus = WFF_Expand_the_Cities }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = WFF_Major_Trade_Nodes
+		icon = GFX_goal_unknown
+		x = -3
+		y = 6
+		prerequisite = { focus = WFF_Intercity_Road_Expansion }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = WFF_Concentrated_Industry
+		icon = GFX_goal_unknown
+		x = -1
+		y = 7
+		prerequisite = { focus = WFF_Urban_Powerhouses }
+		prerequisite = { focus = WFF_Major_Trade_Nodes }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = WFF_American_Economic_Miracle
+		icon = GFX_goal_unknown
+		x = 0
+		y = 8
+		prerequisite = { focus = WFF_Concentrated_Industry OR = WFF_A_Wide_Trade_Network }
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			
+		}
+	}
+
 }

@@ -6,44 +6,6 @@ SEA_Peoples_Council = {
 	}
 }
 
-SEA_Port_Trade = {
-
-	icon = decision_generic_independence
-
-	picture = GFX_SEA_decision_people_council
-
-	allowed = {
-		original_tag = SEA
-	}
-
-	visible = {
-		#is_debug = yes
-		#is_ai = no
-	}
-
-	visible_when_empty = yes
-
-	priority = 500
-}
-
-SEA_Sawants_One_Year_Plan = {
-
-	icon = decision_generic_independence
-
-	picture = GFX_SEA_decision_people_council
-
-	allowed = {
-		original_tag = SEA
-	}
-
-	visible = {
-		has_country_flag = SEA_sawant_one_year_plan
-	}
-
-	visible_when_empty = yes
-
-	priority = 400
-}
 
 SEA_debug = {
 	icon = generic_research

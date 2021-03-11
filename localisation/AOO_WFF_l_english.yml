@@ -1,5 +1,35 @@
 ﻿l_english:
  
+ # WFF Country Names
+
+ WDC_ultranationalism:0 "Western Federal Forces"
+ WDC_ultranationalism_DEF:0 "Western Federal Forces"
+ WDC_fascism:0 "Western Federal Forces"
+ WDC_fascism_DEF:0 "Western Federal Forces"
+ WDC_neutrality:0 "Western Federal Forces"
+ WDC_neutrality_DEF:0 "Western Federal Forces"
+ WDC_authdem:0 "Western Federal Forces"
+ WDC_authdem_DEF:0 "Western Federal Forces"
+ WDC_democratic:0 "Western Federal Forces"
+ WDC_democratic_DEF:0 "Western Federal Forces"
+ WDC_liberal:0 "Western Federal Forces"
+ WDC_liberal_DEF:0 "Western Federal Forces"
+ WDC_prodem:0 "Western Federal Forces"
+ WDC_prodem_DEF:0 "Western Federal Forces"
+ WDC_demsoc:0 "Western Federal Forces"
+ WDC_demsoc_DEF:0 "Western Federal Forces"
+ WDC_libsoc:0 "Western Federal Forces"
+ WDC_libsoc_DEF:0 "Western Federal Forces"
+ WDC_communism:0 "Western Federal Forces"
+ WDC_communism_DEF:0 "Western Federal Forces"
+ WDC_anarchy:0 "Western Federal Forces"
+ WDC_anarchy_DEF:0 "Western Federal Forces"
+ WDC_totalsoc:0 "Western Federal Forces"
+ WDC_totalsoc_DEF:0 "Western Federal Forces"
+ WDC_neutrality_ADJ:0 "Federal"
+ WDC_liberal_ADJ:0 "Federal"
+ WDC_democratic_ADJ:0 "Federal"
+
  # Debug Decisions
  
  debug_load_starting_tree:0 "Load Starting Tree"
@@ -12,6 +42,12 @@
  # Decisions
 
  WFF_integrate_states:0 "Integrate §R[ROOT.getname]]§!"
+
+ WFF_expansion_of_the_suburbs:0 "Expansion of the Suburbs"
+ WFF_Improve_Suburbian_Infrastructure:0 "Improve Suburbian Infrastructure"
+ WFF_Improve_Suburbian_Industry:0 "Improve Suburbian Industry"
+ WFF_Suburbian_Small_Business_Incentives:0 "Suburbian Small Business Incentives"
+ WFF_Suburbian_Military_Expansion:0 "Suburbian Military Expansion"
  
  # Idea LOC
  
@@ -60,10 +96,33 @@
  WFF_The_Colarado_Conference:0 "The Colorado Conference"
  WFF_A_War_for_Liberation:0 "A War for Liberation"
  WFF_The_Scourge_of_the_Americas:0 "The Scourge of the Americas"
+
+ WFF_Second_New_Deal:0 "Second New Deal"
+ WFF_Industrial_Reappropriation:0 "Industrial Reappropriation"
+ WFF_Agricultural_Industry:0 "Agricultural Industry"
+ WFF_Expand_Upward:0 "Expand Upward!"
+ WFF_Expand_Outward:0 "Expand Outward!"
+ WFF_Expand_the_Suburbs:0 "Expand the Suburbs"
+ WFF_Largescale_Production:0 "Largescale Production"
+ WFF_Better_Roads_Better_Trade:0 "Better Roads, Better Trade"
+ WFF_Invite_Corporations:0 "Invite Corporations"
+ WFF_Trade_With_Canadians:0 "Trade with Canadians"
+ WFF_A_Wide_Trade_Network:0 "A Wide Trade Network"
+ WFF_Expand_the_Cities:0 "Expand the Cities"
+ WFF_Consumer_Economy:0 "Consumer Economy"
+ WFF_Urban_Powerhouses:0 "Urban Powerhouses"
+ WFF_Intercity_Road_Expansion:0 "Intercity Road Expansion"
+ WFF_Major_Trade_Nodes:0 "Major Trade Nodes"
+ WFF_Concentrated_Industry:0 "Concentrated Industry"
+ WFF_American_Economic_Miracle:0 "American Economic Miracle"
  
  # Tooltip LOC
  
  wff_bitf_tt_1:0 "§RSeparatists begin to launch more audacious operations. They begin to sabotage, assassinate, and even engage in open fire fights. This is not over yet.§!"
+ wff_tooltip_tt_1:0 "Denver will recieve §G100%§! extra building slots."
+ wff_tooltip_tt_2:0 "Every owned state recieves §G10%§! extra building slots."
+ wff_tooltip_tt_3:0 "§G'Expansion of the Suburbs'§! decisions will be made available."
+ wff_tooltip_tt_4:0 "Grants §G10%§! extra production efficiency."
  
  wff_bitf_tt_2:0 "§RTime to look towards the future. No matter how endangered and bloody it may be.§!"
  

@@ -3195,17 +3195,6 @@
   BOI_liberal_ADJ:0 "Boisen"
   BOI_democratic_ADJ:0 "Boisen"
 
-  WDC_neutrality:0 "Western Federal Forces"
-  WDC_neutrality_DEF:0 "Western Federal Forces"
-  WDC_democratic:0 "Western Federal Forces"
-  WDC_democratic_DEF:0 "Western Federal Forces"
-  WDC_liberal:0 "Western Federal Forces"
-  WDC_liberal_DEF:0 "Western Federal Forces"
-  ##################################
-  WDC_neutrality_ADJ:0 "Federal"
-  WDC_liberal_ADJ:0 "Federal"
-  WDC_democratic_ADJ:0 "Federal"
-
   YWS_neutrality:0 "Yellowstone"
   YWS_neutrality_DEF:0 "Yellowstone"
   YWS_libsoc:0 "Yellowstone"
