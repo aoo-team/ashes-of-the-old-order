@@ -22,7 +22,7 @@ focus_tree = {
 	
 	focus = {
 		id = WFF_A_New_Chapter
-		icon = GFX_goal_unknown
+		icon = WFF_Legacy_of_the_Founding_Fathers
 		x = 10
 		y = 0
 		cost = 5
@@ -36,7 +36,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_State_of_the_Union
-		icon = GFX_goal_unknown
+		icon = WFF_A_Union_Held_Together
 		x = 10
 		y = 1
 		cost = 5
@@ -52,7 +52,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Mounting_Pressures
-		icon = GFX_goal_unknown
+		icon = WFF_Continuous_Raids
 		x = 10
 		y = 2
 		cost = 5
@@ -68,7 +68,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Respond_With_Force
-		icon = GFX_goal_unknown
+		icon = WFF_Crushing_the_Separatists
 		x = 8
 		y = 3
 		cost = 10
@@ -86,7 +86,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Democracy_Shall_Prevail
-		icon = GFX_goal_unknown
+		icon = WFF_For_God_and_Country
 		x = 12
 		y = 3
 		cost = 10
@@ -104,7 +104,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Milleys_Coup
-		icon = GFX_goal_unknown
+		icon = WFF_Cut_off_from_Friends
 		x = 7
 		y = 4
 		cost = 5
@@ -135,7 +135,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Consolidating_Power
-		icon = GFX_goal_unknown
+		icon = WFF_Another_Failed_Union
 		x = 9
 		y = 4
 		cost = 5
@@ -154,7 +154,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_The_Next_Step
-		icon = GFX_goal_unknown
+		icon = WFF_The_Uncertain_Future
 		x = 8
 		y = 5
 		cost = 10
@@ -174,7 +174,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Operation_Snow_Tiger
-		icon = GFX_goal_unknown
+		icon = WFF_Support_from_within_Helena
 		x = 7
 		y = 6
 		cost = 5
@@ -192,7 +192,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Operation_Emerald_Hammer
-		icon = GFX_goal_unknown
+		icon = WFF_I_Dont_Know
 		x = 9
 		y = 6
 		cost = 5
@@ -210,7 +210,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Operation_Mountain_Storm
-		icon = GFX_goal_unknown
+		icon = WFF_We_Must_Teach_Those_Traitors
 		x = 7
 		y = 7
 		cost = 5
@@ -237,7 +237,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Operation_Ice_Breaker
-		icon = GFX_goal_unknown
+		icon = WFF_The_Cold_Hard_Truth
 		x = 9
 		y = 7
 		cost = 5
@@ -264,7 +264,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Operation_Black_Desert
-		icon = GFX_goal_unknown
+		icon = GFX_CGO_focus_rears_its_ugly_head
 		x = 8
 		y = 8
 		cost = 10
@@ -290,7 +290,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_The_Upcoming_Election
-		icon = GFX_goal_unknown
+		icon = WFF_Political_Benefit
 		x = 11
 		y = 4
 		cost = 5
@@ -305,7 +305,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Campaigning_for_Victory
-		icon = GFX_goal_unknown
+		icon = WFF_A_Call_to_Democracy
 		x = 13
 		y = 4
 		cost = 5
@@ -320,7 +320,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Election_Night
-		icon = GFX_goal_unknown
+		icon = WFF_Republicans_vs_Democrats
 		x = 12
 		y = 5
 		cost = 10
@@ -339,7 +339,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_The_Nebraskan_Diplomat
-		icon = GFX_goal_unknown
+		icon = WFF_A_Forgotten_Country
 		x = 11
 		y = 6
 		cost = 5
@@ -354,7 +354,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Talks_with_Dakota
-		icon = GFX_goal_unknown
+		icon = WFF_Unionism
 		x = 13
 		y = 6
 		cost = 5
@@ -369,7 +369,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_The_Colarado_Conference
-		icon = GFX_goal_unknown
+		icon = WFF_The_Government_of_the_Future
 		x = 11
 		y = 7
 		cost = 5
@@ -389,7 +389,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_A_War_for_Liberation
-		icon = GFX_goal_unknown
+		icon = WFF_Through_Fire_Blood_Sweat_and_Tears
 		x = 13
 		y = 7
 		cost = 5
@@ -420,7 +420,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_The_Scourge_of_the_Americas
-		icon = GFX_goal_unknown
+		icon = WFF_We_Fought_But_to_No_Avail
 		x = 12
 		y = 8
 		cost = 10
@@ -445,7 +445,7 @@ focus_tree = {
 
 	focus = {
 		id = WFF_Second_New_Deal
-		icon = GFX_goal_unknown
+		icon = WFF_Agricultural_Innovations
 		x = 0
 		y = 0
 		cost = 5
@@ -471,8 +471,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = WFF_Industrial_Reappropriation
-		icon = GFX_goal_unknown
+		id = WFF_Expanding_Infrastructure
+		icon = WFF_Economy_of_the_Future
 		x = 0
 		y = 1
 		prerequisite = { focus = WFF_Second_New_Deal }
@@ -481,21 +481,21 @@ focus_tree = {
 			factor = 400
 		}
 		completion_reward = {
-			random_owned_state = {
+			879 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
 			}
-			random_owned_state = {
+			879 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
 			}
-			random_owned_state = {
+			879 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -505,282 +505,473 @@ focus_tree = {
 		}
 	}
 
+	
 	focus = {
-		id = WFF_Agricultural_Industry
-		icon = GFX_goal_unknown
-		x = 0
+		id = WFF_Civilian_Economy
+		icon = NAK_Homes_for_the_Homeless
+		prerequisite = { focus = WFF_Expanding_Infrastructure }
+		x = -3
 		y = 2
-		prerequisite = { focus = WFF_Industrial_Reappropriation }
 		cost = 5
 		ai_will_do = {
 			factor = 400
 		}
 		completion_reward = {
-			add_stability = 0.03
 			random_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 2.0
-				uses = 1
-				category = industry
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Expand_Upward
-		icon = GFX_goal_unknown
-		x = -1
-		y = 3
-		mutually_exclusive = {
-			focus = WFF_Expand_Outward
-		}
-		prerequisite = { focus = WFF_Agricultural_Industry }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			capital_scope = {
 				add_building_construction = {
 					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_popularity = {
+				ideology = authdem
+				popularity = -0.05
+			}
+			add_stability = 0.1
+
+		}
+	}
+
+	focus = {
+		id = WFF_Military_Economy
+		icon = Reappropriate_Civilian_Weaponry
+		prerequisite = { focus = WFF_Expanding_Infrastructure }
+		mutually_exclusive = { focus = WFF_Civilian_Economy }
+		x = 3
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_popularity = {
+				ideology = authdem
+				popularity = 0.05
+			}
+			add_war_support = 0.1
+			add_stability = -0.05
+		}
+	}
+
+	focus = {
+		id = WFF_Civilian_Economy_I
+		icon = WFF_Economic_Benefit
+		prerequisite = { focus = WFF_Civilian_Economy }
+		x = -3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Civilian_Economy_II
+		icon = EDC_raise_funds
+		prerequisite = { focus = WFF_Civilian_Economy_I }
+		x = -3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Civilian_Economy_III
+		icon = GFX_NYN_focus_appeal_to_entrepreneurs
+		prerequisite = { focus = WFF_Civilian_Economy_II }
+		x = -3
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Civilian_Economy_IV
+		icon = SIL_All_Companies_Represented
+		prerequisite = { focus = WFF_Civilian_Economy_III }
+		x = -3
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Military_Economy_I
+		icon = Mobilize_the_Militia
+		prerequisite = { focus = WFF_Military_Economy }
+		x = 3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Military_Economy_II
+		icon = NAK_Assess_the_Military
+		prerequisite = { focus = WFF_Military_Economy_I }
+		x = 3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Military_Economy_III
+		icon = WFF_A_Rebounding_Union
+		prerequisite = { focus = WFF_Military_Economy_II }
+		x = 3
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Military_Economy_IV
+		icon = WFF_Cut_off_from_Allies
+		prerequisite = { focus = WFF_Military_Economy_III }
+		x = 3
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Infastructure_Effort
+		icon = WFF_Liberty_and_Justice_for_All
+		prerequisite = { focus = WFF_Expanding_Infrastructure }
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Infastructure_Effort_I
+		icon = WFF_Our_Pride
+		prerequisite = { focus = WFF_Infastructure_Effort }
+		x = 0
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Infastructure_Effort_II
+		icon = WFF_A_Backwater
+		prerequisite = { focus = WFF_Infastructure_Effort_I }
+		x = 0
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Aerial_Defences
+		icon = NAK_Modern_Guerllia_Warfare
+		prerequisite = { focus = WFF_Infastructure_Effort_II }
+		x = 0
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			879 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_Airstrips
+		icon = NAK_Emergency_Training_Program
+		prerequisite = { focus = WFF_Aerial_Defences }
+		x = 1
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = air_base
 					level = 2
 					instant_build = yes
 				}
 			}
-			custom_effect_tooltip = wff_tooltip_tt_1
 		}
-		modifier = {
-			capital_scope = {
-				local_factories = 1.0
+	}
+
+	focus = {
+		id = WFF_Airstrips_I
+		icon = GFX_ACR_focus_achieve_aerial_supremacy
+		prerequisite = { focus = WFF_Airstrips }
+		x = 1
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 	}
 
 	focus = {
-		id = WFF_Expand_Outward
-		icon = GFX_goal_unknown
-		x = 1
-		y = 3
-		mutually_exclusive = {
-			focus = WFF_Expand_Upward
-		}
-		prerequisite = { focus = WFF_Agricultural_Industry }
+		id = WFF_Radar
+		icon = GFX_NYN_focus_for_the_common_man
+		prerequisite = { focus = WFF_Aerial_Defences }
+		x = -1
+		y = 6
 		cost = 5
 		ai_will_do = {
 			factor = 400
 		}
 		completion_reward = {
-			custom_effect_tooltip = wff_tooltip_tt_2
-		}
-		modifier = {
-			every_owned_state = {
-				local_factories = 0.1
+			random_owned_state = {
+				add_building_construction = {
+					type = radar_station
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 	}
 
 	focus = {
-		id = WFF_Expand_the_Suburbs
-		icon = GFX_goal_unknown
-		x = 1
-		y = 4
-		prerequisite = { focus = WFF_Expand_Outward }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			custom_effect_tooltip = wff_tooltip_tt_3
-		}
-	}
-
-	focus = {
-		id = WFF_Largescale_Production
-		icon = GFX_goal_unknown
-		x = 1
-		y = 5
-		prerequisite = { focus = WFF_Expand_the_Suburbs }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Better_Roads_Better_Trade
-		icon = GFX_goal_unknown
-		x = 3
-		y = 5
-		prerequisite = { focus = WFF_Expand_the_Suburbs }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Invite_Corporations
-		icon = GFX_goal_unknown
-		x = 1
-		y = 6
-		prerequisite = { focus = WFF_Largescale_Production }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Trade_With_Canadians
-		icon = GFX_goal_unknown
-		x = 3
-		y = 6
-		prerequisite = { focus = WFF_Better_Roads_Better_Trade }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_A_Wide_Trade_Network
-		icon = GFX_goal_unknown
-		x = 1
-		y = 7
-		prerequisite = { focus = WFF_Invite_Corporations }
-		prerequisite = { focus = WFF_Trade_With_Canadians }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Expand_the_Cities
-		icon = GFX_goal_unknown
-		x = -1
-		y = 4
-		prerequisite = { focus = WFF_Expand_Upward }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Consumer_Economy
-		icon = GFX_goal_unknown
-		x = -1
-		y = 5
-		prerequisite = { focus = WFF_Expand_the_Cities }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Urban_Powerhouses
-		icon = GFX_goal_unknown
-		x = -1
-		y = 6
-		prerequisite = { focus = WFF_Consumer_Economy }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Intercity_Road_Expansion
-		icon = GFX_goal_unknown
-		x = -3
-		y = 5
-		prerequisite = { focus = WFF_Expand_the_Cities }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Major_Trade_Nodes
-		icon = GFX_goal_unknown
-		x = -3
-		y = 6
-		prerequisite = { focus = WFF_Intercity_Road_Expansion }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Concentrated_Industry
-		icon = GFX_goal_unknown
+		id = WFF_Radar_I
+		icon = WFF_A_More_Democratic_Approach
+		prerequisite = { focus = WFF_Radar }
 		x = -1
 		y = 7
-		prerequisite = { focus = WFF_Urban_Powerhouses }
-		prerequisite = { focus = WFF_Major_Trade_Nodes }
 		cost = 5
 		ai_will_do = {
 			factor = 400
 		}
 		completion_reward = {
-			
+			random_owned_state = {
+				add_building_construction = {
+					type = radar_station
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
 	focus = {
-		id = WFF_American_Economic_Miracle
-		icon = GFX_goal_unknown
+		id = WFF_Recovering_The_Ultimate_Weapon
+		icon = GFX_CGO_focus_a_hidden_monster
+		prerequisite = { focus = WFF_Radar_I }
+		prerequisite = { focus = WFF_Airstrips_I }
 		x = 0
 		y = 8
-		prerequisite = { focus = WFF_Concentrated_Industry OR = WFF_A_Wide_Trade_Network }
-		cost = 5
+		cost = 20
 		ai_will_do = {
 			factor = 400
 		}
 		completion_reward = {
-			
+			879 = {
+				add_building_construction = {
+					type = nuclear_reactor
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
-
 }

@@ -1,0 +1,93 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+WDC_INF_01 = 
+{
+	name = "Infantry Division"
+
+	#for_countries = { ALA  DCD AKA  AZA  ARA CAC COC CTC DED FLF GAG HIH IDI ILI INI IAI KSK KYK LAL MEM MDM MAM MIM MNM MSM MOM MTM NEN NVN NHN NJN NMN NYN NCN NDN OHO OKO ORO PAP RIR SCS SDS TNT TXT VTV VAV WAW WVW WIW WYW UTU }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { USA_INF_01 }
+
+	fallback_name = "%d Infantry Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "1st Infantry Division" }
+		2 = { "2nd Infantry Division" }
+		3 = { "3rd Infantry Division" }
+		4 = { "4th Infantry Division" }
+		5 = { "5th Infantry Division" }
+		6 = { "6th Infantry Division" }
+		7 = { "7th Infantry Division" }
+		8 = { "8th Infantry Division" }
+		9 = { "9th Infantry Division" }
+	}
+}
+
+WDC_INF_02 = 
+{
+	name = "Militia Division"
+
+	#for_countries = { ALA  DCD AKA  AZA  ARA CAC COC CTC DED FLF GAG HIH IDI ILI INI IAI KSK KYK LAL MEM MDM MAM MIM MNM MSM MOM MTM NEN NVN NHN NJN NMN NYN NCN NDN OHO OKO ORO PAP RIR SCS SDS TNT TXT VTV VAV WAW WVW WIW WYW UTU }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { USA_INF_01 }
+
+	fallback_name = "%d Volunteer Infantry Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "1st Volunteer Infantry Division" }
+		2 = { "2nd Volunteer Infantry Division" }
+		3 = { "3rd Volunteer Infantry Division" }
+		4 = { "4th Volunteer Infantry Division" }
+		5 = { "5th Volunteer Infantry Division" }
+		6 = { "6th Volunteer Infantry Division" }
+		7 = { "7th Volunteer Infantry Division" }
+		8 = { "8th Volunteer Infantry Division" }
+		9 = { "9th Volunteer Infantry Division" }
+	}
+}

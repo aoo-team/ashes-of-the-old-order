@@ -5765,4 +5765,22 @@ spriteTypes = {
 		name = "GFX_idea_EFF_Inter_Agency_Rivalry"
 		texturefile = "gfx/interface/ideas/Eastern Federal Forces/EFF_Interagency_Rivalry.tga"
 	}
+
+	spriteType = {
+		name = "GFX_idea_WFF_separatists"
+		texturefile = "gfx/interface/ideas/Separatist_Movements.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WFF_light_in_the_darkness"
+		texturefile = "gfx/interface/ideas/Light_in_Darkness.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WFF_failed_union"
+		texturefile = "gfx/interface/ideas/Failed_Union.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WFF_democratic_elections"
+		texturefile = "gfx/interface/ideas/Democratic_Elections.dds"
+	}
+
 }

@@ -1,0 +1,131 @@
+division_template = {
+	name = "Religious Fanatics"				
+
+	division_names_group = WDC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		infantry = { x = 3 y = 3 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Militia"				
+
+	division_names_group = WDC_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+
+	### Starting Infantry Battalions ###
+
+	#4th Infantry Division
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7688
+		division_template = "Religious Fanatics"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	### Starting Militia Battalions ###
+
+	#1st Volunteer Infantry
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13949
+		division_template = "Militia"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.6
+	}
+
+	#2nd Volunteer Infantry
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 13919
+		division_template = "Militia"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.6
+	}
+
+	#3rd Volunteer Infantry
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 12561
+		division_template = "Militia"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.6
+	}
+
+	#2nd Volunteer Infantry
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 13868
+		division_template = "Militia"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.6
+	}
+
+	#3rd Volunteer Infantry
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 13910
+		division_template = "Militia"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.6
+	}
+
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "WYW"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+}
