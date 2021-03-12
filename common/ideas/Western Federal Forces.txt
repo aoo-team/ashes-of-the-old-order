@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		
 		WFF_A_Failed_Union = {
-			picture = GFX_idea_CON_Ruined_Nation
+			picture = GFX_idea_WFF_failed_union
 			allowed_civil_war = {
 				always = yes
 			}
@@ -13,7 +13,7 @@ ideas = {
 		}
 		
 		WFF_Light_in_Darkness = {
-			picture = GFX_idea_CON_Ruined_Nation
+			picture = GFX_idea_WFF_light_in_the_darkness
 			allowed_civil_war = {
 				always = yes
 			}
@@ -23,7 +23,7 @@ ideas = {
 		}
 		
 		WFF_Separatists = {
-			picture = GFX_idea_CON_Ruined_Nation
+			picture = GFX_idea_WFF_separatists
 			allowed_civil_war = {
 				always = yes
 			}
@@ -33,7 +33,7 @@ ideas = {
 		}
 		
 		WFF_Democratic_Elections = {
-			picture = GFX_idea_CON_Ruined_Nation
+			picture = GFX_idea_WFF_democratic_elections
 			allowed_civil_war = {
 				always = yes
 			}

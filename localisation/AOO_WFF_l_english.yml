@@ -51,6 +51,18 @@
  
  # Idea LOC
  
+ WFF_A_Failed_Union:0 "A Failed Union"
+ WFF_A_Failed_Union_desc:0 "PLACEHOLDER"
+
+ WFF_Light_in_Darkness:0 "A Light in the Darkness"
+ WFF_Light_in_Darkness_desc:0 "PLACEHOLDER"
+
+ WFF_Separatists:0 "Separatists"
+ WFF_Separatists_desc:0 "PLACEHOLDER"
+
+ WFF_Democratic_Elections:0 "Democratic Elections"
+ WFF_Democratic_Elections_desc:0 "PLACEHOLDER"
+
  WFF_A_Free_People:0 "A Free People"
  WFF_A_Free_People_desc:0 ""
  
@@ -75,19 +87,48 @@
  # Focus Tree LOC
  
  WFF_focus_tree:0 "WFF Focus Tree"
+ 
+ # EXPANSION PART OF TREE #
+ 
  WFF_A_New_Chapter:0 "A New Chapter"
+ WFF_A_New_Chapter_desc:0 "Many in the Americas have lost hope, we have been beaten back on all fronts but there is still the spark of liberty and democracy in the hearts of every American, all we have to do is light it."
+
  WFF_State_of_the_Union:0 "State of the Union"
+ WFF_State_of_the_Union_desc:0 "Although it has been years since the President of the United States last gave the State of the Union speech to Congress, it was less of a speech to Congress than it was a speech to the people. The people need to know that we are still fighting and that we will never give up!"
+
  WFF_Mounting_Pressures:0 "Mounting Pressures"
+ WFF_Mounting_Pressures_desc:0 "CIA REPORT:\n\nMultiple insurgent operations observed in the Northern territories, especially around the city of St. Helena, we advise a military strike and crackdown immediately. Please advise. Contact will be cut for around a week as we repair phone lines destroyed by the terrorists."
+
  WFF_Respond_With_Force:0 "Respond with Force"
+ WFF_Respond_With_Force_desc:0 "We shall not accept that these people will encroach on our freedoms, there is only one path to victory with these Rebels. Much like we did to the others, we will fight, and this time we will win."
+
  WFF_Democracy_Shall_Prevail:0 "Democracy shall Prevail"
+ WFF_Democracy_Shall_Prevail_desc:0 "These people are American people, they want what we want as well, freedom fro tyranny, so we shall do so. And we shall initiate negotiations with these people, sure there will be concessions but they are our people."
+
  WFF_Milleys_Coup:0 "Milley's Coup"
+ WFF_Milleys_Coup_desc:0 "The government is too concerned with the liberties of the people to realise that war is upon us, we must react and we must react swiftly. General Milley is the only man capable of delivering on such needs and we must therefore install him as our leader in government."
+
  WFF_Consolidating_Power:0 "Consolidating Power"
+ WFF_Consolidating_Power_desc:0 "There are still people in our ranks and in the hearts of the people who value freedom over survival. Well, there is no freedom without survival and we will ensure that they know this."
+
  WFF_The_Next_Step:0 "The Next Step"
+ WFF_The_Next_Step_desc:0 "We may have reigned victorious over the insurgents in the North but this is only the beginning of the war to come. We now have the means to expand, for the first time we will be able to retake ground we lost. It is the beginning of a new era."
+
  WFF_Operation_Snow_Tiger:0 "Operation Snow Tiger"
+ WFF_Operation_Snow_Tiger_desc:0 "Operation Snow Tiger is aimed to retake the lands of Dakota, but the going will not be easy and the terrain most unforgiving, we must pray that they have not a military to match ours."
+
  WFF_Operation_Emerald_Hammer:0 "Operation Emerald Hammer"
+ WFF_Operation_Emerald_Hammer_desc:0 "Operation Emerald Hammer aims at retaking much of the territory owned by the rebels calling themselves the 'New State of Nebraska'. They seem to be unweildy and unworthy of a fight, this should be a quick war."
+
  WFF_Operation_Mountain_Storm:0 "Operation Mountain Storm"
+ WFF_Operation_Mountain_Storm_desc:0 "The lands nearest to our Capital are the ones we are most concerned about, at any moment they may strike and would be able to capture Denver in a day, we must eliminate this threat before it eliminates us."
+
  WFF_Operation_Ice_Breaker:0 "Operation Ice Breaker"
+ WFF_Operation_Ice_Breaker_desc:0 "The makeshift nations of the mountains of Wyoming and North Dakota are in shambles, they follow extreme religions and ideologies, although they have fanatical loyalties to these religions and ideologies, although their organization skills are below par and the fear they inspire in their enemies is potent. We must eliminate these insurgents quickly and eradicate their radical beliefs."
+
  WFF_Operation_Black_Desert:0 "Operation Black Desert"
+ WFF_Operation_Black_Desert_desc:0 "One of the Final Steps in our journey to becoming a nation on the world stage once again would be the conquest of the lands owned by the partisan group known only as 'The Wasteland Regiment'. From intelligence reports, it seems that this partisan group is a fanatical group hellbent on chemical warfare and will stop at nothing to achieve their goals."
+
  WFF_The_Upcoming_Election:0 "The Upcoming Election"
  WFF_Campaigning_for_Victory:0 "Campaigning for Victory"
  WFF_Election_Night:0 "Election Night"
@@ -97,24 +138,70 @@
  WFF_A_War_for_Liberation:0 "A War for Liberation"
  WFF_The_Scourge_of_the_Americas:0 "The Scourge of the Americas"
 
+ # ECONOMIC PART OF TREE #
+
  WFF_Second_New_Deal:0 "Second New Deal"
- WFF_Industrial_Reappropriation:0 "Industrial Reappropriation"
- WFF_Agricultural_Industry:0 "Agricultural Industry"
- WFF_Expand_Upward:0 "Expand Upward!"
- WFF_Expand_Outward:0 "Expand Outward!"
- WFF_Expand_the_Suburbs:0 "Expand the Suburbs"
- WFF_Largescale_Production:0 "Largescale Production"
- WFF_Better_Roads_Better_Trade:0 "Better Roads, Better Trade"
- WFF_Invite_Corporations:0 "Invite Corporations"
- WFF_Trade_With_Canadians:0 "Trade with Canadians"
- WFF_A_Wide_Trade_Network:0 "A Wide Trade Network"
- WFF_Expand_the_Cities:0 "Expand the Cities"
- WFF_Consumer_Economy:0 "Consumer Economy"
- WFF_Urban_Powerhouses:0 "Urban Powerhouses"
- WFF_Intercity_Road_Expansion:0 "Intercity Road Expansion"
- WFF_Major_Trade_Nodes:0 "Major Trade Nodes"
- WFF_Concentrated_Industry:0 "Concentrated Industry"
- WFF_American_Economic_Miracle:0 "American Economic Miracle"
+ WFF_Second_New_Deal_desc:0 "The American People are tired, they need a way to lift them out of poverty. Constant war has kept them locked in an eternal cycle. But now, in this time of temporary cease-fire, we must use the opportunity to revitalize the economy and bring the American Dream back to reality."
+
+ WFF_Expanding_Infrastructure:0 "Expanding Infrastructure"
+ WFF_Expanding_Infrastructure_desc:0 "Throughout the war, roads and trade routes were heavily damaged, those roads that we do have left are worn and in bad condition. It is time for us to expand the measly network of trails we have today."
+
+ WFF_Civilian_Economy:0 "A Civilian Economy"
+ WFF_Civilian_Economy_desc:0 "In order for the American dream to be brought to life, it needs to start at home, where people will be able to work, buy what they please."
+
+ WFF_Military_Economy:0 "A Military Industry"
+ WFF_Military_Economy_desc:0 "The American dream means being lifted out of poverty, if we can employ the people in weapons production centers, we will be able to provide them with jobs, and much needed armaments for our military."
+
+ WFF_Civilian_Economy_I:0 "Invest in Local Business"
+ WFF_Civilian_Economy_I_desc:0 "Local business is what keeps the economy running, without the local supermarket or the mechanic, the American people would have to learn to grow food and fix their appliances."
+
+ WFF_Civilian_Economy_II:0 "Entrepreneurial Adventures"
+ WFF_Civilian_Economy_II_desc:0 "The old saying goes 'no risk, no reward' so we must invest in our economy, although some investments may turn faulty, some will be fruitful and even fewer will become essential to the growth of our economy."
+
+ WFF_Civilian_Economy_III:0 "Invite Foreign Investment"
+ WFF_Civilian_Economy_III_desc:0 "We do not possess the capital to completely revitalize our economy, therefore we must reach out to other nations willing to invest in our fledgling nation."
+
+ WFF_Civilian_Economy_IV:0 "Production Centers"
+ WFF_Civilian_Economy_IV_desc:0 "The final step and the longest step in revitalizing our economy will be the creation of production centers, without them, we would not be able to produce the goods we need daily, this will greatly increase the happiness and stability of our people."
+
+ WFF_Military_Economy_I:0 "Basic Military Production Lines"
+ WFF_Military_Economy_I_desc:0 "After the war, our weapons production lines were left in disarray and are practically non-existent today. We must expand and repair the factories we ave today before we can think to bigger projects."
+
+ WFF_Military_Economy_II:0 "Armament Factories"
+ WFF_Military_Economy_II_desc:0 "Although the people may not like it, America runs on war. Without the means to commit war we would not be able to run. And without the means to make the weapons to wage war we would not be able to run."
+
+ WFF_Military_Economy_III:0 "Private Weapons Producers"
+ WFF_Military_Economy_III_desc:0 "Although the government does not currently possess the capital to fully spark the armament industry back into full swing, private investors do. So, we will reach out to them for the capital we need to expand our weapons industry."
+
+ WFF_Military_Economy_IV:0 "The Weapons of Liberty"
+ WFF_Military_Economy_IV_desc:0 "The people have always wanted weapons, they just did not know they wanted them. Without weapons, we would not be able to uphold freedom, and without freedom, well, it wouldn't really matter what they wanted."
+
+ WFF_Infastructure_Effort:0 "Road Construction"
+ WFF_Infastructure_Effort_desc:0 "The damaged trails and roads system we currently have is inadequate despite the recent efforts to repair it. It needs further work for the public and the military to feel safe to use it."
+
+ WFF_Infastructure_Effort_I:0 "Interstate Highways"
+ WFF_Infastructure_Effort_I_desc:0 "One of the first steps in repairing our infrastructure would be the rebuilding of the interstate highways which were before in shambles and overflowed with bandits and highwaymen."
+
+ WFF_Infastructure_Effort_II:0 "Backcountry Motorways"
+ WFF_Infastructure_Effort_II_desc:0 "Although highways are more preferable for many to travel on, they do not always go where we need them to go, and therefore we must venture out and build new backcountry roads."
+
+ WFF_Aerial_Defences:0 "Aerial Defences"
+ WFF_Aerial_Defences_desc:0 "Since the Second American Civil War, the aerial defences of vulnerable areas like Denver and St. Helena have been damaged, and we have neglected to maintain them. But it is time for us to remake the once sprawling system, for the good and protection of our people."
+
+ WFF_Radar:0 "Aircraft Detection System"
+ WFF_Radar_desc:0 "A vital addition to our aerial defences would be the implementation of an Aircraft detection system, without one we would not know when and where our enemies are attacking us from."
+
+ WFF_Radar_I:0 "New Anti-Scrambling Software"
+ WFF_Radar_I_desc:0 "Aircraft have gotten more sophisticated but our outdated aerial detection system has not, we must create new software to combatant the new innovations in Aircraft location scrambling."
+
+ WFF_Airstrips:0 "Expanding the Airports"
+ WFF_Airstrips_desc:0 "The airports are currently ridden with potholes and dangers from the war, we must be able to reuse these airfields if we ever wish to be able to wage any real war."
+
+ WFF_Airstrips_I:0 "Backup Airstrips"
+ WFF_Airstrips_I_desc:0 "Although many of our airstrips are back to basic functions, we must also be able to field large amounts of aircraft, so we need a place to store them and train them."
+
+ WFF_Recovering_The_Ultimate_Weapon:0 "§RThe Ultimate Weapon§!"
+ WFF_Recovering_The_Ultimate_Weapon_desc:0 "Although many hope we may never have to use it, the time may come when our enemies overpower us, and democracy is on the verge of being extinguished. And in that situation, we need a backup plan. However rash the decision, we must make it in time, to save the lives and liberty of our people."
  
  # Tooltip LOC
  
@@ -177,18 +264,18 @@
  born_in_the_fire.7.a:0 ""
  
  wff.1.t:0 "A New America"
- wff.1.d:0 "PLACEHOLDER"
- wff.1.a:0 "PLACEHOLDER"
+ wff.1.d:0 "The New America is one in shambles, the Second American Civil War has left the country in ruins. The modern Americas resemble little of the superpowers they represented during World War II and the Cold War.But hope is not gone yet and we must make sure it does not leave the hearts of our citizens.\n\nIn crises like these, many Presidents collapsed under the pressure, but there is one President that stands out from the rest, Franklin Delano Roosevelt. He inspired the American people in a time where hope was limited, so we will attempt to mimic that. We will restart the State of the Union speech to the people and we will remake FDR's signature fireside chat.\n\nThere is still hope in the Americas, we just have to find it."
+ wff.1.a:0 "As long is hope is alive, so are we."
 
  wff.2.t:0 "The Status Quo"
- wff.2.d:0 "PLACEHOLDER"
- wff.2.a:0 "PLACEHOLDER"
+ wff.2.d:0 "The United States is undoubtedly in a runined state, a shell of its former self and outside nations make no efforts not to exclaim that. Although to the American people we are still alive, we are still the hope of a better future that the colonists in 1776 dreamt about. Our ownly problem is that we lack the support of the American people to remake America.\n\nThe will of the American people has been broken, and our job will be to build it back up. Without the support of the people, the United States is nothing. So we are again seeking inspiration from previous Presidents, John F. Kennedy. He inspired the American people in a way that most Presidents never had. But the one part of his presidency that stood out was in one of his speeches where he exclaimed to the American people, 'Ask not what your country can do for you, but what you can do for your country.'\n\nThis will be the dawn of a new era in our history and whether for the better or for the worse, the American people will persist."
+ wff.2.a:0 "A future left uncertain."
 
  wff.3.t:0 "The Northern Revolt"
- wff.3.d:0 "PLACEHOLDER"
- wff.3.a:0 "PLACEHOLDER"
- wff.3.b:0 "PLACEHOLDER"
+ wff.3.d:0 "Reports from the Northern territories suggest that the insurgent movements are increasing and they have laid siege to the City of St. Helena. This is no regular protest, to them it is a full scale revolution. If we don't act soon, it is clear that we will lose another piece of American liberty and freedom to the increasing wave of rebels and bandits. May god help us all."
+ wff.3.a:0 "The only option is to respond with force."
+ wff.3.b:0 "They will listen to reason, we will negotiate."
 
  wff.4.t:0 "The Next Chapter"
- wff.4.d:0 "PLACEHOLDER"
- wff.4.a:0 "PLACEHOLDER"
+ wff.4.d:0 "There is only one way forward, and it is conquest. The American people have been ununited for too long, and they long to be one nation again. But many of these people are still being oppressed under regimes such as those in the territories to the South or the Northwest of us. President Milley is sure of only one thing, and that is that the United State will expand and that it will be through force. He quotes 'They have sparked the fire of their so-called revolutions. Well, we are the ever-blazing fire of freedom and liberty. And we shall do just that. Fight fire with fire.'"
+ wff.4.a:0 "The time has come, to rejoin the Union brothers."
