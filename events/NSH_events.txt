@@ -1,6 +1,5 @@
 ######################
 ##  PURIFIED STATES ##
-##  MADE BY NateDog ##
 ######################
 
 
@@ -12,12 +11,13 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event NSH.1"}
 	title = NSH.1.t
 	desc = NSH.1.d
-	picture = GFX_NYN_reaganomics
+	picture = GFX_event_bluegrass
 
 	is_triggered_only = yes
-
+     trigger = {
+        date < 2018.1.1
+    }
 	option = {
 		name = NSH.1.a
-		custom_effect_tooltip = NSH_Build_Nukes_tt
 	}
 }
