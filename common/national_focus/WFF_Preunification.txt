@@ -4,974 +4,975 @@
 
 ### Starting Focus Tree
 
-focus_tree = {
-	id = WFF_focus_tree
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = WDC
-        }
-	}
-	default = no
-
-	continuous_focus_position = {
-		x = 1
-		y = 1
-	}
-	
-	focus = {
-		id = WFF_A_New_Chapter
-		icon = WFF_Legacy_of_the_Founding_Fathers
-		x = 10
-		y = 0
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			country_event = wff.1
-		}
-	}
-
-	focus = {
-		id = WFF_State_of_the_Union
-		icon = WFF_A_Union_Held_Together
-		x = 10
-		y = 1
-		cost = 5
-		prerequisite = { focus = WFF_A_New_Chapter }
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			country_event = wff.2
-			add_stability = 0.03
-		}
-	}
-
-	focus = {
-		id = WFF_Mounting_Pressures
-		icon = WFF_Continuous_Raids
-		x = 10
-		y = 2
-		cost = 5
-		prerequisite = { focus = WFF_State_of_the_Union }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			country_event = wff.3
-			add_war_support = 0.03
-		}
-	}
-
-	focus = {
-		id = WFF_Respond_With_Force
-		icon = WFF_Crushing_the_Separatists
-		x = 8
-		y = 3
-		cost = 10
-		mutually_exclusive = {
-			focus = WFF_Democracy_Shall_Prevail
-		}
-		prerequisite = { focus = WFF_Mounting_Pressures }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Democracy_Shall_Prevail
-		icon = WFF_For_God_and_Country
-		x = 12
-		y = 3
-		cost = 10
-		prerequisite = { focus = WFF_Mounting_Pressures }
-		mutually_exclusive = {
-			focus = WFF_Respond_With_Force
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Milleys_Coup
-		icon = WFF_Cut_off_from_Friends
-		x = 7
-		y = 4
-		cost = 5
-		prerequisite = { focus = WFF_Respond_With_Force }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_popularity = {
-				ideology = authdem
-				popularity = 0.15
-			}
-			set_politics = {
-				ruling_party = authdem
-			}
-			create_country_leader = {
-				name = "Mark Milley"
-				desc = "POLITICS_MARK_MILLEY_DESC"
-				picture = "WFF_General_Mark_Milley.dds"
-				expire = "1965.1.1"
-				ideology = semi_dictator
-				traits = {
-					
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Consolidating_Power
-		icon = WFF_Another_Failed_Union
-		x = 9
-		y = 4
-		cost = 5
-		prerequisite = { focus = WFF_Respond_With_Force }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_popularity = {
-				ideology = authdem
-				popularity = 0.15
-			}
-			add_stability = 0.10
-		}
-	}
-
-	focus = {
-		id = WFF_The_Next_Step
-		icon = WFF_The_Uncertain_Future
-		x = 8
-		y = 5
-		cost = 10
-		available = {
-			NOT = { country_exists = HEL }
-		}
-		prerequisite = { focus = WFF_Milleys_Coup }
-		prerequisite = { focus = WFF_Consolidating_Power }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_war_support = 0.15
-			country_event = wff.4
-		}
-	}
-
-	focus = {
-		id = WFF_Operation_Snow_Tiger
-		icon = WFF_Support_from_within_Helena
-		x = 7
-		y = 6
-		cost = 5
-		prerequisite = { focus = WFF_The_Next_Step }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = DAK
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Operation_Emerald_Hammer
-		icon = WFF_I_Dont_Know
-		x = 9
-		y = 6
-		cost = 5
-		prerequisite = { focus = WFF_The_Next_Step }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = NEB
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Operation_Mountain_Storm
-		icon = WFF_We_Must_Teach_Those_Traitors
-		x = 7
-		y = 7
-		cost = 5
-		available = {
-			NOT = { country_exists = DAK }
-			NOT = { country_exists = NEB }
-		}
-		prerequisite = { focus = WFF_Operation_Snow_Tiger }
-		prerequisite = { focus = WFF_Operation_Emerald_Hammer }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = COC
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = WYW
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Operation_Ice_Breaker
-		icon = WFF_The_Cold_Hard_Truth
-		x = 9
-		y = 7
-		cost = 5
-		available = {
-			NOT = { country_exists = DAK }
-			NOT = { country_exists = NEB }
-		}
-		prerequisite = { focus = WFF_Operation_Snow_Tiger }
-		prerequisite = { focus = WFF_Operation_Emerald_Hammer }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = GLR
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = YWS
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Operation_Black_Desert
-		icon = GFX_CGO_focus_rears_its_ugly_head
-		x = 8
-		y = 8
-		cost = 10
-		available = {
-			NOT = { country_exists = GLR }
-			NOT = { country_exists = YWS }
-			NOT = { country_exists = COC }
-			NOT = { country_exists = WYW }
-		}
-		prerequisite = { focus = WFF_Operation_Mountain_Storm }
-		prerequisite = { focus = WFF_Operation_Ice_Breaker }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_war_support = 0.05
-			create_wargoal = {
-				type = annex_everything
-				target = SEQ
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_The_Upcoming_Election
-		icon = WFF_Political_Benefit
-		x = 11
-		y = 4
-		cost = 5
-		prerequisite = { focus = WFF_Democracy_Shall_Prevail }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Campaigning_for_Victory
-		icon = WFF_A_Call_to_Democracy
-		x = 13
-		y = 4
-		cost = 5
-		prerequisite = { focus = WFF_Democracy_Shall_Prevail }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Election_Night
-		icon = WFF_Republicans_vs_Democrats
-		x = 12
-		y = 5
-		cost = 10
-		available = {
-			NOT = { country_exists = HEL }
-		}
-		prerequisite = { focus = WFF_The_Upcoming_Election }
-		prerequisite = { focus = WFF_Campaigning_for_Victory }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_The_Nebraskan_Diplomat
-		icon = WFF_A_Forgotten_Country
-		x = 11
-		y = 6
-		cost = 5
-		prerequisite = { focus = WFF_Election_Night }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_Talks_with_Dakota
-		icon = WFF_Unionism
-		x = 13
-		y = 6
-		cost = 5
-		prerequisite = { focus = WFF_Election_Night }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_The_Colarado_Conference
-		icon = WFF_The_Government_of_the_Future
-		x = 11
-		y = 7
-		cost = 5
-		available = {
-			NOT = { country_exists = DAK }
-			NOT = { country_exists = NEB }
-		}
-		prerequisite = { focus = WFF_The_Nebraskan_Diplomat }
-		prerequisite = { focus = WFF_Talks_with_Dakota }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = WFF_A_War_for_Liberation
-		icon = WFF_Through_Fire_Blood_Sweat_and_Tears
-		x = 13
-		y = 7
-		cost = 5
-		available = {
-			NOT = { country_exists = DAK }
-			NOT = { country_exists = NEB }
-		}
-		prerequisite = { focus = WFF_The_Nebraskan_Diplomat }
-		prerequisite = { focus = WFF_Talks_with_Dakota }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = GLR
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = YWS
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = WYW
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_The_Scourge_of_the_Americas
-		icon = WFF_We_Fought_But_to_No_Avail
-		x = 12
-		y = 8
-		cost = 10
-		available = {
-			NOT = { country_exists = GLR }
-			NOT = { country_exists = YWS }
-			NOT = { country_exists = COC }
-			NOT = { country_exists = WYW }
-		}
-		prerequisite = { focus = WFF_The_Colarado_Conference }
-		prerequisite = { focus = WFF_A_War_for_Liberation }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = SEQ
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Second_New_Deal
-		icon = WFF_Agricultural_Innovations
-		x = 0
-		y = 0
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 0.5
-				uses = 2
-				category = industry
-			}
-			add_stability = 0.03
-			capital_scope = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Expanding_Infrastructure
-		icon = WFF_Economy_of_the_Future
-		x = 0
-		y = 1
-		prerequisite = { focus = WFF_Second_New_Deal }
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			879 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			879 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			879 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	
-	focus = {
-		id = WFF_Civilian_Economy
-		icon = NAK_Homes_for_the_Homeless
-		prerequisite = { focus = WFF_Expanding_Infrastructure }
-		x = -3
-		y = 2
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			add_popularity = {
-				ideology = authdem
-				popularity = -0.05
-			}
-			add_stability = 0.1
-
-		}
-	}
-
-	focus = {
-		id = WFF_Military_Economy
-		icon = Reappropriate_Civilian_Weaponry
-		prerequisite = { focus = WFF_Expanding_Infrastructure }
-		mutually_exclusive = { focus = WFF_Civilian_Economy }
-		x = 3
-		y = 2
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			add_popularity = {
-				ideology = authdem
-				popularity = 0.05
-			}
-			add_war_support = 0.1
-			add_stability = -0.05
-		}
-	}
-
-	focus = {
-		id = WFF_Civilian_Economy_I
-		icon = WFF_Economic_Benefit
-		prerequisite = { focus = WFF_Civilian_Economy }
-		x = -3
-		y = 3
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Civilian_Economy_II
-		icon = EDC_raise_funds
-		prerequisite = { focus = WFF_Civilian_Economy_I }
-		x = -3
-		y = 4
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Civilian_Economy_III
-		icon = GFX_NYN_focus_appeal_to_entrepreneurs
-		prerequisite = { focus = WFF_Civilian_Economy_II }
-		x = -3
-		y = 5
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Civilian_Economy_IV
-		icon = SIL_All_Companies_Represented
-		prerequisite = { focus = WFF_Civilian_Economy_III }
-		x = -3
-		y = 6
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Military_Economy_I
-		icon = Mobilize_the_Militia
-		prerequisite = { focus = WFF_Military_Economy }
-		x = 3
-		y = 3
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Military_Economy_II
-		icon = NAK_Assess_the_Military
-		prerequisite = { focus = WFF_Military_Economy_I }
-		x = 3
-		y = 4
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Military_Economy_III
-		icon = WFF_A_Rebounding_Union
-		prerequisite = { focus = WFF_Military_Economy_II }
-		x = 3
-		y = 5
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Military_Economy_IV
-		icon = WFF_Cut_off_from_Allies
-		prerequisite = { focus = WFF_Military_Economy_III }
-		x = 3
-		y = 6
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Infastructure_Effort
-		icon = WFF_Liberty_and_Justice_for_All
-		prerequisite = { focus = WFF_Expanding_Infrastructure }
-		x = 0
-		y = 2
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Infastructure_Effort_I
-		icon = WFF_Our_Pride
-		prerequisite = { focus = WFF_Infastructure_Effort }
-		x = 0
-		y = 3
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Infastructure_Effort_II
-		icon = WFF_A_Backwater
-		prerequisite = { focus = WFF_Infastructure_Effort_I }
-		x = 0
-		y = 4
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Aerial_Defences
-		icon = NAK_Modern_Guerllia_Warfare
-		prerequisite = { focus = WFF_Infastructure_Effort_II }
-		x = 0
-		y = 5
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			879 = {
-				add_building_construction = {
-					type = anti_air_building
-					level = 3
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_building_construction = {
-					type = anti_air_building
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_building_construction = {
-					type = anti_air_building
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Airstrips
-		icon = NAK_Emergency_Training_Program
-		prerequisite = { focus = WFF_Aerial_Defences }
-		x = 1
-		y = 6
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Airstrips_I
-		icon = GFX_ACR_focus_achieve_aerial_supremacy
-		prerequisite = { focus = WFF_Airstrips }
-		x = 1
-		y = 7
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Radar
-		icon = GFX_NYN_focus_for_the_common_man
-		prerequisite = { focus = WFF_Aerial_Defences }
-		x = -1
-		y = 6
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = radar_station
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Radar_I
-		icon = WFF_A_More_Democratic_Approach
-		prerequisite = { focus = WFF_Radar }
-		x = -1
-		y = 7
-		cost = 5
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = radar_station
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = WFF_Recovering_The_Ultimate_Weapon
-		icon = GFX_CGO_focus_a_hidden_monster
-		prerequisite = { focus = WFF_Radar_I }
-		prerequisite = { focus = WFF_Airstrips_I }
-		x = 0
-		y = 8
-		cost = 20
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			879 = {
-				add_building_construction = {
-					type = nuclear_reactor
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-}
+#focus_tree = {
+#	id = WFF_focus_tree
+#	country = {
+#		factor = 0
+#		modifier = {
+#			add = 10
+#			tag = WDC
+#        }
+#	}
+#	default = no
+#
+#	continuous_focus_position = {
+#		x = 1
+#		y = 1
+#	}
+#	
+#	focus = {
+#		id = WFF_A_New_Chapter
+#		icon = WFF_Legacy_of_the_Founding_Fathers
+#		x = 10
+#		y = 0
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			country_event = wff.1
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_State_of_the_Union
+#		icon = WFF_A_Union_Held_Together
+#		x = 10
+#		y = 1
+#		cost = 5
+#		prerequisite = { focus = WFF_A_New_Chapter }
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			country_event = wff.2
+#			add_stability = 0.03
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Mounting_Pressures
+#		icon = WFF_Continuous_Raids
+#		x = 10
+#		y = 2
+#		cost = 5
+#		prerequisite = { focus = WFF_State_of_the_Union }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			country_event = wff.3
+#			add_war_support = 0.03
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Respond_With_Force
+#		icon = WFF_Crushing_the_Separatists
+#		x = 8
+#		y = 3
+#		cost = 10
+#		mutually_exclusive = {
+#			focus = WFF_Democracy_Shall_Prevail
+#		}
+#		prerequisite = { focus = WFF_Mounting_Pressures }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Democracy_Shall_Prevail
+#		icon = WFF_For_God_and_Country
+#		x = 12
+#		y = 3
+#		cost = 10
+#		prerequisite = { focus = WFF_Mounting_Pressures }
+#		mutually_exclusive = {
+#			focus = WFF_Respond_With_Force
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Milleys_Coup
+#		icon = WFF_Cut_off_from_Friends
+#		x = 7
+#		y = 4
+#		cost = 5
+#		prerequisite = { focus = WFF_Respond_With_Force }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			add_popularity = {
+#				ideology = authdem
+#				popularity = 0.15
+#			}
+#			set_politics = {
+#				ruling_party = authdem
+#			}
+#			create_country_leader = {
+#				name = "Mark Milley"
+#				desc = "POLITICS_MARK_MILLEY_DESC"
+#				picture = "WFF_General_Mark_Milley.dds"
+#				expire = "1965.1.1"
+#				ideology = semi_dictator
+#				traits = {
+#					
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Consolidating_Power
+#		icon = WFF_Another_Failed_Union
+#		x = 9
+#		y = 4
+#		cost = 5
+#		prerequisite = { focus = WFF_Respond_With_Force }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			add_popularity = {
+#				ideology = authdem
+#				popularity = 0.15
+#			}
+#			add_stability = 0.10
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_The_Next_Step
+#		icon = WFF_The_Uncertain_Future
+#		x = 8
+#		y = 5
+#		cost = 10
+#		available = {
+#			NOT = { country_exists = HEL }
+#		}
+#		prerequisite = { focus = WFF_Milleys_Coup }
+#		prerequisite = { focus = WFF_Consolidating_Power }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			add_war_support = 0.15
+#			country_event = wff.4
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Operation_Snow_Tiger
+#		icon = WFF_Support_from_within_Helena
+#		x = 7
+#		y = 6
+#		cost = 5
+#		prerequisite = { focus = WFF_The_Next_Step }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			create_wargoal = {
+#				type = annex_everything
+#				target = DAK
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Operation_Emerald_Hammer
+#		icon = WFF_I_Dont_Know
+#		x = 9
+#		y = 6
+#		cost = 5
+#		prerequisite = { focus = WFF_The_Next_Step }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			create_wargoal = {
+#				type = annex_everything
+#				target = NEB
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Operation_Mountain_Storm
+#		icon = WFF_We_Must_Teach_Those_Traitors
+#		x = 7
+#		y = 7
+#		cost = 5
+#		available = {
+#			NOT = { country_exists = DAK }
+#			NOT = { country_exists = NEB }
+#		}
+#		prerequisite = { focus = WFF_Operation_Snow_Tiger }
+#		prerequisite = { focus = WFF_Operation_Emerald_Hammer }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			create_wargoal = {
+#				type = annex_everything
+#				target = COC
+#			}
+#			create_wargoal = {
+#				type = annex_everything
+#				target = WYW
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Operation_Ice_Breaker
+#		icon = WFF_The_Cold_Hard_Truth
+#		x = 9
+#		y = 7
+#		cost = 5
+#		available = {
+#			NOT = { country_exists = DAK }
+#			NOT = { country_exists = NEB }
+#		}
+#		prerequisite = { focus = WFF_Operation_Snow_Tiger }
+#		prerequisite = { focus = WFF_Operation_Emerald_Hammer }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			create_wargoal = {
+#				type = annex_everything
+#				target = GLR
+#			}
+#			create_wargoal = {
+#				type = annex_everything
+#				target = YWS
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Operation_Black_Desert
+#		icon = GFX_CGO_focus_rears_its_ugly_head
+#		x = 8
+#		y = 8
+#		cost = 10
+#		available = {
+#			NOT = { country_exists = GLR }
+#			NOT = { country_exists = YWS }
+#			NOT = { country_exists = COC }
+#			NOT = { country_exists = WYW }
+#		}
+#		prerequisite = { focus = WFF_Operation_Mountain_Storm }
+#		prerequisite = { focus = WFF_Operation_Ice_Breaker }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			add_war_support = 0.05
+#			create_wargoal = {
+#				type = annex_everything
+#				target = SEQ
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_The_Upcoming_Election
+#		icon = WFF_Political_Benefit
+#		x = 11
+#		y = 4
+#		cost = 5
+#		prerequisite = { focus = WFF_Democracy_Shall_Prevail }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Campaigning_for_Victory
+#		icon = WFF_A_Call_to_Democracy
+#		x = 13
+#		y = 4
+#		cost = 5
+#		prerequisite = { focus = WFF_Democracy_Shall_Prevail }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Election_Night
+#		icon = WFF_Republicans_vs_Democrats
+#		x = 12
+#		y = 5
+#		cost = 10
+#		available = {
+#			NOT = { country_exists = HEL }
+#		}
+#		prerequisite = { focus = WFF_The_Upcoming_Election }
+#		prerequisite = { focus = WFF_Campaigning_for_Victory }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_The_Nebraskan_Diplomat
+#		icon = WFF_A_Forgotten_Country
+#		x = 11
+#		y = 6
+#		cost = 5
+#		prerequisite = { focus = WFF_Election_Night }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Talks_with_Dakota
+#		icon = WFF_Unionism
+#		x = 13
+#		y = 6
+#		cost = 5
+#		prerequisite = { focus = WFF_Election_Night }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_The_Colarado_Conference
+#		icon = WFF_The_Government_of_the_Future
+#		x = 11
+#		y = 7
+#		cost = 5
+#		available = {
+#			NOT = { country_exists = DAK }
+#			NOT = { country_exists = NEB }
+#		}
+#		prerequisite = { focus = WFF_The_Nebraskan_Diplomat }
+#		prerequisite = { focus = WFF_Talks_with_Dakota }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_A_War_for_Liberation
+#		icon = WFF_Through_Fire_Blood_Sweat_and_Tears
+#		x = 13
+#		y = 7
+#		cost = 5
+#		available = {
+#			NOT = { country_exists = DAK }
+#			NOT = { country_exists = NEB }
+#		}
+#		prerequisite = { focus = WFF_The_Nebraskan_Diplomat }
+#		prerequisite = { focus = WFF_Talks_with_Dakota }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			create_wargoal = {
+#				type = annex_everything
+#				target = GLR
+#			}
+#			create_wargoal = {
+#				type = annex_everything
+#				target = YWS
+#			}
+#			create_wargoal = {
+#				type = annex_everything
+#				target = WYW
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_The_Scourge_of_the_Americas
+#		icon = WFF_We_Fought_But_to_No_Avail
+#		x = 12
+#		y = 8
+#		cost = 10
+#		available = {
+#			NOT = { country_exists = GLR }
+#			NOT = { country_exists = YWS }
+#			NOT = { country_exists = COC }
+#			NOT = { country_exists = WYW }
+#		}
+#		prerequisite = { focus = WFF_The_Colarado_Conference }
+#		prerequisite = { focus = WFF_A_War_for_Liberation }
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		completion_reward = {
+#			create_wargoal = {
+#				type = annex_everything
+#				target = SEQ
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Second_New_Deal
+#		icon = WFF_Agricultural_Innovations
+#		x = 0
+#		y = 0
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			add_tech_bonus = {
+#				name = industrial_bonus
+#				bonus = 0.5
+#				uses = 2
+#				category = industry
+#			}
+#			add_stability = 0.03
+#			capital_scope = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 2
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Expanding_Infrastructure
+#		icon = WFF_Economy_of_the_Future
+#		x = 0
+#		y = 1
+#		prerequisite = { focus = WFF_Second_New_Deal }
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			879 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#			879 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#			879 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	
+#	focus = {
+#		id = WFF_Civilian_Economy
+#		icon = NAK_Homes_for_the_Homeless
+#		prerequisite = { focus = WFF_Expanding_Infrastructure }
+#		x = -3
+#		y = 2
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = industrial_complex
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = industrial_complex
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#			add_popularity = {
+#				ideology = authdem
+#				popularity = -0.05
+#			}
+#			add_stability = 0.1
+#
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Military_Economy
+#		icon = Reappropriate_Civilian_Weaponry
+#		prerequisite = { focus = WFF_Expanding_Infrastructure }
+#		mutually_exclusive = { focus = WFF_Civilian_Economy }
+#		x = 3
+#		y = 2
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = arms_factory
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = arms_factory
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#			add_popularity = {
+#				ideology = authdem
+#				popularity = 0.05
+#			}
+#			add_war_support = 0.1
+#			add_stability = -0.05
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Civilian_Economy_I
+#		icon = WFF_Economic_Benefit
+#		prerequisite = { focus = WFF_Civilian_Economy }
+#		x = -3
+#		y = 3
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = industrial_complex
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Civilian_Economy_II
+#		icon = EDC_raise_funds
+#		prerequisite = { focus = WFF_Civilian_Economy_I }
+#		x = -3
+#		y = 4
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = industrial_complex
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Civilian_Economy_III
+#		icon = GFX_NYN_focus_appeal_to_entrepreneurs
+#		prerequisite = { focus = WFF_Civilian_Economy_II }
+#		x = -3
+#		y = 5
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = industrial_complex
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Civilian_Economy_IV
+#		icon = SIL_All_Companies_Represented
+#		prerequisite = { focus = WFF_Civilian_Economy_III }
+#		x = -3
+#		y = 6
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = industrial_complex
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Military_Economy_I
+#		icon = Mobilize_the_Militia
+#		prerequisite = { focus = WFF_Military_Economy }
+#		x = 3
+#		y = 3
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = arms_factory
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Military_Economy_II
+#		icon = NAK_Assess_the_Military
+#		prerequisite = { focus = WFF_Military_Economy_I }
+#		x = 3
+#		y = 4
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = arms_factory
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Military_Economy_III
+#		icon = WFF_A_Rebounding_Union
+#		prerequisite = { focus = WFF_Military_Economy_II }
+#		x = 3
+#		y = 5
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = arms_factory
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Military_Economy_IV
+#		icon = WFF_Cut_off_from_Allies
+#		prerequisite = { focus = WFF_Military_Economy_III }
+#		x = 3
+#		y = 6
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = arms_factory
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Infastructure_Effort
+#		icon = WFF_Liberty_and_Justice_for_All
+#		prerequisite = { focus = WFF_Expanding_Infrastructure }
+#		x = 0
+#		y = 2
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Infastructure_Effort_I
+#		icon = WFF_Our_Pride
+#		prerequisite = { focus = WFF_Infastructure_Effort }
+#		x = 0
+#		y = 3
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Infastructure_Effort_II
+#		icon = WFF_A_Backwater
+#		prerequisite = { focus = WFF_Infastructure_Effort_I }
+#		x = 0
+#		y = 4
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Aerial_Defences
+#		icon = NAK_Modern_Guerllia_Warfare
+#		prerequisite = { focus = WFF_Infastructure_Effort_II }
+#		x = 0
+#		y = 5
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			879 = {
+#				add_building_construction = {
+#					type = anti_air_building
+#					level = 3
+#					instant_build = yes
+#				}
+#			}
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = anti_air_building
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = anti_air_building
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Airstrips
+#		icon = NAK_Emergency_Training_Program
+#		prerequisite = { focus = WFF_Aerial_Defences }
+#		x = 1
+#		y = 6
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = air_base
+#					level = 2
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Airstrips_I
+#		icon = GFX_ACR_focus_achieve_aerial_supremacy
+#		prerequisite = { focus = WFF_Airstrips }
+#		x = 1
+#		y = 7
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = air_base
+#					level = 2
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Radar
+#		icon = GFX_NYN_focus_for_the_common_man
+#		prerequisite = { focus = WFF_Aerial_Defences }
+#		x = -1
+#		y = 6
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = radar_station
+#					level = 2
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Radar_I
+#		icon = WFF_A_More_Democratic_Approach
+#		prerequisite = { focus = WFF_Radar }
+#		x = -1
+#		y = 7
+#		cost = 5
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			random_owned_state = {
+#				add_building_construction = {
+#					type = radar_station
+#					level = 2
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#
+#	focus = {
+#		id = WFF_Recovering_The_Ultimate_Weapon
+#		icon = GFX_CGO_focus_a_hidden_monster
+#		prerequisite = { focus = WFF_Radar_I }
+#		prerequisite = { focus = WFF_Airstrips_I }
+#		x = 0
+#		y = 8
+#		cost = 20
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			879 = {
+#				add_building_construction = {
+#					type = nuclear_reactor
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#}
+#
