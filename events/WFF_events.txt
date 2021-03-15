@@ -1,13 +1,11 @@
 add_namespace = wff
-add_namespace = wff_republican
-add_namespace = wff_liberal
 
 # A New Chapter
 country_event = {
     id = wff.1
     title = wff.1.t
     desc = wff.1.d
-    picture = GFX_WFF_A_New_Chapter_event
+    picture = GFX_report_event_election_vote
 	  is_triggered_only = yes
 
     option = {
@@ -108,130 +106,5 @@ country_event = {
       ideology = authdem
       popularity = 0.05
     }
-  }
-}
-
-# A Government For The People, By The People, and of the People
-country_event = {
-  id = wff.5
-  title = wff.5.t
-  desc = wff.5.d
-  picture = GFX_WFF_Restoration_of_Democracy
-  is_triggered_only = yes
-
-  option = {
-    name = wff.5.a
-    ai_chance = { base = 100 }
-    retire_country_leader = yes
-    create_country_leader = {
-      name = "Jared Polis"
-      desc = "POLITICS_JARED_POLIS_DESC"
-      picture = "WFF_Leader_Governor_Jared_Polis.dds"
-      expire = "2040.1.1"
-      ideology = reactionary
-      traits = {
-        temporary_leader
-      }
-    }
-    add_popularity = {
-      ideology = authdem
-      popularity = -0.15
-    }
-  }
-}
-
-# The 2018 Elections
-country_event = {
-  id = wff.6
-  title = wff.6.t
-  desc = wff.6.d
-  picture = GFX_WFF_The_Vote
-  is_triggered_only = yes
-
-  option = {
-    name = wff.6.a
-    ai_chance = { base = 25 }
-    retire_country_leader = yes
-    add_popularity = {
-      ideology = demsoc
-      popularity = 0.15
-    }
-    set_politics = {
-      ruling_party = demsoc
-      elections_allowed = no
-      last_election = "2018.2.15"
-      election_frequency = 48
-    }
-    complete_national_focus = WFF_President_Pat_Noble
-    set_country_flag = socialists_win_election
-  }
-  option = {
-    name = wff.6.b
-    ai_chance = { base = 75 }
-    retire_country_leader = yes
-    add_popularity = {
-      ideology = liberal
-      popularity = 0.15
-    }
-    set_politics = {
-      ruling_party = liberal
-      elections_allowed = no
-      last_election = "2018.2.15"
-      election_frequency = 48
-    }
-    complete_national_focus = WFF_President_Michael_Bennett
-    set_country_flag = liberals_win_election
-  }
-  option = {
-    name = wff.6.c
-    ai_chance = { base = 100 }
-    retire_country_leader = yes
-    add_popularity = {
-      ideology = democratic
-      popularity = 0.15
-    }
-    set_politics = {
-      ruling_party = liberal
-      elections_allowed = no
-      last_election = "2018.2.15"
-      election_frequency = 48
-    }
-    complete_national_focus = WFF_President_Ken_Buck
-    set_country_flag = republicans_win_election
-  }
-}
-
-### DEMOCRATIC PATH ###
-
-country_event = {
-  id = wff_liberal.1
-  title = wff_liberal.1.t
-  desc = wff_liberal.1.d
-  picture = GFX_WFF_The_Future_of_America
-  is_triggered_only = yes
-
-  option = {
-    name = wff_liberal.1.a
-    ai_chance = { base = 100 }
-    add_war_support = 0.1
-    remove_ideas = WFF_A_Failed_Union
-  }
-}
-
-### REPUBLICAN PATH ###
-
-# The Future of America
-country_event = {
-  id = wff_republican.1
-  title = wff_republican.1.t
-  desc = wff_republican.1.d
-  picture = GFX_WFF_The_Future_of_America
-  is_triggered_only = yes
-
-  option = {
-    name = wff_republican.1.a
-    ai_chance = { base = 100 }
-    add_war_support = 0.1
-    remove_ideas = WFF_A_Failed_Union
   }
 }

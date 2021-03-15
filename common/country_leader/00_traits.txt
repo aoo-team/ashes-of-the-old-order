@@ -4853,15 +4853,4 @@ leader_traits = {
 		production_speed_buildings_factor = 0.3
 		production_factory_max_efficiency_factor = 0.25
 		}
-	
-	### MODDED STUFF ###
-
-	temporary_leader = {
-		random = no
-		stability_factor = -0.10
-		political_advisor_cost_factor = 0.50
-		trade_laws_cost_factor = 0.50
-		mobilization_laws_cost_factor = 0.50
-		economy_cost_factor = 0.50
-	}
 }

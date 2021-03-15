@@ -21,13 +21,3 @@ WFF_expansion_of_the_suburbs = {
 		has_completed_focus = WFF_Expand_the_Suburbs
 	}
 }
-
-WFF_economic_reforms = {
-	icon = gre_investment_decisions
-	allowed = {
-		original_tag = WDC
-	}
-	visible = {
-		has_country_flag = economic_reforms
-	}
-}

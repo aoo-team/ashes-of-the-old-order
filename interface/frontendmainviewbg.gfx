@@ -1,0 +1,11 @@
+spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_frontend_bg"
+		texturefile = "gfx/loadingscreens/load_5.dds"
+		effectFile = "gfx/FX/buttonstate.shader"
+		noOfFrames = 5
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+	}
+}
