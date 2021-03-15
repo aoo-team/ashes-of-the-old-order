@@ -4129,6 +4129,26 @@ spriteType = {
 texturefile = "gfx/interface/goals/EDC_the_first_step.dds"
 }
 
+	spriteType = {
+		name = "WFF_A_New_Chapter" 
+   		texturefile = "gfx/interface/goals/WDC_A_New_Chapter.dds"
+   	}
+	
+	spriteType = {
+		name = "WFF_Announce_Restoration_of_Democracy" 
+   		texturefile = "gfx/interface/goals/WDC_Announce_the_Restoration_of_Democracy.dds"
+   	}
+
+	spriteType = {
+		name = "WFF_Promise_Fair_Elections" 
+   		texturefile = "gfx/interface/goals/WDC_Promise_Fair_Elections.dds"
+   	}
+
+	spriteType = {
+		name = "WFF_The_2018_Elections" 
+   		texturefile = "gfx/interface/goals/WDC_2018_Elections.dds"
+   	}
+
 
 
 }
