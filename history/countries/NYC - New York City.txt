@@ -58,7 +58,7 @@ set_politics = {
 
 set_popularities = {
 	democratic = 35
-	neutrality = 5
+	neutrality = 0
 	authdem = 0
 	liberal = 20
 	demsoc = 0
@@ -68,7 +68,7 @@ set_popularities = {
 	libsoc = 0
 	anarchy = 0
 	fascism = 0
-	ultranationalism = 0
+	ultranationalism = 5
 }
 
 create_country_leader = {
@@ -77,4 +77,15 @@ create_country_leader = {
 	picture = "Portrait_Mark_Green.tga"
 	expire = "3000.1.1"
 	ideology = progressive
+}
+
+create_country_leader = {
+	name = "Donald Trump"
+	desc = "POLITICS_GOD_DESC"
+	picture = "Portrait_Donald_Trump.tga"
+	expire = "9000.1.1"
+	ideology = nationalist
+	traits = {
+
+	}
 }
