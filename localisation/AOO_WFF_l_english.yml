@@ -48,6 +48,12 @@
  WFF_Improve_Suburbian_Industry:0 "Improve Suburbian Industry"
  WFF_Suburbian_Small_Business_Incentives:0 "Suburbian Small Business Incentives"
  WFF_Suburbian_Military_Expansion:0 "Suburbian Military Expansion"
+
+ WFF_economic_reforms:0 "Economic Reforms"
+
+ WFF_raise_wages:0 "Raise Worker Wages"
+ WFF_tax_the_rich_more:0 "Higher Taxes on the Rich"
+ WFF_union_integration:0 "Union Integration"
  
  # Idea LOC
  
@@ -83,6 +89,27 @@
  
  WFF_Divided:0 "Divided"
  WFF_Divided_desc:0 ""
+
+ WFF_Business_Friendly_Administration:0 "Business Friendly Administration"
+ WFF_Business_Friendly_Administration_desc:0 "PLACEHOLDER"
+
+ WFF_Business_Encouraged_by_Government:0 "Business Encouraged by Government"
+ WFF_Business_Encouraged_by_Government_desc:0 "PLACEHOLDER"
+
+ WFF_Well_Funded_Military:0 "Well Funded Military"
+ WFF_Well_Funded_Military_desc:0 "PLACEHOLDER"
+
+ WFF_No_Tariffs:0 "Tariffs Outlawed"
+ WFF_No_Tariffs_desc:0 ""
+
+ WFF_Tax_Haven:0 "Tax Haven"
+ WFF_Tax_Haven_desc:0 ""
+
+ WFF_A_Free_People_Improved:0 "Freedom for All"
+ WFF_A_Free_People_Improved_desc:0 ""
+ 
+ WFF_A_Green_Energy_Community:0 "A Green Energy Community"
+ WFF_A_Green_Energy_Community_desc:0 ""
  
  # Focus Tree LOC
  
@@ -93,115 +120,71 @@
  WFF_A_New_Chapter:0 "A New Chapter"
  WFF_A_New_Chapter_desc:0 "Many in the Americas have lost hope, we have been beaten back on all fronts but there is still the spark of liberty and democracy in the hearts of every American, all we have to do is light it."
 
- WFF_State_of_the_Union:0 "State of the Union"
- WFF_State_of_the_Union_desc:0 "Although it has been years since the President of the United States last gave the State of the Union speech to Congress, it was less of a speech to Congress than it was a speech to the people. The people need to know that we are still fighting and that we will never give up!"
+ WFF_Announce_Restoration_of_Democracy:0 "Announce Restoration of Democracy"
+ WFF_Announce_Restoration_of_Democracy_desc:0 ""
 
- WFF_Mounting_Pressures:0 "Mounting Pressures"
- WFF_Mounting_Pressures_desc:0 "CIA REPORT:\n\nMultiple insurgent operations observed in the Northern territories, especially around the city of St. Helena, we advise a military strike and crackdown immediately. Please advise. Contact will be cut for around a week as we repair phone lines destroyed by the terrorists."
+ WFF_Promise_Fair_Elections:0 "Promise Fair Elections"
+ WFF_Promise_Fair_Elections_desc:0 ""
 
- WFF_Respond_With_Force:0 "Respond with Force"
- WFF_Respond_With_Force_desc:0 "We shall not accept that these people will encroach on our freedoms, there is only one path to victory with these Rebels. Much like we did to the others, we will fight, and this time we will win."
+ WFF_The_2018_Elections:0 "The 2018 Elections"
+ WFF_The_2018_Elections_desc:0 ""
 
- WFF_Democracy_Shall_Prevail:0 "Democracy shall Prevail"
- WFF_Democracy_Shall_Prevail_desc:0 "These people are American people, they want what we want as well, freedom fro tyranny, so we shall do so. And we shall initiate negotiations with these people, sure there will be concessions but they are our people."
+ WFF_President_Pat_Noble:0 "President Pat Noble"
+ WFF_President_Pat_Noble_desc:0 ""
 
- WFF_Milleys_Coup:0 "Milley's Coup"
- WFF_Milleys_Coup_desc:0 "The government is too concerned with the liberties of the people to realise that war is upon us, we must react and we must react swiftly. General Milley is the only man capable of delivering on such needs and we must therefore install him as our leader in government."
+ WFF_President_Michael_Bennett:0 "President Michael Bennett"
+ WFF_President_Michael_Bennett_desc:0 ""
 
- WFF_Consolidating_Power:0 "Consolidating Power"
- WFF_Consolidating_Power_desc:0 "There are still people in our ranks and in the hearts of the people who value freedom over survival. Well, there is no freedom without survival and we will ensure that they know this."
+ WFF_President_Ken_Buck:0 "President Ken Buck"
+ WFF_President_Ken_Buck_desc:0 ""
 
- WFF_The_Next_Step:0 "The Next Step"
- WFF_The_Next_Step_desc:0 "We may have reigned victorious over the insurgents in the North but this is only the beginning of the war to come. We now have the means to expand, for the first time we will be able to retake ground we lost. It is the beginning of a new era."
+ WFF_A_Step_Towards_Capitalism:0 "A Step Towards Capitalism"
+ WFF_A_Step_Towards_Capitalism_desc:0 ""
 
- WFF_Operation_Snow_Tiger:0 "Operation Snow Tiger"
- WFF_Operation_Snow_Tiger_desc:0 "Operation Snow Tiger is aimed to retake the lands of Dakota, but the going will not be easy and the terrain most unforgiving, we must pray that they have not a military to match ours."
+ WFF_Investing_in_the_Military:0 "Investing in the Military"
+ WFF_Investing_in_the_Military_desc:0 ""
 
- WFF_Operation_Emerald_Hammer:0 "Operation Emerald Hammer"
- WFF_Operation_Emerald_Hammer_desc:0 "Operation Emerald Hammer aims at retaking much of the territory owned by the rebels calling themselves the 'New State of Nebraska'. They seem to be unweildy and unworthy of a fight, this should be a quick war."
+ WFF_Supporting_the_Businessman:0 "Supporting the Businessman"
+ WFF_Supporting_the_Businessman_desc:0 ""
 
- WFF_Operation_Mountain_Storm:0 "Operation Mountain Storm"
- WFF_Operation_Mountain_Storm_desc:0 "The lands nearest to our Capital are the ones we are most concerned about, at any moment they may strike and would be able to capture Denver in a day, we must eliminate this threat before it eliminates us."
+ WFF_National_Guard_Expansion:0 "National Guard Expansion"
+ WFF_National_Guard_Expansion_desc:0 ""
 
- WFF_Operation_Ice_Breaker:0 "Operation Ice Breaker"
- WFF_Operation_Ice_Breaker_desc:0 "The makeshift nations of the mountains of Wyoming and North Dakota are in shambles, they follow extreme religions and ideologies, although they have fanatical loyalties to these religions and ideologies, although their organization skills are below par and the fear they inspire in their enemies is potent. We must eliminate these insurgents quickly and eradicate their radical beliefs."
+ WFF_Remove_All_Tarriffs:0 "Remove All Tariffs"
+ WFF_Remove_All_Tarriffs_desc:0 ""
 
- WFF_Operation_Black_Desert:0 "Operation Black Desert"
- WFF_Operation_Black_Desert_desc:0 "One of the Final Steps in our journey to becoming a nation on the world stage once again would be the conquest of the lands owned by the partisan group known only as 'The Wasteland Regiment'. From intelligence reports, it seems that this partisan group is a fanatical group hellbent on chemical warfare and will stop at nothing to achieve their goals."
+ WFF_Military_Research_Programs:0 "Military Research Programs"
+ WFF_Military_Research_Programs_desc:0 ""
 
- WFF_The_Upcoming_Election:0 "The Upcoming Election"
- WFF_Campaigning_for_Victory:0 "Campaigning for Victory"
- WFF_Election_Night:0 "Election Night"
- WFF_The_Nebraskan_Diplomat:0 "The Nebraskan Diplomat"
- WFF_Talks_with_Dakota:0 "Talks with Dakota"
- WFF_The_Colarado_Conference:0 "The Colorado Conference"
- WFF_A_War_for_Liberation:0 "A War for Liberation"
- WFF_The_Scourge_of_the_Americas:0 "The Scourge of the Americas"
+ WFF_Remove_Taxes_on_Corporations:0 "Remove Corporate Taxes"
+ WFF_Remove_Taxes_on_Corporations_desc:0 ""
 
- # ECONOMIC PART OF TREE #
+ WFF_A_Preserved_Nation:0 "A Preserved Nation"
+ WFF_A_Preserved_Nation_desc:0 ""
 
- WFF_Second_New_Deal:0 "Second New Deal"
- WFF_Second_New_Deal_desc:0 "The American People are tired, they need a way to lift them out of poverty. Constant war has kept them locked in an eternal cycle. But now, in this time of temporary cease-fire, we must use the opportunity to revitalize the economy and bring the American Dream back to reality."
+ WFF_American_Freedom:0 "American Freedom"
+ WFF_American_Freedom_desc:0 ""
 
- WFF_Expanding_Infrastructure:0 "Expanding Infrastructure"
- WFF_Expanding_Infrastructure_desc:0 "Throughout the war, roads and trade routes were heavily damaged, those roads that we do have left are worn and in bad condition. It is time for us to expand the measly network of trails we have today."
+ WFF_A_Government_of_the_People:0 "A Government of the People"
+ WFF_A_Government_of_the_People_desc:0 ""
 
- WFF_Civilian_Economy:0 "A Civilian Economy"
- WFF_Civilian_Economy_desc:0 "In order for the American dream to be brought to life, it needs to start at home, where people will be able to work, buy what they please."
+ WFF_Economic_Reforms:0 "Economic Reforms"
+ WFF_Economic_Reforms_desc:0 ""
 
- WFF_Military_Economy:0 "A Military Industry"
- WFF_Military_Economy_desc:0 "The American dream means being lifted out of poverty, if we can employ the people in weapons production centers, we will be able to provide them with jobs, and much needed armaments for our military."
+ WFF_Universal_Healthcare:0 "Universal Healthcare"
+ WFF_Universal_Healthcare_desc:0 ""
 
- WFF_Civilian_Economy_I:0 "Invest in Local Business"
- WFF_Civilian_Economy_I_desc:0 "Local business is what keeps the economy running, without the local supermarket or the mechanic, the American people would have to learn to grow food and fix their appliances."
+ WFF_15_Dollar_Minimum_Wage:0 "15 Dollar Minimum Wage"
+ WFF_15_Dollar_Minimum_Wage_desc:0 ""
 
- WFF_Civilian_Economy_II:0 "Entrepreneurial Adventures"
- WFF_Civilian_Economy_II_desc:0 "The old saying goes 'no risk, no reward' so we must invest in our economy, although some investments may turn faulty, some will be fruitful and even fewer will become essential to the growth of our economy."
+ WFF_Green_Energy_Ventures:0 "Green Energy Ventures"
+ WFF_Green_Energy_Ventures_desc:0 ""
 
- WFF_Civilian_Economy_III:0 "Invite Foreign Investment"
- WFF_Civilian_Economy_III_desc:0 "We do not possess the capital to completely revitalize our economy, therefore we must reach out to other nations willing to invest in our fledgling nation."
+ WFF_Tax_the_Rich:0 "Tax the Rich"
+ WFF_Tax_the_Rich_desc:0 ""
 
- WFF_Civilian_Economy_IV:0 "Production Centers"
- WFF_Civilian_Economy_IV_desc:0 "The final step and the longest step in revitalizing our economy will be the creation of production centers, without them, we would not be able to produce the goods we need daily, this will greatly increase the happiness and stability of our people."
-
- WFF_Military_Economy_I:0 "Basic Military Production Lines"
- WFF_Military_Economy_I_desc:0 "After the war, our weapons production lines were left in disarray and are practically non-existent today. We must expand and repair the factories we ave today before we can think to bigger projects."
-
- WFF_Military_Economy_II:0 "Armament Factories"
- WFF_Military_Economy_II_desc:0 "Although the people may not like it, America runs on war. Without the means to commit war we would not be able to run. And without the means to make the weapons to wage war we would not be able to run."
-
- WFF_Military_Economy_III:0 "Private Weapons Producers"
- WFF_Military_Economy_III_desc:0 "Although the government does not currently possess the capital to fully spark the armament industry back into full swing, private investors do. So, we will reach out to them for the capital we need to expand our weapons industry."
-
- WFF_Military_Economy_IV:0 "The Weapons of Liberty"
- WFF_Military_Economy_IV_desc:0 "The people have always wanted weapons, they just did not know they wanted them. Without weapons, we would not be able to uphold freedom, and without freedom, well, it wouldn't really matter what they wanted."
-
- WFF_Infastructure_Effort:0 "Road Construction"
- WFF_Infastructure_Effort_desc:0 "The damaged trails and roads system we currently have is inadequate despite the recent efforts to repair it. It needs further work for the public and the military to feel safe to use it."
-
- WFF_Infastructure_Effort_I:0 "Interstate Highways"
- WFF_Infastructure_Effort_I_desc:0 "One of the first steps in repairing our infrastructure would be the rebuilding of the interstate highways which were before in shambles and overflowed with bandits and highwaymen."
-
- WFF_Infastructure_Effort_II:0 "Backcountry Motorways"
- WFF_Infastructure_Effort_II_desc:0 "Although highways are more preferable for many to travel on, they do not always go where we need them to go, and therefore we must venture out and build new backcountry roads."
-
- WFF_Aerial_Defences:0 "Aerial Defences"
- WFF_Aerial_Defences_desc:0 "Since the Second American Civil War, the aerial defences of vulnerable areas like Denver and St. Helena have been damaged, and we have neglected to maintain them. But it is time for us to remake the once sprawling system, for the good and protection of our people."
-
- WFF_Radar:0 "Aircraft Detection System"
- WFF_Radar_desc:0 "A vital addition to our aerial defences would be the implementation of an Aircraft detection system, without one we would not know when and where our enemies are attacking us from."
-
- WFF_Radar_I:0 "New Anti-Scrambling Software"
- WFF_Radar_I_desc:0 "Aircraft have gotten more sophisticated but our outdated aerial detection system has not, we must create new software to combatant the new innovations in Aircraft location scrambling."
-
- WFF_Airstrips:0 "Expanding the Airports"
- WFF_Airstrips_desc:0 "The airports are currently ridden with potholes and dangers from the war, we must be able to reuse these airfields if we ever wish to be able to wage any real war."
-
- WFF_Airstrips_I:0 "Backup Airstrips"
- WFF_Airstrips_I_desc:0 "Although many of our airstrips are back to basic functions, we must also be able to field large amounts of aircraft, so we need a place to store them and train them."
-
- WFF_Recovering_The_Ultimate_Weapon:0 "§RThe Ultimate Weapon§!"
- WFF_Recovering_The_Ultimate_Weapon_desc:0 "Although many hope we may never have to use it, the time may come when our enemies overpower us, and democracy is on the verge of being extinguished. And in that situation, we need a backup plan. However rash the decision, we must make it in time, to save the lives and liberty of our people."
+ WFF_A_Renewed_Nation:0 "A Renewed Nation"
+ WFF_A_Renewed_Nation_desc:0 ""
  
  # Tooltip LOC
  
@@ -212,6 +195,12 @@
  wff_tooltip_tt_4:0 "Grants §G10%§! extra production efficiency."
  
  wff_bitf_tt_2:0 "§RTime to look towards the future. No matter how endangered and bloody it may be.§!"
+
+ wff_tooltip_tt_5:0 "§Y'Economic Reforms'§! decisions will be unlocked."
+
+ wff_tooltip_tt_7:0 "The §Y'Anti-Expansion Pact'§! will be formed between your enemies."
+ wff_tooltip_tt_8:0 "The §Y'Iron Pact'§! will be formed between your enemies."
+ wff_tooltip_tt_9:0 "The §Y'Mojave Pact'§! will be formed between your enemies."
  
  # Event LOC
  
@@ -279,3 +268,33 @@
  wff.4.t:0 "The Next Chapter"
  wff.4.d:0 "There is only one way forward, and it is conquest. The American people have been ununited for too long, and they long to be one nation again. But many of these people are still being oppressed under regimes such as those in the territories to the South or the Northwest of us. President Milley is sure of only one thing, and that is that the United State will expand and that it will be through force. He quotes 'They have sparked the fire of their so-called revolutions. Well, we are the ever-blazing fire of freedom and liberty. And we shall do just that. Fight fire with fire.'"
  wff.4.a:0 "The time has come, to rejoin the Union brothers."
+
+ wff.5.t:0 "The Freedom Speech"
+ wff.5.d:0 "James Mattis, current leader of the United State walked up onto the makeshift speaking platform in front of the hastily constructed white house in Denver. He avoided the repeated camera flashes from members of the crowd, predominantly reporters. He could see the anticipation in their faces, years had gone by without any improvement in the state of the country, they were waiting for good news. And for once, he had some.\n\nHe began his speech with 'This government, a government for the people, by the people, and of the people should reflect just that. And throughout the turmoil and devestation brought to America in the last two decades we have persevered. But we never prevailed.' then seeing the confused looks on the many of the faces of members of the crowd gathering before him, he elaborated. 'Democracy, as it was during all times of American struggle, has persevered. And therefore, I will be resigning my post, and I shall be restoring democracy to the United States. Democracy failed once. It shall not happen again.'\n\nMattis waited, watching the stunned expressions of those in the crowd, and after what seemed like eternity, one man began to clap, then another, and another, until the whole crowd was in applause of the speech. He smiled, although he had just resigned, he had achieved his goal. The restoration of democracy."
+ wff.5.a:0 "Democracy perseveres, and so does the American spirit."
+
+ wff.6.t:0 "The 2018 Elections"
+ wff.6.d:0 "With the first new election in the United States, hopefully one of many to come, we have three major candidates. On the far left side of the political sphere we have leader of the American Socialist Party Pat Noble, who has expressed his support in the empowering of the working class, and the further integration of union politcs into the government. He pledges to reform America for the better.\n\nOn the less severe, and moderate left side of the political sphere, a politician by the name of Michael Bennett is running for office. Much like Noble pledged, he pledged to make the American workers' standard of life increase, but he said that some of Noble's policies are foolish and would destroy the economy, and has taken a more moderate approach on his campaign.\n\nAnd finally, on the right side of the political sphere, there is politician Ken Buck who has publicly voiced that the protection of the American people and the revitalization of the economy will be his two major concerns if he ever makes it to office. He has publicly shamed both Bennett and Noble for taking too 'Socialist' of a stance and says that either candidate would bring the United States down the root of Communism. Much like that of the oppressive Soviet Union.\n\nIt is now the American peoples' turn to decide. They must choose wisely."
+ wff.6.a:0 "Pat Noble (Socialist Party) wins the election!"
+ wff.6.b:0 "Michael Bennett (Democratic Party) wins the election!"
+ wff.6.c:0 "Ken Buck (Republican Party) wins the election!"
+
+ wff_republican.1.t:0 "The Future of America"
+ wff_republican.1.d:0 "Ken Buck, who had now become accustomned to being president once again, walked up on the same stage that Mattis had given his speeches in the time of his leadership. Buck felt the tension in the air, as the reporters began to file into te crowd, and under their scrutinous gaze he started his speech. 'My term as president has only just begun, but the fruits of my labor have started to show, our economy is improving, our military is now capable of defending our nation. I have stabilized the United States.'\n\nHe continued 'But, I do not intend to make that the extend of the reforms and changes that will happen to this country during my presidency. The areas around us, populated with tyrannical governments and corrupt leaders are our brothers and sisters. In the last two decades we have lost more than any one man could apprehend. But it is now time to retake the territories lost. It is time to rejoin with our brothers and sisters.'\n\n'In the 1800s, after the First American Civil War, we reunited with the Confederate States after the war, they became part of the country once again. ANd now it is my mission to do the same with the rest of the United States. There is only one path forward. And that is freedom!', as he finished his speech, Buck looked up and saw a wave of applause, but he still had doubt in his mind. Was this the right thing to do?"
+ wff_republican.1.a:0 "Onwards, to new lands!"
+
+ wff_liberal.1.t:0 "The Future of America"
+ wff_liberal.1.d:0 "Michael Bennett, who had now become accustomned to being president once again, walked up on the same stage that Mattis had given his speeches in the time of his leadership. Buck felt the tension in the air, as the reporters began to file into te crowd, and under their scrutinous gaze he started his speech. 'My term as president has only just begun, but the fruits of my labor have started to show, our economy is improving, our military is now capable of defending our nation. I have stabilized the United States.'\n\nHe continued 'But, I do not intend to make that the extend of the reforms and changes that will happen to this country during my presidency. The areas around us, populated with tyrannical governments and corrupt leaders are our brothers and sisters. In the last two decades we have lost more than any one man could apprehend. But it is now time to retake the territories lost. It is time to rejoin with our brothers and sisters.'\n\n'In the 1800s, after the First American Civil War, we reunited with the Confederate States after the war, they became part of the country once again. ANd now it is my mission to do the same with the rest of the United States. There is only one path forward. And that is freedom!', as he finished his speech, Bennett looked up and saw a wave of applause, but he still had doubt in his mind. Was this the right thing to do?"
+ wff_liberal.1.a:0 "Onwards, to new lands!"
+
+ ### FLAGS ###
+ 
+ socialists_win_election:0 "Socialists win the election"
+ liberals_win_election:0 "Democrats win the election"
+ republicans_win_election:0 "Republicans win the election"
+
+ ### MISC ###
+
+ anti_wff_faction:0 "Anti-Expansion Pact"
+ iron_pact:0 "Iron Pact"
+ 

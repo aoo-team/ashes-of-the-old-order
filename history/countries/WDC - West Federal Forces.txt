@@ -7,6 +7,7 @@ set_research_slots = 4
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	motorised_infantry = 1
 	tech_recon = 1
 	tech_support = 1
 	tech_engineers = 1
@@ -52,7 +53,7 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = authdem
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -60,22 +61,21 @@ set_politics = {
 add_ideas = {
 	WFF_A_Failed_Union
 	WFF_Light_in_Darkness
-	WFF_Separatists
 	WFF_Democratic_Elections
 }
 set_popularities = {
-	democratic = 41
-	neutrality = 9
-	authdem = 2
-	liberal = 40
+	democratic = 21
+	neutrality = 1
+	authdem = 39
+	liberal = 26
 	demsoc = 5
-	prodem = 0
-	communism = 0
-	totalsoc = 0
-	libsoc = 0
-	anarchy = 0
-	fascism = 0
-	ultranationalism = 3
+	prodem = 2
+	communism = 1
+	totalsoc = 1
+	libsoc = 2
+	anarchy = 1
+	fascism = 1
+	ultranationalism = 0
 }
 
 create_country_leader = {
@@ -83,15 +83,31 @@ create_country_leader = {
 	desc = "POLITICS_JAMES_MATTIS_DESC"
 	picture = "WFF_Leader_President_James_Mattis.dds"
 	expire = "2040.1.1"
+	ideology = semi_dictator
+}
+
+create_country_leader = {
+	name = "Michael Bennett"
+	desc = "POLITICS_MICHAEL_BENNETT_DESC"
+	picture = "WFF_Leader_President_Michael_Bennett.dds"
+	expire = "2040.1.1"
+	ideology = marketlib
+}
+
+create_country_leader = {
+	name = "Ken Buck"
+	desc = "POLITICS_KEN_BUCK_DESC"
+	picture = "WFF_Leader_President_Ken_Buck.dds"
+	expire = "2040.1.1"
 	ideology = conservative
 }
 
 create_country_leader = {
-	name = "Arj Matron"
-	desc = "POLITICS_JAMES_MATTIS_DESC"
-	picture = "WFF_Leader_President_James_Mattis.dds"
+	name = "Pat Noble"
+	desc = "POLITICS_PAT_NOBLE_DESC"
+	picture = "WFF_Leader_President_Pat_Noble.dds"
 	expire = "2040.1.1"
-	ideology = sociallib
+	ideology = socialism
 }
 
 create_field_marshal = { 
@@ -108,7 +124,7 @@ create_field_marshal = {
 	logistics_skill = 4
 }
 
-create_field_marshal = { 
+create_corps_commander = { 
 	name = "Paul Nakasone" 
 	desc = "POLITICS_PAUL_NAKASONE_DESC"
 	portrait_path = "gfx/leaders/WDC/WFF_General_Paul_Nakasone.dds"
@@ -122,7 +138,7 @@ create_field_marshal = {
 	logistics_skill = 2
 }
 
-create_field_marshal = { 
+create_corps_commander = { 
 	name = "Tod Wolter" 
 	desc = "POLITICS_TOD_WOLTER_DESC"
 	portrait_path = "gfx/leaders/WDC/WFF_General_Tod_Wolter.dds"
