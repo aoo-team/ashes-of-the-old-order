@@ -76,9 +76,9 @@ set_popularities = {
 	ultranationalism = 30
 }
 create_country_leader = {
-    name = "Nathan Larson"
-    desc = "POLITICS_Nathan_Larson_DESC"
-    picture = "Portrait_Nathan_Larson.tga"
+    name = "Shaun Walker"
+    desc = "POLITICS_SHAUN_WALKER_DESC"
+    picture = "Portrait_Shaun_Walker.tga"
     expire = "2040.1.1"
     ideology = nazism
     
