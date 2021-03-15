@@ -153,3 +153,86 @@ WFF_expansion_of_the_suburbs = {
 
 
 }
+
+WFF_economic_reforms = {
+
+	WFF_raise_wages = {
+		allowed = { 
+			tag = WDC 
+			has_completed_focus = WFF_15_Dollar_Minimum_Wage
+		}
+		fire_only_once = no
+		cost = 50
+		visible = {
+		
+		}
+		available = {
+			
+		}
+		days_remove = 60
+		complete_effect = {
+			add_stability = -0.05
+		}
+		remove_effect = {
+			add_stability = 0.1
+		}
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+	}
+
+	WFF_tax_the_rich_more = {
+		allowed = { 
+			tag = WDC 
+			has_completed_focus = WFF_Tax_the_Rich
+		}
+		fire_only_once = no
+		cost = 50
+		visible = {
+		
+		}
+		available = {
+			
+		}
+		days_remove = 60
+		complete_effect = {
+			add_stability = -0.05
+		}
+		remove_effect = {
+			add_stability = 0.1
+		}
+		modifier = {
+			consumer_goods_factor = -0.05
+			production_speed_buildings_factor = -0.1
+		}
+	}
+
+	WFF_union_integration = {
+		allowed = { 
+			tag = WDC 
+			has_completed_focus = WFF_Tax_the_Rich
+		}
+		fire_only_once = no
+		cost = 50
+		visible = {
+		
+		}
+		available = {
+			
+		}
+		days_remove = 60
+		complete_effect = {
+			add_stability = -0.05
+		}
+		remove_effect = {
+			add_popularity = {
+				ideology = liberal
+				popularity = 0.03
+			}
+		}
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+	}
+
+}

@@ -14,10 +14,48 @@ guiTypes = {
 		Origo = center
 		clipping = no 
 		
-		background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_frontend_bg"
-			alwaystransparent = yes
+		#background = {
+		#	name = "Background"		
+		#	quadTextureSprite ="GFX_frontend_bg_animated"
+		#	alwaystransparent = yes
+		#}
+
+		containerWindowType = {
+			name ="frontend_background_animated_1"
+			position = { x=0 y =0 }	
+			size = { 
+				width = 1920
+				height = 1080 
+				preserve_aspect_ratio = yes
+			}
+			Orientation = center
+			Origo = center
+			clipping = no 
+			
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_frontend_bg_animated_1"
+				alwaystransparent = yes
+			}
+		}
+
+		containerWindowType = {
+			name ="frontend_background_animated_2"
+			position = { x=960 y =0 }	
+			size = { 
+				width = 1920
+				height = 1080 
+				preserve_aspect_ratio = yes
+			}
+			Orientation = center
+			Origo = center
+			clipping = no 
+			
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_frontend_bg_animated_2"
+				alwaystransparent = yes
+			}
 		}
 		
 	}
@@ -35,7 +73,7 @@ guiTypes = {
 		{
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
-			position = { x= 20 y = 20 }
+			position = { x = 732 y = 140 }
 		}
 		
 	}
