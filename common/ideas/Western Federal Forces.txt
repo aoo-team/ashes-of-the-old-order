@@ -135,6 +135,87 @@ ideas = {
 				ai_focus_aggressive_factor = 4.0
 			}
 		}
+
+		WFF_Business_Friendly_Administration = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				min_export = 0.05
+			}
+		}
+
+		WFF_Business_Encouraged_by_Government = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.30
+				min_export = 0.1
+			}
+		}
+
+		WFF_Well_Funded_Military = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_morale_factor = 0.1
+				army_org_factor = 0.1
+				attrition = -0.1
+			}
+		}
+
+		WFF_No_Tariffs = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				research_speed_factor = 0.3
+				production_speed_buildings_factor = 0.1
+				local_resources_factor = 0.25
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		WFF_Tax_Haven = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.45
+				min_export = 0.15
+			}
+		}
+
+		WFF_A_Free_People_Improved = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.2
+				war_support_factor = -0.1	
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		WFF_A_Green_Energy_Community = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
 	}
 }	
 	
