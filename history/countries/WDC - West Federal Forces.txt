@@ -124,7 +124,7 @@ create_field_marshal = {
 	logistics_skill = 4
 }
 
-create_corps_commander = { 
+create_field_marshal = { 
 	name = "Paul Nakasone" 
 	desc = "POLITICS_PAUL_NAKASONE_DESC"
 	portrait_path = "gfx/leaders/WDC/WFF_General_Paul_Nakasone.dds"
@@ -138,7 +138,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
-create_corps_commander = { 
+create_field_marshal = { 
 	name = "Tod Wolter" 
 	desc = "POLITICS_TOD_WOLTER_DESC"
 	portrait_path = "gfx/leaders/WDC/WFF_General_Tod_Wolter.dds"
@@ -150,4 +150,116 @@ create_corps_commander = {
 	defense_skill = 5
 	planning_skill = 2
 	logistics_skill = 3
+}
+
+create_corps_commander = { 
+	name = "Matthew McFarlane" 
+	desc = "POLITICS_MATTHEW_MCFARLANE_DESC"
+	portrait_path = "gfx/leaders/WDC/Portrait_General_Matthew_McFarlane.dds"
+	traits = {
+		hill_fighter infantry_leader
+	}
+	skill = 2
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = { 
+	name = "Douglas Paul" 
+	desc = "POLITICS_DOUGLAS_PAUL_DESC"
+	portrait_path = "gfx/leaders/WDC/Portrait_General_Douglas_Paul.dds"
+	traits = {
+		commando organizer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = { 
+	name = "Laura Clellan" 
+	desc = "POLITICS_LAURA_CLELLAN_DESC"
+	portrait_path = "gfx/leaders/WDC/Portrait_General_Laura_Clellan.dds"
+	traits = {
+		organizer
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = { 
+	name = "William Woods" 
+	desc = "POLITICS_WILLIAM_WOODS_DESC"
+	portrait_path = "gfx/leaders/WDC/Portrait_General_William_Woods.dds"
+	traits = {
+		media_personality
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { 
+	name = "Scott Sherman" 
+	desc = "POLITICS_SCOTT_SHERMAN_DESC"
+	portrait_path = "gfx/leaders/WDC/Portrait_General_Scott_Sherman.dds"
+	traits = {
+		
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { 
+	name = "Patrick Uschuck" 
+	desc = "POLITICS_PATRICK_USCHUCK_DESC"
+	portrait_path = "gfx/leaders/WDC/Portrait_General_Patrick_Uschuck.dds"
+	traits = {
+		
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { 
+	name = "Charles Zanoff" 
+	desc = "POLITICS_CHARLES_ZANOFF_DESC"
+	portrait_path = "gfx/leaders/WDC/Portrait_General_Charles_Zanoff.dds"
+	traits = {
+		
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = { 
+	name = "Troy Cook" 
+	desc = "POLITICS_TROY_COOK_DESC"
+	portrait_path = "gfx/leaders/WDC/Portrait_General_Troy_Cook.dds"
+	traits = {
+		
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }

@@ -1,31 +1,23 @@
 division_template = {
-	name = "Infantry Division"				
+	name = "U.S. Army Motorised Division"				
 
 	division_names_group = WDC_INF_01
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 0 y = 3 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 1 y = 3 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 2 y = 3 }
-		infantry = { x = 3 y = 0 }
-		infantry = { x = 3 y = 1 }
-		infantry = { x = 3 y = 2 }
-		infantry = { x = 3 y = 3 }
+		motorised_infantry = { x = 0 y = 0 }
+		motorised_infantry = { x = 0 y = 1 }
+		motorised_infantry = { x = 0 y = 2 }
+		motorised_infantry = { x = 0 y = 3 }
+		motorised_infantry = { x = 1 y = 0 }
+		motorised_infantry = { x = 1 y = 1 }
+		motorised_infantry = { x = 1 y = 2 }
+		motorised_infantry = { x = 1 y = 3 }
 	}
 	priority = 1
 }
 
 division_template = {
-	name = "Militia"				
+	name = "U.S. Army State Militia Division"				
 
 	division_names_group = WDC_INF_02
 
@@ -49,7 +41,7 @@ units = {
 			name_order = 4
 		}
 		location = 13808
-		division_template = "Infantry Division"
+		division_template = "U.S. Army Motorised Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -61,7 +53,7 @@ units = {
 			name_order = 7
 		}
 		location = 14250
-		division_template = "Infantry Division"
+		division_template = "U.S. Army Motorised Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -75,7 +67,7 @@ units = {
 			name_order = 1
 		}
 		location = 13902
-		division_template = "Militia"
+		division_template = "U.S. Army State Militia Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 	}
@@ -87,7 +79,7 @@ units = {
 			name_order = 2
 		}
 		location = 14035
-		division_template = "Militia"
+		division_template = "U.S. Army State Militia Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 	}
@@ -99,7 +91,7 @@ units = {
 			name_order = 3
 		}
 		location = 13885
-		division_template = "Militia"
+		division_template = "U.S. Army State Militia Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 	}
@@ -111,7 +103,7 @@ units = {
 			name_order = 4
 		}
 		location = 16752
-		division_template = "Militia"
+		division_template = "U.S. Army State Militia Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 	}
@@ -123,7 +115,7 @@ units = {
 			name_order = 5
 		}
 		location = 13832
-		division_template = "Militia"
+		division_template = "U.S. Army State Militia Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 	}
