@@ -30,8 +30,8 @@ bookmarks = {
 		}
 
 
-		"TEX"={
-			history = "TEX_GATHERING_STORM_DESC"
+		"NAK"={
+			history = "NAK_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				#
@@ -40,7 +40,7 @@ bookmarks = {
 				#
 			}
 		}
-		"PEN"={
+		"NSH"={
 			history = "PEN_GATHERING_STORM_DESC"
 			ideology = authdem
 			ideas = {
@@ -50,38 +50,6 @@ bookmarks = {
 			}
 			focuses = {
 				#
-			}
-		}
-		"CGO"={
-			history = "CGO_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				#
-			}
-			focuses = {
-				#
-			}
-		}
-		"PRV"={
-			history = "PRV_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				#
-			}
-			focuses = {
-				#
-			}
-		}
-		"NYN"={
-			history = "NYN_GATHERING_STORM_DESC"
-			ideology = liberal
-			ideas = {
-				NYN_unpopular_government
-				NYN_pennsylvanian_seperatists
-				NYN_the_ashes_of_our_city
-			}
-			focuses = {
-				
 			}
 		}
 
