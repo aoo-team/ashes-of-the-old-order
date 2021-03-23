@@ -4,14 +4,14 @@ division_template = {
 	division_names_group = WDC_INF_01
 
 	regiments = {
-		motorised_infantry = { x = 0 y = 0 }
-		motorised_infantry = { x = 0 y = 1 }
-		motorised_infantry = { x = 0 y = 2 }
-		motorised_infantry = { x = 0 y = 3 }
-		motorised_infantry = { x = 1 y = 0 }
-		motorised_infantry = { x = 1 y = 1 }
-		motorised_infantry = { x = 1 y = 2 }
-		motorised_infantry = { x = 1 y = 3 }
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
 	}
 	priority = 1
 }
