@@ -3572,18 +3572,6 @@
    INI_democratic_ADJ:0 "Indianian"
    INI_prodem_ADJ:0 "Indianian"
 
-   MCH:0 "Michigan"
-   MCH_DEF:0 "Michigan"
-   MCH_ADJ:0 "Michiganian"
-
-   LSG:0 "Lansing"
-   LSG_DEF:0 "Lansing"
-   LSG_ADJ:0 "Lansingese"
-
-   DET:0 "Detroit"
-   DET_DEF:0 "Detroit"
-   DET_ADJ:0 "Detroitian"
-
    OHO_liberal:0 "Ohio"
    OHO_liberal_DEF:0 "Ohio"
    OHO_democratic:0 "Ohio"

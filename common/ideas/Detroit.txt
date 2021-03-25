@@ -1,0 +1,59 @@
+ideas = {
+	country = {
+		DET_Anarchist_Society = {
+			picture = GFX_idea_DET_Anarchist_Society
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_weekly = -0.01
+			}
+		}
+
+		DET_The_Detroit_Famine = {
+			picture = GFX_idea_DET_The_Detroit_Famine
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				monthly_population = -0.15
+			}
+		}
+
+		DET_Protected_By_The_Three_One_Three_Line = {
+			picture = GFX_idea_DET_Protected_By_The_Three_One_Three_Line
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				planning_speed = -0.25
+				max_planning_factor = 0.25
+			}
+		}
+	}
+}

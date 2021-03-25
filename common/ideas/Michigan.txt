@@ -1,0 +1,77 @@
+ideas = {
+	country = {
+		MCH_Crippled_Industry = {
+			picture = GFX_idea_MCH_Crippled_Industry
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_arms_factory_factor = -0.05
+				production_speed_dockyard_factor = -0.05
+			}
+		}
+
+		MCH_Divided_Nation = {
+			picture = GFX_idea_MCH_Divided_Nation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.20
+			}
+		}
+
+		MCH_Inefficient_Economy = {
+			picture = GFX_idea_MCH_Inefficient_Economy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_dockyard = -0.20
+				industrial_capacity_factory = -0.20
+			}
+		}
+
+		MCH_Organized_Militias = {
+			picture = GFX_idea_MCH_Organized_Militias
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			#modifier = {
+			#	
+			#}
+		}
+	}
+}
