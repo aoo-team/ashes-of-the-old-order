@@ -1,6 +1,5 @@
 capital = 1224
-
-set_research_slots = 3
+oob = "PAI_2018"
 
 set_technology = {
 	infantry_weapons = 1
@@ -47,7 +46,8 @@ set_technology = {
 	fighter1 = 1
 }
 
-set_stability = 0.50
+set_stability = 0.41
+set_war_support = 0.76
 
 set_politics = {
 	ruling_party = ultranationalism
@@ -61,4 +61,20 @@ set_popularities = {
 	authdem = 3
 	fascism = 18
 	ultranationalism = 68
+}
+
+create_country_leader = {
+	name = "Father Byrnes"
+	desc = "POLITICS_FATHER_BYRNES_DESC"
+	picture = "Portrait_Father_Byrnes.tga"
+	expire = "2050.1.1"
+	ideology = nationalist
+}
+
+create_country_leader = {
+	name = "Father Byrnes"
+	desc = "POLITICS_FATHER_BYRNES_DESC"
+	picture = "Portrait_Father_Byrnes.tga"
+	expire = "2050.1.1"
+	ideology = theodictator
 }

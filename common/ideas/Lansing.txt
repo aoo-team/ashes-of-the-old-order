@@ -1,4 +1,4 @@
-idea = {
+ideas = {
 	country = {
 		LSG_Bombings_From_The_North = {
 			picture = GFX_idea_LSG_Bombings_From_The_North

@@ -55,21 +55,20 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 add_ideas = {
+	LSG_Bombings_From_The_North
+	LSG_Casualties_Of_Toledo
+	LSG_Incompetent_Officers
+	LSG_Low_Popular_Support
+	LSG_Weak_Government
 }
+
 set_popularities = {
-	democratic = 0
-	neutrality = 0
-	authdem = 0
 	liberal = 20
 	demsoc = 43
 	prodem = 30
-	communism = 0
-	totalsoc = 0
 	libsoc = 7
-	anarchy = 0
-	fascism = 0
-	ultranationalism = 0
 }
 create_country_leader = {
 	name = "Jennifer Granholm"
