@@ -1,3 +1,8 @@
 ﻿focus_tree = {
+	id = generic_focus_tree
+	country = {
+		factor = 1
+	}
 	
+	default = yes
 }
