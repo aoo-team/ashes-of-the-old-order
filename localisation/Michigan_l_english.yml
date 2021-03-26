@@ -1,0 +1,38 @@
+﻿l_english:
+ MCH:0 "Michigan"
+ MCH_DEF:0 "Michigan"
+ MCH_ADJ:0 "Michiganian"
+
+ LSG:0 "Lansing"
+ LSG_DEF:0 "Lansing"
+ LSG_ADJ:0 "Lansingese"
+
+ DET:0 "Detroit"
+ DET_DEF:0 "Detroit"
+ DET_ADJ:0 "Detroitian"
+
+ MCH_Crippled_Industry:0 "Crippled Industry"
+ MCH_Crippled_Industry_desc:0 ""
+ MCH_Divided_Nation:0 "Divided Nation"
+ MCH_Divided_Nation_desc:0 ""
+ MCH_Inefficient_Economy:0 "Inefficient Economy"
+ MCH_Inefficient_Economy_desc:0 ""
+ MCH_Organized_Militias:0 "Organized Militias"
+ MCH_Organized_Militias_desc:0 ""
+
+ LSG_Bombings_From_The_North:0 "Bombings From The North"
+ LSG_Bombings_From_The_North_desc:0 ""
+ LSG_Casualties_Of_Toledo:0 "The Casualties of Toledo"
+ LSG_Casualties_Of_Toledo_desc:0 ""
+ LSG_Incompetent_Officers:0 "Incompetent Officer Corp"
+ LSG_Incompetent_Officers_desc:0 ""
+ LSG_Low_Popular_Support:0 "Low Popular Support"
+ LSG_Low_Popular_Support_desc:0 ""
+ LSG_Weak_Government:0 "Weak Government"
+ LSG_Weak_Government_desc:0 ""
+
+ DET_Anarchist_Society:0 "Anarchist Society"
+ DET_Anarchist_Society_desc:0 ""
+ DET_The_Detroit_Famine:0 "The Detroit Famine"
+ DET_The_Detroit_Famine_desc:0 ""
+ DET_Protected_By_The_Three_One_Three_Line:0 "Protected By The 313 Line" 

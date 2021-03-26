@@ -1,0 +1,48 @@
+PAI_MIL_1 = {
+	name = "Painted Hill Militia"
+
+	for_countries = { PAI }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Defender Regiment"
+
+	ordered = {
+		1 = { "1st Heavenly Guard" }
+		2 = { "2nd Heavenly Guard" }
+		3 = { "3rd Heavenly Guard" }
+		4 = { "4th Heavenly Guard" }
+		5 = { "5th Heavenly Guard" }
+		6 = { "6th Heavenly Guard" }
+		7 = { "7th Heavenly Guard" }
+		8 = { "8th Heavenly Guard" }
+		9 = { "9th Heavenly Guard" }
+	}
+}
+
+PAI_MIL_2 = {
+	name = "Painted Hill Infantry"
+
+	for_countries = { PAI }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Defender Regiment"
+
+	ordered = {
+		1 = { "1st Defenders Of The Faith" }
+		2 = { "2nd Defenders Of The Faith" }
+		3 = { "3rd Defenders Of The Faith" }
+		4 = { "4th Defenders Of The Faith" }
+		5 = { "5th Defenders Of The Faith" }
+		6 = { "6th Defenders Of The Faith" }
+		7 = { "7th Defenders Of The Faith" }
+		8 = { "8th Defenders Of The Faith" }
+		9 = { "9th Defenders Of The Faith" }
+	}
+}
+

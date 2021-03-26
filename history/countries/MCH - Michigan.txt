@@ -55,21 +55,19 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 add_ideas = {
+	MCH_Crippled_Industry
+	MCH_Divided_Nation
+	MCH_Inefficient_Economy
+	MCH_Organized_Militias
 }
+
 set_popularities = {
 	democratic = 40
 	neutrality = 10
 	authdem = 30
 	liberal = 20
-	demsoc = 0
-	prodem = 0
-	communism = 0
-	totalsoc = 0
-	libsoc = 0
-	anarchy = 0
-	fascism = 0
-	ultranationalism = 0
 }
 create_country_leader = {
 	name = "John Engler"
