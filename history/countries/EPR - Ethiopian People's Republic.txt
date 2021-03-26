@@ -1,6 +1,9 @@
-﻿capital = 271
+﻿capital = 962
 
-oob = "ETH_1936"
+set_stability = 36
+set_war_support = 100
+
+#oob = "EPR_2018"
 
 # Starting tech
 set_technology = {
@@ -49,48 +52,29 @@ set_technology = {
 	fighter1 = 1
 }
 
-set_convoys = 5
+set_convoys = 0
 
 # A colony of Italy in 1939, however if independent it would have the same politics as in 1936
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	communism = 76
+	demsoc = 12
+	prodem = 8
+	anarchy = 4
 }
 
 create_country_leader = {
-	name = "Haile Selassie"
+	name = "Debretsion Gebremichael"
 	desc = "POLITICS_HAILE_SELASSIE_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
+	picture = "portrait_sebretsion_gebremichael.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authsoc
 	traits = {
 		#
 	}
-}
-
-create_country_leader = {
-	name = "Fitawrari Yeebio Woldai"
-	desc = "POLITICS_YEEBIO_WOLDAI_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Seyoum Mengesha"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
-	traits = {  desert_fox }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
 }

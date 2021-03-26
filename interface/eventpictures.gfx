@@ -2285,4 +2285,19 @@ spriteTypes = {
 		name = "GFX_WFF_The_Future_of_America"
 		texturefile = "gfx/event_pictures/event_wff_the_future_of_america.dds"
 	}
+
+	spritetype = {
+		name = "GFX_news_event_ethiopian_civil_war"
+		texturefile = "gfx/event_pictures/news_event_ethiopian_civil_war.dds"
+	}
+
+	spritetype = {
+		name = "GFX_news_event_algerian_civil_war"
+		texturefile = "gfx/event_pictures/news_event_algerian_civil_war.dds"
+	}
+
+	spritetype = {
+		name = "GFX_news_event_algerian_wars"
+		texturefile = "gfx/event_pictures/news_event_algerian_wars.dds"
+	}
 }

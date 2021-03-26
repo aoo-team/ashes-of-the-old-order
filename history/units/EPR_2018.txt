@@ -1,0 +1,107 @@
+division_template = {
+	name = "Revolutionary Army Guerillas"				
+
+	division_names_group = WDC_INF_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Revolutionary Army Militia"				
+
+	division_names_group = WDC_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+
+	### Starting Infantry Battalions ###
+
+	#4th Infantry Division
+	division = {
+		name = "1st Revolutionary Guerrilas"
+		location = 2072
+		division_template = "Revolutionary Army Guerillas"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	#7th Infantry Division
+	division = {
+		name = "2nd Revolutionary Guerrilas"
+		location = 7944
+		division_template = "Revolutionary Army Guerillas"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	#1st Volunteer Infantry
+	division = {
+		name = "3rd Revolutionary Guerrilas"
+		location = 8019
+		division_template = "Revolutionary Army Guerillas"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	#2nd Volunteer Infantry
+	division = {
+		name = "4th Revolutionary Army Militia"
+		location = 7944
+		division_template = "Revolutionary Army Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	#3rd Volunteer Infantry
+	division = {
+		name = "5th Revolutionary Army Militia"
+		location = 5041
+		division_template = "Revolutionary Army Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	#4th Volunteer Infantry
+	division = {
+		name = "6th Revolutionary Army Militia"
+		location = 10734
+		division_template = "Revolutionary Army Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	#5th Volunteer Infantry
+	division = {
+		name = "7th Revolutionary Army Militia"
+		location = 7912
+		division_template = "Revolutionary Army Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "EPR"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+}

@@ -41,7 +41,6 @@ COL = "countries/Colombia.txt"
 COS = "countries/Costa Rica.txt"
 ECU = "countries/Ecuador.txt"
 ELS = "countries/El Salvador.txt"
-ETH = "countries/Ethiopia.txt"
 GUA = "countries/Guatemla.txt"
 HON = "countries/Honduras.txt"
 IRQ = "countries/Iraq.txt"
@@ -136,7 +135,6 @@ UZB = "countries/Uzbekistan.txt"
 KUW = "countries/Kuwait.txt"
 CYP = "countries/Cyprus.txt"
 MLT = "countries/Malta.txt"
-ALG = "countries/Algeria.txt"
 MOR = "countries/Morocco.txt"
 TUN = "countries/Tunisia.txt"
 SUD = "countries/Sudan.txt"
@@ -334,8 +332,6 @@ BRN = "countries/Bahrain.txt"
 BRU = "countries/Brunei.txt"
 SIG = "countries/Singapore.txt"
 ETM = "countries/East Timor.txt"
-ISA = "countries/Islamist Algeria.txt"
-TRA = "countries/Algerian Republic.txt"
 LSG = "countries/Lansing.txt"
 MCH = "countries/Michigan.txt"
 AHR = "countries/AHR.txt"
@@ -436,3 +432,16 @@ SBY = "countries/California Bay.txt"
 LAK = "countries/Lakota.txt"
 SOI = "countries/Sioux.txt"
 HEL = "countries/Helena.txt"
+
+# African Civil Wars Tags
+
+# Algeria
+
+ALG = "countries/Algeria.txt"
+ISA = "countries/Islamist Algeria.txt"
+TRA = "countries/Algerian Republic.txt"
+
+# Ethiopia
+
+ETH = "countries/Ethiopia.txt"
+EPR = "countries/Ethiopian People's Republic.txt"

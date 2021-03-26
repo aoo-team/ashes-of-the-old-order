@@ -17,4 +17,5 @@ state={
 	}
 	manpower=5779000
 	state_category=town
+	set_demilitarized_zone = yes
 }
