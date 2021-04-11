@@ -29,13 +29,40 @@ country_event = {
 				target = ETH
 				type = civil_war
 			}
+			add_ideas = {
+				EPR_Army_of_the_People
+				EPR_Inferior_Technology
+				EPR_Miners_Guild
+			}
+		}
+
+		ETH = {
+			add_ideas = {
+				ETH_Religious_Army
+				ETH_Pious_Government
+				ETH_Military_Mutinies
+			}
 		}
 
 		962 = {
 			add_core_of = EPR
+			set_demilitarized_zone = no
 		}
 
 		1034 = {
+			add_core_of = EPR
+			set_demilitarized_zone = no
+		}
+
+		967 = {
+			add_core_of = EPR
+		}
+
+		1033 = {
+			add_core_of = EPR
+		}
+
+		271 = {
 			add_core_of = EPR
 		}
 		

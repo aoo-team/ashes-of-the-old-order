@@ -17,3 +17,23 @@
  ethiopian_civil_war.2.t:0 "Ethiopian Civil War!"
  ethiopian_civil_war.2.d:0 "Reports have come from Ethiopia, where in the Tigray province, a group of insurgents known as the Tigray Revolutionary Army (TRA) or as the People's Army of Ethiopia (PAE) have risen up and declared the Ethiopian People's Republic. Their leader, previously a politician of the Tigray province, whose name is Debretsion Gebremichael, has declared that the government of Ethiopia was oppressive to the labourers of the Tigray province. The Ethiopian Government in response to the insurgents rising in the Tigray province, have started to mobilise their forces, and have declared that they are at war with these 'terrorists'. The outcome and status of both sides is unknown."
  ethiopian_civil_war.2.a:0 "Another Country Falling to Anarchy"
+ 
+ #Ethiopian Ideas LOC
+
+ EPR_Army_of_the_People:0 "Army of the People"
+ EPR_Army_of_the_People_desc:0 "The people of Ethiopia have had enough, they believe it's time to rise, rise and rebuild their once great country. The Ethiopian people in the Tigray Afar province and in the Southern Plains have pledged their loyalty to this rebellion. They will no longer be shackled by the capitalistic dogs in their ivory towers, no longer will they have to suffer under the oppressive factory owners and bureaucrats in the government. This army is for the liberation of the people. Unlike the previous one."
+
+ EPR_Inferior_Technology:0 "Red Army Sympathizers"
+ EPR_Inferior_Technology_desc:0 "There are many sympathetic to our cause in the enemy's ranks, we have eyes everywhere. Much like the viet minh during the cold war, every corner they turn, they meet opposition. Every village they conquer is still loyal to us. We have vast networks of intelligence and we intend to use it."
+
+ EPR_Miners_Guild:0 "Ethiopian Miner's Guild"
+ EPR_Miners_Guild_desc:0 "The Miner's Guild is the primary spark to this rebellion, their support for our regime is unwavering. There is only one downside though, foreign interests in trade with us have diminished because of the increasing price gold and minerals coming from our mountains."
+
+ ETH_Religious_Army:0 "Religious Army"
+ ETH_Religious_Army_desc:0 "§YPLACEHOLDER§!"
+
+ ETH_Pious_Government:0 "Pious Government"
+ ETH_Pious_Government_desc:0 "§YPLACEHOLDER§!"
+
+ ETH_Military_Mutinies:0 "Military Mutinies"
+ ETH_Military_Mutinies_desc:0 "§YPLACEHOLDER§!"

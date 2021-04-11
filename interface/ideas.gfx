@@ -5783,4 +5783,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Democratic_Elections.dds"
 	}
 
+	### ETHIOPIAN IDEAS ###
+
+	spriteType = {
+		name = "GFX_idea_ETH_Religious_Army"
+		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopia_Religious_Army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ETH_Pious_Government"
+		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopia_Pious_Government.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ETH_Military_Mutinies"
+		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopia_Military_Munities.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EPR_Army_of_the_People"
+		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopian_Army_of_the_People.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EPR_Inferior_Technology"
+		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopia_Inferior_Technology.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EPR_Miners_Guild"
+		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopia_Miner_Guild.dds"
+	}
+
 }

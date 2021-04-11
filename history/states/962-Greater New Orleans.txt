@@ -10,6 +10,7 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 		}
+		set_demilitarized_zone = yes
 	}
 
 	provinces={
@@ -17,5 +18,4 @@ state={
 	}
 	manpower=5779000
 	state_category=town
-	set_demilitarized_zone = yes
 }

@@ -201,6 +201,10 @@
  wff_tooltip_tt_7:0 "The §Y'Anti-Expansion Pact'§! will be formed between your enemies."
  wff_tooltip_tt_8:0 "The §Y'Iron Pact'§! will be formed between your enemies."
  wff_tooltip_tt_9:0 "The §Y'Mojave Pact'§! will be formed between your enemies."
+
+ wff_tooltip_tt_10:0 "§YDecisions will be unlocked to ensure the fairness of elections.§!"
+
+ wff_tooltip_tt_11:0 "\n§CCongress will be created and shown in decisions after the elections conclude.§!"
  
  # Event LOC
  
@@ -286,6 +290,10 @@
  wff_liberal.1.t:0 "The Future of America"
  wff_liberal.1.d:0 "Michael Bennett, who had now become accustomned to being president once again, walked up on the same stage that Mattis had given his speeches in the time of his leadership. Buck felt the tension in the air, as the reporters began to file into te crowd, and under their scrutinous gaze he started his speech. 'My term as president has only just begun, but the fruits of my labor have started to show, our economy is improving, our military is now capable of defending our nation. I have stabilized the United States.'\n\nHe continued 'But, I do not intend to make that the extend of the reforms and changes that will happen to this country during my presidency. The areas around us, populated with tyrannical governments and corrupt leaders are our brothers and sisters. In the last two decades we have lost more than any one man could apprehend. But it is now time to retake the territories lost. It is time to rejoin with our brothers and sisters.'\n\n'In the 1800s, after the First American Civil War, we reunited with the Confederate States after the war, they became part of the country once again. ANd now it is my mission to do the same with the rest of the United States. There is only one path forward. And that is freedom!', as he finished his speech, Bennett looked up and saw a wave of applause, but he still had doubt in his mind. Was this the right thing to do?"
  wff_liberal.1.a:0 "Onwards, to new lands!"
+
+ wff.7.t:0 "Ensuring Free Elections"
+ wff.7.d:0 "PLACEHOLDER"
+ wff.7.a:0 "PLACEHOLDER"
 
  ### FLAGS ###
  

@@ -19,7 +19,7 @@ focus_tree = {
 		icon = WFF_A_New_Chapter
 		x = 10
 		y = 0
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 400
 		}
@@ -27,6 +27,94 @@ focus_tree = {
 			country_event = wff.1
 		}
 	}
+
+	focus = {
+		id = WFF_Free_elections
+		icon = WFF_A_New_Chapter
+		prerequisite = { focus = WFF_A_New_Chapter }
+		x = 9
+		y = 1
+		cost = 3
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			country_event = wff.7
+		}
+	}
+
+	focus = {
+		id = WFF_Recreate_Congress
+		icon = WFF_A_New_Chapter
+		prerequisite = { focus = WFF_A_New_Chapter }
+		x = 11
+		y = 1
+		cost = 3
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			custom_effect_tooltip = wff_tooltip_tt_11
+		}
+	}
+
+	focus = {
+		id = WFF_Mattis_Resignation
+		icon = WFF_A_New_Chapter
+		prerequisite = { focus = WFF_Free_elections }
+		prerequisite = { focus = WFF_Recreate_Congress }
+		x = 10
+		y = 2
+		cost = 3
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			country_event = wff.5
+		}
+	}
+
+	focus = {
+		id = WFF_Restoration_of_Democracy
+		icon = WFF_A_New_Chapter
+		prerequisite = { focus = WFF_Mattis_Resignation }
+		x = 10
+		y = 3
+		cost = 3
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			add_stability = 0.05
+			add_popularity = {
+				ideology = liberal
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.02
+			}
+		}
+	}
+
+	focus = {
+		id = WFF_First_Elections
+		icon = WFF_A_New_Chapter
+		prerequisite = { focus = WFF_Restoration_of_Democracy }
+		x = 10
+		y = 4
+		cost = 3
+		ai_will_do = {
+			factor = 400
+		}
+		completion_reward = {
+			country_event = wff.6
+		}
+	}
+
+	
+
+}
 
 	focus = {
 		id = WFF_Announce_Restoration_of_Democracy
@@ -1141,5 +1229,7 @@ focus_tree = {
 	# SOCIALISM #
 	#############
 
+
+
 	
-}
+#

@@ -140,6 +140,22 @@ country_event = {
   }
 }
 
+# Free Elections
+
+country_event = {
+  id = wff.7
+  title = wff.7.t
+  desc = wff.7.d
+  picture = GFX_WFF_Restoration_of_Democracy
+  is_triggered_only = yes
+
+  option = {
+    name = wff.7.a
+    ai_chance = { base = 100 }
+    custom_effect_tooltip = wff_tooltip_tt_10
+  }
+}
+
 # The 2018 Elections
 country_event = {
   id = wff.6
