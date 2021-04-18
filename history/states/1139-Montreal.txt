@@ -2,7 +2,7 @@ state={
 	id=1139
 	name="Montréal"
 	history = {
-		owner = QBC
+		owner = CAN
 		buildings = {
 			infrastructure = 10
 			arms_factory = 4
@@ -12,7 +12,7 @@ state={
 		victory_points = {
 			14240 20
 		}
-		add_core_of = QBC
+		add_core_of = CAN
 	}
 	provinces={
 		4345 14115 14145 14146 14153 14154 14156 14164 14173 14181

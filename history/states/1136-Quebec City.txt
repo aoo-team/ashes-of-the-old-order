@@ -2,13 +2,13 @@ state={
 	id=1136
 	name="Quebec City"
 	history = {
-		owner = QBC
+		owner = CAN
 		buildings = {
 			infrastructure = 9
 			arms_factory = 2
 			industrial_complex = 3
 		}
-		add_core_of = QBC
+		add_core_of = CAN
 	}
 	provinces={
 		14221 14226 14227 14228 14239 14240 14259

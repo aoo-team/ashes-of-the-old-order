@@ -4,13 +4,13 @@ state={
 	name="Région de la Côte Nord"
 
 	history={
-		owner = QBC
+		owner = CAN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 
 		}
-		add_core_of = QBC
+		add_core_of = CAN
 
 	}
 

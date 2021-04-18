@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = CRA
+		add_core_of = CRA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

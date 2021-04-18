@@ -6,8 +6,8 @@ state={
 		aluminium=5
 	}
 	history = {
-		owner = ACR
-		add_core_of = ACR
+		owner = MIS
+		add_core_of = MIS
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

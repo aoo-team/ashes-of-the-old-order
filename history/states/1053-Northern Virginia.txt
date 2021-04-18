@@ -4,8 +4,8 @@ state={
 	name="Yorktown"
 
 	history={
-		owner = VAV
-		add_core_of = VAV
+		owner = EDC
+		add_core_of = EDC
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

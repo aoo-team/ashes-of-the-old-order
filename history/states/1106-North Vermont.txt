@@ -4,15 +4,14 @@ state={
 	name="Orleans"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = CRA
+		add_core_of = CRA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 
 		}
-		add_core_of = VTV
-		add_core_of = GMB
+
 		victory_points = {
 			14062 1 
 		}

@@ -4,14 +4,14 @@ state={
 	name="Région de l'Outaouais"
 
 	history={
-		owner = QBC
+		owner = CAN
 		buildings = {
 			infrastructure = 7
 			arms_factory = 3
 			industrial_complex = 2
 
 		}
-		add_core_of = QBC
+		add_core_of = CAN
 
 	}
 
