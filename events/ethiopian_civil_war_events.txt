@@ -1,86 +1,16 @@
-add_namespace = ethiopian_civil_war
-
-country_event = {
-    id = ethiopian_civil_war.1
-    title = ethiopian_civil_war.1.t
-    desc = ethiopian_civil_war.1.d
-    picture = GFX_report_event_election_vote
-    
-	trigger = {
-		NOT = { has_country_flag = ethiopia_civil_war }
-		date > 2018.1.8
-	}
-	
-	fire_only_once = yes
-
-    option = {
-		name = ethiopian_civil_war.1.a
-		ai_chance = { base = 100 }
-		set_country_flag = ethiopia_civil_war
-		set_global_flag = ethiopia_civil_war_started
-		
-		EPR = {
-			transfer_state = 962
-			transfer_state = 1034
-
-			load_oob = EPR_2018
-
-			declare_war_on = {
-				target = ETH
-				type = civil_war
-			}
-			add_ideas = {
-				EPR_Army_of_the_People
-				EPR_Inferior_Technology
-				EPR_Miners_Guild
-			}
-		}
-
-		ETH = {
-			add_ideas = {
-				ETH_Religious_Army
-				ETH_Pious_Government
-				ETH_Military_Mutinies
-			}
-		}
-
-		962 = {
-			add_core_of = EPR
-			set_demilitarized_zone = no
-		}
-
-		1034 = {
-			add_core_of = EPR
-			set_demilitarized_zone = no
-		}
-
-		967 = {
-			add_core_of = EPR
-		}
-
-		1033 = {
-			add_core_of = EPR
-		}
-
-		271 = {
-			add_core_of = EPR
-		}
-		
-		news_event = ethiopian_civil_war.2
-    }
-}
+add_namespace = ethiopian_civil_war_news
 
 news_event = {
-    id = ethiopian_civil_war.2
-    title = ethiopian_civil_war.2.t
-    desc = ethiopian_civil_war.2.d
+    id = ethiopian_civil_war_news.1
+    title = ethiopian_civil_war_news.1.t
+    desc = ethiopian_civil_war_news.1.d
     picture = GFX_news_event_ethiopian_civil_war
-    is_triggered_only = yes
-	fire_only_once = yes
+	hidden = no
 	major = yes
+	is_triggered_only = yes
 
     option = {
-		name = ethiopian_civil_war.2.a
+		name = ethiopian_civil_war_news.1.a
 		ai_chance = { base = 100 }
     }
 }

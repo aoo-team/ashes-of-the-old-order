@@ -56,7 +56,8 @@ country_event = {
 				type = civil_war
 			}
 		}
-		news_event = algerian_wars_news.1
+
+		news_event = { id = algerian_wars_news.1 days = 1 }
     }
 }
 
@@ -125,7 +126,7 @@ country_event = {
 		ALG = {
 			country_event = algeria.3
 		}
-		news_event = algerian_wars_news.2
+		news_event = { id = algerian_wars_news.2 days = 1 }
     }
 }
 

@@ -14,9 +14,9 @@
 
  #Ethiopian Civil War Event
 
- ethiopian_civil_war.2.t:0 "Ethiopian Civil War!"
- ethiopian_civil_war.2.d:0 "Reports have come from Ethiopia, where in the Tigray province, a group of insurgents known as the Tigray Revolutionary Army (TRA) or as the People's Army of Ethiopia (PAE) have risen up and declared the Ethiopian People's Republic. Their leader, previously a politician of the Tigray province, whose name is Debretsion Gebremichael, has declared that the government of Ethiopia was oppressive to the labourers of the Tigray province. The Ethiopian Government in response to the insurgents rising in the Tigray province, have started to mobilise their forces, and have declared that they are at war with these 'terrorists'. The outcome and status of both sides is unknown."
- ethiopian_civil_war.2.a:0 "Another Country Falling to Anarchy"
+ ethiopian_civil_war_news.1.t:0 "Ethiopian Civil War!"
+ ethiopian_civil_war_news.1.d:0 "Reports have come from Ethiopia, where in the Tigray province, a group of insurgents known as the Tigray Revolutionary Army (TRA) or as the People's Army of Ethiopia (PAE) have risen up and declared the Ethiopian People's Republic. Their leader, previously a politician of the Tigray province, whose name is Debretsion Gebremichael, has declared that the government of Ethiopia was oppressive to the labourers of the Tigray province. The Ethiopian Government in response to the insurgents rising in the Tigray province, have started to mobilise their forces, and have declared that they are at war with these 'terrorists'. The outcome and status of both sides is unknown."
+ ethiopian_civil_war_news.1.a:0 "Another Country Falling to Anarchy"
  
  #Ethiopian Ideas LOC
 
