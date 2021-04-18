@@ -11,7 +11,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = CAN
+		add_core_of = CRA
 
 		victory_points = {
 			15622 3

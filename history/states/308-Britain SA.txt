@@ -5,9 +5,10 @@ state={
 	manpower=	25678
 	state_category = tiny_island
 
-	history = { 1936.1.3 = {owner = BAS controller = BAS  }
+	history = {
 		add_core_of = BAS
-		owner = ENG
+		owner = PRP
+		add_core_of = PRP
 		buildings = {
 			infrastructure = 4
 			4450 = {

@@ -9,9 +9,10 @@ state={
 	state_category = rural
 
 
-	history = { 1936.1.3 = {owner = TRI controller = TRI  }
+	history = {
 		add_core_of = TRI
-		owner = TRI
+		owner = VEN
+		add_core_of = VEN
 		victory_points = {
 			3284 1
 		}
