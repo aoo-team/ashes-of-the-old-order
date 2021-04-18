@@ -13,6 +13,7 @@ state={
 
 		}
 		add_core_of = PHL
+		add_claim_by = NYC
 
 		victory_points = {
 			891 3
@@ -21,6 +22,8 @@ state={
 		victory_points = {
 			11900 1
 		}
+
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

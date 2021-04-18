@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = PHL
+		owner = NYC
+		add_core_of = NYC
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
@@ -19,7 +20,7 @@ state={
 			}
 
 		}
-		add_core_of = PHL
+		add_claim_by = PHL
 		victory_points = {
 			9864 10
 		}
@@ -36,7 +37,7 @@ state={
 			9801 3
 		}
 
-
+		set_demilitarized_zone = yes
 	}
 
 	provinces={
