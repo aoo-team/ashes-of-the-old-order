@@ -4,14 +4,14 @@ state={
 	name="Région du Sanguenay"
 
 	history={
-		owner = QBC
+		owner = CAN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 1
 
 		}
-		add_core_of = QBC
+		add_core_of = CAN
 
 	}
 
