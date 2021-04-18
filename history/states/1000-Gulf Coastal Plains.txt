@@ -4,8 +4,8 @@ state={
 	name="Memphis"
 
 	history={
-		owner = NSH
-		add_core_of = NSH
+		owner = MIS
+		add_core_of = MIS
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

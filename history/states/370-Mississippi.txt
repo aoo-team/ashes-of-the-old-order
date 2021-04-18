@@ -5,7 +5,6 @@ state={
 
 	history={
 		owner = MIS
-		add_core_of = MIS
 		victory_points = {
 			4464 1 
 		}
@@ -15,7 +14,7 @@ state={
 			air_base = 3
 
 		}
-
+		add_core_of = MIS
 		victory_points = {
 			7464 5 
 		}
