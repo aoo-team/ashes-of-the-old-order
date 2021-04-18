@@ -7,9 +7,8 @@ state={
 	}
 
 	history={
-		owner = NAK
-		add_core_of = NAK
-		add_claim_by = ACR
+		owner = APP
+		add_core_of = APP
 		buildings = {
 			infrastructure = 2
 
