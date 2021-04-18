@@ -4,8 +4,7 @@ state={
 	name="Burlington"
 
 	history={
-		owner = NYC
-		add_core_of = NYC
+		owner = PHL
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 5
@@ -13,7 +12,8 @@ state={
 			dockyard = 1
 
 		}
-
+		add_core_of = PHL
+		add_claim_by = NYC
 
 		victory_points = {
 			891 3
@@ -22,6 +22,8 @@ state={
 		victory_points = {
 			11900 1
 		}
+
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

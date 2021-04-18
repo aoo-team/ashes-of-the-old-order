@@ -3,7 +3,8 @@ state={
 	name="Elista"
 
 	history={
-		owner = KMY
+		owner = RUS
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 2
 

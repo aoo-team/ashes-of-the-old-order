@@ -3,7 +3,8 @@ state={
 	name="Tsimlyansk"
 
 	history={
-		owner = KNR
+		owner = RUS
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 5
 		}

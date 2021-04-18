@@ -20,7 +20,7 @@ state={
 			}
 
 		}
-
+		add_claim_by = PHL
 		victory_points = {
 			9864 10
 		}
@@ -37,7 +37,7 @@ state={
 			9801 3
 		}
 
-
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

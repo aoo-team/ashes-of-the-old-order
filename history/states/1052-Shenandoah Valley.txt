@@ -4,8 +4,8 @@ state={
 	name="Rockbridge"
 
 	history={
-		owner = APP
-		add_core_of = APP
+		owner = VAV
+		add_core_of = VAV
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

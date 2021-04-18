@@ -13,9 +13,7 @@ state={
 			arms_factory = 1
 
 		}
-		add_core_of = MEM
-		add_core_of = MSG
-		add_core_of = CAN
+		add_core_of = CRA
 		victory_points = {
 			7462 5 
 		}

@@ -4,8 +4,8 @@ state={
 	name="Charlotte"
 
 	history={
-		owner = NAK
-		add_core_of = NAK
+		owner = CRN
+		add_core_of = CRN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
