@@ -30,6 +30,72 @@
  WDC_liberal_ADJ:0 "Federal"
  WDC_democratic_ADJ:0 "Federal"
 
+ # Party Names
+
+ WFF_democratic_party_long:0 "Democratic-Republican Alliance (Republican Branch)"
+ WFF_democratic_party:0 "Democratic-Republican Alliance"
+
+ WFF_liberal_party_long:0 "Democratic-Republican Alliance (Democratic Branch)"
+ WFF_liberal_party:0 "Democratic-Republican Alliance"
+
+ WFF_authdem_party_long:0 "National Protection Army"
+ WFF_authdem_party:0 "National Protection Army"
+
+ WFF_neutrality_party_long:0 "Far-Right Conservatives (National Alliance)"
+ WFF_neutrality_party:0 "Far-Right Conservatives (NA)"
+
+ WFF_fascism_party_long:0 "Far-Right Moderates (American National Socialist Worker's Party)"
+ WFF_fascism_party:0 "Far-Right Moderates (ANSWP)"
+
+ WFF_ultranationalism_party_long:0 "Far-Right Radical (American Nazi Party)"
+ WFF_ultranationalism_party:0 "Far-Right Radical (ANP)"
+
+ WFF_demsoc_party_long:0 "Far-Left Conservatives (Social Democratic Alliance)"
+ WFF_demsoc_party:0 "Far-Left Conservatives (SDA)"
+
+ WFF_communism_party_long:0 "Far-Left Moderates (Socialist Party of America)"
+ WFF_communism_party:0 "Far-Left Moderates (SPA)"
+
+ WFF_libsoc_party_long:0 "Far-Left Radicals (Freedom Front)"
+ WFF_libsoc_party:0 "Far-Left Radicals (FF)"
+
+ WFF_prodem_party_long:0 "American Utopian Party (AUP)"
+ WFF_prodem_party:0 "American Utopian Party"
+
+ WFF_anarchy_party_long:0 "Anarchist Worker's Coalition (AWC)"
+ WFF_anarchy_party:0 "Anarchist Worker's Coalition"
+
+ # IDEAS
+ 
+ WFF_Crossroad_of_Ideas:0 "Crossroad of Ideas"
+ WFF_Crossroad_of_Ideas_desc:0 "The United States of America, or as foreigners refer to us as: the Western Federal Forces, has a reputation for its adherence to free speech and free political sphere. But although this is the envy of even many developed countries, it also creates a problem. Traditionally the United States had two, or the occasional three parties vying for power, but here, extreme factionalism pouring over from refugees and those already in our border has grown prominent. This has lead to our country's politics not being fought between the moderate parties, but the far-right and the far-left. It is not uncommon to find street brawls and fights within Congress over the question of which extreme to go to. The moderate parties are shrinking and many fear for the future of the nation.\n\n§RBut in the end, there will be one party standing.§!"
+
+ WFF_Unstable_Government:0 "Unstable Government"
+ WFF_Unstable_Government_desc:0 "Our government has been pushed to the fringe of existence time and time again. It struggled through the Great Second American Civil War, it struggled through the following anarchy, instability, famines, raids, and warlords. It has survived all these threats, but it seems that this is not how our government will fall. It seems that our government will fall from the inside out, the extreme factionalism created by the far-left and the far-right parties has brought down a clear divide in Congress, and not only this, but the people who support our nation have begin to commit acts of terrorism against the other parties. And although the moderates still hold majority in Congress, they do not hold the majority of the voters, they must keep the majority or collision is inevitable."
+
+ WFF_Extreme_Factionalism:0 "Extreme Factionalism"
+ WFF_Extreme_Factionalism_desc:0 "Effectively, there are two parties in the new Congress of the United States of America. There is the far-right block, containing three parties: the American Nazi Party (ANP), the American National Socialist Worker's Party (ANSWP), and the National Alliance (NA). And, there is the far-left block, containing another three parties: the Socialist Party of America (SPA), the Social Democratic Alliance (SDA), and the Freedom Front (FF). Then, there are the moderate parties, of which there are two: the Republican party, and the Democratic Party. Currently, the Republican and the Democratic parties are in a 'Moderate Alliance' of sorts and are attempting to combat the growing tides of factionalism and radicalism. But, there is one final party. The Military, although meant to be detatched from politics, has signifigant influence on the politics of the nation. And, if not kept watched on, may become too strong to stop a military coup. One thing is certain, a miracle is needed to save America. For nothing else can."
+ 
+ # Decisions
+
+ WFF_power_struggle:0 "The Political Battleground"
+ WFF_power_struggle_desc:0 "The situation in Congress is getting worse everyday, more an more politicians are leaning to the far-left or the far-right and the moderate parties (the Republican-Democrat Alliance) are shrinking. And throughout this, the leaders of these parties will stop at nothing to become the next leader of the United States. Although many of these men are corrupt and evil at heart, they have managed to captivate crowds of people, and have hundreds of thousands of supporters across the country. The political balance of the country hangs on a knife's edge, and at any moment, the parties will strike.\n\nThe Influence of the country's party leaders are as follows:\n\n§CModerates§!:\n\n§CMichael Bennett (Democrat)§!:  [GetLiberalPopularity] ([?liberal_support])\n§vKen Buck (Republican)§!:  [GetDemocraticPopularity] ([?democratic_support])\n\n§RFar-Left§!:\n\n§RPat Noble (Far-Left Conservative)§!:  [GetDemsocPopularity] ([?demsoc_support])\n§xSam Webb (Far-Left Moderate)§!:  [GetCommunismPopularity] ([?communism_support])\n§pChristopher Helali (Far-Left Radical) ([?libsoc_support])§!:  [GetLibsocPopularity] ([?libsoc_support])\n\n§aFar-Right§!:\n\n§aJames Mattis (Far-Right Conservative)§!:  [GetAuthdemPopularity] ([?authdem_support])\n§tJames Nolan Mason (Far-Right Moderate)§!:  [GetFascismPopularity] ([?fascism_support])\n§cJeff Schoep (Far-Right Radical)§!:  [GetUltranationalismPopularity] ([?ultranationalism_support])\n\n§gMilitary§!:\n\n§gMark Milley (Despot)§!:  [GetNeutralityPopularity] ([?neutrality_support])\n "
+
+ # Starting Focuses
+
+ WFF_Congress_Adjourns:0 "Congress Adjourns"
+ WFF_Congress_Adjourns_desc:0 "PLACEHOLDER"
+ 
+ # Scripted LOC
+
+ Popularity_Zero:0 "§xNon-Existant§!"
+ Popularity_Five:0 "§RVery Uninfluential§!"
+ Popularity_Ten:0 "§OUninfluential§!"
+ Popularity_Fifteen:0 "§YModerately influential§!"
+ Popularity_Twenty:0 "§dInfluential§!"
+ Popularity_Twenty_Five:0 "§GVery Influential§!"
+ Popularity_Thirty:0 "§qExtremely Influential§!"
+
  # Debug Decisions
  
  debug_load_starting_tree:0 "Load Starting Tree"

@@ -53,30 +53,132 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = authdem
+	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 add_ideas = {
-	WFF_A_Failed_Union
-	WFF_Light_in_Darkness
-	WFF_Democratic_Elections
+	WFF_Crossroad_of_Ideas
+	WFF_Unstable_Government
+	WFF_Extreme_Factionalism
 }
+
+# Party Names
+
+# Republican-Democrat Alliance
+
+set_party_name = { 
+    ideology = democratic 
+    long_name = WFF_democratic_party_long
+    name = WFF_democratic_party
+}
+set_party_name = { 
+    ideology = liberal 
+    long_name = WFF_liberal_party_long
+    name = WFF_liberal_party
+}
+
+# Military Forces
+
+set_party_name = { 
+    ideology = authdem
+    long_name = WFF_authdem_party_long
+    name = WFF_authdem_party
+}
+
+# Far-Right Block
+
+set_party_name = { 
+    ideology = neutrality
+    long_name = WFF_neutrality_party_long
+    name = WFF_neutrality_party
+}
+
+set_party_name = { 
+    ideology = fascism
+    long_name = WFF_fascism_party_long
+    name = WFF_fascism_party
+}
+
+set_party_name = { 
+    ideology = ultranationalism
+    long_name = WFF_ultranationalism_party_long
+    name = WFF_ultranationalism_party
+}
+
+# Far-Left Block
+
+set_party_name = { 
+    ideology = demsoc
+    long_name = WFF_demsoc_party_long
+    name = WFF_demsoc_party
+}
+
+set_party_name = { 
+    ideology = communism
+    long_name = WFF_communism_party_long
+    name = WFF_communism_party
+}
+
+set_party_name = { 
+    ideology = libsoc
+    long_name = WFF_libsoc_party_long
+    name = WFF_libsoc_party
+}
+
+# Non-existent Parties
+
+set_party_name = { 
+    ideology = prodem
+    long_name = WFF_prodem_party_long
+    name = WFF_prodem_party
+}
+
+set_party_name = { 
+    ideology = anarchy
+    long_name = WFF_anarchy_party_long
+    name = WFF_anarchy_party
+}
+
+# Political Battlegrounds Popularities
+
+set_variable = { liberal_support = 15 } 		# Michael Bennett
+set_variable = { democratic_support = 20 }		# Ken Buck
+set_variable = { authdem_support = 20 }			# James Mattis
+
+set_variable = { demsoc_support = 10 }			# Pat Noble
+set_variable = { libsoc_support = 5 }			# Christopher Helali
+set_variable = { communism_support = 20 }		# Sam Webb
+
+set_variable = { neutrality_support = 25 }		# Mark Milley
+set_variable = { fascism_support = 5 }			# James Nolan Mason
+set_variable = { ultranationalism_support = 10 }# Jeff Schoep
+
+# Coalition Popularities: 
+
+# Republican-Democrat Alliance: 16%
+# Military Forces: 14%
+# Far-Right Block: 36%
+# Far-Left Block: 34%
+
+
 set_popularities = {
-	democratic = 21
-	neutrality = 1
-	authdem = 39
-	liberal = 26
-	demsoc = 5
-	prodem = 2
-	communism = 1
-	totalsoc = 1
-	libsoc = 2
-	anarchy = 1
-	fascism = 1
-	ultranationalism = 0
+	democratic = 9			# Republican-Democrat Alliance
+	neutrality = 14	 		# National Alliance
+	authdem = 14			# Military Forces
+	liberal = 7				# Republican-Democrat Alliance
+	demsoc = 14				# Social Democratic Alliance
+	prodem = 0				# Non-existent
+	communism = 11			# Socialist Party of America
+	totalsoc = 0			# Non-Existent
+	libsoc = 9				# Freedom Front
+	anarchy = 0				# MAYBE???
+	fascism = 12			# American National Socialist Worker's Party
+	ultranationalism = 10	# American Nazi Party
 }
+
+# Army Forces
 
 create_country_leader = {
 	name = "James Mattis"
@@ -85,6 +187,8 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = semi_dictator
 }
+
+# Republican-Democrat Alliance
 
 create_country_leader = {
 	name = "Michael Bennett"
@@ -102,12 +206,56 @@ create_country_leader = {
 	ideology = conservative
 }
 
+# Far-Left Leaders
+
 create_country_leader = {
 	name = "Pat Noble"
 	desc = "POLITICS_PAT_NOBLE_DESC"
 	picture = "WFF_Leader_President_Pat_Noble.dds"
 	expire = "2040.1.1"
-	ideology = socialism
+	ideology = democraticsocialism
+}
+
+create_country_leader = {
+	name = "Sam Webb"
+	desc = "POLITICS_SAM_WEBB_DESC"
+	picture = "WFF_Leader_Sam_Webb.dds"
+	expire = "2040.1.1"
+	ideology = leninist
+}
+
+create_country_leader = {
+	name = "Christopher Helali"
+	desc = "POLITICS_CHRISTOPHER_HELALI_DESC"
+	picture = "WFF_Leader_Christian_Helali.dds"
+	expire = "2040.1.1"
+	ideology = libsoc_temporary
+}
+
+# Far-right Leaders
+
+create_country_leader = {
+	name = "Mark Milley"
+	desc = "POLITICS_MARK_MILLEY_DESC"
+	picture = "WFF_General_Mark_Milley.dds"
+	expire = "2040.1.1"
+	ideology = junta
+}
+
+create_country_leader = {
+	name = "James Nolan Mason"
+	desc = "POLITICS_JAMES_NOLAN_MASON_DESC"
+	picture = "WFF_Leader_James_Mason.dds"
+	expire = "2040.1.1"
+	ideology = national_socialism
+}
+
+create_country_leader = {
+	name = "Jeff Schoep"
+	desc = "POLITICS_JEFF_SCHOEP_DESC"
+	picture = "WFF_Leader_Jeff_Schoep.dds"
+	expire = "2040.1.1"
+	ideology = ultra_natsoc
 }
 
 create_field_marshal = { 

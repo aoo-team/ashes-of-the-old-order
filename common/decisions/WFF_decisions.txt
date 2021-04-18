@@ -236,3 +236,29 @@ WFF_economic_reforms = {
 	}
 
 }
+WFF_power_struggle = {
+
+	#WFF_debug_initialise = {
+	#	allowed = { 
+	#		tag = WDC 
+	#		debug = yes
+	#	}
+	#	fire_only_once = no
+	#	cost = 0
+	#	complete_effect = {
+	#		set_variable = { liberal_support = 15 } 		
+	#		set_variable = { democratic_support = 20 }		
+	#		set_variable = { authdem_support = 20 }			
+	#
+	#		set_variable = { demsoc_support = 10 }			
+	#		set_variable = { libsoc_support = 5 }			
+	#		set_variable = { communism_support = 20 }		
+	#
+	#		set_variable = { neutrality_support = 25 }		
+	#		set_variable = { fascism_support = 5 }			
+	#		set_variable = { ultranationalism_support = 10 }
+	#	}
+	#}
+
+
+}

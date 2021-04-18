@@ -68,7 +68,7 @@ create_country_leader = {
 	name = "Abiy Ahmed Ali"
 	desc = "POLITICS_ABIY_AHMED_ALI_DESC"
 	picture = "abiy_ahmed.dds"
-	expire = "3000.1.1"
+	expire = "2090.1.1"
 	ideology = despotism
 	traits = {
 		#

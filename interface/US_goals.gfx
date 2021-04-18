@@ -2852,4 +2852,13 @@ SpriteType = {
   texturefile = "gfx/interface/ideologies/totalsoc_group.dds"
 }
 #################################################################################################################################
+
+### WFF TREE ###
+
+SpriteType = {
+  name = "GFX_WFF_Congress_Adjourns"
+  texturefile = "gfx/interface/goals/WFF/WFF_Congress_Adjourns.dds"
+}
+
+
 }

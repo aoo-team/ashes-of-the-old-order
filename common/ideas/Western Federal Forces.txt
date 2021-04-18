@@ -216,6 +216,45 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
+
+		WFF_Crossroad_of_Ideas = {
+			picture = GFX_idea_WFF_crossroads_of_ideas
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = 0.25
+				party_popularity_stability_factor = -0.25
+				drift_defence_factor = -0.5
+				war_stability_factor = -0.25
+				war_support_factor = -0.25
+			}
+		}
+
+		WFF_Unstable_Government = {
+			picture = GFX_idea_WFF_unstable_government
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.5
+			}
+		}
+
+		WFF_Extreme_Factionalism = {
+			picture = GFX_idea_WFF_extreme_factionalism
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.5
+				party_popularity_stability_factor = -0.5
+				drift_defence_factor = -0.5
+			}
+		}
 	}
 }	
 	

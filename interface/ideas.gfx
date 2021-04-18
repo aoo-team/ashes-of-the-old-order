@@ -5815,4 +5815,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopia_Miner_Guild.dds"
 	}
 
+	### WFF IDEAS ###
+
+	spriteType = {
+		name = "GFX_idea_WFF_crossroads_of_ideas"
+		texturefile = "gfx/interface/ideas/WFF/WFF_crossroad_of_ideas.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_WFF_unstable_government"
+		texturefile = "gfx/interface/ideas/WFF/WFF_unstable_government.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_WFF_extreme_factionalism"
+		texturefile = "gfx/interface/ideas/WFF/WFF_extreme_factionalism.dds"
+	}
+
 }

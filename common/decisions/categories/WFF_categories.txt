@@ -31,3 +31,14 @@ WFF_economic_reforms = {
 		has_country_flag = economic_reforms
 	}
 }
+
+WFF_power_struggle = {
+	icon = generic_crisis
+	allowed = {
+		original_tag = WDC
+	}
+	visible = {
+		NOT = { has_country_flag = power_solidified }
+	}
+	visible_when_empty = yes
+}

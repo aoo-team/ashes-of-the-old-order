@@ -225,4 +225,552 @@ defined_text = {
 		localization_key = NYN_fate_powerful_unions
 		}
 	}
-	
+
+defined_text = { 
+	name = GetLiberalPopularity
+	text = {
+		trigger = {
+			check_variable = { liberal_support < 5 }
+		}
+		localization_key = Popularity_Zero
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { liberal_support > 4 }
+				check_variable = { liberal_support < 10 }
+			}
+		}
+		localization_key = Popularity_Five
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { liberal_support > 9 }
+				check_variable = { liberal_support < 15 }
+			}
+		}
+		localization_key = Popularity_Ten
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { liberal_support > 14 }
+				check_variable = { liberal_support < 20 }
+			}
+		}
+		localization_key = Popularity_Fifteen
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { liberal_support > 19 }
+				check_variable = { liberal_support < 25 }
+			}
+		}
+		localization_key = Popularity_Twenty
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { liberal_support > 24 }
+				check_variable = { liberal_support < 30 }
+			}
+		}
+		localization_key = Popularity_Twenty_Five
+	}
+	text = {
+		trigger = {
+			check_variable = { liberal_support = 30 }
+		}
+		localization_key = Popularity_Thirty
+	}
+}
+
+defined_text = { 
+	name = GetDemocraticPopularity
+	text = {
+		trigger = {
+			check_variable = { democratic_support < 5 }
+		}
+		localization_key = Popularity_Zero
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { democratic_support > 4 }
+				check_variable = { democratic_support < 10 }
+			}
+		}
+		localization_key = Popularity_Five
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { democratic_support > 9 }
+				check_variable = { democratic_support < 15 }
+			}
+		}
+		localization_key = Popularity_Ten
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { democratic_support > 14 }
+				check_variable = { democratic_support < 20 }
+			}
+		}
+		localization_key = Popularity_Fifteen
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { democratic_support > 19 }
+				check_variable = { democratic_support < 25 }
+			}
+		}
+		localization_key = Popularity_Twenty
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { democratic_support > 24 }
+				check_variable = { democratic_support < 30 }
+			}
+		}
+		localization_key = Popularity_Twenty_Five
+	}
+	text = {
+		trigger = {
+			check_variable = { democratic_support = 30 }
+		}
+		localization_key = Popularity_Thirty
+	}
+}
+
+defined_text = { 
+	name = GetAuthdemPopularity
+	text = {
+		trigger = {
+			check_variable = { authdem_support < 5 }
+		}
+		localization_key = Popularity_Zero
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { authdem_support > 4 }
+				check_variable = { authdem_support < 10 }
+			}
+		}
+		localization_key = Popularity_Five
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { authdem_support > 9 }
+				check_variable = { authdem_support < 15 }
+			}
+		}
+		localization_key = Popularity_Ten
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { authdem_support > 14 }
+				check_variable = { authdem_support < 20 }
+			}
+		}
+		localization_key = Popularity_Fifteen
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { authdem_support > 19 }
+				check_variable = { authdem_support < 25 }
+			}
+		}
+		localization_key = Popularity_Twenty
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { authdem_support > 24 }
+				check_variable = { authdem_support < 30 }
+			}
+		}
+		localization_key = Popularity_Twenty_Five
+	}
+	text = {
+		trigger = {
+			check_variable = { authdem_support = 30 }
+		}
+		localization_key = Popularity_Thirty
+	}
+}
+
+defined_text = { 
+	name = GetDemsocPopularity
+	text = {
+		trigger = {
+			check_variable = { demsoc_support < 5 }
+		}
+		localization_key = Popularity_Zero
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { demsoc_support > 4 }
+				check_variable = { demsoc_support < 10 }
+			}
+		}
+		localization_key = Popularity_Five
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { demsoc_support > 9 }
+				check_variable = { demsoc_support < 15 }
+			}
+		}
+		localization_key = Popularity_Ten
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { demsoc_support > 14 }
+				check_variable = { demsoc_support < 20 }
+			}
+		}
+		localization_key = Popularity_Fifteen
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { demsoc_support > 19 }
+				check_variable = { demsoc_support < 25 }
+			}
+		}
+		localization_key = Popularity_Twenty
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { demsoc_support > 24 }
+				check_variable = { demsoc_support < 30 }
+			}
+		}
+		localization_key = Popularity_Twenty_Five
+	}
+	text = {
+		trigger = {
+			check_variable = { demsoc_support = 30 }
+		}
+		localization_key = Popularity_Thirty
+	}
+}
+
+defined_text = { 
+	name = GetLibsocPopularity
+	text = {
+		trigger = {
+			check_variable = { libsoc_support < 5 }
+		}
+		localization_key = Popularity_Zero
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { libsoc_support > 4 }
+				check_variable = { libsoc_support < 10 }
+			}
+		}
+		localization_key = Popularity_Five
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { libsoc_support > 9 }
+				check_variable = { libsoc_support < 15 }
+			}
+		}
+		localization_key = Popularity_Ten
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { libsoc_support > 14 }
+				check_variable = { libsoc_support < 20 }
+			}
+		}
+		localization_key = Popularity_Fifteen
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { libsoc_support > 19 }
+				check_variable = { libsoc_support < 25 }
+			}
+		}
+		localization_key = Popularity_Twenty
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { libsoc_support > 24 }
+				check_variable = { libsoc_support < 30 }
+			}
+		}
+		localization_key = Popularity_Twenty_Five
+	}
+	text = {
+		trigger = {
+			check_variable = { libsoc_support = 30 }
+		}
+		localization_key = Popularity_Thirty
+	}
+}
+
+defined_text = { 
+	name = GetCommunismPopularity
+	text = {
+		trigger = {
+			check_variable = { communism_support < 5 }
+		}
+		localization_key = Popularity_Zero
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { communism_support > 4 }
+				check_variable = { communism_support < 10 }
+			}
+		}
+		localization_key = Popularity_Five
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { communism_support > 9 }
+				check_variable = { communism_support < 15 }
+			}
+		}
+		localization_key = Popularity_Ten
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { communism_support > 14 }
+				check_variable = { communism_support < 20 }
+			}
+		}
+		localization_key = Popularity_Fifteen
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { communism_support > 19 }
+				check_variable = { communism_support < 25 }
+			}
+		}
+		localization_key = Popularity_Twenty
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { communism_support > 24 }
+				check_variable = { communism_support < 30 }
+			}
+		}
+		localization_key = Popularity_Twenty_Five
+	}
+	text = {
+		trigger = {
+			check_variable = { communism_support = 30 }
+		}
+		localization_key = Popularity_Thirty
+	}
+}
+
+defined_text = { 
+	name = GetNeutralityPopularity
+	text = {
+		trigger = {
+			check_variable = { neutrality_support < 5 }
+		}
+		localization_key = Popularity_Zero
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { neutrality_support > 4 }
+				check_variable = { neutrality_support < 10 }
+			}
+		}
+		localization_key = Popularity_Five
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { neutrality_support > 9 }
+				check_variable = { neutrality_support < 15 }
+			}
+		}
+		localization_key = Popularity_Ten
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { neutrality_support > 14 }
+				check_variable = { neutrality_support < 20 }
+			}
+		}
+		localization_key = Popularity_Fifteen
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { neutrality_support > 19 }
+				check_variable = { neutrality_support < 25 }
+			}
+		}
+		localization_key = Popularity_Twenty
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { neutrality_support > 24 }
+				check_variable = { neutrality_support < 30 }
+			}
+		}
+		localization_key = Popularity_Twenty_Five
+	}
+	text = {
+		trigger = {
+			check_variable = { neutrality_support = 30 }
+		}
+		localization_key = Popularity_Thirty
+	}
+}
+
+defined_text = { 
+	name = GetFascismPopularity
+	text = {
+		trigger = {
+			check_variable = { fascism_support < 5 }
+		}
+		localization_key = Popularity_Zero
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { fascism_support > 4 }
+				check_variable = { fascism_support < 10 }
+			}
+		}
+		localization_key = Popularity_Five
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { fascism_support > 9 }
+				check_variable = { fascism_support < 15 }
+			}
+		}
+		localization_key = Popularity_Ten
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { fascism_support > 14 }
+				check_variable = { fascism_support < 20 }
+			}
+		}
+		localization_key = Popularity_Fifteen
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { fascism_support > 19 }
+				check_variable = { fascism_support < 25 }
+			}
+		}
+		localization_key = Popularity_Twenty
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { fascism_support > 24 }
+				check_variable = { fascism_support < 30 }
+			}
+		}
+		localization_key = Popularity_Twenty_Five
+	}
+	text = {
+		trigger = {
+			check_variable = { fascism_support = 30 }
+		}
+		localization_key = Popularity_Thirty
+	}
+}
+
+defined_text = { 
+	name = GetUltranationalismPopularity
+	text = {
+		trigger = {
+			check_variable = { ultranationalism_support < 5 }
+		}
+		localization_key = Popularity_Zero
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { ultranationalism_support > 4 }
+				check_variable = { ultranationalism_support < 10 }
+			}
+		}
+		localization_key = Popularity_Five
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { ultranationalism_support > 9 }
+				check_variable = { ultranationalism_support < 15 }
+			}
+		}
+		localization_key = Popularity_Ten
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { ultranationalism_support > 14 }
+				check_variable = { ultranationalism_support < 20 }
+			}
+		}
+		localization_key = Popularity_Fifteen
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { ultranationalism_support > 19 }
+				check_variable = { ultranationalism_support < 25 }
+			}
+		}
+		localization_key = Popularity_Twenty
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { ultranationalism_support > 24 }
+				check_variable = { ultranationalism_support < 30 }
+			}
+		}
+		localization_key = Popularity_Twenty_Five
+	}
+	text = {
+		trigger = {
+			check_variable = { ultranationalism_support = 30 }
+		}
+		localization_key = Popularity_Thirty
+	}
+}
