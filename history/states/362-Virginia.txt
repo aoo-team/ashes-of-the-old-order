@@ -7,15 +7,14 @@ state={
 	}
 
 	history = {
-		owner = EDC
-		add_core_of = EDC
+		owner = VAV
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
 			arms_factory = 3
 			air_base = 6
 		}
-		
+		add_core_of = VAV
 		victory_points = {
 			13746 25
 		}

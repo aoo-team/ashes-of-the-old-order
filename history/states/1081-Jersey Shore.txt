@@ -7,8 +7,7 @@ state={
 	}
 
 	history={
-		owner = NYC
-		add_core_of = NYC
+		owner = PHL
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
@@ -20,7 +19,7 @@ state={
 			}
 
 		}
-
+		add_core_of = PHL
 		victory_points = {
 			9864 10
 		}

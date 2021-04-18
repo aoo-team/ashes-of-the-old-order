@@ -4,8 +4,7 @@ state={
 	name="Delmarva"
 
 	history={
-		owner = PHL
-		add_core_of = PHL
+		owner = DEL
 		buildings = {
 			infrastructure = 2
 			dockyard = 2
@@ -13,7 +12,7 @@ state={
 			arms_factory = 1
 
 		}
-
+		add_core_of = DEL
 		victory_points = {
 			9758 1 
 		}
