@@ -6,7 +6,8 @@ state={
 	}
 
 	history={
-		owner = STV
+		owner = RUS
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 6
 			air_base = 2
