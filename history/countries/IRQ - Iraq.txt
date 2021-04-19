@@ -22,39 +22,41 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 20
-	neutrality = 80
+	neutrality = 66
+	fascism = 14
+	prodem = 9
+	communism = 7
+	anarchy = 4
 }
 
 create_country_leader = {
-	name = "Ghazi I"
-	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "GFX_portrait_iraq_ghazi"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
+	name = "Saddam Hussein"
+	picture = "Portrait_Saddam_Hussein.tga"
+	desc = "POLITICS_SADDAM_HUSSEIN_DESC"
+	expire = "2050.1.1"
+	ideology = despot
 }
 
 create_country_leader = {
-	name = "Rashid Ali al-Gaylani"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
+	name = "Abu Bakr al-Baghdadi"
+	desc = "POLITICS_ABU_BAGHDADI_DESC"
+	picture = "Portrait_Abu_Bakr_al-Baghdadi.tga"
+	expire = "2050.1.1"
+	ideology = theodictator
 }
 
 create_country_leader = {
-	name = "Yusuf Salman Yusuf"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
+	name = "Ayad Allawi"
+	desc = "POLITICS_AYAD_ALLAWI_DESC"
+	picture = "Portrait_Ayad_Allawi.tga"
+	expire = "2050.1.1"
+	ideology = progressive
+}
+
+create_country_leader = {
+	name = "Hamid Majid Mousa"
+	picture = "Portrait_Hamid_Majid_Mousa.tga"
+	desc = "POLITICS_HAMID_MOUSA_DESC"
+	expire = "2050.1.1"
+	ideology = leninist
 }

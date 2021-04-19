@@ -1,0 +1,13 @@
+﻿l_english:
+ IRQ:0 "Iraq"
+ IRQ_DEF:0 "Republic of Iraq"
+ IRQ_ADJ:0 "Iraqi"
+
+ IRQ_fascism_party:0 "DII"
+ IRQ_fascism_party_long:0 "Dawlat al-ʿIrāq al-ʾIslāmiyyah"
+ IRQ_neutrality_party:0 "HBA"
+ IRQ_neutrality_party_long:0 "Hizb al-Ba'th al-'Arabi"
+ IRQ_prodem_party:0 "Wifaq"
+ IRQ_prodem_party_long:0 "Iraqi National Accord"
+ IRQ_communism_party:0 "HSI"
+ IRQ_communism_party_long:0 "Al-Hizb ash-Shiyu i al-Iraqi"
