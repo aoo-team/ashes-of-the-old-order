@@ -4,7 +4,7 @@ state={
 	name="Burlington"
 
 	history={
-		owner = PHL
+		owner = NYC
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 5
@@ -12,8 +12,9 @@ state={
 			dockyard = 1
 
 		}
-		add_core_of = PHL
-		add_claim_by = NYC
+		add_core_of = NYC
+		add_claim_by = NYN
+		add_claim_by = PHL
 
 		victory_points = {
 			891 3

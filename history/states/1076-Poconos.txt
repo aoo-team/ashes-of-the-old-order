@@ -21,6 +21,7 @@ state={
 			3897 3
 		}
 		add_claim_by = PEN
+		add_claim_by = NYC
 		victory_points = {
 			9820 3
 		}

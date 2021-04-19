@@ -1,0 +1,18 @@
+state={
+	id=1245
+	name="STATE_1245"
+	provinces={
+		15672 15704 15712 15764 15800 
+	}
+	manpower=955297
+	state_category = town
+	history = {
+		owner = CRA
+		add_core_of = CRA
+		add_claim_by = NYN
+		add_claim_by = NYC
+		buildings = {
+			infrastructure = 5
+		}
+	}
+}

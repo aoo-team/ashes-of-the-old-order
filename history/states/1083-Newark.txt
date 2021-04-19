@@ -17,6 +17,7 @@ state={
 
 		}
 		add_core_of = NYC
+		add_claim_by = NYN
 		victory_points = {
 			13882 5 
 		}
