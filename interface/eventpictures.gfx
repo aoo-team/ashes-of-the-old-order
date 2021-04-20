@@ -2300,4 +2300,14 @@ spriteTypes = {
 		name = "GFX_news_event_algerian_wars"
 		texturefile = "gfx/event_pictures/news_event_algerian_wars.dds"
 	}
+
+	spriteType = {
+		name = "GFX_news_event_iraqi_civil_war"
+		texturefile = "gfx/event_pictures/news_event_iraq_civil_war.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_iraq_civil_war"
+		textureFile = "gfx/event_pictures/event_iraq_civil_war.dds"
+	}
 }

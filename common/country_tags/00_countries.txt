@@ -449,6 +449,6 @@ EPR = "countries/Ethiopian People's Republic.txt"
 
 IRQ = "countries/Iraq.txt" # Central Gov
 KUR = "countries/Kurdistan.txt" # Kurds 
-ISI = "countries/Islamic State.txt" # Islamic State in Iraq
-PRI = "countries/Communist Iraq.txt" # People's Republic of Iraq 
-SRI = "countries/Shia Iraq.txt" # Shiite Republic of Iraq
+ISI = "countries/Iraq.txt" # Islamic State in Iraq
+PRI = "countries/Iraq.txt" # People's Republic of Iraq 
+SRI = "countries/Iraq.txt" # Shiite Republic of Iraq

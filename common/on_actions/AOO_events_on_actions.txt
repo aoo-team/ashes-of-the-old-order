@@ -1,0 +1,13 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			IRQ = {
+				country_event = {
+					id = iraq_wars.1
+					months = 30 
+					random_days = 100
+				}
+			}
+		}
+	}
+}

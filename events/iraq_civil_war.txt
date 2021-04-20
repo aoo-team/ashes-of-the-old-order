@@ -1,0 +1,328 @@
+add_namespace = iraq_wars
+add_namespace = iraq_wars_news
+
+country_event = {
+	id = iraq_wars.1
+	title = iraq_wars.1.t
+	desc = iraq_wars.1.d
+	picture = GFX_event_iraq_civil_war
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_flag = iraqi_civil_war_1 }
+	}
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: Iraqi Civil War Started"
+	}
+
+	option = {
+		name = iraq_wars.1.a
+		custom_effect_tooltip = iraq_wars_1_tt
+		custom_effect_tooltip = iraq_wars_play_as_hba
+
+		hidden_effect = {
+
+			set_country_flag = iraqi_civil_war_1
+			set_global_flag = iraq_civil_war
+
+			news_event = { id = iraq_wars_news.1 days = 1 }
+
+			ISI = {
+				add_state_core = 1234
+				add_state_core = 676
+				add_state_core = 1235
+				add_state_core = 115
+				add_state_core = 1233
+				add_state_core = 1232
+				add_state_core = 1231
+				add_state_core = 291
+				add_state_core = 1237
+				add_state_core = 1244
+				add_state_core = 1238
+				add_state_core = 1239
+				add_state_core = 1240
+				add_state_core = 1241
+				add_state_core = 1242
+				add_state_core = 1243
+				add_state_core = 675
+				add_state_core = 1144
+
+				set_state_owner = 1234
+				set_state_owner = 676
+				set_state_owner = 1235
+				set_state_owner = 1236
+				set_state_controller = 1234
+				set_state_controller = 676
+				set_state_controller = 1235
+				set_state_controller = 1236
+
+				load_oob = "ISI_2018"
+
+				declare_war_on = {
+					target = IRQ
+					type = civil_war
+				}
+
+				declare_war_on = {
+					target = KUR
+					type = civil_war
+				}
+			}
+
+			KUR = {
+				add_state_core = 1234
+				add_state_core = 676
+				add_state_core = 1235
+				add_state_core = 115
+				add_state_core = 1233
+				add_state_core = 1232
+				add_state_core = 1231
+				add_state_core = 291
+				add_state_core = 1237
+				add_state_core = 1244
+				add_state_core = 1238
+				add_state_core = 1239
+				add_state_core = 1240
+				add_state_core = 1241
+				add_state_core = 1242
+				add_state_core = 1243
+				add_state_core = 675
+				add_state_core = 1144
+
+				set_state_owner = 1233
+				set_state_owner = 1232
+				set_state_owner = 1231
+				set_state_controller = 1231
+				set_state_controller = 1232
+				set_state_controller = 1233
+
+				load_oob = "KUR_2018"
+
+				declare_war_on = {
+					target = IRQ
+					type = civil_war
+				}
+			}
+		}
+	}
+
+	option = {
+		name = iraq_wars.1.b
+		custom_effect_tooltip = iraq_wars_1_tt
+		custom_effect_tooltip = iraq_wars_play_as_kurds
+
+		hidden_effect = {
+
+			set_country_flag = iraqi_civil_war_1
+			set_global_flag = iraq_civil_war
+
+			news_event = { id = iraq_wars_news.1 days = 1 }
+
+			ISI = {
+				add_state_core = 1234
+				add_state_core = 676
+				add_state_core = 1235
+				add_state_core = 115
+				add_state_core = 1233
+				add_state_core = 1232
+				add_state_core = 1231
+				add_state_core = 291
+				add_state_core = 1237
+				add_state_core = 1244
+				add_state_core = 1238
+				add_state_core = 1239
+				add_state_core = 1240
+				add_state_core = 1241
+				add_state_core = 1242
+				add_state_core = 1243
+				add_state_core = 675
+				add_state_core = 1144
+
+				set_state_owner = 1234
+				set_state_owner = 676
+				set_state_owner = 1235
+				set_state_owner = 1236
+				set_state_controller = 1234
+				set_state_controller = 676
+				set_state_controller = 1235
+				set_state_controller = 1236
+
+				load_oob = "ISI_2018"
+
+				declare_war_on = {
+					target = IRQ
+					type = civil_war
+				}
+
+				declare_war_on = {
+					target = KUR
+					type = civil_war
+				}
+			}
+
+			KUR = {
+				add_state_core = 1234
+				add_state_core = 676
+				add_state_core = 1235
+				add_state_core = 115
+				add_state_core = 1233
+				add_state_core = 1232
+				add_state_core = 1231
+				add_state_core = 291
+				add_state_core = 1237
+				add_state_core = 1244
+				add_state_core = 1238
+				add_state_core = 1239
+				add_state_core = 1240
+				add_state_core = 1241
+				add_state_core = 1242
+				add_state_core = 1243
+				add_state_core = 675
+				add_state_core = 1144
+
+				set_state_owner = 1233
+				set_state_owner = 1232
+				set_state_owner = 1231
+				set_state_controller = 1231
+				set_state_controller = 1232
+				set_state_controller = 1233
+
+				load_oob = "KUR_2018"
+
+				declare_war_on = {
+					target = IRQ
+					type = civil_war
+				}
+
+				change_tag_from = IRQ
+			}
+		}
+	}
+
+	option = {
+		name = iraq_wars.1.c
+		custom_effect_tooltip = iraq_wars_1_tt
+		custom_effect_tooltip = iraq_wars_play_as_islamists
+
+		hidden_effect = {
+
+			set_country_flag = iraqi_civil_war_1
+			set_global_flag = iraq_civil_war
+
+			news_event = { id = iraq_wars_news.1 days = 1 }
+
+			ISI = {
+				add_state_core = 1234
+				add_state_core = 676
+				add_state_core = 1235
+				add_state_core = 115
+				add_state_core = 1233
+				add_state_core = 1232
+				add_state_core = 1231
+				add_state_core = 291
+				add_state_core = 1237
+				add_state_core = 1244
+				add_state_core = 1238
+				add_state_core = 1239
+				add_state_core = 1240
+				add_state_core = 1241
+				add_state_core = 1242
+				add_state_core = 1243
+				add_state_core = 675
+				add_state_core = 1144
+
+				set_state_owner = 1234
+				set_state_owner = 676
+				set_state_owner = 1235
+				set_state_owner = 1236
+				set_state_controller = 1234
+				set_state_controller = 676
+				set_state_controller = 1235
+				set_state_controller = 1236
+
+				load_oob = "ISI_2018"
+
+				declare_war_on = {
+					target = IRQ
+					type = civil_war
+				}
+
+				declare_war_on = {
+					target = KUR
+					type = civil_war
+				}
+
+				change_tag_from = IRQ
+			}
+
+			KUR = {
+				add_state_core = 1234
+				add_state_core = 676
+				add_state_core = 1235
+				add_state_core = 115
+				add_state_core = 1233
+				add_state_core = 1232
+				add_state_core = 1231
+				add_state_core = 291
+				add_state_core = 1237
+				add_state_core = 1244
+				add_state_core = 1238
+				add_state_core = 1239
+				add_state_core = 1240
+				add_state_core = 1241
+				add_state_core = 1242
+				add_state_core = 1243
+				add_state_core = 675
+				add_state_core = 1144
+
+				set_state_owner = 1233
+				set_state_owner = 1232
+				set_state_owner = 1231
+				set_state_controller = 1231
+				set_state_controller = 1232
+				set_state_controller = 1233
+
+				load_oob = "KUR_2018"
+
+				declare_war_on = {
+					target = IRQ
+					type = civil_war
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = iraq_wars_news.1
+	title = iraq_wars_news.1.t
+	desc = iraq_wars_news.1.d
+	picture = GFX_news_event_iraqi_civil_war
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = iraq_wars_news.1.a
+		trigger = {
+			OR = {
+				tag = IRQ
+				tag = ISI
+				tag = KUR
+			}
+		}
+	}
+
+	option = {
+		name = iraq_wars_news.1.b
+		trigger = {
+			NOT = {
+				tag = IRQ
+				tag = ISI
+				tag = KUR
+			}
+		}
+	}
+}
