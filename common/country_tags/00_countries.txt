@@ -43,7 +43,6 @@ ECU = "countries/Ecuador.txt"
 ELS = "countries/El Salvador.txt"
 GUA = "countries/Guatemla.txt"
 HON = "countries/Honduras.txt"
-IRQ = "countries/Iraq.txt"
 JAP = "countries/Japan.txt"
 KOR = "countries/Korea.txt"
 LIB = "countries/Liberia.txt"
@@ -433,7 +432,7 @@ LAK = "countries/Lakota.txt"
 SOI = "countries/Sioux.txt"
 HEL = "countries/Helena.txt"
 
-# African Civil Wars Tags
+# Civil Wars Tags
 
 # Algeria
 
@@ -445,3 +444,11 @@ TRA = "countries/Algerian Republic.txt"
 
 ETH = "countries/Ethiopia.txt"
 EPR = "countries/Ethiopian People's Republic.txt"
+
+# Iraq
+
+IRQ = "countries/Iraq.txt" # Central Gov
+KUR = "countries/Kurdistan.txt" # Kurds 
+ISI = "countries/Islamic State.txt" # Islamic State in Iraq
+PRI = "countries/Communist Iraq.txt" # People's Republic of Iraq 
+SRI = "countries/Shia Iraq.txt" # Shiite Republic of Iraq
