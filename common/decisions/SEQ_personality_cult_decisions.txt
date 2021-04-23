@@ -12,6 +12,7 @@ SEQ_Personality_Cult = {
 		}
 		days_remove = 30
 		remove_effect = {
+		}
 		complete_effect = {
 			set_country_flag = SEQ_Sent_Out_Enforcers
 			}

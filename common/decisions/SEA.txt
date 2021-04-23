@@ -54,7 +54,9 @@ SEA_Peoples_Council = {
 SEA_Sawant_One_Year_Plan = {
 
 	Sawant_One_Year_Education_Reform = {
-		allowed = { tag = SEA }
+		allowed = { 
+			tag = SEA 
+		}
 		fire_only_once = yes
 		cost = 25
 		visible = {
@@ -62,13 +64,13 @@ SEA_Sawant_One_Year_Plan = {
 		}
 		available = {
 			
-			}
+		}
 		days_remove = 30
 		remove_effect = {
+
+		}
 		complete_effect = {
 
 		}
 	}
-
-
 }

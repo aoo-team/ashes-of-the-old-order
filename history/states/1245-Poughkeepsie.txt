@@ -7,10 +7,13 @@ state={
 	manpower=955297
 	state_category = town
 	history = {
+		victory_points = {
+			15672 3 
+		}
 		owner = CRA
 		add_core_of = CRA
-		add_claim_by = NYN
-		add_claim_by = NYC
+		add_core_of = NYN
+		add_core_of = NYC
 		buildings = {
 			infrastructure = 5
 		}

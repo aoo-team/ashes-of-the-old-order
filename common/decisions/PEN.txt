@@ -39,7 +39,6 @@ PEN_reconstruction = {
 		command_power > 25
 		}
 		custom_cost_text = command_power_more_than_25
-		is_good = yes
 		days_remove = 14
 		remove_effect = {
 			add_days_mission_timeout = {
@@ -67,7 +66,7 @@ PEN_reconstruction = {
 		
 		complete_effect = {
 			set_country_flag = PEN_current_construction
-			}
+		}
 		
 		days_remove = 70
 		remove_effect = {
@@ -78,9 +77,10 @@ PEN_reconstruction = {
 					level = 1
 					instant_build = yes
 					}
-				clr_country_flag = PEN_current_construction
 				}
 			}
+
+			clr_country_flag = PEN_current_construction
 	}
 	PEN_light_industry_grant = {
 		allowed = { tag = PEN }
