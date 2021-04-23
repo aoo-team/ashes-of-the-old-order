@@ -1,0 +1,49 @@
+﻿l_english: 
+ 
+ ### COUNTRY NAMES ###
+
+ KEN_ultranationalism:0 "Holy State of East Africa"
+ KEN_ultranationalism_DEF:0 "the Holy State of East Africa"
+ KEN_fascism:0 "East African State"
+ KEN_fascism_DEF:0 "the East African State"
+ KEN_neutrality:0 "Principality of East Africa"
+ KEN_neutrality_DEF:0 "the Principality of East Africa"
+ KEN_authdem:0 "East African Federation"
+ KEN_authdem_DEF:0 "the East African Federation"
+ KEN_democratic:0 "East African Federation"
+ KEN_democratic_DEF:0 "the East African Federation"
+ KEN_liberal:0 "East African Federation"
+ KEN_liberal_DEF:0 "the East African Federation"
+ KEN_prodem:0 "Progressive Republic of East Africa"
+ KEN_prodem_DEF:0 "the Progressive Republic of East Africa"
+ KEN_demsoc:0 "Socialist Republic of East Africa"
+ KEN_demsoc_DEF:0 "the Socialist Republic of East Africa"
+ KEN_libsoc:0 "Socialist Republic of East Africa"
+ KEN_libsoc_DEF:0 "the Socialist Republic of East Africa"
+ KEN_communism:0 "Socialist Republic of East Africa"
+ KEN_communism_DEF:0 "the Socialist Republic of East Africa"
+ KEN_anarchy:0 "Free State of East Africa"
+ KEN_anarchy_DEF:0 "the Free State of East Africa"
+ KEN_totalsoc:0 "Socialist Republic of East Africa"
+ KEN_totalsoc_DEF:0 "the Socialist Republic of East Africa"
+ KEN_neutrality_ADJ:0 "East African"
+ KEN_liberal_ADJ:0 "East African"
+ KEN_democratic_ADJ:0 "East African"
+ KEN:0 "East African"
+ KEN_DEF:0 "East African"
+ KEN_ADJ:0 "East African"
+
+ ### LEADER DESCRIPTIONS ###
+ 
+ POLITICS_PAUL_KAGAME_DESC:0 "PLACEHOLDER"
+
+ ### IDEAS ###
+
+ KEN_Rising_Power:0 "Rising Power"
+ KEN_Rising_Power_desc:0 "PLACEHOLDER"
+
+ KEN_Surrounded_By_Enemies:0 "Surrounded by Enemies"
+ KEN_Surrounded_By_Enemies_desc:0 "PLACEHOLDER" 
+
+ KEN_Racial_Tensions:0 "Racial Tensions"
+ KEN_Racial_Tensions_desc:0 "PLACEHOLDER"

@@ -1,0 +1,320 @@
+division_template = {
+	name = "Tanzania Foot Soldiers"				
+
+	division_names_group = WDC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 0 }
+		anti_tank = { x = 0 y = 1 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Armoured Division"				
+
+	division_names_group = WDC_INF_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Uganda Presidential Brigade"				
+
+	division_names_group = WDC_INF_01
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		anit_air = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Uganda Foot Soldiers"				
+
+	division_names_group = WDC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		anit_air = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Rwandan Foot Soldiers"				
+
+	division_names_group = WDC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Rwandan Mechanized Soldiers"				
+
+	division_names_group = WDC_INF_01
+
+	regiments = {
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Kenyan Infantry Brigade"				
+
+	division_names_group = WDC_INF_01
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		anit_air = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		field_hospital = { x = 0 y = 4 }  
+	}
+	priority = 1
+}
+
+units = {
+
+	### TANZANIAN FORCES ###
+	
+	division = {
+		name = "Tanzanian First Infantry"
+		location = 2196
+		division_template = "Tanzania Foot Soldiers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Tanzanian First Armoured Division"
+		location = 2196
+		division_template = "Armoured Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	### UGADAN FORCES ###
+
+	division = {
+		name = "Uganda Presidential Brigade"
+		location = 12989
+		division_template = "Uganda Presidential Brigade"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Ugandan First Infantry"
+		location = 12929
+		division_template = "Uganda Foot Soldiers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "Ugandan Second Infantry"
+		location = 3854
+		division_template = "Uganda Foot Soldiers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "Ugandan Third Infantry"
+		location = 548
+		division_template = "Uganda Foot Soldiers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "Ugandan Fourth Infantry"
+		location = 7088
+		division_template = "Uganda Foot Soldiers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "Ugandan Fifth Infantry"
+		location = 7133
+		division_template = "Uganda Foot Soldiers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+
+	### RWANDAN FORCES ###
+
+	division = {
+		name = "Rwandan First Infantry"
+		location = 9962
+		division_template = "Rwandan Foot Soldiers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "Rwandan Second Infantry"
+		location = 9962
+		division_template = "Rwandan Foot Soldiers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "Rwandan First Motorised Infantry"
+		location = 9962
+		division_template = "Rwandan Mechanized Soldiers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+
+	### KENYAN FORCES ###
+
+	division = {
+		name = "Kenyan First Infantry"
+		location = 5210
+		division_template = "Kenyan Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Kenyan Second Infantry"
+		location = 5079
+		division_template = "Kenyan Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Kenyan First Tank Corps"
+		location = 1939
+		division_template = "Armoured Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+}
+air_wings = {
+
+	547 = {
+		fighter_equipment_1 = {
+			owner = "KEN"
+			amount = "22"
+		}
+		name = "Tanzanian Squadron 1"
+	}
+	547 = {
+		fighter_equipment_1 = {
+			owner = "KEN"
+			amount = "27"
+		}
+		name = "Kenyan Squadron 1"
+	}
+	547 = {
+		fighter_equipment_1 = {
+			owner = "KEN"
+			amount = "16"
+		}
+		name = "Ugandan Squadron 1"
+	}
+	547 = {
+		fighter_equipment_1 = {
+			owner = "KEN"
+			amount = "13"
+		}
+		name = "Rwandan Squadron 1"
+	}
+	547 = {
+		CAS_equipment_1 = {
+			owner = "KEN"
+			amount = "11"
+		}
+		name = "Tanzanian Squadron 2"
+	}
+	547 = {
+		CAS_equipment_1 = {
+			owner = "KEN"
+			amount = "10"
+		}
+		name = "Kenyan Squadron 2"
+	}
+	547 = {
+		tac_bomber_equipment_0 = {
+			owner = "KEN"
+			amount = "6"
+		}
+		name = "Tanzanian Squadron 3"
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "KEN"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+}

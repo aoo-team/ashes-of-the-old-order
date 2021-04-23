@@ -5832,4 +5832,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/WFF/WFF_extreme_factionalism.dds"
 	}
 
+
+	### KENYA IDEAS ###
+
+	spriteType = {
+		name = "GFX_idea_KEN_Rising_Power"
+		texturefile = "gfx/interface/ideas/Africa/Kenya/Kenya_Rising_Power.dds"
+	}
+
 }

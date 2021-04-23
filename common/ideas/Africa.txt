@@ -80,6 +80,46 @@ ideas = {
 			}
 		}
 
+		KEN_Rising_Power = {
+			picture = GFX_idea_KEN_Rising_Power
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				consumer_goods_factor = -0.05	
+				political_power_gain = 0.25
+			}
+		}
+
+		KEN_Surrounded_By_Enemies = {
+			picture = GFX_PLACEHOLDER
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {		
+				surrender_limit = 0.5	
+				political_power_cost = 0.25
+				stability_factor = -0.2
+			}
+		}
+
+		KEN_Racial_Tensions = {
+			picture = GFX_PLACEHOLDER
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {		
+				political_power_cost = 0.1
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				research_speed_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				local_resources_factor = -0.1
+			}
+		}
+
 	}
 }	
 	

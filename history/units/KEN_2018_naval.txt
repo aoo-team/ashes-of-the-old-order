@@ -1,0 +1,27 @@
+units = {
+	### NAVAL UNITS ###
+
+	fleet = {
+		name = "East African People's Navy"		
+		naval_base = 5210 # Mobasa
+		task_force = {				
+			name = "Kenyan People's Navy"			
+			location = 5210 # Mobasa
+			ship = { name = "KNS Shujaa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN } } }
+			ship = { name = "KNS Shupavu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN } } }
+			ship = { name = "KNS Nyayo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN } } }
+			ship = { name = "KNS Umoja" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN } } }
+			ship = { name = "KNS Mamba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN } } }
+			ship = { name = "KNS Galana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN } } }				
+			ship = { name = "KNS Tana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN } } }
+			ship = { name = "KNS Jasiri" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KEN } } }
+			ship = { name = "KNS Harambee II" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KEN } } }						
+		}		
+		task_force = {				
+			name = "Tanzanian People's Navy"			
+			location = 2196 # Dar Es Salaam
+			ship = { name = "TNS Mwitongo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN } } }
+			ship = { name = "TNS Msoga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN } } }			
+		}				
+	}
+}
