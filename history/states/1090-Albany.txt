@@ -16,14 +16,12 @@ state={
 
 		}
 		add_core_of = NYN
+		add_claim_by = NYC
 		victory_points = {
 			9693 10 
 		}
 		victory_points = {
-			15619 8
-		}
-		victory_points = {
-			15672 3
+			15619 8 
 		}
 		victory_points = {
 			11722 1 
@@ -32,7 +30,7 @@ state={
 	}
 
 	provinces={
-		706 7830 9693 9774 11660 11722 15619 15631 15647 15672 15703 15704 15711 15747 
+		706 7830 9693 9774 11660 11722 15619 15631 15647 15703 15711 15747 
 	}
 	manpower=732093
 	buildings_max_level_factor=1.000

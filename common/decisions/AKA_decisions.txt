@@ -94,7 +94,7 @@ AKA_debug = {
 		icon = generic_decision
 		days_re_enable = 0
 		complete_effect = {
-			drop_cosmetic_tag
+			drop_cosmetic_tag = yes
 		}
 	}
 }

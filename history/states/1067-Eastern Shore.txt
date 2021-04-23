@@ -4,7 +4,8 @@ state={
 	name="Delmarva"
 
 	history={
-		owner = DEL
+		owner = PHL
+		add_core_of = PHL
 		buildings = {
 			infrastructure = 2
 			dockyard = 2

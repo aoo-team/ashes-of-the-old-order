@@ -21,6 +21,7 @@ state={
 
 		}
 		add_claim_by = PHL
+		add_claim_by = NYN
 		victory_points = {
 			9864 10
 		}

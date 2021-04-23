@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = MRP
 		add_core_of = RUS
 		buildings = {
 			infrastructure = 5

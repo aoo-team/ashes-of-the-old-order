@@ -8,8 +8,9 @@ state={
 
 	history={
 		owner = CRA
-		add_claim_by = CRA
+		add_core_of = CRA
 		add_core_of = NYN
+		add_core_of = NYC
 		buildings = {
 			infrastructure = 5
 			air_base = 3

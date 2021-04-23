@@ -15,11 +15,11 @@ state={
 
 		}
 		add_core_of = NYC
-
+		add_claim_by = NYN
 	}
 
 	provinces={
-		3894 15712 15764 15800 15843 
+		3894 15843 
 	}
 	manpower=969873
 	buildings_max_level_factor=1.000
