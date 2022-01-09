@@ -2,10 +2,10 @@ focus_tree = {
 	id = WFF_focus_tree
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-			tag = WDC
-        }
+		#modifier = {
+		#	add = 10
+		#	tag = WDC
+        #}
 	}
 	default = no
 

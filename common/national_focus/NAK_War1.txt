@@ -418,7 +418,7 @@ focus_tree = {
             focus = NAK_Fight_in_the_Marshes
         }
 	    completion_reward = {
-				add_idea = NAK_Urban_Warfare
+				add_ideas = NAK_Urban_Warfare
 				country_event = {
         		    id = NAK.19
           		    days = 1

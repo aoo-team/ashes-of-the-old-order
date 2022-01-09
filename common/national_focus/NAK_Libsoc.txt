@@ -859,7 +859,7 @@ focus = {
             focus = NAK_Open_Trade_Schools
         }
 		prerequisite = {
-			NAK_Hire_Foreign_Expertise
+			focus = NAK_Hire_Foreign_Expertise
 		}
 		
 	    completion_reward = {
@@ -1614,7 +1614,7 @@ focus = {
 			focus = NAK_Encourage_Americanism
 		}   
 		mutually_exclusive = {
-			NAK_No_Turning_Back
+			focus = NAK_No_Turning_Back
 		}
 	    completion_reward = {
             

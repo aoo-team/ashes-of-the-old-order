@@ -2,10 +2,10 @@ focus_tree = {
 	id = new_germany_1
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-			tag = PEN
-		}
+		#modifier = {
+		#	add = 10
+		#	tag = PEN
+		#}
 	}
 	#Focus for Entice Investors
 	focus = {

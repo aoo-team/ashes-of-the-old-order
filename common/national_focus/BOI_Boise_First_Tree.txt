@@ -2,10 +2,10 @@ focus_tree = {
 	id = Boise_First_Tree
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-			tag = BOI
-		}
+		#modifier = {
+		#	add = 10
+		#	tag = BOI
+		#}
 	}
 	#Focus for He Shot First!
 	focus = {

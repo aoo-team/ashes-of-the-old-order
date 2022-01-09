@@ -3,10 +3,10 @@ focus_tree = {
 
 	country = {
 		factor = 0
-		modifier = {
-			add = 20
-			tag = SIL
-		}
+		#modifier = {
+		#	add = 20
+		#	tag = SIL
+		#}
 	}
 
 	focus = {
