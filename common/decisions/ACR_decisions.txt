@@ -14,3 +14,417 @@ ACR_debug = {
 		}
 	}
 }
+
+ACR_emergency_council = {
+
+	ACR_fortify_the_colleton_river = {
+		allowed = {
+			tag = ACR
+			NOT = { check_variable = { ACR_colleton_river_fortified > 2 } }
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 15
+		days_re_enable = 5
+		cost = 50
+		remove_effect = {
+			custom_effect_tooltip = ACR_tt_7
+			hidden_effect = {
+				1035 = {
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = 1547
+					}
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = 15260
+					}
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = 10029
+					}
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = 13578
+					}
+					add_to_variable = { var = ACR_colleton_river_fortified value = 1 } 
+				}
+			}
+		}
+	}
+
+	ACR_fortify_the_atlanta_border = {
+		allowed = {
+			tag = ACR
+			NOT = { check_variable = { ACR_atlanta_border_fortified > 2 } }
+			controls_state = 1006
+			controls_state = 1031
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+			controls_state = 1006
+			controls_state = 1031
+		}
+		days_remove = 15
+		days_re_enable = 5
+		cost = 50
+		remove_effect = {
+			custom_effect_tooltip = ACR_tt_8
+			hidden_effect = {
+				1006 = {
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = 9996
+					}
+				}
+				1031 = {
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = 7583
+					}
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = 12384
+					}
+				}
+				add_to_variable = { var = ACR_atlanta_border_fortified value = 1 } 
+			}
+		}
+	}
+
+	ACR_improve_port_charleston = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 30
+		fire_only_once = yes
+		cost = 25
+		modifier = {
+			consumer_goods_factor = 0.05
+	    }
+
+		remove_effect = {
+			1038 = {
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+					province = 13548
+				}
+			}
+		}
+	}
+
+	ACR_improve_port_tallahassee = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 30
+		fire_only_once = yes
+		cost = 25
+		modifier = {
+			consumer_goods_factor = 0.05
+	    }
+
+		remove_effect = {
+			1022 = {
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+					province = 13470
+				}
+			}
+		}
+	}
+
+	ACR_improve_port_mobile = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 30
+		fire_only_once = yes
+		cost = 25
+		modifier = {
+			consumer_goods_factor = 0.05
+	    }
+
+		remove_effect = {
+			1004 = {
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+					province = 10520
+				}
+			}
+		}
+	}
+
+	ACR_mass_recruitment_drives = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 20
+		days_re_enable = 20
+		cost = 25
+		remove_effect = {
+			add_manpower = 10000
+			add_war_support = -0.02
+			custom_effect_tooltip = ACR_tt_9
+			hidden_effect = {
+				add_to_variable = {
+					var = ACR_emergency_council_happiness
+					value = -5
+				}
+			}
+		}
+	}
+
+	ACR_seize_civilian_weaponry = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 20
+		days_re_enable = 20
+		cost = 25
+		modifier = {
+			consumer_goods_factor = 0.05
+			army_org_factor = 0.2
+	    }
+		remove_effect = {
+			add_stability = -0.02
+			custom_effect_tooltip = ACR_tt_9
+			hidden_effect = {
+				add_to_variable = {
+					var = ACR_emergency_council_happiness
+					value = -5
+				}
+			}
+		}
+	}
+
+	ACR_increase_rationing = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 30
+		days_re_enable = 20
+		cost = 25
+		remove_effect = {
+			add_stability = -0.02
+
+			custom_effect_tooltip = ACR_tt_9
+			hidden_effect = {
+				add_to_variable = {
+					var = ACR_emergency_council_happiness
+					value = -5
+				}
+			}
+		}
+	}
+
+	ACR_recruit_volunteers_from_jacksonville = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 5
+		fire_only_once = yes
+		cost = 50
+		remove_effect = {
+			custom_effect_tooltip = ACR_tt_10
+			hidden_effect = {
+				1025 = {
+					create_unit = {
+						division = "name = \"19th Jacksonville Volunteers\" division_template = \"Confederate Infantry Regiment\" start_experience_factor = 0 start_equipment_factor = 1.0"
+						owner = ACR
+					}
+				}
+			}
+		}
+	}
+
+	ACR_recruit_volunteers_from_nashville = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 7
+		fire_only_once = yes
+		cost = 50
+		remove_effect = {
+			custom_effect_tooltip = ACR_tt_11
+			hidden_effect ={
+				966 = {
+					create_unit = {
+						division = "name = \"27th Mississippi Volunteers\" division_template = \"Confederate Infantry Regiment\" start_experience_factor = 0 start_equipment_factor = 1.0"
+						owner = ACR
+					}
+				}
+			}
+		}
+	}
+
+	ACR_recruit_volunteers_from_new_orleans = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 5
+		fire_only_once = yes
+		cost = 50
+		remove_effect = {
+			custom_effect_tooltip = ACR_tt_12
+			hidden_effect = {
+				963 = {
+					create_unit = {
+						division = "name = \"36th Louisiana Volunteers\" division_template = \"Confederate Infantry Regiment\" start_experience_factor = 0 start_equipment_factor = 1.0"
+						owner = ACR
+					}
+				}
+			}
+		}
+	}
+
+	ACR_recruit_volunteers_from_shreveport = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 10
+		fire_only_once = yes
+		cost = 50
+		remove_effect = {
+			custom_effect_tooltip = ACR_tt_13
+			hidden_effect = {
+				964 = {
+					create_unit = {
+						division = "name = \"85th Louisiana Volunteers\" division_template = \"Confederate Infantry Regiment\" start_experience_factor = 0 start_equipment_factor = 1.0"
+						owner = ACR
+					}
+				}
+			}
+		}
+	}
+
+	ACR_recruit_volunteers_from_miami = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 10
+		fire_only_once = yes
+		cost = 50
+		remove_effect = {
+			custom_effect_tooltip = ACR_tt_14
+			hidden_effect = {
+				1025 = {
+					create_unit = {
+						division = "name = \"54th Florida Volunteers\" division_template = \"Confederate Infantry Regiment\" start_experience_factor = 0 start_equipment_factor = 1.0"
+						owner = ACR
+					}
+				}
+			}
+		}
+	}
+
+	ACR_recruit_volunteers_from_jackson = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_country_flag = ACR_emergency_council_formed
+		}
+		days_remove = 5
+		fire_only_once = yes
+		cost = 50
+		remove_effect = {
+			custom_effect_tooltip = ACR_tt_15
+			hidden_effect = {
+				964 = {
+					create_unit = {
+						division = "name = \"132nd Mississippi Volunteers\" division_template = \"Confederate Infantry Regiment\" start_experience_factor = 0 start_equipment_factor = 1.0"
+						owner = ACR
+					}
+				}
+			}
+		}
+	}
+
+	ACR_increase_discontent = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		complete_effect = {
+			add_to_variable = {
+				var = ACR_emergency_council_happiness
+				value = -5
+			}
+		}
+	}
+
+	ACR_decrease_discontent = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		complete_effect = {
+			add_to_variable = {
+				var = ACR_emergency_council_happiness
+				value = 5
+			}
+		}
+	}
+
+}

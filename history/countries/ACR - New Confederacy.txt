@@ -1,5 +1,7 @@
 capital = 1038
 
+oob = "ACR_2018"
+
 set_research_slots = 4
 
 parliament_seats_initial = yes
@@ -47,6 +49,7 @@ set_technology = {
 	superior_firepower = 1
 	base_strike = 1
 	fighter1 = 1
+	motorised_infantry = 1
 }
 
 set_stability = 0.50
@@ -79,6 +82,8 @@ add_ideas = {
 	CON_Legacy_of_the_US
 	CON_Separate_But_Equal
 	CON_Divided_Cabinet
+	extensive_conscription
+	partial_economic_mobilisation
 }
 
 create_country_leader = {
@@ -94,35 +99,35 @@ create_country_leader = {
 set_party_name = {
     ideology = ultranationalism
     long_name = ACR_ultranationalism_party_long
-    name = ACR_ultranationalism_party_short
+    name = ACR_ultranationalism_party
 }
 set_party_name = {
     ideology = fascism
     long_name = ACR_fascism_party_long
-    name = ACR_fascism_party_
+    name = ACR_fascism_party
 }
 set_party_name = {
     ideology = neutrality
     long_name = ACR_neutrality_party_long
-    name = ACR_neutrality_party_short
+    name = ACR_neutrality_party
 }
 set_party_name = {
     ideology = authdem
     long_name = ACR_authdem_party_long
-    name = ACR_authdem_party_short
+    name = ACR_authdem_party
 }
 set_party_name = {
     ideology = democratic
     long_name = ACR_democratic_party_long
-    name = ACR_democratic_party_short
+    name = ACR_democratic_party
 }
 set_party_name = {
     ideology = liberal
     long_name = ACR_liberal_party_long
-    name = ACR_liberal_party_short
+    name = ACR_liberal_party
 }
 set_party_name = {
     ideology = anarchy
     long_name = ACR_anarchy_party_long
-    name = ACR_anarchy_party_short
+    name = ACR_anarchy_party
 }

@@ -1,4 +1,17 @@
 add_namespace = NAK
+
+country_event = {
+	id = NAK.1
+		title = NAK.1.t
+		desc = NAK.1.d
+		picture = GFX_report_event_election_vote
+		is_triggered_only = yes
+
+		option = {
+			name = NAK.1.a
+			ai_chance = { base = 100 }
+		}
+	}
 country_event = {
 	id = NAK.2
 		title = NAK.2.t

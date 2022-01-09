@@ -2,6 +2,7 @@ AOO_american_unification = {
 	icon = generic_formable_nations
 
 	visible = {
+		always = no
 		is_in_array = {
 			array = global.usa_unifiers
 			value = THIS.id
@@ -23,6 +24,9 @@ AOO_Purchase_Weapons = {
 				is_on_continent = north_america
 			}
 		}
+	}
+	visible = {
+		always = no
 	}
 }
 
@@ -47,5 +51,8 @@ AOO_Acquire_Arms = {
 
 			has_war = yes
 		}
+	}
+	visible = {
+		always = no
 	}
 }

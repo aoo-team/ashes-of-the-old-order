@@ -1,0 +1,269 @@
+division_template = {
+	name = "New Afrikan Motorized Division"				
+
+	division_names_group = WDC_INF_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Free Black Regiment"				
+
+	division_names_group = WDC_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "New Afrikan Infantry Brigade"				
+
+	division_names_group = WDC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
+	}
+	priority = 1
+	is_locked = yes
+}
+
+units = {
+
+	### Starting Infantry Battalions ###
+
+	#4th Infantry Division
+	division = {
+		name = "132nd 'Freedom' Brigade"
+		location = 13573
+		division_template = "New Afrikan Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "77th Motorized"
+		location = 11975
+		division_template = "New Afrikan Motorized Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "85th Motorized"
+		location = 10909
+		division_template = "New Afrikan Motorized Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 13572
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 13582
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 13586
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 13586
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 13584
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 15158
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 15189
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 7583
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 7118
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 15163
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 15168
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 7643
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 3994
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 3994
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 1028
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 10909
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 13573
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 13573
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 13573
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+
+	division = {
+		name = "Free Black Regiment"
+		location = 13573
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "Free Black Regiment"
+		location = 13573
+		division_template = "Free Black Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "NAK"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+}

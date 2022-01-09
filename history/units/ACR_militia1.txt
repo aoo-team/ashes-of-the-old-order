@@ -1,0 +1,27 @@
+units = {
+
+	division = {
+		name = "97th South Carolina Volunteer Regiment"
+		location = 13548
+		division_template = "Confederate Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+
+	division = {
+		name = "6th Georgia Home Defence Regiment"
+		location = 12498
+		division_template = "Confederate Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+
+	division = {
+		name = "168th Alabama Home Defence Regiment"
+		location = 7640
+		division_template = "Confederate Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+
+}

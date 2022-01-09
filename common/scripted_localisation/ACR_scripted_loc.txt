@@ -1,0 +1,175 @@
+defined_text = {
+	name = ACR_south_carolina_content
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness < 30 }
+		}
+		localization_key = ACR_blank_loc
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness > 29 }
+		}
+		localization_key = ACR_south_carolina_happy
+	}
+}
+
+defined_text = {
+	name = ACR_georgia_content
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness < 40 }
+		}
+		localization_key = ACR_blank_loc
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness > 39 }
+		}
+		localization_key = ACR_georgia_happy
+	}
+}
+
+defined_text = {
+	name = ACR_alabama_content
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness < 50 }
+		}
+		localization_key = ACR_blank_loc
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness > 49 }
+		}
+		localization_key = ACR_alabama_happy
+	}
+}
+
+defined_text = {
+	name = ACR_florida_content
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness < 70 }
+		}
+		localization_key = ACR_blank_loc
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness > 69 }
+		}
+		localization_key = ACR_florida_happy
+	}
+}
+
+defined_text = {
+	name = ACR_mississippi_content
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness < 55 }
+		}
+		localization_key = ACR_blank_loc
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness > 54 }
+		}
+		localization_key = ACR_mississippi_happy
+	}
+}
+
+defined_text = {
+	name = ACR_south_carolina_discontent
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness < 30 }
+		}
+		localization_key = ACR_south_carolina_unhappy
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness > 29 }
+		}
+		localization_key = ACR_blank_loc
+	}
+}
+
+defined_text = {
+	name = ACR_georgia_discontent
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness < 40 }
+		}
+		localization_key = ACR_georgia_unhappy
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness > 39 }
+		}
+		localization_key = ACR_blank_loc
+	}
+}
+
+defined_text = {
+	name = ACR_alabama_discontent
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness < 50 }
+		}
+		localization_key = ACR_alabama_unhappy
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness > 49 }
+		}
+		localization_key = ACR_blank_loc
+	}
+}
+
+defined_text = {
+	name = ACR_florida_discontent
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness < 70 }
+		}
+		localization_key = ACR_florida_unhappy
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness > 69 }
+		}
+		localization_key = ACR_blank_loc
+	}
+}
+
+defined_text = {
+	name = ACR_mississippi_discontent
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness < 55 }
+		}
+		localization_key = ACR_mississippi_unhappy
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness > 54 }
+		}
+		localization_key = ACR_blank_loc
+	}
+}
+
+defined_text = {
+	name = ACR_make_decisions
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness < 50 }
+		}
+		localization_key = ACR_cannot_make_decisions
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_emergency_council_happiness > 54 }
+		}
+		localization_key = ACR_can_make_decisions
+	}
+}

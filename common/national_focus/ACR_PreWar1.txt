@@ -8,84 +8,104 @@ focus_tree = {
         }
     }
   continuous_focus_position = { x = 1150 y = 2700 }
-  focus = {
-      id = ACR_President_Cottons_State_of_The_Union
-	    icon = President_Cottons_State_of_The_Union
-	    cost = 1
-	    x = 5
-	    y = 1
-	    completion_reward = {
-        add_stability = 0.05
-        add_war_support = 0.05
-        country_event = {
-            id = ACR.1
-            days = 1
-	     }
+
+	focus = {
+		id = ACR_President_Cottons_State_of_The_Union
+		icon = President_Cottons_State_of_The_Union
+		cost = 1
+		x = 5
+		y = 1
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			country_event = {
+				id = ACR.1
+				days = 1
+			}
+		}
 	}
-}
-  focus = {
-      id = ACR_Reappropriate_Civilian_Weaponry
+  	focus = {
+      	id = ACR_Reappropriate_Civilian_Weaponry
 	    icon = Reappropriate_Civilian_Weaponry
 	    cost = 2
 	    x = 3
 	    y = 2
-      prerequisite = {
+     	prerequisite = {
 		    focus = ACR_President_Cottons_State_of_The_Union
 	    }
-      completion_reward = {
+      	completion_reward = {
         	add_equipment_to_stockpile = {
                 type = infantry_equipment
-          	amount = 2000
-          	producer = ACR
-          }
-        country_event = {
-            id = ACR.2
-            days = 1
-	     }
+          		amount = 2000
+          		producer = ACR
+          	}
+        	country_event = {
+            	id = ACR.2
+            	days = 1
+	     	}
+		}
 	}
-}
-  focus = {
-      id = ACR_Mobilize_the_Militia
+
+  	focus = {
+      	id = ACR_Mobilize_the_Militia
 	    icon = Mobilize_the_Militia
 	    cost = 2
 	    x = 5
 	    y = 2
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_President_Cottons_State_of_The_Union
 	    }
-      completion_reward = {
-        load_oob = "ACR_militia1"
-        country_event = {
-            id = ACR.3
-            days = 1
-	    }
-}
-}
-  focus = {
-      id = ACR_Rally_the_Remenants
+      	completion_reward = {
+			hidden_effect = {
+				load_oob = "ACR_militia1"
+			}
+			custom_effect_tooltip = ACR_tt_1
+			country_event = {
+				id = ACR.3
+				days = 1
+			}
+		}
+	}
+
+  	focus = {
+      	id = ACR_Rally_the_Remenants
 	    icon = Rally_the_Remenants
 	    cost = 2
 	    x = 7
 	    y = 2
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_President_Cottons_State_of_The_Union
 	    }
 	    completion_reward = {
         	army_experience = 10
-		add_war_support = 0.05
+			add_war_support = 0.05
         	country_event = {
            		id = ACR.4
            		 days = 1
-	     }
-}
-}
-  focus = {
+	     	}
+			create_corps_commander = { 
+				name = "Boris Armstrong" 
+				desc = "POLITICS_BORIS_ARMSTRONG_DESC"
+				portrait_path = ""
+				traits = {
+					infantry_leader engineer
+				}
+				skill = 2
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 1
+				logistics_skill = 3
+			}
+		}
+	}
+
+  	focus = {
       id = ACR_Military_Industrial_Complex_Investments
 	    icon = Military_Industrial_Complex_Investments
 	    cost = 5
 	    x = 2
 	    y = 3
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_Reappropriate_Civilian_Weaponry
 	    }
 	    completion_reward = {
@@ -104,248 +124,354 @@ focus_tree = {
 				 }
 			}
 		}
-}
- focus = {
-      id = ACR_The_Enemy
+	}
+
+ 	focus = {
+      	id = ACR_The_Enemy
 	    icon = The_Enemy
 	    cost = 5
 	    x = 4
 	    y = 3
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_Reappropriate_Civilian_Weaponry
 	    }
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_Mobilize_the_Militia
 	    }
 	    completion_reward = {
         	add_war_support = 0.1
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 367
+					num_provinces = 4
+					on_win = ACR_borderwar.1
+					on_lose = ACR_borderwar.2
+					on_cancel = ACR_borderwar.2
+				}
+							
+				defender = {
+					state = 1006
+					num_provinces = 4
+					on_win = NAK_borderwar.1
+					on_lose = NAK_borderwar.2
+					on_cancel = NAK_borderwar.2
+				}
+			}
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 1029
+					num_provinces = 3
+					on_win = ACR_borderwar.3
+					on_lose = ACR_borderwar.4
+					on_cancel = ACR_borderwar.4
+				}
+							
+				defender = {
+					state = 1031
+					num_provinces = 2
+					on_win = NAK_borderwar.3
+					on_lose = NAK_borderwar.4
+					on_cancel = NAK_borderwar.4
+				}
+			}
+			hidden_effect = {
+				1006 = {
+					set_border_war = yes
+				}
+				1031 = {
+					set_border_war = yes
+				}
+			}
 	    }
-}
- focus = {
-      id = ACR_Hail_to_the_Chief
+	}
+ 	focus = {
+      	id = ACR_Hail_to_the_Chief
 	    icon = Hail_to_the_Chief
 	    cost = 5
 	    x = 6
 	    y = 3
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_Reappropriate_Civilian_Weaponry
 	    }
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_Mobilize_the_Militia
 	    }
 	    completion_reward = {
         	add_war_support = 0.1
-		country_event = {
+			country_event = {
            		id = ACR.5
            		 days = 1
-	     }
+	     	}
+		 	remove_ideas = {
+				CON_Divided_Cabinet
+		 	}
 	    }
 
-}
- focus = {
-      id = ACR_Establish_Harsh_Rationing
+	}
+ 	focus = {
+      	id = ACR_Establish_Harsh_Rationing
 	    icon = Establish_Harsh_Rationing
 	    cost = 2
 	    x = 8
 	    y = 3
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_Rally_the_Remenants
 	    }
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_Mobilize_the_Militia
 	    }
 	    completion_reward = {
-        	add_ideas = ACR_Harsh_Rationing
-		 country_event = {
-           		id = ACR.6
-           		 days = 1
-	     }
-	    }
-
-}
- focus = {
-      id = ACR_Strengthen_The_Blockade
-	    icon = Strengthen_The_Blockade
-	    cost = 2
-	    x = 2
-	    y = 4
-      prerequisite = {
-		    focus = ACR_Military_Industrial_Complex_Investments
-	    }
-      completion_reward = {
-	    	NAK = {
-		swap_ideas = {
-  			remove_idea = NAK_Con_Blockade
-			add_idea = NAK_Strengthened_Blockade
-        	}
-		country_event = {
-           		id = NAK.1
-           		 days = 1
-	     	}
-		}
-	    }
-
-}
- focus = {
-      id = ACR_Project_Neptune
-	    icon = Project_Neptune
-	    cost = 3
-	    x = 2
-	    y = 5
-      prerequisite = {
-		    focus = ACR_Strengthen_The_Blockade
-	    }
-      completion_reward = {
-	    	add_ideas = Project_Neptune
-		country_event = {
-           		id = ACR.7
-           		 days = 1
-	     }
-	    }
-
-}
- focus = {
-      id = ACR_Purge_the_Enemy
-	    icon = Purge_the_Enemy
-	    cost = 3
-	    x = 4
-	    y = 4
-      prerequisite = {
-		    focus = ACR_The_Enemy
-	    }
-      completion_reward = {
-		add_manpower = -15327
-		add_popularity = {
-			ideology = fascism
-			popularity = 0.05
-			}
-		country_event = {
-           		id = ACR.8
-           		 days = 1
-	     }
-	    }
-
-}
- focus = {
-      id = ACR_Close_The_Borders
-	    icon = Close_The_Borders
-	    cost = 2
-	    x = 4
-	    y = 5
-      prerequisite = {
-		    focus = ACR_Purge_the_Enemy
-	    }
-      completion_reward = {
-		add_stability = 0.05
-		country_event = {
-           		id = ACR.9
-           		 days = 1
-	     }
-	    }
-
-}
- focus = {
-      id = ACR_Act_B113
-	    icon = Act_B113
-	    cost = 3
-	    x = 6
-	    y = 4
-      prerequisite = {
-		  focus = ACR_Hail_to_the_Chief
-	    }
-      completion_reward = {
-		add_stability = 0.05
-		country_event = {
-           		id = ACR.10
-           		 days = 1
-	     }
-	    }
-
-}
- focus = {
-      id = ACR_Establish_the_Emergency_Council
-	    icon = Establish_the_Emergency_Council
-	    cost = 1
-	    x = 6
-	    y = 5
-      prerequisite = {
-		    focus = ACR_Act_B113
-	    }
-      completion_reward = {
-		army_experience = 10
-		country_event = {
-           		id = ACR.11
-           		 days = 1
-	     }
-	    }
-
-}
-focus = {
-      id = ACR_Evacuate_Border_Cities
-	    icon = Evacuate_Border_Cities
-	    cost = 2
-	    x = 8
-	    y = 4
-      prerequisite = {
-		    focus = ACR_Establish_Harsh_Rationing
-	    }
-      completion_reward = {
-		1029 = { add_building_construction = { type = bunker province = 1433 level = 3 instant_build = yes } }
-		1029 = { add_building_construction = { type = bunker province = 12498 level = 3 instant_build = yes } }
-		1005 = { add_building_construction = { type = bunker province = 860 level = 3 instant_build = yes } }
-		367 = { add_building_construction = { type = bunker province = 7422 level = 3 instant_build = yes } }
-		country_event = {
-           		id = ACR.12
-           		 days = 1
+			add_ideas = ACR_Harsh_Rationing
+			country_event = {
+				id = ACR.6
+				days = 1
 			}
 	    }
 	}
 
- focus = {
-      id = ACR_Memories_of_Old_Times
+ 	focus = {
+		id = ACR_Strengthen_The_Blockade
+		icon = Strengthen_The_Blockade
+		cost = 2
+		x = 2
+		y = 4
+		prerequisite = {
+			focus = ACR_Military_Industrial_Complex_Investments
+		}
+		completion_reward = {
+			NAK = {
+				swap_ideas = {
+					remove_idea = NAK_Con_Blockade
+					add_idea = NAK_Strengthened_Blockade
+				}
+				country_event = {
+					id = NAK.1
+					days = 1
+				}
+			}
+		}
+	}
+
+ 	focus = {
+      	id = ACR_Project_Neptune
+	    icon = Project_Neptune
+	    cost = 3
+	    x = 2
+	    y = 5
+      	prerequisite = {
+		    focus = ACR_Strengthen_The_Blockade
+	    }
+      	completion_reward = {
+	    	add_ideas = Project_Neptune
+			country_event = {
+           		id = ACR.7
+           		days = 1
+	     	}
+	    }
+	}
+
+ 	focus = {
+      	id = ACR_Purge_the_Enemy
+	    icon = Purge_the_Enemy
+	    cost = 3
+	    x = 4
+	    y = 4
+		bypass = {
+			AND = {
+				has_country_flag = ACR_failed_to_capture_piedmont
+				has_country_flag = ACR_failed_to_capture_columbus
+			}
+		}
+		available = {
+			controls_state = 1006
+			controls_state = 1031
+		}
+      	prerequisite = {
+		    focus = ACR_The_Enemy
+	    }
+      	completion_reward = {
+			custom_effect_tooltip = ACR_tt_6
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = ACR_failed_to_capture_piedmont }
+					}
+					1006 = {
+						add_manpower = -2000
+					}
+					1006 = {
+						set_border_war = no
+					}
+				}
+				if = {
+					limit = {
+						NOT = { has_country_flag = ACR_failed_to_capture_columbus }
+					}
+					1031 = {
+						add_manpower = -2000
+					}
+					1031 = {
+						set_border_war = no
+					}
+				}
+			}
+		}	
+	}
+ 	focus = {
+      	id = ACR_Close_The_Borders
+	    icon = Close_The_Borders
+	    cost = 2
+	    x = 4
+	    y = 5
+		bypass = {
+			AND = {
+				has_country_flag = ACR_failed_to_capture_piedmont
+				has_country_flag = ACR_failed_to_capture_columbus
+			}
+		}
+      	prerequisite = {
+		    focus = ACR_Purge_the_Enemy
+	    }
+      	completion_reward = {
+			add_stability = -0.05
+			add_state_core = 1006
+			add_state_core = 1029
+			custom_effect_tooltip = ACR_tt_3
+			hidden_effect = {
+				add_to_variable = {
+					var = ACR_emergency_council_happiness
+					value = 5
+				}
+			}
+	    }
+	}
+
+ 	focus = {
+      	id = ACR_Act_B113
+	    icon = Act_B113
+	    cost = 3
+	    x = 6
+	    y = 4
+     	prerequisite = {
+		  	focus = ACR_Hail_to_the_Chief
+	    }
+      	completion_reward = {
+			country_event = ACR.9
+	    }
+	}
+
+ 	focus = {
+      	id = ACR_Establish_the_Emergency_Council
+	    icon = Establish_the_Emergency_Council
+	    cost = 1
+	    x = 6
+	    y = 5
+      	prerequisite = {
+		    focus = ACR_Act_B113
+	    }
+      	completion_reward = {
+			custom_effect_tooltip = ACR_tt_2
+			hidden_effect ={
+				set_country_flag = ACR_emergency_council_formed
+				set_variable = { ACR_emergency_council_happiness = 100 }
+				set_variable = { ACR_emergency_council_senators = 5 }
+				set_variable = { ACR_emergency_council_happy_senators = 5 }
+				set_variable = { ACR_colleton_river_fortified = 0 }
+				set_variable = { ACR_atlanta_border_fortified = 0 }
+			}
+	    }
+
+}
+	focus = {
+		id = ACR_Evacuate_Border_Cities
+		icon = Evacuate_Border_Cities
+		cost = 2
+		x = 8
+		y = 4
+      	prerequisite = {
+		    focus = ACR_Establish_Harsh_Rationing
+	    }
+      	completion_reward = {
+			country_event = ACR.8
+			custom_effect_tooltip = ACR_tt_4
+			hidden_effect = {
+				1029 = {
+					add_manpower = -20000
+				}
+				1025 = {
+					add_manpower = -100000
+				}
+				1005 = {
+					add_manpower = -50000
+				}
+				367 = {
+					add_manpower = -200000
+				}
+				1035 = {
+					add_manpower = -20000
+				}
+				1004 = {
+					add_manpower = 120000
+				}
+				1022 = {
+					add_manpower = 250000
+				}
+				1038 = {
+					add_manpower = 20000
+				}
+			}
+	  	}
+	}
+
+ 	focus = {
+      	id = ACR_Memories_of_Old_Times
 	    icon = Memories_of_Old_Times
 	    cost = 2
 	    x = 8
 	    y = 5
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_Evacuate_Border_Cities
 	    }
-      completion_reward = {
-		add_ideas = Confederate_Nostalgia
+      	completion_reward = {
+			add_ideas = Confederate_Nostalgia
 	    }
+	}
 
-}
- focus = {
-      id = ACR_For_Dixie
+ 	focus = {
+      	id = ACR_For_Dixie
 	    icon = For_Dixie
 	    cost = 1
 	    x = 5
 	    y = 6
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_Close_The_Borders
 	    }
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_Project_Neptune
 	    }
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_Establish_the_Emergency_Council
 	    }
-      prerequisite = {
+      	prerequisite = {
 		    focus = ACR_Memories_of_Old_Times
 	    }
-      completion_reward = {
-		declare_war_on = { target = NAK type = annex_everything }
-		hidden_effect = {
-			load_focus_tree = ACR_War1
-			NAK = {
-			country_event = {
-        		    id = NAK.12
-          		    days = 1
-	    		 }
+      	completion_reward = {
+			declare_war_on = { target = NAK type = annex_everything }`
+			remove_ideas = {
+				CON_Ruined_Nation
 			}
-		}
+			hidden_effect = {
+				load_focus_tree = ACR_War1
+				NAK = {
+				country_event = {
+						id = NAK.12
+						days = 1
+					}
+				}
+			}
 	    }
-
-}
+	}
 
 }

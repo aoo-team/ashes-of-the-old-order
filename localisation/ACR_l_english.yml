@@ -185,6 +185,24 @@ ACR_Disband_the_State:0 "Disband the State"
  #custom tooltips
  
  #decisions 
+ 
+ ACR_emergency_council:0 "Confederate Emergency Council"
+ ACR_emergency_council_desc:0 "The §gConfederate Emergency Council§! or §gCEC§! for short is a congregation of §Y[?ACR_emergency_council_senators] senators§!, one from each state in the confederacy. The purpose of the §gCEC§! is to facilitate the Confederacy's war efforts in the most effective way, although it has its shortcomings as not all states agree with eachother on the correct path to victory. Currently §Y[?ACR_emergency_council_happy_senators] senators§! are agree with §gTom Cotton§!'s warplan, [ACR_make_decisions].\n\n§YStates§! currently participating in the §gCEC§!:\n\n[ACR_south_carolina_content][ACR_georgia_content][ACR_alabama_content][ACR_florida_content][ACR_mississippi_content]\n\n§YStates§! currently disagreeing with §gTom Cotton§!:\n\n[ACR_south_carolina_discontent][ACR_georgia_discontent][ACR_alabama_discontent][ACR_florida_discontent][ACR_mississippi_discontent]"
+
+ ACR_fortify_the_colleton_river:0 "Fortify the §gColleton River§!"
+ ACR_fortify_the_atlanta_border:0 "Fortify the §RAtlanta§! border"
+ ACR_improve_port_charleston:0 "Improve §gPort Charleston§!"
+ ACR_improve_port_tallahassee:0 "Improve §gPort Tallahassee§!"
+ ACR_improve_port_mobile:0 "Improve §gPort Foley§!"
+ ACR_mass_recruitment_drives:0 "Enact §Rmass recruitment drives§!"
+ ACR_seize_civilian_weaponry:0 "Seize §Ycivilian weaponry§!"
+ ACR_increase_rationing:0 "§RIncrease Rationing§!"
+ ACR_recruit_volunteers_from_jacksonville:0 "Recruit volunteers from §YJacksonville§!"
+ ACR_recruit_volunteers_from_nashville:0 "Recruit volunteers from §YNashville§!"
+ ACR_recruit_volunteers_from_new_orleans:0 "Recruit volunteers from §YNew Orleans§!"
+ ACR_recruit_volunteers_from_shreveport:0 "Recruit volunteers from §YShreveport§!"
+ ACR_recruit_volunteers_from_miami:0 "Recruit volunteers from §YMiami§!"
+ ACR_recruit_volunteers_from_jackson:0 "Recruit volunteers from §YJackson§!"
 
  #events
  ACR.1.t:0 "Tom Cotton's State of the Union"
@@ -194,32 +212,115 @@ ACR_Disband_the_State:0 "Disband the State"
  ACR.2.t:0 "A Citizen's Contribution"
  ACR.2.d:0 "Jeffery McMiller was just another ordinary southern citizen when the war started. He didn't care 'bout "loyalty" or "patriotism" before the war, he just wanted to live the good old American life. And of course, the black nationalists wanted none of that, with they're lofty ideals of "progressivism" and whatnot. So Jeffery did what every American did when the war broke out - he bought a gun. He had to protect his family at all costs, from rioters, from the commies, from the government, from everyone. But he had no desire to die. He had no delusions of grandeur, no Wanna go down in a blaze of glory. So as fronts shifted, his countrymen died, cities burned while Jeffery sat at home, makin' sure his daughter and wife were safe. But the fight came to him at last. When New Afrika rebelled, the Confederacy was in desperate need of weaponry. As he sat on his porch, a confederate officer, dressed in his light grey, came and asked him if he had any guns. Of course, Jefferey answered that he did. So the officer gave him a choice. Sign up, or give up your gun. Jefferey sighed, went to the livin' room, brought the gun to the officer, and watched in silence as the officer took his gun and walked to his neighbors."
  ACR.2.a:0 "A Nessesary Move"
+
+ ACR.3.t:0 "That's the dixie spirit!"
+ ACR.3.d:0 "Away down South in the land of traitors,\nRattlesnakes and alligators,\nRight away! Come away! Right away! Right away, come away!\nWhere cotton's king and men are chattles,\nUnion boys will win the battles, right away!\nCome away! Right away! Right away, come away!\nWe'll all go down to Dixie, away! Away!\nEach Dixie boy must understand that he must mind his Uncle Sam\nAway! Away! We'll all go down to Dixie!\nAway! Away! We'll all go down to Dixie!"
+ ACR.3.a:0 "Wait, wasn't this song against the dixies?"
+
+ ACR.4.t:0 "Rallying the remnants of our army..."
+ ACR.4.d:0 "PLACEHOLDER"
+ ACR.4.a:0 "Continue"
+ ACR.4.b:0 "Become ANCAP for no reason"
+
+ ACR.5.t:0 "Cotton retains emergency powers!"
+ ACR.5.d:0 "PLACEHOLDER"
+ ACR.5.a:0 "Continue"
+
+ ACR.6.t:0 "Can I have a little more?"
+ ACR.6.d:0 "PLACEHOLDER"
+ ACR.6.a:0 "Continue"
+
+ ACR.7.t:0 "Project: Neptune"
+ ACR.7.d:0 "PLACEHOLDER"
+ ACR.7.a:0 "Continue"
+
+ ACR.8.t:0 "Evacuation of Birmingham"
+ ACR.8.d:0 "PLACEHOLDER"
+ ACR.8.a:0 "Continue"
+
+ ACR.9.t:0 "Act B113"
+ ACR.9.d:0 "PLACEHOLDER"
+ ACR.9.a:0 "Continue"
+
+ ACR_borderwar.1.t:0 "Piedmont Captured!"
+ ACR_borderwar.1.d:0 "PLACEHOLDER"
+ ACR_borderwar.1.a:0 "Victory!"
+
+ ACR_borderwar.2.t:0 "Retreat!"
+ ACR_borderwar.2.d:0 "PLACEHOLDER"
+ ACR_borderwar.2.a:0 "Punish the generals responsible!"
+
+ ACR_borderwar.3.t:0 "The Battle of Columbus"
+ ACR_borderwar.3.d:0 "PLACEHOLDER"
+ ACR_borderwar.3.a:0 "Send the enforcers in."
+
+ ACR_borderwar.4.t:0 "The Battle of Columbus"
+ ACR_borderwar.4.d:0 "PLACEHOLDER"
+ ACR_borderwar.4.a:0 "Fuck! Pull our troops back."
+
+ ACR_borderwar.5.t:0 "Nation, Rise Up, and Let the Storm Break Loose"
+ ACR_borderwar.5.d:0 ""The Slaves maintain that the Confederate people have lost faith in victory. \n\nI ask you: Do you believe in the President and us in the final total victory of the Confederate people? \n\nI ask you: Are you resolved to follow the President through thick and thin to victory, and are you willing to accept the heaviest personal burdens? \n\nSecond, The Afrikan say that the Confederate people are tired of fighting. \n\nI ask you: Are you ready to follow the President as the phalanx of the homeland, standing behind the fighting army and to wage war with wild determination through all the turns of fate until victory is ours? \n\nThird: The Afrinkans maintain that the Confederate people have no desire any longer to accept the government’s growing demands for war work. \n\nI ask you: Are you and the Confederate people willing to work, if the President orders, 10, 12 and if necessary 14 hours a day and to give everything for victory? \n\nFourth: The Negro maintain that the Confederate people is resisting the government’s total war measures. It does not want total war, but capitulation! Never! Never! Never \n\nI ask you: Do you want total war? If necessary, do you want a war more total and radical than anything that we can even imagine today? \n\nFifth: The Negroes maintain that the Confederate people have lost faith in the President. \n\nI ask you: Is your confidence in the President greater, more faithful and more unshakable than ever before? Are you absolutely and completely ready to follow him wherever he goes and do all that is necessary to bring the war to a victorious end?" \n\n- Tom Cotton"
+ ACR_borderwar.5.a:0 "Wait, haven't I seen this somewhere before?"
+
  #leader descrip
  
  #parties
  ACR_ultranationalism_party_long:0 "National Republican Party"
- ACR_ultranationalism_party_short:0 "National Republican Party"
+ ACR_ultranationalism_party:0 "NRP"
  
  ACR_fascism_party_long:0 "Ku Klux Klan"
- ACR_fascism_party_short:0 "Ku Klux Klan"
+ ACR_fascism_party:0 "KKK"
  
- ACR_neutrality_party_long:0 "Republican Party (Cotton Loyalists)"
- ACR_neutrality_party_short:0 "Republican Party (Cotton Loyalists)"
+ ACR_neutrality_party_long:0 "Republican Party (Moderates)"
+ ACR_neutrality_party:0 "Republican Party"
  
- ACR_authdem_party_long:0 "Republican  Party (Military Loyalists)"
- ACR_authdem_party_short:0 "Republican  Party (Military Loyalists)"
+ ACR_authdem_party_long:0 "Republican Party (Extremists)"
+ ACR_authdem_party:0 "Republican Party"
  
- ACR_democratic_party_long:0 "Republican Party (Reformist Faction)"
- ACR_democratic_party_short:0 "Republican Party (Reformist Faction)"
+ ACR_democratic_party_long:0 "Republican Party (Liberals)"
+ ACR_democratic:0 "Republican Party"
  
  ACR_liberal_party_long:0 "Democratic Party"
- ACR_liberal_party_short:0 "Democratic Party"
+ ACR_liberal_party:0 "Democratic Party"
  
  ACR_anarchy_party_long:0 "Freedom Party"
- ACR_anarchy_party_short:0 "Freedom  Party"
+ ACR_anarchy_party:0 "Freedom Party"
  
  #scripted loc
 
+ ACR_blank_loc:0 ""
+ ACR_south_carolina_happy:0 "  §GSouth Carolina§!"
+ ACR_georgia_happy:0 "  §GGeorgia§!"
+ ACR_alabama_happy:0 "  §GAlabama§!"
+ ACR_florida_happy:0 "  §GFlorida§!"
+ ACR_mississippi_happy:0 "  §GMississippi§!"
+ ACR_south_carolina_unhappy:0 "  §RSouth Carolina§!"
+ ACR_georgia_unhappy:0 "  §RGeorgia§!"
+ ACR_alabama_unhappy:0 "  §RAlabama§!"
+ ACR_florida_unhappy:0 "  §RFlorida§!"
+ ACR_mississippi_unhappy:0 "  §RMississippi§!"
+ ACR_can_make_decisions:0 "§Gwhich means we can make more decisions§!"
+ ACR_cannot_make_decisions:0 "§Rwhich means we cannot make more decisions§!"
+
  #names
+ 
+ ACR_tt_1:0 "§gWe will raise 3 divisions of Confederate Infantry.§!"
+ ACR_tt_2:0 "The §gConfederate Emergency Council§! will be formed with §Y1 senator§! from each state and the §Ypresident§!."
+ ACR_tt_3:0 "If the §gConfederate Emergency Council§! has been formed, then §Yall states§! will be more likely to agree with §gTom Cotton§!."
+ ACR_tt_4:0 "§YThousands of people will be evacuated from border cities to safer places.§!"
+ ACR_tt_5:0 "§YAct B113 will be put into place and the country will be formally in a §Rnational emergency.§!"
+ ACR_tt_6:0 "We will §Ysecure our new territory§! and §Rcrush any dissidents left§!."
+ ACR_tt_7:0 "§Y1 fort§! will be built on §Yevery province§! along the border near §gCharleston§!."
+ ACR_tt_8:0 "§Y1 fort§! will be built on §Yevery province§! along the border near §RAtlanta§!."
+ ACR_tt_9:0 "§RSome states may be displeased when this action is taken repeatedly.§!"
+ ACR_tt_10:0 "The §g19th Jacksonville Volunteers§! will be formed."
+ ACR_tt_11:0 "The §g27th Mississippi Volunteers§! will be formed."
+ ACR_tt_12:0 "The §g36th Louisiana Volunteers§! will be formed."
+ ACR_tt_13:0 "The §g85th Louisiana Volunteers§! will be formed."
+ ACR_tt_14:0 "The §g54th Florida Volunteers§! will be formed."
+ ACR_tt_15:0 "The §g132nd Mississippi Volunteers§! will be formed."
+
+ ACR_failed_to_capture_piedmont:0 "Failure to capture §YPiedmont§!."
+ ACR_failed_to_capture_columbus:0 "Failure to capture §YColumbus§!."
   
  #end

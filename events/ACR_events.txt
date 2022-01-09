@@ -1,4 +1,5 @@
 add_namespace = ACR
+add_namespace = ACR_borderwar
 
 #tom cotton's SOTU
 country_event = {
@@ -20,7 +21,7 @@ country_event = {
 	id = ACR.2
 		title = ACR.2.t
 		desc = ACR.2.d
-		picture = Reapproriate_Civlian_Weaponry_Event
+		picture = GFX_WFF_The_Future_of_America
 		is_triggered_only = yes
 
 		option = {
@@ -34,17 +35,12 @@ country_event = {
 	id = ACR.3
 		title = ACR.3.t
 		desc = ACR.3.d
-		picture = Reapproriate_Civlian_Weaponry_Event
+		picture = event_tom_cotton_sotu
 		is_triggered_only = yes
 
 		option = {
 			name = ACR.3.a
-			ai_chance = { base = 50 }
-		}
-
-		option = {
-			name = ACR.3.b
-			ai_chance = { base = 50 }
+			ai_chance = { base = 100 }
 		}
 	}
 
@@ -53,31 +49,21 @@ country_event = {
 	id = ACR.4
 		title = ACR.4.t
 		desc = ACR.4.d
-		picture = Reapproriate_Civlian_Weaponry_Event
+		picture = GFX_WFF_The_Vote
 		is_triggered_only = yes
 
 		option = {
 			name = ACR.4.a
-			ai_chance = { base = 25 }
+			ai_chance = { base = 75 }
 		}
 
 		option = {
 			name = ACR.4.b
 			ai_chance = { base = 25 }
-		}
-
-		option = {
-			name = ACR.4.c
-			ai_chance = { base = 25 }
 
 			hidden_effect = {
 				load_focus_tree = ACR_Ancap1
 			}
-		}
-
-		option = {
-			name = ACR.4.d1
-			ai_chance = { base = 25 }
 		}
 	}
 
@@ -123,3 +109,114 @@ country_event = {
 		}
 	}
 
+# Evacuation of Birmingham
+country_event = {
+	id = ACR.8
+	title = ACR.8.t
+	desc = ACR.8.d
+	picture = Reapproriate_Civlian_Weaponry_Event
+	is_triggered_only = yes
+
+	option = {
+		name = ACR.8.a
+		ai_chance = { base = 100 }
+		add_stability = -0.03
+	}
+}
+
+# Act B113
+country_event = {
+	id = ACR.9
+	title = ACR.9.t
+	desc = ACR.9.d
+	picture = Reapproriate_Civlian_Weaponry_Event
+	is_triggered_only = yes
+
+	option = {
+		name = ACR.9.a
+		add_stability = 0.05
+		custom_effect_tooltip = ACR_tt_5
+	}
+}
+
+
+# Capturing Piedmont
+country_event = {
+	id = ACR_borderwar.1
+	title = ACR_borderwar.1.t
+	desc = ACR_borderwar.1.d
+	picture = Reapproriate_Civlian_Weaponry_Event
+	is_triggered_only = yes
+
+	option = {
+		name = ACR_borderwar.1.a
+		transfer_state = 1006
+		add_war_support = 0.05
+	}
+}
+
+# Failure to capture Piedmont
+country_event = {
+	id = ACR_borderwar.2
+	title = ACR_borderwar.2.t
+	desc = ACR_borderwar.2.d
+	picture = Reapproriate_Civlian_Weaponry_Event
+	is_triggered_only = yes
+
+	option = {
+		name = ACR_borderwar.2.a
+		add_war_support = -0.03
+		army_experience = 5
+		add_manpower = -500
+		hidden_effect = {
+			set_country_flag = ACR_failed_to_capture_piedmont
+		}
+	}
+}
+
+# Capturing Columbus
+country_event = {
+	id = ACR_borderwar.3
+	title = ACR_borderwar.3.t
+	desc = ACR_borderwar.3.d
+	picture = Reapproriate_Civlian_Weaponry_Event
+	is_triggered_only = yes
+
+	option = {
+		name = ACR_borderwar.3.a
+		transfer_state = 1031
+		add_war_support = 0.05
+	}
+}
+
+# Failing to Capture Columbus
+country_event = {
+	id = ACR_borderwar.4
+	title = ACR_borderwar.4.t
+	desc = ACR_borderwar.4.d
+	picture = Reapproriate_Civlian_Weaponry_Event
+	is_triggered_only = yes
+
+	option = {
+		name = ACR_borderwar.4.a
+		add_war_support = -0.03
+		army_experience = 5
+		add_manpower = -500
+		hidden_effect = {
+			set_country_flag = ACR_failed_to_capture_columbus
+		}
+	}
+}
+
+# Chad Speech
+country_event = {
+	id = ACR_borderwar.5
+	title = ACR_borderwar.5.t
+	desc = ACR_borderwar.5.d
+	picture = GFX_NYN_honourable
+	is_triggered_only = yes
+
+	option = {
+		name = ACR_borderwar.5.a
+	}
+}

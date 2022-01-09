@@ -5,3 +5,12 @@ ACR_debug = {
 		is_debug = yes
 	}
 }
+
+ACR_emergency_council = {
+	icon = generic_research
+	allowed = {
+		original_tag = ACR
+		has_country_flag = ACR_emergency_council_formed
+	}
+	visible_when_empty = yes
+}
