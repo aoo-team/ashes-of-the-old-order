@@ -2,10 +2,10 @@ focus_tree = {
 	id = IAI_starting_tree
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-			tag = IAI
-		}
+		#modifier = {
+		#	add = 10
+		#	tag = IAI
+		#}
 	}
 	default = no
 	shared_focus = IAI_iowas_liberty

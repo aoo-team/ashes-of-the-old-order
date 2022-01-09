@@ -2,10 +2,10 @@ focus_tree = {
     id = NSH_larson
     country = {
         factor = 0
-        modifier = {
-            add = 10
-            tag = NSH
-        }
+        #modifier = {
+        #    add = 10
+        #    tag = NSH
+        #}
     }
 focus = { 
       id = NSH_New_Society

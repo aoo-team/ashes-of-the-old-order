@@ -2,10 +2,10 @@ focus_tree = {
     id = CGO_1_meltdown
     country = {
         factor = 0
-        modifier = {
-            add = 10
-            tag = CGO
-        }
+        #modifier = {
+        #    add = 10
+        #    tag = CGO
+        #}
     }
     continuous_focus_position = { x = 150 y = 2700 }
     focus = {

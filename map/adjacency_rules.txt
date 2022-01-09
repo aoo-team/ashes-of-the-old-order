@@ -9,7 +9,7 @@
 #Name is how you refer to the rule in adjecencies.csv
 
 #Suez Canal
-adjacency_rule
+adjacency_rule =
 {
 	name = "SUEZ_CANAL"
 
@@ -57,7 +57,7 @@ adjacency_rule
 }
 
 #Gibraltar Strait
-adjacency_rule
+adjacency_rule =
 {
 	name = "GIBRALTAR_STRAIT"
 
@@ -97,7 +97,7 @@ adjacency_rule
 }
 
 #Øresund - (Østersøen <-> Kattegat/Skagerak/Nordsøen)
-adjacency_rule
+adjacency_rule =
 {
 	name = "DANISH_BELTS_STRAIT"
 
@@ -137,7 +137,7 @@ adjacency_rule
 }
 
 #Panama Canal
-adjacency_rule
+adjacency_rule =
 {
 	name = "PANAMA_CANAL"
 
@@ -185,7 +185,7 @@ adjacency_rule
 }
 
 #Turkish Straits
-adjacency_rule
+adjacency_rule =
 {
 	name = "BOSPHORUS_STRAIT"
 
@@ -225,7 +225,7 @@ adjacency_rule
 }
 
 #Kiel Canal
-adjacency_rule
+adjacency_rule =
 {
 	name = "KIEL_CANAL"
 
@@ -264,7 +264,7 @@ adjacency_rule
 	offset = { 5 0 -6 }
 }
 #St.Lawrence Canal
-adjacency_rule
+adjacency_rule =
 {
 	name = "ST_LAWRENCE_CANAL"
 
@@ -303,7 +303,7 @@ adjacency_rule
 	offset = { 2 0 0 }
 }
 #Welland Canal
-adjacency_rule
+adjacency_rule =
 {
 	name = "ERIE_CANAL"
 
@@ -342,7 +342,7 @@ adjacency_rule
 	offset = { 5 0 -6 }
 }
 #St. Mary's Falls
-adjacency_rule
+adjacency_rule =
 {
 	name = "LAKE_SUPERIOR_CANAL"
 
@@ -381,7 +381,7 @@ adjacency_rule
 	offset = { 5 0 -6 }
 }
 #St. Clair/Detroit River
-adjacency_rule
+adjacency_rule =
 {
 	name = "LAKE_ERIE_CANAL"
 
@@ -420,7 +420,7 @@ adjacency_rule
 	offset = { 5 0 -6 }
 }
 
-adjacency_rule
+adjacency_rule =
 {
 	name = "HORMUZ_STRAIT"
 

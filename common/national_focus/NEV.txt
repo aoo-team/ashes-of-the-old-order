@@ -2,10 +2,10 @@ focus_tree = {
 	id = NEV_1
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-			tag = NEV
-		}
+		#modifier = {
+		#	add = 10
+		#	tag = NEV
+		#}
 	}
 	#Focus for The Social Darwinist Principle
 	focus = {
