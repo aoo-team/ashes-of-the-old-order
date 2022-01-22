@@ -68,7 +68,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Arnold Schwarzenegger"
 	desc = "POLITICS_ARNOLD_SCHWARZENEGGER_DESC"
-	picture = "Portrait_Arnold_Swartzenegger.tga"
+	picture = "Portrait_Arnold_Swartzenegger.dds"
 	expire = "2060.1.1"
 	ideology = conservative
 }

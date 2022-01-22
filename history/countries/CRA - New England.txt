@@ -68,7 +68,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Bernie Sanders"
 	desc = "POLITICS_BERNIE_SANDERS_DESC"
-	picture = "Portrait_Bernie_Sanders.tga"
+	picture = "Portrait_Bernie_Sanders.dds"
 	expire = "2060.1.1"
 	ideology= progressive
 }
@@ -76,7 +76,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Marty Walsh"
 	desc = "POLITICS_MARTY_WALSH_DESC"
-	picture = "Portrait_Marty_Walsh.tga"
+	picture = "Portrait_Marty_Walsh.dds"
 	expire = "2060.1.1"
 	ideology = sociallib
 }
@@ -84,7 +84,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Vermin Supreme"
 	desc = "POLITICS_VERMIN_SUPREME_DESC"
-	picture = "Portrait_Vermin_Supreme.tga"
+	picture = "Portrait_Vermin_Supreme.dds"
 	expire = "2060.1.1"
 	ideology = reactionary
 }

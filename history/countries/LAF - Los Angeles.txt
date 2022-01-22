@@ -65,7 +65,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Eric Garcetti"
 	desc = "POLITICS_ERIC_GARCETTI_DESC"
-	picture = "Portrait_Eric_Garcetti.tga"
+	picture = "Portrait_Eric_Garcetti.dds"
 	expire = "2060.1.1"
 	ideology = sociallib
 }
@@ -73,7 +73,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Eric Garcetti"
 	desc = "POLITICS_ERIC_GARCETTI_DESC"
-	picture = "Portrait_Eric_Garcetti.tga"
+	picture = "Portrait_Eric_Garcetti.dds"
 	expire = "2060.1.1"
 	ideology = progressive
 }
@@ -81,7 +81,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Eric Garcetti"
 	desc = "POLITICS_ERIC_GARCETTI_DESC"
-	picture = "Portrait_Eric_Garcetti.tga"
+	picture = "Portrait_Eric_Garcetti.dds"
 	expire = "2060.1.1"
 	ideology = democraticsocialism
 }

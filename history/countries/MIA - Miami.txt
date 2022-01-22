@@ -70,7 +70,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Jeb Bush"
 	desc = "POLITICS_JEB_BUSH_DESC"
-	picture = "Portrait_Jeb_Bush.tga"
+	picture = "Portrait_Jeb_Bush.dds"
 	expire = "2060.1.1"
 	ideology = conservative
 }

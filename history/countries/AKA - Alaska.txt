@@ -75,7 +75,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Sarah Palin"
 	desc = "POLITICS_SARAH_PALIN_DESC"
-	picture = "Portrait_Sarah_Palin.tga"
+	picture = "Portrait_Sarah_Palin.dds"
 	expire = "3000.1.1"
 	ideology = conservative
 }

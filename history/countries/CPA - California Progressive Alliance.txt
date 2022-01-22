@@ -68,7 +68,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Norman Solomon"
 	desc = "POLITICS_NORMAN_SOLOMON_DESC"
-	picture = "Portrait_Norman_Solomon.tga"
+	picture = "Portrait_Norman_Solomon.dds"
 	expire = "2060.1.1"
 	ideology = green
 }

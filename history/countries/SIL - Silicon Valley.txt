@@ -73,7 +73,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Silicon Management Committee"
 	desc = "POLITICS_SILICON_COMMITTEE_DESC"
-	picture = "Portrait_Silicon_Committee_Leaderless.tga"
+	picture = "Portrait_Silicon_Committee_Leaderless.dds"
 	expire = "2050.1.1"
 	ideology = despot
 }
@@ -81,7 +81,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Silicon Management Committee"
 	desc = "POLITICS_SILICON_COMMITTEE_DESC"
-	picture = "Portrait_Silicon_Committee_Leaderless.tga"
+	picture = "Portrait_Silicon_Committee_Leaderless.dds"
 	expire = "2050.1.1"
 	ideology = reactionary
 }

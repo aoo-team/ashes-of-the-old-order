@@ -67,7 +67,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Wally Herger"
 	desc = "POLITICS_WALLY_HERGER_DESC"
-	picture = "Portrait_Wally_Herger.tga"
+	picture = "Portrait_Wally_Herger.dds"
 	expire = "2060.1.1"
 	ideology = theodictator
 }

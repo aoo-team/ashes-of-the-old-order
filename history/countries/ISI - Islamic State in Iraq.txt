@@ -30,7 +30,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Abu Bakr al-Baghdadi"
 	desc = "POLITICS_ABU_BAGHDADI_DESC"
-	picture = "gfx/leaders/IRQ/Portrait_Abu_Bakr_al-Baghdadi.tga"
+	picture = "gfx/leaders/IRQ/Portrait_Abu_Bakr_al-Baghdadi.dds"
 	expire = "2050.1.1"
 	ideology = theodictator
 }
@@ -38,7 +38,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Abu Bakr al-Baghdadi"
 	desc = "POLITICS_ABU_BAGHDADI_DESC"
-	picture = "gfx/leaders/IRQ/Portrait_Abu_Bakr_al-Baghdadi.tga"
+	picture = "gfx/leaders/IRQ/Portrait_Abu_Bakr_al-Baghdadi.dds"
 	expire = "2050.1.1"
 	ideology = nationalist
 }
@@ -46,7 +46,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Abu Bakr al-Baghdadi"
 	desc = "POLITICS_ABU_BAGHDADI_DESC"
-	picture = "gfx/leaders/IRQ/Portrait_Abu_Bakr_al-Baghdadi.tga"
+	picture = "gfx/leaders/IRQ/Portrait_Abu_Bakr_al-Baghdadi.dds"
 	expire = "2050.1.1"
 	ideology = despot
 }

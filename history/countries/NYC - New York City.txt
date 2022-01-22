@@ -74,7 +74,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Mark J. Green"
 	desc = "POLITICS_MARK_GREEN_DESC"
-	picture = "Portrait_Mark_Green.tga"
+	picture = "Portrait_Mark_Green.dds"
 	expire = "3000.1.1"
 	ideology = progressive
 }
@@ -82,7 +82,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Donald Trump"
 	desc = "POLITICS_GOD_DESC"
-	picture = "Portrait_Donald_Trump.tga"
+	picture = "Portrait_Donald_Trump.dds"
 	expire = "9000.1.1"
 	ideology = nationalist
 	traits = {
