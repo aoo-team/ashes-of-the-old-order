@@ -242,6 +242,10 @@ ACR_Disband_the_State:0 "Disband the State"
  ACR.9.d:0 "PLACEHOLDER"
  ACR.9.a:0 "Continue"
 
+ ACR.14.t:0 "Every white man's duty"
+ ACR.14.d:0 "PLACEHOLDER"
+ ACR.14.a:0 "This is pretty bad btw..."
+
  ACR_borderwar.1.t:0 "Piedmont Captured!"
  ACR_borderwar.1.d:0 "PLACEHOLDER"
  ACR_borderwar.1.a:0 "Victory!"
@@ -319,6 +323,8 @@ ACR_Disband_the_State:0 "Disband the State"
  ACR_tt_13:0 "The §g85th Louisiana Volunteers§! will be formed."
  ACR_tt_14:0 "The §g54th Florida Volunteers§! will be formed."
  ACR_tt_15:0 "The §g132nd Mississippi Volunteers§! will be formed."
+
+ ACR_tt_16:0 "§gWe will raise 3 divisions from volunteer klansmen across the nation.§!"
 
  ACR_failed_to_capture_piedmont:0 "Failure to capture §YPiedmont§!."
  ACR_failed_to_capture_columbus:0 "Failure to capture §YColumbus§!."

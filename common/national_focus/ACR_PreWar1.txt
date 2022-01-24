@@ -458,7 +458,7 @@ focus_tree = {
 		    focus = ACR_Memories_of_Old_Times
 	    }
       	completion_reward = {
-			declare_war_on = { target = NAK type = annex_everything }`
+			declare_war_on = { target = NAK type = annex_everything }
 			remove_ideas = {
 				CON_Ruined_Nation
 			}

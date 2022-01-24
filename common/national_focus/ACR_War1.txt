@@ -289,11 +289,14 @@ focus_tree = {
 			focus = ACR_Winter_Offensive
 		}
 	    completion_reward = {
-			load_oob = "ACR_klan1"
+			custom_effect_tooltip = ACR_tt_16
+			hidden_effect = {
+				load_oob = "ACR_klan1"
+			}
 			country_event = {
-        		    id = ACR.14
-          		    days = 1
-	    		 }
+        		id = ACR.14
+          		days = 1
+	    	}
 	}
 }
  focus = {

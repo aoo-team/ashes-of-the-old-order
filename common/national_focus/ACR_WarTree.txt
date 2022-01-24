@@ -1,0 +1,552 @@
+focus_tree = {
+    id = ACR_War1 
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = C01
+        }
+    }
+	continuous_focus_position = { x = 50 y = 2000 }
+ focus = { 
+      id = ACR_Dixies_Land_Ill_Take_My_Stand
+	    icon = GFX_ACR_focus_in_dixie_land
+	    cost = 1
+	    x = 8
+	    y = 1
+	    completion_reward = {
+			add_ideas = Dixies_Land_Ill_Take_My_Stand
+	}
+}
+
+ focus = {
+      id = ACR_Winter_Offensive
+	    icon = GFX_ACR_focus_winter_offensive
+	    cost = 2
+	    x = 8
+	    y = 2
+		prerequisite = {
+			focus = ACR_Dixies_Land_Ill_Take_My_Stand
+		}
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = ACR_Winter_Offensive 
+				days = 90 
+			}
+	}
+}
+ focus = {
+      id = ACR_Utilize_Our_Strengths
+	    icon = GFX_ACR_focus_utilize_our_strengths
+	    cost = 1
+	    x = 4
+	    y = 3
+		prerequisite = {
+			focus = ACR_Winter_Offensive
+		}
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = ACR_Utilize_Our_Strengths 
+				days = 90 
+			}
+	}
+}
+ focus = {
+      id = ACR_Make_Their_Ears_Ring
+	    icon = GFX_ACR_focus_make_their_ears_ring
+	    cost = 3
+	    x = 2
+	    y = 4
+		prerequisite = {
+			focus = ACR_Utilize_Our_Strengths
+		}
+		mutually_exclusive = { 
+			focus = ACR_Armored_Spearhead
+		}
+	    completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = artillery
+			}
+	}
+}
+ focus = {
+      id = ACR_Armored_Spearhead
+	    icon = GFX_ACR_focus_armored_spearhead
+	    cost = 3 
+	    x = 6
+	    y = 4
+		prerequisite = {
+			focus = ACR_Utilize_Our_Strengths
+		}
+		mutually_exclusive = { 
+			focus = ACR_Make_Their_Ears_Ring
+		}
+	    completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = cat_heavy_armor
+			}
+	}
+}
+ focus = {
+      id = ACR_Supremacy_Of_American_Engineering
+	    icon = GFX_ACR_focus_supremacy_of_american_industry
+	    cost = 5
+	    x = 2
+	    y = 5
+		prerequisite = {
+			focus = ACR_Make_Their_Ears_Ring
+		}
+	    completion_reward = {
+			add_ideas = ACR_Supremacy_Of_American_Engineering1
+	}
+}
+ focus = {
+      id = ACR_Doctrines_of_the_Past
+	    icon = GFX_ACR_focus_doctrines_of_the_past
+	    cost = 5
+	    x = 2
+	    y = 6
+		prerequisite = {
+			focus = ACR_Supremacy_Of_American_Engineering
+		}
+	    completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+	}
+}
+ focus = {
+      id = ACR_The_Rockets_Red_Glare
+	    icon = GFX_ACR_focus_the_rockets_red_glare
+	    cost = 5
+	    x = 2
+	    y = 7
+		prerequisite = {
+			focus = ACR_Doctrines_of_the_Past
+		}
+	    completion_reward = {
+			swap_ideas = {
+				remove_idea = ACR_Supremacy_Of_American_Engineering1
+				add_idea = ACR_Supremacy_Of_American_Engineering2
+			}
+	}
+}
+ focus = {
+      id = ACR_The_Will_of_the_People
+	    icon = GFX_ACR_focus_the_will_of_the_people
+	    cost = 3
+	    x = 4
+	    y = 5
+		prerequisite = {
+			focus = ACR_Make_Their_Ears_Ring
+			focus = ACR_Armored_Spearhead
+		}
+	    completion_reward = {
+			add_stability = 0.1
+	}
+}
+ focus = {
+      id = ACR_Mobilize_the_Workforce
+	    icon = GFX_ACR_focus_mobilize_the_workforce
+	    cost = 3
+	    x = 4
+	    y = 6
+		prerequisite = {
+			focus = ACR_The_Will_of_the_People
+		}
+	    completion_reward = {
+			add_ideas = war_economy
+	}
+}
+ focus = {
+      id = ACR_Spread_Fake_News
+	    icon = GFX_ACR_focus_spread_fake_news
+	    cost = 2
+	    x = 4
+	    y = 7
+		prerequisite = {
+			focus = ACR_Mobilize_the_Workforce
+		}
+	    completion_reward = {
+			add_war_support = 0.1
+			country_event = {
+        		    id = ACR.12
+          		    days = 1
+	    		 }
+	}
+}
+ focus = {
+      id = ACR_Mass_Motorization
+	    icon = GFX_ACR_focus_mass_motorization
+	    cost = 5
+	    x = 6
+	    y = 5
+		prerequisite = {
+			focus = ACR_Armored_Spearhead
+		}
+	    completion_reward = {
+			add_ideas = Motorization_Effort1
+	}
+}
+ focus = {
+      id = ACR_Aerial_Supremacy
+	    icon = GFX_ACR_focus_achieve_aerial_supremacy
+	    cost = 4
+	    x = 6
+	    y = 6
+		prerequisite = {
+			focus = ACR_Mass_Motorization
+		}
+	    completion_reward = {
+		add_timed_idea = { 
+				idea = Afrikan_Aerial_Supremacy 
+				days = 90
+			} 
+	}
+}
+ focus = {
+      id = ACR_Modern_Mobile_Warfare
+	    icon = GFX_ACR_focus_modern_mobile_warfare
+	    cost = 4
+	    x = 6
+	    y = 7
+		prerequisite = {
+			focus = ACR_Aerial_Supremacy
+		}
+	    completion_reward = {
+			swap_ideas = {
+			remove_idea = Motorization_Effort1
+			add_idea = Motorization_Effort2
+			}
+	}
+}
+ focus = {
+      id = ACR_Total_War
+	    icon = GFX_ACR_focus_total_war
+	    cost = 5
+	    x = 4
+	    y = 8
+		prerequisite = {
+			focus = ACR_Modern_Mobile_Warfare
+			focus = ACR_The_Rockets_Red_Glare
+		}
+		prerequisite = {
+			focus = ACR_Spread_Fake_News
+		}
+	    completion_reward = {
+			add_ideas = tot_economic_mobilisation
+	}
+}
+ focus = {
+      id = ACR_No_Parley
+	    icon = GFX_ACR_focus_no_parley
+	    cost = 2
+	    x = 3
+	    y = 9
+		prerequisite = {
+			focus = ACR_Total_War
+		}
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = ACR_No_Parley 
+				days = 180
+			}
+			country_event = {
+        		    id = ACR.13
+          		    days = 1
+	    		 }
+	}
+}
+ focus = {
+      id = ACR_Fire_and_Fury
+	    icon = GFX_ACR_focus_fire_and_fury
+	    cost = 3
+	    x = 5
+	    y = 9
+		prerequisite = {
+			focus = ACR_Total_War
+		}
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = ACR_Fire_and_Fury 
+				days = 180
+			}
+	}
+}
+ focus = {
+      id = ACR_Militarize_The_Klan
+	    icon = GFX_ACR_focus_militarize_the_KKK
+	    cost = 2
+	    x = 8
+	    y = 3
+		prerequisite = {
+			focus = ACR_Winter_Offensive
+		}
+	    completion_reward = {
+			custom_effect_tooltip = ACR_tt_16
+			hidden_effect = {
+				load_oob = "ACR_klan1"
+			}
+			country_event = {
+        		id = ACR.14
+          		days = 1
+	    	}
+	}
+}
+ focus = {
+      id = ACR_Create_Penal_Brigades
+	    icon = GFX_ACR_focus_create_penal_brigades
+	    cost = 2
+	    x = 8
+	    y = 4
+		prerequisite = {
+			focus = ACR_Militarize_The_Klan
+		}
+	    completion_reward = {
+			load_oob = "ACR_PenalBrigades1"
+			country_event = {
+        		    id = ACR.15
+          		    days = 1
+	    		 }
+	}
+} 
+ focus = {
+      id = ACR_Authorize_Project_Neptune
+	    icon = GFX_ACR_focus_authorize_project_neptune
+	    cost = 2
+	    x = 8
+	    y = 5
+		prerequisite = {
+			focus = ACR_Create_Penal_Brigades
+		}
+	    completion_reward = {
+			swap_ideas = {
+				remove_idea = Project_Neptune
+				add_idea = ACR_Project_Neptune
+			}
+			country_event = {
+        		    id = ACR.16
+          		    days = 1
+	    		 }
+	}
+}
+ focus = {
+      id = ACR_Exploit_Their_Weaknesses
+	    icon = GFX_ACR_focus_exploit_their_weakness
+	    cost = 2
+	    x = 12
+	    y = 3
+		prerequisite = {
+			focus = ACR_Winter_Offensive
+		}
+	    completion_reward = {
+			NAK = {
+				add_stability = -0.1
+			}
+	}
+}
+ focus = {
+      id = ACR_Choke_Their_Ports
+	    icon = GFX_ACR_focus_choke_their_ports
+	    cost = 2
+	    x = 10
+	    y = 4
+		prerequisite = {
+			focus = ACR_Exploit_Their_Weaknesses
+		}
+		mutually_exclusive = { 
+			focus = ACR_Bomb_Their_Farms
+		}
+	    completion_reward = {
+			NAK = {
+				add_ideas = Cut_off_Trade
+			}
+			country_event = {
+        		    id = ACR.17
+          		    days = 1
+	    		 }
+	}
+}
+ focus = {
+      id = ACR_Bomb_Their_Farms
+	    icon = GFX_ACR_focus_bomb_their_farms
+	    cost = 2
+	    x = 14
+	    y = 4
+		prerequisite = {
+			focus = ACR_Exploit_Their_Weaknesses
+		}
+		mutually_exclusive = { 
+			focus = ACR_Choke_Their_Ports
+		}
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = Ramped_Up_Bomber_Production1 
+				days = 365
+			}
+			country_event = {
+        		    id = ACR.18
+          		    days = 1
+	    		 }
+		}
+	}
+ focus = {
+      id = ACR_Supply_Our_Forces_in_Charleston
+	    icon = GFX_ACR_supply_our_forces_in_charleston
+	    cost = 4
+	    x = 10
+	    y = 5
+		prerequisite = {
+			focus = ACR_Choke_Their_Ports
+		}
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = Charleston_Supply_Runs 
+				days = 180
+			}
+			}
+	}
+ focus = {
+      id = ACR_Reclaim_Our_Beaches
+	    icon = GFX_ACR_focus_reclaim_our_beaches
+	    cost = 4
+	    x = 10
+	    y = 6
+		prerequisite = {
+			focus = ACR_Supply_Our_Forces_in_Charleston
+		}
+	    completion_reward = {
+				add_timed_idea = { 
+				idea = Reclaim_our_beaches 
+				days = 90
+				}
+			}
+	}
+ focus = {
+      id = ACR_Raise_Local_Brigades
+	    icon = GFX_ACR_focus_raise_local_brigades
+	    cost = 3
+	    x = 11
+	    y = 7
+		prerequisite = {
+			focus = ACR_Reclaim_Our_Beaches
+		}
+	    completion_reward = {
+				load_oob = "ACR_localbrigades1"
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.01
+				}
+			}
+	}	
+ focus = {
+      id = ACR_Exploit_Racial_Tensions
+	    icon = GFX_ACR_focus_exploit_racial_tensions
+	    cost = 3
+	    x = 12
+	    y = 5
+		prerequisite = {
+			focus = ACR_Choke_Their_Ports
+			focus = ACR_Bomb_Their_Farms
+		}
+	    completion_reward = {
+				load_oob = "ACR_klan2"
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.025
+				}
+			}
+	}
+ focus = {
+      id = ACR_KKK_Propoganda
+	    icon = GFX_ACR_focus_KKK_propoganda
+	    cost = 3
+	    x = 12
+	    y = 6
+		prerequisite = {
+			focus = ACR_Exploit_Racial_Tensions
+		}
+	    completion_reward = {
+				load_oob = "ACR_klan3"
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+			}
+	}
+ focus = {
+      id = ACR_Burn_Their_Cities
+	    icon = GFX_ACR_focus_burn_their_cities
+	    cost = 4
+	    x = 14
+	    y = 5
+		prerequisite = {
+			focus = ACR_Bomb_Their_Farms
+		}
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = Burn_Their_Cities 
+				days = 300
+				}
+				country_event = {
+        		 	   id = ACR.19
+          		    	   days = 1
+	    		 	}
+			}
+	}
+ focus = {
+      id = ACR_War_of_Attrition
+	    icon = GFX_ACR_focus_war_of_attrition
+	    cost = 4
+	    x = 14
+	    y = 6
+		prerequisite = {
+			focus = ACR_Burn_Their_Cities
+		}
+	    completion_reward = {
+				NAK = {
+					add_ideas = War_of_Attrition
+				}
+				country_event = {
+        		    		id = ACR.20
+          		   		 days = 1
+	    		 	}
+			}
+	}
+ focus = {
+      id = ACR_Offers_to_Resistance
+	    icon = GFX_ACR_focus_offers_to_the_resistance
+	    cost = 2
+	    x = 13
+	    y = 7
+		prerequisite = {
+			focus = ACR_War_of_Attrition
+		}
+	    completion_reward = {
+				NAK = {
+					add_ideas = Mass_Desertions
+				}
+			}
+	}
+ focus = {
+      id = ACR_Establish_Civilian_Administrations
+	    icon = GFX_ACR_focus_establish_civilian_administrations
+	    cost = 5
+	    x = 12
+	    y = 8
+		prerequisite = {
+			focus = ACR_Offers_to_Resistance
+			focus = ACR_Raise_Local_Brigades
+		}
+	    completion_reward = {
+					add_ideas = Provisional_Civilian_Administrations
+				}
+			}
+	}
+		
