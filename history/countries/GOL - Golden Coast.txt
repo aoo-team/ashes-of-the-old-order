@@ -1,4 +1,4 @@
-capital = 800
+capital = 805
 
 set_research_slots = 3
 
@@ -55,8 +55,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
-}
+
 set_popularities = {
 	liberal = 63
 	democratic = 23
@@ -66,7 +65,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Helene Schneider"
 	desc = "POLITICS_HELENE_SCHNEIDER_DESC"
-	picture = "Portrait_Helene_Schneider.tga"
+	picture = "Portrait_Helene_Schneider.dds"
 	expire = "2060.1.1"
 	ideology = sociallib
 }

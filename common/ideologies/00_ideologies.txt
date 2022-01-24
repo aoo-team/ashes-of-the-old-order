@@ -47,6 +47,16 @@ ideologies = {
 			}
 			theodictator = {
 			}
+
+
+			gen_nazism = {
+			}
+			fascism_ideology ={
+			}
+			falangism = {
+			}
+			rexism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -82,6 +92,19 @@ ideologies = {
 			junta = {
 			}
 			despot = {
+			}
+
+			
+			despotism = {
+			}
+			oligarchism={
+			}
+			anarchism={
+				can_be_randomly_selected = no
+			}
+			moderatism={
+			}
+			centrism={
 			}
 		}
 
@@ -162,6 +185,10 @@ ideologies = {
 			}
 			conservative = {
 			}
+
+			
+			conservatism={
+			}
 		}
 
 		dynamic_faction_names = {
@@ -198,6 +225,10 @@ ideologies = {
 			sociallib = {
 			}
 			marketlib = {
+			}
+
+
+			liberalism={
 			}
 		}
 
@@ -343,6 +374,18 @@ ideologies = {
 			technocrat = {
 			}
 			leninist = {
+			}
+
+
+			marxism ={
+			}
+			leninism={
+			}
+			stalinism={
+			}
+			anti_revisionism={
+			}
+			anarchist_communism={
 			}
 		}
 

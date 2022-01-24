@@ -31,7 +31,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Nechirvan Idris Barzani"
 	desc = "POLITICS_NECHIRVAN_BARZANI_DESC"
-	picture = "gfx/leaders/IRQ/Portrait_Nechirvan_Idris_Barzani.tga"
+	picture = "gfx/leaders/IRQ/Portrait_Nechirvan_Idris_Barzani.dds"
 	expire = "2050.1.1"
 	ideology = conservative
 }
@@ -39,7 +39,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Kosrat Rasul Ali"
 	desc = "POLITICS_KOSRAT_ALI_DESC"
-	picture = "gfx/leaders/IRQ/Portrait_Kosrat_Rasul_Ali.tga"
+	picture = "gfx/leaders/IRQ/Portrait_Kosrat_Rasul_Ali.dds"
 	expire = "2050.1.1"
 	ideology = socialism
 }
@@ -47,14 +47,14 @@ create_country_leader = {
 create_country_leader = {
 	name = "Omar Said Ali"
 	desc = "POLITICS_OMAR_ALI_DESC"
-	picture = "gfx/leaders/IRQ/Portrait_Omar_Said_Ali.tga"
+	picture = "gfx/leaders/IRQ/Portrait_Omar_Said_Ali.dds"
 	expire = "2050.1.1"
 	ideology = sociallib
 }
 
 create_country_leader = {
 	name = "Romeo Nissan Hakkar"
-	picture = "gfx/leaders/IRQ/Portrait_Romeo_Nissan_Hakkar.tga"
+	picture = "gfx/leaders/IRQ/Portrait_Romeo_Nissan_Hakkar.dds"
 	desc = "POLITICS_ROMEO_HAKKAR_DESC"
 	expire = "2050.1.1"
 	ideology = despot

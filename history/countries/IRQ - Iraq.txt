@@ -31,7 +31,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Saddam Hussein"
-	picture = "Portrait_Saddam_Hussein.tga"
+	picture = "Portrait_Saddam_Hussein.dds"
 	desc = "POLITICS_SADDAM_HUSSEIN_DESC"
 	expire = "2050.1.1"
 	ideology = despot
@@ -40,7 +40,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Abu Bakr al-Baghdadi"
 	desc = "POLITICS_ABU_BAGHDADI_DESC"
-	picture = "Portrait_Abu_Bakr_al-Baghdadi.tga"
+	picture = "Portrait_Abu_Bakr_al-Baghdadi.dds"
 	expire = "2050.1.1"
 	ideology = theodictator
 }
@@ -48,14 +48,14 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ayad Allawi"
 	desc = "POLITICS_AYAD_ALLAWI_DESC"
-	picture = "Portrait_Ayad_Allawi.tga"
+	picture = "Portrait_Ayad_Allawi.dds"
 	expire = "2050.1.1"
 	ideology = progressive
 }
 
 create_country_leader = {
 	name = "Hamid Majid Mousa"
-	picture = "Portrait_Hamid_Majid_Mousa.tga"
+	picture = "Portrait_Hamid_Majid_Mousa.dds"
 	desc = "POLITICS_HAMID_MOUSA_DESC"
 	expire = "2050.1.1"
 	ideology = leninist

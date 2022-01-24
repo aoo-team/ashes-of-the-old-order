@@ -92,7 +92,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Shinzo Abe"
 	desc = "POLITICS_SHINZO_ABE_DESC"
-	picture = "Portrait_Shinzo_Abe.tga"
+	picture = "Portrait_Shinzo_Abe.dds"
 	expire = "3000.1.1"
 	ideology = conservative
 }

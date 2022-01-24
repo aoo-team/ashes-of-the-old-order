@@ -1,4 +1,4 @@
-capital = 800
+capital = 810
 
 set_research_slots = 3
 
@@ -70,7 +70,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Gray Davis"
 	desc = "POLITICS_GRAY_DAVIS_DESC"
-	picture = "Portrait_Gray_Davis.tga"
+	picture = "Portrait_Gray_Davis.dds"
 	expire = "2060.1.1"
 	ideology = reactionary
 }
