@@ -1,0 +1,24 @@
+﻿l_english:
+ APP:0 "Appalachia"
+ APP_DEF:0 "Appalachia"
+ APP_ADJ:0 "Appalachian"
+
+
+ APP_ultranationalist:0 "American United Territory"
+ APP_fascism:0 "Free State of Virginia"
+ APP_neutrality:0 "State of Appalachia"
+ APP_demsoc:0 "People's Republic of Appalachia"
+ APP_libsoc:0 "People's Republic of Appalachia"
+ APP_communism:0 "Commune of Appalachia"
+
+
+ APP_democratic_party:0 "FP"
+ APP_democratic_party_long:0 "Freedom Party"
+ APP_authdem_party:0 "UA"
+ APP_authdem_party_long:0 "Unitary Alliance"
+ APP_liberal_party:0 "DF"
+ APP_liberal_party_long:0 "Democratic Front"
+ APP_neutrality_party:0 "CU"
+ APP_neutrality_party_long:0 "Civic Union"
+ APP_prodem_party:0 "DR"
+ APP_prodem_party_long:0 "Democracy Realized"

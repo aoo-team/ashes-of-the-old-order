@@ -3687,20 +3687,6 @@
    NSH_democratic_ADJ:0 "Bluegrassian"
    NSH_ultranationalism_ADJ:0 "Bluegrassian"
 
-   MIA_liberal:0 "Florida"
-   MIA_liberal_DEF:0 "Florida"
-   MIA_democratic:0 "Florida"
-   MIA_democratic_DEF:0 "Florida"
-   MIA_ultranationalism:0 "Florida"
-   MIA_ultranationalism_DEF:0 "Florida"
-   MIA_neutrality:0 "Florida"
-   MIA_neutrality_DEF:0 "Florida"
-   ###############################
-   MIA_neutrality_ADJ:0 "Floridian"
-   MIA_liberal_ADJ:0 "Floridian"
-   MIA_democratic_ADJ:0 "Floridian"
-   MIA_ultranationalism_ADJ:0 "Floridian"
-
    CRN_liberal:0 "Carolina"
    CRN_liberal_DEF:0 "Carolina"
    CRN_democratic:0 "Carolina"
@@ -3714,20 +3700,6 @@
    CRN_liberal_ADJ:0 "Carolinan"
    CRN_democratic_ADJ:0 "Carolinan"
    CRN_demsoc_ADJ:0 "Carolinan"
-
-   APP_liberal:0 "Appalachia"
-   APP_liberal_DEF:0 "Appalachia"
-   APP_democratic:0 "Appalachia"
-   APP_democratic_DEF:0 "Appalachia"
-   APP_anarchy:0 "Appalachia"
-   APP_anarchy_DEF:0 "Appalachia"
-   APP_neutrality:0 "Appalachia"
-   APP_neutrality_DEF:0 "Appalachia"
-   ###############################
-   APP_neutrality_ADJ:0 "Appalachian"
-   APP_liberal_ADJ:0 "Appalachian"
-   APP_democratic_ADJ:0 "Appalachian"
-   APP_anarchy_ADJ:0 "Appalachian"
 
    IND_liberal:0 "India"
    IND_liberal_DEF:0 "India"

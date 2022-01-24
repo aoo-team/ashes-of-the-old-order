@@ -29,16 +29,29 @@
 # CRN_democratic_party_short:0 "Party for Afrikan Family and Freedom"
 # CRN_liberal_party_long:0 "New Afrikan Democratic Party"
  #CRN_liberal_party_short:0 "New Afrikan Democratic Party"
+ #CRN_prodem_party_long:0 "Progressive Front"
+ #CRN_prodem_party_short:0 "Progressive Front"
+ #CRN_demsoc_party_long:0 "Democratic Socialists of America"
+ #CRN_demsoc_party_short:0 "Democratic Socialists of America"
+ #CRN_libsoc_party_long:0 "United Workers Party of Carolina"
+ #CRN_libsoc_party_short:0 "United Workers Party of Carolina"
+ #CRN_communism_party_long:0 "Party for Socialism and Liberation Carolina Chapter"
+ #CRN_communism_party_short:0 "Party for Socialism and Liberation Carolina Chapter"
+ #CRN_anarchy_party_long:0 "Carolina Antifa Chapter"
+ #CRN_anarchy_party_short:0 "Carolina Antifa Chapter"
+
+
+ CRN_liberal_party:0 "RDP"
+ CRN_liberal_party_long:0 "Raleigh Democratic Party"
+ CRN_prodem_party:0 "PF"
  CRN_prodem_party_long:0 "Progressive Front"
- CRN_prodem_party_short:0 "Progressive Front"
+ CRN_demsoc_party:0 "DSA"
  CRN_demsoc_party_long:0 "Democratic Socialists of America"
- CRN_demsoc_party_short:0 "Democratic Socialists of America"
- CRN_libsoc_party_long:0 "United Workers Party of Carolina"
- CRN_libsoc_party_short:0 "United Workers Party of Carolina"
- CRN_communism_party_long:0 "Party for Socialism and Liberation Carolina Chapter"
- CRN_communism_party_short:0 "Party for Socialism and Liberation Carolina Chapter"
- CRN_anarchy_party_long:0 "Carolina Antifa Chapter"
- CRN_anarchy_party_short:0 "Carolina Antifa Chapter"
+ CRN_libsoc_party:0 "UWF"
+ CRN_libsoc_party_long:0 "United Workers Front"
+ CRN_communism_party:0 "PRP"
+ CRN_communism_party_long:0 "The Peoples' Revolutionary Party"
+
  
  #Events
 

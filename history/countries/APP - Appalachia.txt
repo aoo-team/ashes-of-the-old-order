@@ -50,24 +50,47 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = anarchy
-	last_election = "1932.11.8"
+	ruling_party = democratic
+	last_election = "2014.11.8"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
-add_ideas = {
-}
+
 set_popularities = {
-	democratic = 0
-	neutrality = 6
-	authdem = 4
-	liberal = 0
-	demsoc = 0
-	prodem = 0
-	communism = 0
-	totalsoc = 0
-	libsoc = 0
-	anarchy = 90
-	fascism = 0
-	ultranationalism = 0
+	democratic = 41
+	authdem = 39
+	liberal = 14
+	neutrality = 4
+	prodem = 2
 }
+
+create_country_leader = {
+	name = "Bob Wise"
+	desc = "POLITICS_BOB_WISE_DESC"
+	picture = "Portrait_Bob_Wise.dds"
+	ideology = conservative
+	expire = "2090.1.1"
+}
+
+create_country_leader = {
+	name = "The Administration"
+	desc = "POLITICS_APPALACHIA_ADMIN_DESC"
+	picture = "Portrait_The_Administration.dds"
+	expire = "2090.1.1"
+	ideology = reactionary
+}
+
+#set_popularities = {
+#	democratic = 0
+#	neutrality = 6
+#	authdem = 4
+#	liberal = 0
+#	demsoc = 0
+#	prodem = 0
+#	communism = 0
+#	totalsoc = 0
+#	libsoc = 0
+#	anarchy = 90
+#	fascism = 0
+#	ultranationalism = 0
+#}
