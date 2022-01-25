@@ -3659,20 +3659,6 @@
    ACR_DEF:0 "The American Confederacy"
    ACR_ADJ:0 "Confederate"
 
-   MIS_authdem:0 "Mississippi"
-   MIS_authdem_DEF:0 "Mississippi"
-   MIS_democratic:0 "Mississippi"
-   MIS_democratic_DEF:0 "Mississippi"
-   MIS_ultranationalism:0 "Mississippi"
-   MIS_ultranationalism_DEF:0 "Mississippi"
-   MIS_neutrality:0 "Mississippi"
-   MIS_neutrality_DEF:0 "Mississippi"
-   ###############################
-   MIS_neutrality_ADJ:0 "Mississippian"
-   MIS_authdem_ADJ:0 "Mississippian"
-   MIS_democratic_ADJ:0 "Mississippian"
-   MIS_ultranationalism_ADJ:0 "Mississippian"
-
    NSH_communism:0 "Bluegrass"
    NSH_communism_DEF:0 "Bluegrass"
    NSH_democratic:0 "Bluegrass"

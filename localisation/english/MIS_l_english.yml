@@ -1,0 +1,18 @@
+﻿l_english:
+ MIS:0 "Mississippi"
+ MIS_DEF:0 "Mississippi"
+ MIS_ADJ:0 "Mississippian"
+
+ MIS_communism:0 "Jackson Commune"
+ MIS_libsoc:0 "People's Republic of Mississippi"
+ MIS_libsoc_DEF:0 "The People's Republic of Mississippi"
+ MIS_demsoc:0 "People's Republic of Mississippi"
+ MIS_demsoc_DEF:0 "The People's Republic of Mississippi"
+ MIS_fascism:0 "State of Jackson"
+ MIS_fascism_DEF:0 "The State of Jackson"
+ MIS_ultranationalism:0 "Free Territory of Mississippi"
+ MIS_ultranationalism_DEF:0 "The Free Territory of Mississippi"
+
+
+ MIS_authdem_party:0 "PSM"
+ MIS_authdem_party_long:0 "Popular Sovereignty Movement"

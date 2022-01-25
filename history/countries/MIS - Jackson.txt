@@ -55,8 +55,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
-}
+
 set_popularities = {
 	democratic = 15
 	neutrality = 10
@@ -70,4 +69,12 @@ set_popularities = {
 	anarchy = 0
 	fascism = 15
 	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Shawn O'Hara"
+	desc = "POLITICS_SHAWN_OHARA_DESC"
+	picture = "Portrait_Shawn_OHara.dds"
+	expire = "2090.1.1"
+	ideology = new_democracy
 }
