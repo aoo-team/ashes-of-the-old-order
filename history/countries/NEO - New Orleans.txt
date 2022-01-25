@@ -55,8 +55,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
-}
+
 set_popularities = {
 	democratic = 0
 	neutrality = 10
@@ -70,4 +69,11 @@ set_popularities = {
 	anarchy = 0
 	fascism = 0
 	ultranationalism = 90
+}
+
+create_country_leader = {
+	name = "Lynn Forney Young"
+	picture = "Portrait_Lynn_Forney_Young.dds"
+	expire = "2090.1.1"
+	ideology = nationalist
 }

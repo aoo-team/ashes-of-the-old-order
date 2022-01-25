@@ -72,9 +72,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Shawn O'Hara"
-	desc = "POLITICS_SHAWN_OHARA_DESC"
-	picture = "Portrait_Shawn_OHara.dds"
+	name = "Haley Barbour"
+	desc = "POLITICS_HALEY_BARBOUR_DESC"
+	picture = "Portrait_Haley_Barbour.dds"
 	expire = "2090.1.1"
 	ideology = new_democracy
 }
