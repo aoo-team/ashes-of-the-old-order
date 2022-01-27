@@ -7,7 +7,7 @@ state={
 		owner = APP
 		add_core_of = APP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 
 		}
 		victory_points = {

@@ -8,7 +8,7 @@ state={
 		add_core_of = NAK
 		add_claim_by = ACR
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 			industrial_complex = 3
 			arms_factory = 2
 

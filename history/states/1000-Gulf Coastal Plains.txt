@@ -7,7 +7,7 @@ state={
 		owner = MIS
 		add_core_of = MIS
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 1
 
 		}
