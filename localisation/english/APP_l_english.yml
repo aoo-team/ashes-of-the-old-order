@@ -22,3 +22,11 @@
  APP_neutrality_party_long:0 "Civic Union"
  APP_prodem_party:0 "DR"
  APP_prodem_party_long:0 "Democracy Realized"
+
+
+ APP_Limited_Democracy:0 "Limited Democracy"
+ APP_Limited_Democracy_desc:0 ""
+ APP_Our_Final_Stand:0 "Our Final Stand"
+ APP_Our_Final_Stand_desc:0 ""
+ APP_Burning_Economy:0 "Burning Economy"
+ APP_Burning_Economy_desc:0 ""

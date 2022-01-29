@@ -64,6 +64,12 @@ set_popularities = {
 	prodem = 2
 }
 
+add_ideas = {
+	APP_Limited_Democracy
+	APP_Our_Final_Stand
+	APP_Burning_Economy
+}
+
 create_country_leader = {
 	name = "Bob Wise"
 	desc = "POLITICS_BOB_WISE_DESC"

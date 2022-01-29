@@ -288,4 +288,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/South/VAV/Idea_Revolutionary_Zeal.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_APP_Our_Last_Stand"
+		texturefile = "gfx/interface/ideas/South/APP/Idea_Our_Last_Stand.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_APP_Burning_Economy"
+		textureFile = "gfx/interface/ideas/South/APP/Idea_Burning_Economy.dds"
+	}
+
 }
