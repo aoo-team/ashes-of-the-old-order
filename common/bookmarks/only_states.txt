@@ -4,19 +4,8 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 2018.1.1.12
 		picture = GFX_select_date_1939
-		default_country = "WDC"
+		default_country = "ACR"
 		default = yes
-
-		"WDC" = {
-			history = "WDC_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-
-			}
-			focuses = {
-				#
-			}
-		}
 
 		"ACR" = {
 			history = "ACR_GATHERING_STORM_DESC"
@@ -35,18 +24,6 @@ bookmarks = {
 			ideology = democratic
 			ideas = {
 				#
-			}
-			focuses = {
-				#
-			}
-		}
-		"NSH"={
-			history = "PEN_GATHERING_STORM_DESC"
-			ideology = authdem
-			ideas = {
-				PEN_the_reconstruction_of_rochester
-				PEN_agrarian_society
-				PEN_paramilitaries
 			}
 			focuses = {
 				#

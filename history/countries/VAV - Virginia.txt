@@ -60,6 +60,12 @@ create_faction = "American United Front"
 add_to_faction = VAV
 add_to_faction = CRN
 
+add_ideas = {
+	Communist_Revolutionary_Zeal
+	VAV_Saviors_Of_America
+	VAV_Religious_Uprisings
+}
+
 create_country_leader = {
 	name = "Eugene Puryear"
 	desc = "POLITICS_EUGENE_PURYEAR_DESC"

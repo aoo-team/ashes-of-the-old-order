@@ -16,3 +16,11 @@
 
  MIS_authdem_party:0 "PSM"
  MIS_authdem_party_long:0 "Popular Sovereignty Movement"
+
+
+ MIS_Popular_Uprisings:0 "Popular Uprisings Looming"
+ MIS_Popular_Uprisings_desc:0 ""
+ MIS_Confederate_Sympathies:0 "Confederate Sympathies"
+ MIS_Confederate_Sympathies_desc:0 ""
+ MIS_Two_Nations_One_State:0 "Two Nations, One State"
+ MIS_Two_Nations_One_State_desc:0 ""

@@ -71,6 +71,12 @@ set_popularities = {
 	ultranationalism = 0
 }
 
+add_ideas = {
+	MIS_Popular_Uprisings
+	MIS_Confederate_Sympathies
+	MIS_Two_Nations_One_State
+}
+
 create_country_leader = {
 	name = "Haley Barbour"
 	desc = "POLITICS_HALEY_BARBOUR_DESC"

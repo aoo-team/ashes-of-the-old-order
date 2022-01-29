@@ -57,7 +57,9 @@ set_politics = {
 }
 
 add_ideas = {
-
+	MIA_Lights_Of_Miami
+	MIA_Rednecks
+	MIA_Bush_Lineage
 }
 
 set_popularities = {

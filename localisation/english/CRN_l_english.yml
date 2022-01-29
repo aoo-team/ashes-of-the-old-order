@@ -52,6 +52,13 @@
  CRN_communism_party:0 "PRP"
  CRN_communism_party_long:0 "The Peoples' Revolutionary Party"
 
+
+
+ CRN_Lilly_Administration:0 "Lilly's Administration"
+ CRN_Lilly_Administration_desc:0 ""
+ CRN_First_Raleigh_Congress:0 "The First Raleigh Congress"
+ CRN_First_Raleigh_Congress_desc:0 ""
+
  
  #Events
 

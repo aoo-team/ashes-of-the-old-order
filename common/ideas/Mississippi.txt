@@ -1,0 +1,66 @@
+ideas = {
+	country = {
+
+		MIS_Popular_Uprisings = {
+			picture = chi_war_of_resistance2
+
+			allowed = {
+				original_tag = MIS
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				drift_defence_factor = -0.15
+				stability_factor = -0.10
+			}
+		}
+
+		MIS_Confederate_Sympathies = {
+			picture = MIS_Confederate_Sympathies
+
+			allowed = {
+				original_tag = MIS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.05
+			}
+
+			targeted_modifier = {
+				tag = ACR
+				cic_to_target_factor = 0.10
+				mic_to_target_factor = 0.10
+			}
+		}
+
+		MIS_Two_Nations_One_State = {
+			picture = MIS_Two_Nations_One_State
+
+			allowed = {
+				original_tag = MIS
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				conscription_factor = -0.10
+			}
+		}
+	}
+}

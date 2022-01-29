@@ -66,6 +66,12 @@ set_popularities = {
 	anarchy = 2
 }
 
+add_ideas = {
+	Communist_Revolutionary_Zeal
+	CRN_Lilly_Administration
+	CRN_First_Raleigh_Congress
+}
+
 create_country_leader = {
 	name = "Lamont Lilly"
 	desc = "POLITICS_LAMONT_LILLY_DESC"
