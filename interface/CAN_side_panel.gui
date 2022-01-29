@@ -6,7 +6,8 @@ guiTypes = {
             width = 350
             height = 400
         }
-        Orientation = center
+		
+        orientation = center
         origo = center
         fade_time = 100
         moveable = yes
@@ -21,14 +22,14 @@ guiTypes = {
         buttonType = {
             name = "can_close_panel"
             position = { x = 15 y = 15 }
-            orientaion = center
+            orientation = center
             spriteType = "GFX_closebutton"
         }
 
         instantTextBoxType = {
             name = "can_panel_text"
             position = { x = 75 y = 30 }
-            orientaion = center
+            orientation = center
             text = [CAN_panel_scripted]
             font = "hoi_36header" #hoi_20b
             format = center
@@ -37,7 +38,7 @@ guiTypes = {
         instantTextBoxType = {
             name = "can_panel_lib_desire"
             position = { x = 75 y = 100 }
-            orientaion = center
+            orientation = center
             text = "CAN_lib_desire"
             font = "hoi_20b" 
             format = center

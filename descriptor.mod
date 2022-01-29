@@ -1,4 +1,4 @@
-version="1.20.2"
+version="1.11.*"
 tags={
 	"Alternative History"
 }

@@ -88,7 +88,7 @@ focus_tree = {
 				desc = "POLITICS_BORIS_ARMSTRONG_DESC"
 				portrait_path = ""
 				traits = {
-					infantry_leader engineer
+					infantry_leader
 				}
 				skill = 2
 				attack_skill = 4
@@ -465,7 +465,7 @@ focus_tree = {
 			hidden_effect = {
 				load_focus_tree = ACR_War1
 				NAK = {
-				country_event = {
+					country_event = {
 						id = NAK.12
 						days = 1
 					}

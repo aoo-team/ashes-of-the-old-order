@@ -260,49 +260,49 @@ air_wings = {
 			owner = "KEN"
 			amount = "22"
 		}
-		name = "Tanzanian Squadron 1"
+		#name = "Tanzanian Squadron 1"
 	}
 	547 = {
 		fighter_equipment_1 = {
 			owner = "KEN"
 			amount = "27"
 		}
-		name = "Kenyan Squadron 1"
+		#name = "Kenyan Squadron 1"
 	}
 	547 = {
 		fighter_equipment_1 = {
 			owner = "KEN"
 			amount = "16"
 		}
-		name = "Ugandan Squadron 1"
+		#name = "Ugandan Squadron 1"
 	}
 	547 = {
 		fighter_equipment_1 = {
 			owner = "KEN"
 			amount = "13"
 		}
-		name = "Rwandan Squadron 1"
+		#name = "Rwandan Squadron 1"
 	}
 	547 = {
 		CAS_equipment_1 = {
 			owner = "KEN"
 			amount = "11"
 		}
-		name = "Tanzanian Squadron 2"
+		#name = "Tanzanian Squadron 2"
 	}
 	547 = {
 		CAS_equipment_1 = {
 			owner = "KEN"
 			amount = "10"
 		}
-		name = "Kenyan Squadron 2"
+		#name = "Kenyan Squadron 2"
 	}
 	547 = {
 		tac_bomber_equipment_0 = {
 			owner = "KEN"
 			amount = "6"
 		}
-		name = "Tanzanian Squadron 3"
+		#name = "Tanzanian Squadron 3"
 	}
 	
 }

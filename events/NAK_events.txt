@@ -1,4 +1,5 @@
 add_namespace = NAK
+add_namespace = NAK_borderwar
 
 country_event = {
 	id = NAK.1
@@ -163,3 +164,63 @@ country_event = {
 			ai_chance = { base = 25 }
 		}
 	}
+
+country_event = {
+	id = NAK.12
+	title = NAK.12.t
+	desc = NAK.12.d
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	option = {
+		name = NAK.12.a
+		ai_chance = { base = 100 }
+	}
+}
+
+country_event = {
+	id = NAK_borderwar.1
+	title = NAK_borderwar.1.t
+	desc = NAK_borderwar.1.d
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	option = {
+		name = NAK_borderwar.1.a
+		ai_chance = { base = 100 }
+	}
+}
+
+country_event = {
+	id = NAK_borderwar.2
+	title = NAK_borderwar.2.t
+	desc = NAK_borderwar.2.d
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	option = {
+		name = NAK_borderwar.2.a
+		ai_chance = { base = 100 }
+	}
+}
+
+country_event = {
+	id = NAK_borderwar.3
+	title = NAK_borderwar.3.t
+	desc = NAK_borderwar.3.d
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	option = {
+		name = NAK_borderwar.3.a
+		ai_chance = { base = 100 }
+	}
+}
+
+country_event = {
+	id = NAK_borderwar.4
+	title = NAK_borderwar.4.t
+	desc = NAK_borderwar.4.d
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	option = {
+		name = NAK_borderwar.4.a
+		ai_chance = { base = 100 }
+	}
+}

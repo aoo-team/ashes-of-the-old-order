@@ -139,6 +139,19 @@ country_event = {
 	}
 }
 
+# KKK members recruited
+country_event = {
+	id = ACR.14
+	title = ACR.14.t
+	desc = ACR.14.d
+	picture = Reapproriate_Civlian_Weaponry_Event
+	is_triggered_only = yes
+
+	option = {
+		name = ACR.14.a
+	}
+}
+
 
 # Capturing Piedmont
 country_event = {

@@ -1,33 +1,33 @@
-focus_tree = {
-	id = WFF_focus_tree
-	country = {
-		factor = 0
-		#modifier = {
-		#	add = 10
-		#	tag = WDC
-        #}
-	}
-	default = no
-
-	continuous_focus_position = {
-		x = 10
-		y = 1
-	}
-
-	focus = {
-		id = WFF_Congress_Adjourns
-		icon = WFF_Congress_Adjourns
-		x = 5
-		y = 0
-		cost = 3
-		ai_will_do = {
-			factor = 400
-		}
-		completion_reward = {
-			country_event = wff.1
-		}
-	}
-
+#focus_tree = {
+#	id = WFF_focus_tree
+#	country = {
+#		factor = 0
+#		#modifier = {
+#		#	add = 10
+#		#	tag = WDC
+#        #}
+#	}
+#	default = no
+#
+#	continuous_focus_position = {
+#		x = 10
+#		y = 1
+#	}
+#
+#	focus = {
+#		id = WFF_Congress_Adjourns
+#		icon = WFF_Congress_Adjourns
+#		x = 5
+#		y = 0
+#		cost = 3
+#		ai_will_do = {
+#			factor = 400
+#		}
+#		completion_reward = {
+#			country_event = wff.1
+#		}
+#	}
+#
 #	focus = {
 #		id = WFF_A_New_Chapter
 #		icon = WFF_A_New_Chapter
@@ -1247,4 +1247,4 @@ focus_tree = {
 #
 #	
 #
-}
+#}
