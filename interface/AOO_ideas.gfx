@@ -263,4 +263,29 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/South/MIS/Idea_Confederate_Sympathies.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_MIA_Bush_Lineage"
+		texturefile = "gfx/interface/ideas/South/MIA/Idea_Bush_Lineage.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MIA_Lights_Of_Miami"
+		texturefile = "gfx/interface/ideas/South/MIA/Idea_Lights_Of_Miami.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VAV_Religious_Uprisings"
+		textureFile = "gfx/interface/ideas/South/VAV/Idea_Religious_Uprisings.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VAV_Saviors_Of_America"
+		texturefile = "gfx/interface/ideas/South/VAV/Idea_Saviors_Of_America.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_Commie_Revolutionary_Zeal"
+		texturefile = "gfx/interface/ideas/South/VAV/Idea_Revolutionary_Zeal.dds"
+	}
+
 }

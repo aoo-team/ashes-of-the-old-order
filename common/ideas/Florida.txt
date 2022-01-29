@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 		MIA_Lights_Of_Miami = {
-			picture = FRA_national_mobilization_focus
+			picture = MIA_Lights_Of_Miami
 
 			allowed = {
 				original_tag = MIA
@@ -41,7 +41,7 @@ ideas = {
 		}
 
 		MIA_Bush_Lineage = {
-			picture = chi_wargaming_division
+			picture = MIA_Bush_Lineage
 
 			allowed = {
 				original_tag = MIA

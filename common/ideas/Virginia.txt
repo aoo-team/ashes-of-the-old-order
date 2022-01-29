@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 		Communist_Revolutionary_Zeal = {
-			picture = generic_morale_bonus
+			picture = Commie_Revolutionary_Zeal
 			allowed = {
 				always = yes
 			}
@@ -20,7 +20,7 @@ ideas = {
 		}
 
 		VAV_Saviors_Of_America = {
-			picture = eng_special_air_service
+			picture = VAV_Saviors_Of_America
 
 			allowed = {
 				original_tag = VAV
@@ -38,7 +38,7 @@ ideas = {
 		}
 
 		VAV_Religious_Uprisings = {
-			picture = POL_the_peasants_strike
+			picture = VAV_Religious_Uprisings
 
 			allowed = {
 				original_tag = VAV
