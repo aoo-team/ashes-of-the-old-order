@@ -1,0 +1,77 @@
+﻿l_english: 
+ 
+ #focuses
+
+ 
+ #Names
+ CRN_demsoc_DEF:0 "the Commonwealth of Carolina"
+ CRN_demosc:0 "the Commonwealth of Carolina"
+ CRN_libsoc:0 "Carolina Liberation Front"
+ CRN_libsoc_DEF:0 "the Carolina Liberation Front"
+ CRN_communism:0 "Carolina Red Army"
+ CRN_communism_DEF:0 "the Carolina Red Army"
+ CRN_anarchy:0 "Black Army of Carolina"
+ CRN_anarchy_DEF:0 "the Black Army of Carolina"
+ 
+ #ideas
+
+ 
+ #Parties
+ #CRN_ultranationalism_party_long:0 "Black People's Party"
+ #CRN_ultranationalism_party_short:0 "Black People's Party"
+ #CRN_fascism_party_long:0 "National Front"
+ #CRN_fascism_party_short:0 "National Front"
+ #CRN_neutrality_party_long:0 ""New Afrikan Armed Forces"
+ #CRN_neutrality_party_short:0 "New Afrikan Armed Forces"
+ #CRN_authdem_party_long:0 "National Protection Party"
+ #CRN_authdem_party_short:0 "National Protection Party"
+ #CRN_democratic_party_long:0 "Party for New Afrikan Family and Freedom"
+# CRN_democratic_party_short:0 "Party for Afrikan Family and Freedom"
+# CRN_liberal_party_long:0 "New Afrikan Democratic Party"
+ #CRN_liberal_party_short:0 "New Afrikan Democratic Party"
+ #CRN_prodem_party_long:0 "Progressive Front"
+ #CRN_prodem_party_short:0 "Progressive Front"
+ #CRN_demsoc_party_long:0 "Democratic Socialists of America"
+ #CRN_demsoc_party_short:0 "Democratic Socialists of America"
+ #CRN_libsoc_party_long:0 "United Workers Party of Carolina"
+ #CRN_libsoc_party_short:0 "United Workers Party of Carolina"
+ #CRN_communism_party_long:0 "Party for Socialism and Liberation Carolina Chapter"
+ #CRN_communism_party_short:0 "Party for Socialism and Liberation Carolina Chapter"
+ #CRN_anarchy_party_long:0 "Carolina Antifa Chapter"
+ #CRN_anarchy_party_short:0 "Carolina Antifa Chapter"
+
+
+ CRN_liberal_party:0 "RDP"
+ CRN_liberal_party_long:0 "Raleigh Democratic Party"
+ CRN_prodem_party:0 "PF"
+ CRN_prodem_party_long:0 "Progressive Front"
+ CRN_demsoc_party:0 "DSA"
+ CRN_demsoc_party_long:0 "Democratic Socialists of America"
+ CRN_libsoc_party:0 "UWF"
+ CRN_libsoc_party_long:0 "United Workers Front"
+ CRN_communism_party:0 "PRP"
+ CRN_communism_party_long:0 "The Peoples' Revolutionary Party"
+
+
+
+ CRN_Lilly_Administration:0 "Lilly's Administration"
+ CRN_Lilly_Administration_desc:0 ""
+ CRN_First_Raleigh_Congress:0 "The First Raleigh Congress"
+ CRN_First_Raleigh_Congress_desc:0 ""
+
+ 
+ #Events
+
+carolina.1.t:0 "Failure of the Compromise"
+carolina.1.d:0 "To the Carolina Liberation Front:\n\nIt has come to our attention that you haven't payed off your debt to the Virginia Red Army in these past few months. In the Treaty of Raleigh, you agreed that you would give us equipment to further fuel the spread of the worker's revolution in this new warlord era of America. As stated in the treaty, we must send our military to occupy your nation permanently. Let this be a reminder to you that the Red Army should not be messed with.\n\nSincerely, the Chairman of Virginia"
+carolina.1.a:0 "Not if we have anything to say about it!"
+
+ #decisions
+ CRN_repayment:0 "The Ultimatum"
+ CRN_repayment_desc:0 "Ever since the end of the revolution we have been indebted and will be to the Virginia Red Army for the forseeable future, for their past help in liberating our people."
+ CRN_send_gun:0 "Send Rifles"
+ CRN_or_else:0 "Or Else"
+ infantry_equipment_more_than_100:0 "§H100§!£infantry_equipment_texticon"
+ infantry_equipment_more_than_100_blocked:0 "§R100§!£infantry_equipment_texticon"
+ CRN_has_sent:0 "Has sent payment"
+ CRN_or_else_tt:0 "§OVirginia will be upset with this.§!"

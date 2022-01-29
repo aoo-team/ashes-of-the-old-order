@@ -11,7 +11,7 @@ state={
 		owner = ACR
 		add_core_of = ACR
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 
 		}
 		victory_points = {

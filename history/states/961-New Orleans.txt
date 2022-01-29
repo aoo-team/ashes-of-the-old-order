@@ -7,7 +7,7 @@ state={
 		owner = NEO
 		add_core_of = NEO
 		buildings = {
-			infrastructure = 8
+			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 2
 

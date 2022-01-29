@@ -9,7 +9,7 @@ state={
 		owner = ACR
 		add_core_of = ACR
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 3
 		}

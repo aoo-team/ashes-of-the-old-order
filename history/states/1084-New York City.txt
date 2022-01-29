@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = CRA
+		owner = NYC
 		add_core_of = CRA
 		buildings = {
 			infrastructure = 10

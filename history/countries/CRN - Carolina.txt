@@ -50,27 +50,50 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = libsoc
+	ruling_party = communism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
-}
-
-set_variable = { CRN_pain = 0 }
 
 set_popularities = {
-	democratic = 0
-	neutrality = 0
-	authdem = 0
-	liberal = 0
-	demsoc = 3
-	prodem = 2
-	communism = 25
-	totalsoc = 0
-	libsoc = 57
-	anarchy = 13
-	fascism = 0
-	ultranationalism = 0
+	communism = 58
+	demsoc = 13
+	libsoc = 11
+	prodem = 7
+	liberal = 5
+	authdem = 4
+	anarchy = 2
 }
+
+add_ideas = {
+	Communist_Revolutionary_Zeal
+	CRN_Lilly_Administration
+	CRN_First_Raleigh_Congress
+}
+
+create_country_leader = {
+	name = "Lamont Lilly"
+	desc = "POLITICS_LAMONT_LILLY_DESC"
+	picture = "gfx/leaders/VAV/Portrait_Lamont_Lilly.dds"
+	expire = "2090.1.1"
+	ideology = authsoc
+	traits = {
+
+	}
+}
+
+#set_popularities = {
+#	democratic = 0
+#	neutrality = 0
+#	authdem = 0
+#	liberal = 0
+#	demsoc = 3
+#	prodem = 2
+#	communism = 25
+#	totalsoc = 0
+#	libsoc = 57
+#	anarchy = 13
+#	fascism = 0
+#	ultranationalism = 0
+#}

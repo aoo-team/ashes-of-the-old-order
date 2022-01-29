@@ -1,0 +1,301 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_NYN_pennsylvanian_seperatists"
+		texturefile = "gfx/interface/ideas/NYN_idea_pennsylvanian_seperatists.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NYN_the_ashes_of_our_city"
+		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NYN_unpopular_government"
+		texturefile = "gfx/interface/ideas/NYN_idea_unpopular_government.dds"
+	}
+
+	#this is the only goddamn why i could figure out how to make these spirit icons work
+	spriteType = {
+		name = "GFX_idea_NYN_the_ashes_of_our_city2"
+		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NYN_the_ashes_of_our_city3"
+		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NYN_the_ashes_of_our_city4"
+		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NYN_our_city_restored"
+		texturefile = "gfx/interface/ideas/NYN_idea_our_city_restored.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CON_Divided_Cabinet"
+		texturefile = "gfx/interface/ideas/CON_Divided_Cabinet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CON_Separate_But_Equal"
+		texturefile = "gfx/interface/ideas/CON_Separate_But_Equal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CON_Legacy_of_the_US"
+		texturefile = "gfx/interface/ideas/CON_Legacy_of_the_US.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CON_Martial_Law"
+		texturefile = "gfx/interface/ideas/CON_Martial_Law.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CON_Ruined_Nation"
+		texturefile = "gfx/interface/ideas/CON_Ruined_State.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PEN_paramilitaries"
+		texturefile = "gfx/interface/ideas/PEN_idea_paramilitaries.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PEN_agrarian_society"
+		texturefile = "gfx/interface/ideas/PEN_idea_agrarian_society.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PEN_the_reconstruction_of_rochester"
+		texturefile = "gfx/interface/ideas/PEN_idea_reconstruction_of_rochester.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CGO_caga_ai"
+		texturefile = "gfx/interface/ideas/CGO_idea_caga_ai.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CGO_citywide_fortress"
+		texturefile = "gfx/interface/ideas/CGO_idea_citywide_fortress.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CGO_human_military"
+		texturefile = "gfx/interface/ideas/CGO_idea_human_military.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CGO_byron_incident"
+		texturefile = "gfx/interface/ideas/CGO_idea_byron_incident.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SIL_Desire_For_Democracy"
+		texturefile = "gfx/interface/ideas/SIL_Desire_For_Democracy.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SIL_Lack_Of_Leadership"
+		texturefile = "gfx/interface/ideas/SIL_Lack_Of_Leadership.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SIL_Mass_Technological_Production"
+		texturefile = "gfx/interface/ideas/SIL_Mass_Technological_Production.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NAK_Crippling_Homelessness"
+		texturefile = "gfx/interface/ideas/NAK_Crippling_Homelessness.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NAK_Rebel_Government"
+		texturefile = "gfx/interface/ideas/NAK_Rebel_Government.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NAK_Lack_of_Industrial_Expertise"
+		texturefile = "gfx/interface/ideas/NAK_Lack_of_Industrial_Expertise.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NAK_Racial_Divides"
+		texturefile = "gfx/interface/ideas/NAK_Racial_Divides.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NAK_Con_Blockade"
+		texturefile = "gfx/interface/ideas/NAK_Con_Blockade.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NYN_investor_backing"
+		texturefile = "gfx/interface/ideas/NYN_idea_investor_backing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NYN_growing_economy"
+		texturefile = "gfx/interface/ideas/NYN_idea_growing_economy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EFF_Thought_Crime"
+		texturefile = "gfx/interface/ideas/Eastern Federal Forces/EFF_Thought_Crime.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EFF_Countrywide_Camp"
+		texturefile = "gfx/interface/ideas/Eastern Federal Forces/EFF_Countrywide_Camp.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EFF_Last_Thread_Of_America"
+		texturefile = "gfx/interface/ideas/Eastern Federal Forces/EFF_Last_Thread_Of_America.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EFF_Inter_Agency_Rivalry"
+		texturefile = "gfx/interface/ideas/Eastern Federal Forces/EFF_Interagency_Rivalry.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_WFF_separatists"
+		texturefile = "gfx/interface/ideas/Separatist_Movements.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WFF_light_in_the_darkness"
+		texturefile = "gfx/interface/ideas/Light_in_Darkness.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WFF_failed_union"
+		texturefile = "gfx/interface/ideas/Failed_Union.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WFF_democratic_elections"
+		texturefile = "gfx/interface/ideas/Democratic_Elections.dds"
+	}
+
+	### ETHIOPIAN IDEAS ###
+
+	spriteType = {
+		name = "GFX_idea_ETH_Religious_Army"
+		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopia_Religious_Army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ETH_Pious_Government"
+		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopia_Pious_Government.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ETH_Military_Mutinies"
+		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopia_Military_Munities.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EPR_Army_of_the_People"
+		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopian_Army_of_the_People.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EPR_Inferior_Technology"
+		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopia_Inferior_Technology.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EPR_Miners_Guild"
+		texturefile = "gfx/interface/ideas/Africa/Ethiopia/Ethiopia_Miner_Guild.dds"
+	}
+
+	### WFF IDEAS ###
+
+	spriteType = {
+		name = "GFX_idea_WFF_crossroads_of_ideas"
+		texturefile = "gfx/interface/ideas/WFF/WFF_crossroad_of_ideas.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_WFF_unstable_government"
+		texturefile = "gfx/interface/ideas/WFF/WFF_unstable_government.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_WFF_extreme_factionalism"
+		texturefile = "gfx/interface/ideas/WFF/WFF_extreme_factionalism.dds"
+	}
+
+
+	### KENYA IDEAS ###
+
+	spriteType = {
+		name = "GFX_idea_KEN_Rising_Power"
+		texturefile = "gfx/interface/ideas/Africa/Kenya/Kenya_Rising_Power.dds"
+	}
+
+
+
+
+	spriteType = {
+		name = "GFX_idea_MIS_Two_Nations_One_State"
+		texturefile = "gfx/interface/ideas/South/MIS/Idea_Two_Nations_One_State.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CRN_Lilly_Administration"
+		texturefile = "gfx/interface/ideas/South/CRN/Idea_Lilly_Administration.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CRN_Raleigh_Congress"
+		texturefile = "gfx/interface/ideas/South/CRN/Idea_Raleigh_Congress.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MIS_Confederate_Sympathies"
+		texturefile = "gfx/interface/ideas/South/MIS/Idea_Confederate_Sympathies.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MIA_Bush_Lineage"
+		texturefile = "gfx/interface/ideas/South/MIA/Idea_Bush_Lineage.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MIA_Lights_Of_Miami"
+		texturefile = "gfx/interface/ideas/South/MIA/Idea_Lights_Of_Miami.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VAV_Religious_Uprisings"
+		textureFile = "gfx/interface/ideas/South/VAV/Idea_Religious_Uprisings.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VAV_Saviors_Of_America"
+		texturefile = "gfx/interface/ideas/South/VAV/Idea_Saviors_Of_America.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_Commie_Revolutionary_Zeal"
+		texturefile = "gfx/interface/ideas/South/VAV/Idea_Revolutionary_Zeal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_APP_Our_Last_Stand"
+		texturefile = "gfx/interface/ideas/South/APP/Idea_Our_Last_Stand.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_APP_Burning_Economy"
+		textureFile = "gfx/interface/ideas/South/APP/Idea_Burning_Economy.dds"
+	}
+
+}

@@ -1,0 +1,63 @@
+ideas = {
+	country = {
+
+		APP_Limited_Democracy = {
+			picture = SIL_Desire_For_Democracy
+
+			allowed = {
+				original_tag = APP
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				drift_defence_factor = -0.05
+			}
+		}
+
+		APP_Our_Final_Stand = {
+			picture = APP_Our_Last_Stand
+
+			allowed = {
+				original_tag = APP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.10
+				surrender_limit = 0.15
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		APP_Burning_Economy = {
+			picture = APP_Burning_Economy
+
+			allowed = {
+				original_tag = APP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				consumer_goods_factor = 0.10
+				production_speed_buildings_factor = -0.05
+			}
+		}
+	}
+}

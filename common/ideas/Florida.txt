@@ -1,0 +1,62 @@
+ideas = {
+	country = {
+
+		MIA_Lights_Of_Miami = {
+			picture = MIA_Lights_Of_Miami
+
+			allowed = {
+				original_tag = MIA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				compliance_growth = 0.05
+			}
+		}
+
+		MIA_Rednecks = {
+			picture = WFF_separatists
+
+			allowed = {
+				original_tag = MIA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.10
+				conscription_factor = -0.05
+			}
+		}
+
+		MIA_Bush_Lineage = {
+			picture = MIA_Bush_Lineage
+
+			allowed = {
+				original_tag = MIA
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				drift_defence_factor = 0.10
+			}
+		}
+	}
+}

@@ -1,0 +1,66 @@
+﻿l_english: 
+ 
+ #focuses
+
+ 
+ #Names
+ VAV_demsoc_DEF:0 "the Commonwealth of Virginia"
+ VAV_demosc:0 "Commonwealth of Virginia"
+ VAV_libsoc:0 "Virginia People's Front"
+ VAV_libsoc_DEF:0 "the Virginia People's Front"
+ VAV_communism:0 "Virginia Red Army"
+ VAV_communism_DEF:0 "the Virginia Red Army"
+ VAV_anarchy:0 "Black Army of Virginia"
+ VAV_anarchy_DEF:0 "the Black Army of Virginia"
+ 
+ #ideas
+
+ 
+ #Parties
+ #VAV_ultranationalism_party_long:0 "Black People's Party"
+ #VAV_ultranationalism_party_short:0 "Black People's Party"
+ #VAV_fascism_party_long:0 "National Front"
+ #VAV_fascism_party_short:0 "National Front"
+ #VAV_neutrality_party_long:0 ""New Afrikan Armed Forces"
+ #VAV_neutrality_party_short:0 "New Afrikan Armed Forces"
+ #VAV_authdem_party_long:0 "National Protection Party"
+ #VAV_authdem_party_short:0 "National Protection Party"
+ #VAV_democratic_party_long:0 "Party for New Afrikan Family and Freedom"
+# VAV_democratic_party_short:0 "Party for Afrikan Family and Freedom"
+# VAV_liberal_party_long:0 "New Afrikan Democratic Party"
+ #VAV_liberal_party_short:0 "New Afrikan Democratic Party"
+ #VAV_prodem_party_long:0 "Progressive Front"
+ #VAV_prodem_party_short:0 "Progressive Front"
+ #VAV_demsoc_party_long:0 "Communist Party USA"
+ #VAV_demsoc_party_short:0 "Communist Party USA"
+ #VAV_libsoc_party_long:0 "Freedom Road Socialist Organization"
+ #VAV_libsoc_party_short:0 "Freedom Road Socialist Organization"
+ #VAV_communism_party_long:0 "Party for Socialism and Liberation"
+ #VAV_communism_party_short:0 "Party for Socialism and Liberation"
+ #VAV_anarchy_party_long:0 "Virginia Antifa Chapter"
+ #VAV_anarchy_party_short:0 "Virginia Antifa Chapter"
+ 
+
+ VAV_liberal_party:0 "DR"
+ VAV_liberal_party_long:0 "Democracy Realised"
+ VAV_prodem_party:0 "PF"
+ VAV_prodem_party_long:0 "Progressive Front"
+ VAV_demsoc_party:0 "SPV"
+ VAV_demosoc_party_long:0 "Socialist Party of Virginia"
+ VAV_libsoc_party:0 "FRSO"
+ VAV_libsoc_party_long:0 "Freedom Road Socialist Organization"
+ VAV_communism_party:0 "PSL"
+ VAV_communism_party_long:0 "Party for Socialism and Liberation"
+
+
+
+
+ Communist_Revolutionary_Zeal:0 "Revolutionary Zeal"
+ Communist_Revolutionary_Zeal_desc:0 ""
+ VAV_Saviors_Of_America:0 "The Saviors Of America"
+ VAV_Saviors_Of_America_desc:0 ""
+ VAV_Religious_Uprisings:0 "Religious Uprisings"
+ VAV_Religious_Uprisings_desc:0 ""
+
+
+ #Events

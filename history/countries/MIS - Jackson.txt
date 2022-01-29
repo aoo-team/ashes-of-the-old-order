@@ -55,8 +55,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
-}
+
 set_popularities = {
 	democratic = 15
 	neutrality = 10
@@ -70,4 +69,18 @@ set_popularities = {
 	anarchy = 0
 	fascism = 15
 	ultranationalism = 0
+}
+
+add_ideas = {
+	MIS_Popular_Uprisings
+	MIS_Confederate_Sympathies
+	MIS_Two_Nations_One_State
+}
+
+create_country_leader = {
+	name = "Haley Barbour"
+	desc = "POLITICS_HALEY_BARBOUR_DESC"
+	picture = "Portrait_Haley_Barbour.dds"
+	expire = "2090.1.1"
+	ideology = new_democracy
 }

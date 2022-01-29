@@ -1,0 +1,60 @@
+ideas = {
+	country = {
+
+		Communist_Revolutionary_Zeal = {
+			picture = Commie_Revolutionary_Zeal
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.10
+				drift_defence_factor = 0.10
+				political_power_factor = -0.15
+			}
+		}
+
+		VAV_Saviors_Of_America = {
+			picture = VAV_Saviors_Of_America
+
+			allowed = {
+				original_tag = VAV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		VAV_Religious_Uprisings = {
+			picture = VAV_Religious_Uprisings
+
+			allowed = {
+				original_tag = VAV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				conscription_factor = -0.10
+			}
+		}
+
+	}
+}

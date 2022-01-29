@@ -7,7 +7,7 @@ state={
 		owner = APP
 		add_core_of = APP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 
 		}
 		victory_points = {
@@ -22,7 +22,6 @@ state={
 	provinces={
 		1506 3736 4627 7466 7588 10439 14848 14855 14906 14989 14990 
 	}
-	manpower=804130
-	buildings_max_level_factor=1.000
+	manpower=80413
 	state_category=rural
 }
